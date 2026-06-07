@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Typography */
+  --font-sans: var(--font-outfit), system-ui, sans-serif;
+  --font-serif: var(--font-cinzel), Georgia, serif;
+
+  /* Thai Kech Brand Colors */
+  --color-bamboo: #2C4C3B;
+  --color-bamboo-light: #3A6350;
+  --color-bamboo-dark: #1E3529;
+  --color-lotus: #F5F2EB;
+  --color-lotus-dark: #E8E3D8;
+  --color-gold: #C5A059;
+  --color-gold-light: #D4B474;
+  --color-gold-dark: #A8863F;
+  --color-charcoal: #2B2B2B;
+  --color-charcoal-light: #4A4A4A;
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--color-lotus);
+  color: var(--color-charcoal);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Gold pulse animation for CTA buttons */
+@keyframes gold-pulse {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(197, 160, 89, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 20px 6px rgba(197, 160, 89, 0.15);
+  }
+}
+
+/* Fade-in-up animation for scroll-reveal elements */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-gold-pulse {
+  animation: gold-pulse 3s ease-in-out infinite;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.7s ease-out forwards;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-lotus);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-gold);
+  border-radius: 3px;
+}
