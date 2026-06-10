@@ -38,7 +38,7 @@ export default function BookingWizard() {
   );
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
-  const [email, setEmail] = useState("");
+  const [numberOfClients, setNumberOfClients] = useState(1);
   const [riadName, setRiadName] = useState("");
   const [selectedDate, setSelectedDate] = useState<string>("");
   const [selectedTime, setSelectedTime] = useState<string>("");
@@ -99,7 +99,7 @@ export default function BookingWizard() {
     });
   };
 
-  const canProceedStep2 = name.trim() && phone.trim() && email.trim();
+  const canProceedStep2 = name.trim() && phone.trim();
   const canProceedStep3 = selectedDate && selectedTime;
 
   const handleSubmit = useCallback(async () => {
@@ -111,7 +111,7 @@ export default function BookingWizard() {
         service_id: selectedService.id,
         customer_name: name.trim(),
         customer_phone: phone.trim(),
-        customer_email: email.trim(),
+        number_of_clients: numberOfClients,
         booking_date: selectedDate,
         booking_time: selectedTime,
         riad_name: riadName.trim() || null,
@@ -127,7 +127,7 @@ export default function BookingWizard() {
     } finally {
       setSubmitting(false);
     }
-  }, [selectedService, submitting, name, phone, email, selectedDate, selectedTime, riadName]);
+  }, [selectedService, submitting, name, phone, numberOfClients, selectedDate, selectedTime, riadName]);
 
   if (loading) {
     return (
@@ -193,7 +193,7 @@ export default function BookingWizard() {
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
               href={`https://wa.me/212768186124?text=${encodeURIComponent(
-                `Bonjour Thai Kech, je viens de réserver un ${selectedService?.name} pour le ${selectedDate} à ${selectedTime}. Mon nom est ${name}. Merci de confirmer.`
+                `Bonjour Thai Kech, je viens de réserver un ${selectedService?.name} pour le ${selectedDate} à ${selectedTime}. Mon nom est ${name}, pour ${numberOfClients} personne(s). Merci de confirmer.`
               )}`}
               target="_blank"
               rel="noopener noreferrer"
@@ -416,15 +416,30 @@ export default function BookingWizard() {
               </div>
               <div>
                 <label className="block text-sm font-medium text-charcoal mb-1.5">
-                  E-mail *
+                  Nombre de personnes *
                 </label>
-                <input
-                  type="email"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                  placeholder="jean@exemple.com"
-                  className="w-full px-4 py-3 rounded-xl border border-lotus-dark/50 bg-white text-charcoal focus:outline-none focus:border-gold focus:ring-2 focus:ring-gold/20 transition-all duration-300"
-                />
+                <div className="flex items-center gap-4">
+                  <button
+                    type="button"
+                    onClick={() => setNumberOfClients((n) => Math.max(1, n - 1))}
+                    className="w-11 h-11 rounded-full border-2 border-lotus-dark/50 hover:border-gold text-charcoal text-xl font-bold transition-all duration-200 flex items-center justify-center"
+                  >
+                    −
+                  </button>
+                  <span className="w-10 text-center text-2xl font-bold text-bamboo tabular-nums">
+                    {numberOfClients}
+                  </span>
+                  <button
+                    type="button"
+                    onClick={() => setNumberOfClients((n) => Math.min(10, n + 1))}
+                    className="w-11 h-11 rounded-full border-2 border-lotus-dark/50 hover:border-gold text-charcoal text-xl font-bold transition-all duration-200 flex items-center justify-center"
+                  >
+                    +
+                  </button>
+                  <span className="text-sm text-charcoal-light">
+                    {numberOfClients === 1 ? "personne" : "personnes"}
+                  </span>
+                </div>
               </div>
               <div>
                 <label className="block text-sm font-medium text-charcoal mb-1.5">
@@ -563,6 +578,12 @@ export default function BookingWizard() {
                     </span>
                   </div>
                   <div className="flex justify-between">
+                    <span className="text-charcoal-light">Personnes</span>
+                    <span className="font-medium text-bamboo">
+                      {numberOfClients} {numberOfClients === 1 ? "personne" : "personnes"}
+                    </span>
+                  </div>
+                  <div className="flex justify-between">
                     <span className="text-charcoal-light">Date</span>
                     <span className="font-medium text-bamboo">
                       {formatDate(selectedDate)}
@@ -577,7 +598,7 @@ export default function BookingWizard() {
                   <div className="flex justify-between pt-2 border-t border-lotus-dark/20">
                     <span className="font-semibold text-bamboo">Total</span>
                     <span className="font-bold text-gold text-lg">
-                      {selectedService.price} MAD
+                      {selectedService.price * numberOfClients} MAD
                     </span>
                   </div>
                 </div>

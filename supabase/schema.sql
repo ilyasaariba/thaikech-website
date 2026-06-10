@@ -35,7 +35,7 @@ CREATE TABLE IF NOT EXISTS public.bookings (
     service_id TEXT REFERENCES public.services(id),
     customer_name TEXT NOT NULL,
     customer_phone TEXT NOT NULL,
-    customer_email TEXT NOT NULL,
+    number_of_clients INTEGER NOT NULL DEFAULT 1,
     booking_date DATE NOT NULL,
     booking_time TIME NOT NULL,
     riad_name TEXT,
