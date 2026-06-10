@@ -192,7 +192,7 @@ export default function BookingWizard() {
 
           <div className="flex flex-col sm:flex-row gap-3 justify-center">
             <a
-              href={`https://wa.me/212768186124?text=${encodeURIComponent(
+              href={`https://wa.me/212771610656?text=${encodeURIComponent(
                 `Bonjour Thai Kech, je viens de réserver un ${selectedService?.name} pour le ${selectedDate} à ${selectedTime}. Mon nom est ${name}, pour ${numberOfClients} personne(s). Merci de confirmer.`
               )}`}
               target="_blank"

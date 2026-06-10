@@ -12,8 +12,8 @@ CREATE POLICY "Allow public read site_settings" ON public.site_settings
     FOR SELECT USING (true);
 
 INSERT INTO public.site_settings (key, value) VALUES
-('phone', '+212 768 186 124'),
-('phone_raw', '212768186124'),
+('phone', '+212 771-610656'),
+('phone_raw', '212771610656'),
 ('email', 'iliassaariba01@gmail.com'),
 ('hours', '24h/7'),
 ('area', 'Marrakech, Palmeraie, Agdal, Gueliz & Environs'),

@@ -39,7 +39,7 @@ Nous injectons le code suivant dans le fichier HTML de Next.js pour aider les mo
   "name": "Thai Kech Mobile Spa Marrakech",
   "image": "https://thaikech.com/assets/hero-riad.webp",
   "priceRange": "$$",
-  "telephone": "+212768186124",
+  "telephone": "+212771610656",
   "email": "iliassaariba01@gmail.com",
   "address": {
     "@type": "PostalAddress",

@@ -34,7 +34,7 @@ gantt
 *   [x] Structurer l'architecture des pages et le parcours utilisateur (`architecture.md` mis à jour)
 *   [x] Établir la matrice de mots-clés SEO ciblés en français (`seo_strategy.md` mis à jour)
 *   [x] Valider les tarifs (entre 300 et 600 MAD) et les 4 services de démonstration sans paramètre de durée
-*   [x] Intégrer les coordonnées de contact (Téléphone : `0768186124`, E-mail : `iliassaariba01@gmail.com`, 24h/7) et la zone de couverture (Marrakech et ses environs)
+*   [x] Intégrer les coordonnées de contact (Téléphone : `+212 771-610656`, E-mail : `iliassaariba01@gmail.com`, 24h/7) et la zone de couverture (Marrakech et ses environs)
 *   [x] Récupérer le logo fourni par l'utilisateur et spécifier les images haute qualité à générer
 
 ### Phase 2 : Configuration Technique & Bases Stylistiques (En cours)
@@ -53,7 +53,7 @@ gantt
     *   Titre du service, prix fixe (MAD), description courte et inspirante.
     *   Bouton "Choisir ce service" qui redirige vers le formulaire.
 *   [ ] **Section Concept & Déroulement :** Explication étape par étape du service à domicile/riad (arrivée du thérapeute avec table, huiles, musique d'ambiance).
-*   [ ] **Pied de page (Footer) :** Contact d'urgence (0768186124, 24h/7), e-mail de support, et liens légaux.
+*   [ ] **Pied de page (Footer) :** Contact d'urgence (+212 771-610656, 24h/7), e-mail de support, et liens légaux.
 
 ### Phase 4 : Formulaire de Réservation & Intégration Supabase
 *   [ ] Créer la page de réservation `/book` ou le composant dédié :
