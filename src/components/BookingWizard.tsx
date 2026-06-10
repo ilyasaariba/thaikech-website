@@ -186,7 +186,7 @@ export default function BookingWizard() {
             <br />
             <br />
             Nous vous contacterons très rapidement sur{" "}
-            <span className="text-white">{email || phone}</span> pour confirmer
+            <span className="text-white">{phone}</span> pour confirmer
             votre rendez-vous.
           </p>
 
