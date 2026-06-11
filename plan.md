@@ -34,7 +34,7 @@ gantt
 *   [x] Structurer l'architecture des pages et le parcours utilisateur (`architecture.md` mis à jour)
 *   [x] Établir la matrice de mots-clés SEO ciblés en français (`seo_strategy.md` mis à jour)
 *   [x] Valider les tarifs (entre 300 et 600 MAD) et les 4 services de démonstration sans paramètre de durée
-*   [x] Intégrer les coordonnées de contact (Téléphone : `+212 771-610656`, E-mail : `iliassaariba01@gmail.com`, 24h/7) et la zone de couverture (Marrakech et ses environs)
+*   [x] Intégrer les coordonnées de contact (Téléphone : `+212 771-610656`, E-mail : `contact@thaikech.com`, 24h/7) et la zone de couverture (Marrakech et ses environs)
 *   [x] Récupérer le logo fourni par l'utilisateur et spécifier les images haute qualité à générer
 
 ### Phase 2 : Configuration Technique & Bases Stylistiques (En cours)

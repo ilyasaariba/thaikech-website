@@ -40,7 +40,7 @@ Nous injectons le code suivant dans le fichier HTML de Next.js pour aider les mo
   "image": "https://thaikech.com/assets/hero-riad.webp",
   "priceRange": "$$",
   "telephone": "+212771610656",
-  "email": "iliassaariba01@gmail.com",
+  "email": "contact@thaikech.com",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "Marrakech",

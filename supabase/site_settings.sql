@@ -14,7 +14,7 @@ CREATE POLICY "Allow public read site_settings" ON public.site_settings
 INSERT INTO public.site_settings (key, value) VALUES
 ('phone', '+212 771-610656'),
 ('phone_raw', '212771610656'),
-('email', 'iliassaariba01@gmail.com'),
+('email', 'contact@thaikech.com'),
 ('hours', '24h/7'),
 ('area', 'Marrakech, Palmeraie, Agdal, Gueliz & Environs'),
 ('whatsapp_message', 'Bonjour Thai Kech, je souhaite réserver un massage à domicile à Marrakech.')

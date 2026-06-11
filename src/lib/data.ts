@@ -20,7 +20,7 @@ export interface SiteSettings {
 const defaultSettings: SiteSettings = {
   phone: "+212 771-610656",
   phone_raw: "212771610656",
-  email: "iliassaariba01@gmail.com",
+  email: "contact@thaikech.com",
   hours: "24h/7",
   area: "Marrakech, Palmeraie, Agdal, Gueliz & Environs",
   whatsapp_message:
