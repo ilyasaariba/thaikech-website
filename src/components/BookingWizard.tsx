@@ -12,6 +12,8 @@ interface Service {
   price: number;
   description: string;
   image_path: string;
+  duration?: string;
+  category?: string;
 }
 
 const STEPS = [
@@ -82,12 +84,11 @@ export default function BookingWizard() {
     return d.toISOString().split("T")[0];
   });
 
-  // Generate time slots
-  const timeSlots = Array.from({ length: 28 }, (_, i) => {
-    const hour = Math.floor(i / 2) + 9;
-    const mins = i % 2 === 0 ? "00" : "30";
+  // Generate time slots (full hours only)
+  const timeSlots = Array.from({ length: 14 }, (_, i) => {
+    const hour = i + 9;
     if (hour >= 23) return null;
-    return `${String(hour).padStart(2, "0")}:${mins}`;
+    return `${String(hour).padStart(2, "0")}:00`;
   }).filter(Boolean) as string[];
 
   const formatDate = (dateStr: string) => {
@@ -309,56 +310,120 @@ export default function BookingWizard() {
               Choisissez votre soin
             </h2>
             <p className="text-charcoal-light mb-8">
-              Sélectionnez le massage qui vous convient.
+              Sélectionnez le massage ou hammam qui vous convient.
             </p>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              {services.map((service) => {
-                const imgSrc = service.image_path.replace(".webp", ".png");
-                const isSelected = selectedServiceId === service.id;
-                return (
-                  <button
-                    key={service.id}
-                    onClick={() => setSelectedServiceId(service.id)}
-                    className={`text-left rounded-2xl overflow-hidden border-2 transition-all duration-300 ${
-                      isSelected
-                        ? "border-gold shadow-lg shadow-gold/10 ring-2 ring-gold/20"
-                        : "border-lotus-dark/40 hover:border-gold/40 shadow-sm"
-                    }`}
-                  >
-                    <div className="relative h-36 overflow-hidden">
-                      <Image
-                        src={imgSrc}
-                        alt={service.name}
-                        fill
-                        className="object-cover"
-                        sizes="(max-width: 640px) 100vw, 50vw"
-                      />
-                      {isSelected && (
-                        <div className="absolute inset-0 bg-gold/20 flex items-center justify-center">
-                          <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
-                            <svg className="w-6 h-6 text-bamboo-dark" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
-                            </svg>
+            {/* Massages Section */}
+            {services.filter((s) => s.category !== "hammam").length > 0 && (
+              <>
+                <h3 className="text-sm font-semibold text-charcoal uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <span>🧘</span> Massages
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-8">
+                  {services.filter((s) => s.category !== "hammam").map((service) => {
+                    const imgSrc = service.image_path.replace(".webp", ".png");
+                    const isSelected = selectedServiceId === service.id;
+                    return (
+                      <button
+                        key={service.id}
+                        onClick={() => setSelectedServiceId(service.id)}
+                        className={`text-left rounded-2xl overflow-hidden border-2 transition-all duration-300 ${
+                          isSelected
+                            ? "border-gold shadow-lg shadow-gold/10 ring-2 ring-gold/20"
+                            : "border-lotus-dark/40 hover:border-gold/40 shadow-sm"
+                        }`}
+                      >
+                        <div className="relative h-36 overflow-hidden">
+                          <Image
+                            src={imgSrc}
+                            alt={service.name}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                          />
+                          {isSelected && (
+                            <div className="absolute inset-0 bg-gold/20 flex items-center justify-center">
+                              <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
+                                <svg className="w-6 h-6 text-bamboo-dark" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                                </svg>
+                              </div>
+                            </div>
+                          )}
+                          <div className="absolute top-3 right-3 bg-bamboo/90 backdrop-blur-sm text-gold px-3 py-1 rounded-full text-sm font-bold">
+                            {service.price} MAD
                           </div>
                         </div>
-                      )}
-                      <div className="absolute top-3 right-3 bg-bamboo/90 backdrop-blur-sm text-gold px-3 py-1 rounded-full text-sm font-bold">
-                        {service.price} MAD
-                      </div>
-                    </div>
-                    <div className="p-4 bg-white">
-                      <h3 className="font-serif text-base text-bamboo mb-1">
-                        {service.name}
-                      </h3>
-                      <p className="text-charcoal-light text-xs leading-relaxed line-clamp-2">
-                        {service.description}
-                      </p>
-                    </div>
-                  </button>
-                );
-              })}
-            </div>
+                        <div className="p-4 bg-white">
+                          <h3 className="font-serif text-base text-bamboo mb-1">
+                            {service.name}
+                          </h3>
+                          <p className="text-charcoal-light text-xs leading-relaxed line-clamp-2">
+                            {service.description}
+                          </p>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </>
+            )}
+
+            {/* Hammams Section */}
+            {services.filter((s) => s.category === "hammam").length > 0 && (
+              <>
+                <h3 className="text-sm font-semibold text-charcoal uppercase tracking-wider mb-3 flex items-center gap-2">
+                  <span>🫧</span> Hammams
+                </h3>
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {services.filter((s) => s.category === "hammam").map((service) => {
+                    const imgSrc = service.image_path.replace(".webp", ".png");
+                    const isSelected = selectedServiceId === service.id;
+                    return (
+                      <button
+                        key={service.id}
+                        onClick={() => setSelectedServiceId(service.id)}
+                        className={`text-left rounded-2xl overflow-hidden border-2 transition-all duration-300 ${
+                          isSelected
+                            ? "border-gold shadow-lg shadow-gold/10 ring-2 ring-gold/20"
+                            : "border-lotus-dark/40 hover:border-gold/40 shadow-sm"
+                        }`}
+                      >
+                        <div className="relative h-36 overflow-hidden">
+                          <Image
+                            src={imgSrc}
+                            alt={service.name}
+                            fill
+                            className="object-cover"
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                          />
+                          {isSelected && (
+                            <div className="absolute inset-0 bg-gold/20 flex items-center justify-center">
+                              <div className="w-10 h-10 rounded-full bg-gold flex items-center justify-center">
+                                <svg className="w-6 h-6 text-bamboo-dark" fill="none" stroke="currentColor" strokeWidth={3} viewBox="0 0 24 24">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                                </svg>
+                              </div>
+                            </div>
+                          )}
+                          <div className="absolute top-3 right-3 bg-bamboo/90 backdrop-blur-sm text-gold px-3 py-1 rounded-full text-sm font-bold">
+                            {service.price} MAD
+                          </div>
+                        </div>
+                        <div className="p-4 bg-white">
+                          <h3 className="font-serif text-base text-bamboo mb-1">
+                            {service.name}
+                          </h3>
+                          <p className="text-charcoal-light text-xs leading-relaxed line-clamp-2">
+                            {service.description}
+                          </p>
+                        </div>
+                      </button>
+                    );
+                  })}
+                </div>
+              </>
+            )}
 
             <div className="mt-8 flex justify-end">
               <button
@@ -496,12 +561,12 @@ export default function BookingWizard() {
               Sélectionnez le créneau idéal pour votre massage.
             </p>
 
-            {/* Date Picker */}
+            {/* Date Picker — Grid Layout */}
             <div className="mb-8">
-              <h3 className="text-sm font-semibold text-charcoal uppercase tracking-wider mb-3">
+              <h3 className="text-sm font-semibold text-charcoal uppercase tracking-wider mb-4">
                 📅 Jour
               </h3>
-              <div className="flex gap-2 overflow-x-auto pb-2 -mx-1 px-1">
+              <div className="grid grid-cols-4 sm:grid-cols-7 gap-2">
                 {availableDates.map((date) => {
                   const d = new Date(date + "T00:00:00");
                   const isToday =
@@ -511,23 +576,25 @@ export default function BookingWizard() {
                     <button
                       key={date}
                       onClick={() => setSelectedDate(date)}
-                      className={`flex-shrink-0 flex flex-col items-center px-4 py-3 rounded-xl border-2 transition-all duration-300 min-w-[5rem] ${
+                      className={`flex flex-col items-center py-3 rounded-2xl border-2 transition-all duration-300 ${
                         isSelected
-                          ? "border-gold bg-gold/10 text-bamboo"
-                          : "border-lotus-dark/30 hover:border-gold/40 text-charcoal"
+                          ? "border-gold bg-gold/10 text-bamboo shadow-md shadow-gold/10"
+                          : isToday
+                          ? "border-gold/40 bg-gold/5 text-bamboo"
+                          : "border-lotus-dark/20 hover:border-gold/40 text-charcoal bg-white"
                       }`}
                     >
-                      <span className="text-[0.65rem] uppercase tracking-wider font-medium text-charcoal-light">
+                      <span className="text-[0.6rem] uppercase tracking-widest font-semibold text-charcoal-light">
                         {d.toLocaleDateString("fr-FR", { weekday: "short" })}
                       </span>
-                      <span className="text-xl font-bold mt-0.5">
+                      <span className="text-lg font-bold mt-0.5 leading-tight">
                         {d.getDate()}
                       </span>
-                      <span className="text-[0.65rem] text-charcoal-light">
+                      <span className="text-[0.6rem] text-charcoal-light">
                         {d.toLocaleDateString("fr-FR", { month: "short" })}
                       </span>
                       {isToday && (
-                        <span className="text-[0.55rem] text-gold font-semibold mt-0.5">
+                        <span className="text-[0.5rem] text-gold font-bold mt-0.5 tracking-wide">
                           Aujourd&apos;hui
                         </span>
                       )}

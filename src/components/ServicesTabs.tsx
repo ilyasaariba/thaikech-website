@@ -12,43 +12,42 @@ interface ServicesTabsProps {
 export default function ServicesTabs({ services }: ServicesTabsProps) {
   const [activeTab, setActiveTab] = useState<"massage" | "hammam">("massage");
 
-  // Filter services by category (fallback to 'massage' if not defined in older seed data)
   const filteredServices = services.filter((service) => {
-    const category = (service as any).category || "massage";
+    const category = service.category || "massage";
     return category === activeTab;
   });
 
   return (
     <div className="w-full">
       {/* Category Tabs */}
-      <div className="flex justify-center gap-4 sm:gap-6 mb-12">
+      <div className="flex justify-center gap-3 sm:gap-5 mb-12">
         <button
           onClick={() => setActiveTab("massage")}
-          className={`px-6 py-3.5 rounded-full font-serif text-sm sm:text-base tracking-widest uppercase transition-all duration-300 border ${
+          className={`px-6 sm:px-8 py-3.5 rounded-full font-serif text-sm sm:text-base tracking-wider transition-all duration-300 border-2 ${
             activeTab === "massage"
               ? "bg-bamboo text-gold border-gold shadow-lg shadow-bamboo-dark/20"
-              : "bg-white/80 text-bamboo-dark border-lotus-dark/30 hover:border-gold/50"
+              : "bg-white/80 text-bamboo-dark border-lotus-dark/30 hover:border-gold/50 hover:bg-gold/5"
           }`}
         >
-          ✦ Massages Rituels
+          🧘 Massages
         </button>
         <button
           onClick={() => setActiveTab("hammam")}
-          className={`px-6 py-3.5 rounded-full font-serif text-sm sm:text-base tracking-widest uppercase transition-all duration-300 border ${
+          className={`px-6 sm:px-8 py-3.5 rounded-full font-serif text-sm sm:text-base tracking-wider transition-all duration-300 border-2 ${
             activeTab === "hammam"
               ? "bg-bamboo text-gold border-gold shadow-lg shadow-bamboo-dark/20"
-              : "bg-white/80 text-bamboo-dark border-lotus-dark/30 hover:border-gold/50"
+              : "bg-white/80 text-bamboo-dark border-lotus-dark/30 hover:border-gold/50 hover:bg-gold/5"
           }`}
         >
-          ✦ Hammams Traditionnels
+          🫧 Hammams
         </button>
       </div>
 
       {/* Service Cards Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 max-w-5xl mx-auto">
         {filteredServices.map((service) => {
           const imgSrc = service.image_path.replace(".webp", ".png");
-          const duration = (service as any).duration || "";
+          const duration = service.duration || "";
 
           return (
             <Link
@@ -63,7 +62,7 @@ export default function ServicesTabs({ services }: ServicesTabsProps) {
                   alt={service.name}
                   fill
                   className="object-cover group-hover:scale-110 transition-transform duration-700"
-                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-bamboo-dark/50 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 
@@ -74,7 +73,7 @@ export default function ServicesTabs({ services }: ServicesTabsProps) {
                       🕐 {duration}
                     </span>
                   )}
-                  <span className="bg-bamboo/90 backdrop-blur-sm text-gold px-3 py-1.5 rounded-full text-sm font-semibold shadow-lg">
+                  <span className="bg-bamboo/90 backdrop-blur-sm text-gold px-3 py-1.5 rounded-full text-sm font-semibold shadow-lg ml-auto">
                     {service.price} MAD
                   </span>
                 </div>
@@ -82,7 +81,7 @@ export default function ServicesTabs({ services }: ServicesTabsProps) {
 
               {/* Content */}
               <div className="p-5">
-                <h3 className="font-serif text-lg text-bamboo mb-2 leading-snug group-hover:text-gold transition-colors duration-300 min-h-[3.5rem] flex items-center">
+                <h3 className="font-serif text-lg text-bamboo mb-2 leading-snug group-hover:text-gold transition-colors duration-300">
                   {service.name}
                 </h3>
                 <p className="text-charcoal-light text-sm leading-relaxed mb-4 line-clamp-3">

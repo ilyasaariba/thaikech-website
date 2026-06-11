@@ -79,7 +79,7 @@ export default function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-4 left-1/2 -translate-x-1/2 z-10">
+      <div className="absolute bottom-20 left-1/2 -translate-x-1/2 z-10">
         <a href="#services" className="flex flex-col items-center gap-2 text-white/40 hover:text-gold transition-colors duration-300">
           <span className="text-xs tracking-widest uppercase">Découvrir</span>
           <svg className="w-5 h-5 animate-bounce" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">

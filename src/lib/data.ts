@@ -6,6 +6,8 @@ export interface Service {
   price: number;
   description: string;
   image_path: string;
+  duration?: string;
+  category?: string;
 }
 
 export interface SiteSettings {

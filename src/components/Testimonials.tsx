@@ -1,20 +1,20 @@
 const testimonials = [
   {
-    name: "Sophie L.",
+    name: "Youssef B.",
+    origin: "Casablanca, Maroc",
+    text: "J'ai réservé le Hammam Royal pour mon épouse pendant notre séjour à Marrakech. Le thérapeute est arrivé à l'heure avec tout le matériel. Ma femme était ravie, elle dit que c'est le meilleur hammam qu'elle ait jamais eu. Service très professionnel.",
+    rating: 5,
+  },
+  {
+    name: "Camille & Pierre M.",
     origin: "Paris, France",
-    text: "Une expérience absolument magique. Le thérapeute est arrivé avec tout le nécessaire et a transformé notre suite en véritable oasis de détente. Le meilleur massage de notre voyage !",
+    text: "On a testé le massage à 4 mains pendant nos vacances au riad. C'était une première pour nous et franchement, on ne regrette pas. Les deux masseuses étaient parfaitement synchronisées. Un vrai moment de détente après nos journées dans les souks.",
     rating: 5,
   },
   {
-    name: "Marc & Julie D.",
-    origin: "Lyon, France",
-    text: "Nous avons réservé le Rituel Signature pour notre anniversaire de mariage. Le service était irréprochable, les huiles sentaient divinement bon. On recommande les yeux fermés.",
-    rating: 5,
-  },
-  {
-    name: "Isabelle R.",
+    name: "Thomas V.",
     origin: "Bruxelles, Belgique",
-    text: "Après une longue journée dans la médina, ce massage express dos et tête était exactement ce qu'il me fallait. Professionnel, ponctuel et d'une qualité exceptionnelle.",
+    text: "Massage thaï réservé la veille pour le lendemain matin. Ponctualité parfaite, serviettes chaudes très appréciées. Exactement ce qu'il fallait après un trek dans l'Atlas. Je recommande sans hésiter, rapport qualité-prix imbattable.",
     rating: 5,
   },
 ];
