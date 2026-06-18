@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
-import { useSearchParams, useRouter } from "next/navigation";
+import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
@@ -25,7 +25,6 @@ const STEPS = [
 
 export default function BookingWizard() {
   const searchParams = useSearchParams();
-  const router = useRouter();
   const preselectedService = searchParams.get("service");
 
   const [step, setStep] = useState(1);
