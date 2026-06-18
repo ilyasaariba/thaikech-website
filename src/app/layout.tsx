@@ -3,6 +3,10 @@ import { cinzel, outfit } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://thaikech.com"),
+  alternates: {
+    canonical: "/",
+  },
   title: {
     template: "%s | Thai Kech — Spa Mobile de Luxe à Marrakech",
     default: "Thai Kech — Massage Thaï de Luxe à Domicile à Marrakech",
