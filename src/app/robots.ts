@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/_next/",
     },
-    sitemap: "https://thaikech.com/sitemap.xml",
+    sitemap: "https://www.thaikech.com/sitemap.xml",
   };
 }
