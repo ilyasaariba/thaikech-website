@@ -3,7 +3,7 @@ import { cinzel, outfit } from "./fonts";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://thaikech.com"),
+  metadataBase: new URL("https://www.thaikech.com"),
   alternates: {
     canonical: "/",
   },
