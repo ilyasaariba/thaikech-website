@@ -1,0 +1,35 @@
+name: Keep Supabase warm
+
+# Free-tier Supabase projects auto-pause after ~7 days with no activity, which
+# takes bookings offline. This job makes one tiny REST read on a daily schedule
+# to keep the project active. It also doubles as an uptime check: if the DB is
+# paused or down, the run fails and GitHub emails the repo owner.
+
+on:
+  schedule:
+    - cron: "23 5 * * *" # every day at 05:23 UTC
+  workflow_dispatch: {} # lets you run it manually from the Actions tab
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase REST endpoint
+        env:
+          SUPABASE_URL: https://nqyptrpugtelmwnyevoc.supabase.co
+          SUPABASE_ANON_KEY: ${{ secrets.SUPABASE_ANON_KEY }}
+        run: |
+          if [ -z "$SUPABASE_ANON_KEY" ]; then
+            echo "::error::SUPABASE_ANON_KEY secret is not set. Add it in repo Settings -> Secrets and variables -> Actions."
+            exit 1
+          fi
+          code=$(curl -s -o /dev/null -w "%{http_code}" \
+            -H "apikey: $SUPABASE_ANON_KEY" \
+            -H "Authorization: Bearer $SUPABASE_ANON_KEY" \
+            "$SUPABASE_URL/rest/v1/services?select=id&limit=1")
+          echo "Supabase responded HTTP $code"
+          if [ "$code" != "200" ]; then
+            echo "::error::Unexpected status $code - the DB may be paused or down."
+            exit 1
+          fi
+          echo "Supabase is awake."
