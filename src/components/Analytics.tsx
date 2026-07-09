@@ -16,7 +16,11 @@ import Script from "next/script";
 export default function Analytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
   const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
-  const snapId = process.env.NEXT_PUBLIC_SNAP_PIXEL_ID;
+  // Snap Pixel ID is a public value; hardcoded so it works without extra Vercel
+  // setup. An env var overrides it if ever needed.
+  const snapId =
+    process.env.NEXT_PUBLIC_SNAP_PIXEL_ID ||
+    "cc6cc0e1-e19f-40ab-ad27-108f971d1b6e";
 
   // The Google tag (gtag.js) powers both GA4 and Google Ads; load it once.
   const googleTagId = adsId || gaId;
