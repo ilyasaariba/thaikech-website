@@ -12,7 +12,9 @@ export default function Hero() {
           fill
           className="object-cover"
           sizes="100vw"
-          preload
+          priority
+          placeholder="blur"
+          blurDataURL="data:image/jpeg;base64,/9j/2wBDABIMDRANCxIQDhAUExIVGywdGxgYGzYnKSAsQDlEQz85Pj1HUGZXR0thTT0+WXlaYWltcnNyRVV9hnxvhWZwcm7/2wBDARMUFBsXGzQdHTRuST5Jbm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm5ubm7/wAARCAAUABQDASIAAhEBAxEB/8QAGAABAQEBAQAAAAAAAAAAAAAAAAUBAwT/xAAdEAACAwADAQEAAAAAAAAAAAABAgADEQQFIRIU/8QAGAEAAgMAAAAAAAAAAAAAAAAAAQIAAwT/xAAaEQEBAAMBAQAAAAAAAAAAAAABAAIRMRNB/9oADAMBAAIRAxEAPwDOFd+epqmbclGvntZx8rfCJCFlTnQTrQxNQxCcmZH5XbDtXb7ZtZ/Ykc9gw89iOYMnoXXr6EasEjTN56BK9XwxEJHLl4gxweCIiSGi/9k="
         />
         {/* Dark overlay gradient */}
         <div className="absolute inset-0 bg-gradient-to-b from-bamboo-dark/70 via-bamboo/50 to-bamboo-dark/80" />
