@@ -5,6 +5,7 @@ import { useSearchParams } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import { supabase } from "@/lib/supabase";
+import { trackBookingConversion } from "@/lib/analytics";
 
 interface Service {
   id: string;
@@ -129,6 +130,9 @@ export default function BookingWizard() {
       });
 
       if (res.ok) {
+        trackBookingConversion(
+          selectedService ? selectedService.price * numberOfClients : 0
+        );
         setSuccess(true);
         setStep(4);
       } else {
