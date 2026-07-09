@@ -27,11 +27,15 @@ export default function BookingWizard() {
   const searchParams = useSearchParams();
   const preselectedService = searchParams.get("service");
 
-  const [step, setStep] = useState(1);
+  // Derive the initial step from the URL param so a deep-linked user lands on
+  // step 2 immediately (no async dependency, no step-1 flash). The catalog is
+  // still validated once it loads (see effect below).
+  const [step, setStep] = useState(preselectedService ? 2 : 1);
   const [services, setServices] = useState<Service[]>([]);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [success, setSuccess] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
   // Form data
   const [selectedServiceId, setSelectedServiceId] = useState<string | null>(
@@ -44,7 +48,11 @@ export default function BookingWizard() {
   const [selectedDate, setSelectedDate] = useState<string>("");
   const [selectedTime, setSelectedTime] = useState<string>("");
 
-  // Load services
+  // Load services, then validate any pre-selected service. The initial step is
+  // already derived from the URL param above; here we only correct the case
+  // where the param points to an unknown/inactive service by sending the user
+  // back to step 1 to pick a valid one. Doing this inside the async callback
+  // (after await) keeps it out of the synchronous effect body.
   useEffect(() => {
     async function fetchServices() {
       try {
@@ -53,7 +61,16 @@ export default function BookingWizard() {
           .select("*")
           .eq("is_active", true)
           .order("price", { ascending: true });
-        if (data) setServices(data);
+        if (data) {
+          setServices(data);
+          if (
+            preselectedService &&
+            !data.some((s) => s.id === preselectedService)
+          ) {
+            setSelectedServiceId(null);
+            setStep(1);
+          }
+        }
       } catch {
         // Silently fail
       } finally {
@@ -61,18 +78,7 @@ export default function BookingWizard() {
       }
     }
     fetchServices();
-  }, []);
-
-  // Auto-advance if service is pre-selected
-  useEffect(() => {
-    if (preselectedService && services.length > 0) {
-      const found = services.find((s) => s.id === preselectedService);
-      if (found) {
-        setSelectedServiceId(found.id);
-        setStep(2);
-      }
-    }
-  }, [preselectedService, services]);
+  }, [preselectedService]);
 
   const selectedService = services.find((s) => s.id === selectedServiceId);
 
@@ -105,25 +111,35 @@ export default function BookingWizard() {
   const handleSubmit = useCallback(async () => {
     if (!selectedService || submitting) return;
     setSubmitting(true);
+    setError(null);
 
     try {
-      const { error } = await supabase.from("bookings").insert({
-        service_id: selectedService.id,
-        customer_name: name.trim(),
-        customer_phone: phone.trim(),
-        number_of_clients: numberOfClients,
-        booking_date: selectedDate,
-        booking_time: selectedTime,
-        riad_name: riadName.trim() || null,
-        status: "pending",
+      const res = await fetch("/api/bookings", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          service_id: selectedService.id,
+          customer_name: name.trim(),
+          customer_phone: phone.trim(),
+          number_of_clients: numberOfClients,
+          booking_date: selectedDate,
+          booking_time: selectedTime,
+          riad_name: riadName.trim() || null,
+        }),
       });
 
-      if (!error) {
+      if (res.ok) {
         setSuccess(true);
         setStep(4);
+      } else {
+        const data = await res.json().catch(() => null);
+        setError(
+          data?.error ||
+            "Une erreur est survenue lors de l'enregistrement. Veuillez réessayer."
+        );
       }
     } catch {
-      // Error handling
+      setError("Connexion impossible. Vérifiez votre réseau et réessayez.");
     } finally {
       setSubmitting(false);
     }
@@ -668,6 +684,12 @@ export default function BookingWizard() {
                     </span>
                   </div>
                 </div>
+              </div>
+            )}
+
+            {error && (
+              <div className="mt-6 p-4 rounded-xl border border-red-300 bg-red-50 text-red-700 text-sm">
+                {error}
               </div>
             )}
 
