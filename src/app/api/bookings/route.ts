@@ -13,9 +13,9 @@ interface BookingPayload {
 
 /**
  * POST /api/bookings
- * Saves a booking to Supabase and notifies the business on WhatsApp (CallMeBot).
- * The WhatsApp notification is best-effort: a failed notification never fails
- * the booking, since the row is already persisted.
+ * Saves a booking to Supabase and notifies the business on Telegram.
+ * The notification is best-effort: a failed notification never fails the
+ * booking, since the row is already persisted.
  */
 export async function POST(request: NextRequest) {
   let body: BookingPayload;
@@ -59,7 +59,7 @@ export async function POST(request: NextRequest) {
     );
   }
 
-  // Best-effort WhatsApp notification to the business.
+  // Best-effort Telegram notification to the business.
   await notifyBusiness({
     service_id,
     customer_name,
@@ -84,12 +84,12 @@ interface NotifyDetails {
 }
 
 async function notifyBusiness(b: NotifyDetails): Promise<void> {
-  const phone = process.env.CALLMEBOT_PHONE;
-  const apikey = process.env.CALLMEBOT_APIKEY;
+  const token = process.env.TELEGRAM_BOT_TOKEN;
+  const chatId = process.env.TELEGRAM_CHAT_ID;
 
-  if (!phone || !apikey) {
+  if (!token || !chatId) {
     console.warn(
-      "CallMeBot not configured (CALLMEBOT_PHONE / CALLMEBOT_APIKEY missing) — skipping WhatsApp notification."
+      "Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID missing) — skipping booking notification."
     );
     return;
   }
@@ -119,18 +119,19 @@ async function notifyBusiness(b: NotifyDetails): Promise<void> {
     `Lieu: ${b.riad_name || "—"}`,
   ].join("\n");
 
-  const url =
-    "https://api.callmebot.com/whatsapp.php" +
-    `?phone=${encodeURIComponent(phone)}` +
-    `&text=${encodeURIComponent(text)}` +
-    `&apikey=${encodeURIComponent(apikey)}`;
-
   try {
-    const res = await fetch(url, { method: "GET" });
+    const res = await fetch(
+      `https://api.telegram.org/bot${token}/sendMessage`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ chat_id: chatId, text }),
+      }
+    );
     if (!res.ok) {
-      console.error("CallMeBot notification failed:", res.status, await res.text());
+      console.error("Telegram notification failed:", res.status, await res.text());
     }
   } catch (err) {
-    console.error("CallMeBot notification error:", err);
+    console.error("Telegram notification error:", err);
   }
 }
