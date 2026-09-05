@@ -59,6 +59,10 @@ export async function getSiteSettings(): Promise<SiteSettings> {
     const settings = { ...defaultSettings };
     for (const row of data) {
       if (row.key in settings) {
+        // Prevent stale legacy numbers from overriding the new active phone number
+        if ((row.key === "phone" || row.key === "phone_raw") && String(row.value).includes("771")) {
+          continue;
+        }
         (settings as Record<string, string>)[row.key] = row.value;
       }
     }
