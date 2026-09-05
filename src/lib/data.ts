@@ -20,8 +20,8 @@ export interface SiteSettings {
 }
 
 const defaultSettings: SiteSettings = {
-  phone: "+212 771-610656",
-  phone_raw: "212771610656",
+  phone: "+212 656-371114",
+  phone_raw: "212656371114",
   email: "contact@thaikech.com",
   hours: "24h/7",
   area: "Marrakech, Palmeraie, Agdal, Gueliz & Environs",
