@@ -13,7 +13,8 @@
  */
 export default function Analytics() {
   const gaId = process.env.NEXT_PUBLIC_GA_ID;
-  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+  const adsId =
+    process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
   const snapId =
     process.env.NEXT_PUBLIC_SNAP_PIXEL_ID ||
     "cc6cc0e1-e19f-40ab-ad27-108f971d1b6e";

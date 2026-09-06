@@ -13,7 +13,8 @@ export function trackBookingConversion(value: number): void {
   if (typeof window === "undefined") return;
 
   const currency = "MAD";
-  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID;
+  const adsId =
+    process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
   const adsLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL;
 
   // Google Ads conversion (needs both the tag ID and the conversion label).
