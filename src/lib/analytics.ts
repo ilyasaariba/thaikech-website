@@ -6,6 +6,7 @@ declare global {
   interface Window {
     gtag?: (...args: unknown[]) => void;
     snaptr?: (...args: unknown[]) => void;
+    fbq?: (...args: unknown[]) => void;
   }
 }
 
@@ -34,5 +35,10 @@ export function trackBookingConversion(value: number): void {
   // Snapchat Pixel conversion.
   if (window.snaptr) {
     window.snaptr("track", "PURCHASE", { price: value, currency });
+  }
+
+  // Meta (Facebook) Pixel conversion.
+  if (window.fbq) {
+    window.fbq("track", "Purchase", { value, currency });
   }
 }
