@@ -1,0 +1,152 @@
+import Image from "next/image";
+import Link from "next/link";
+import { otherLocale, type Locale } from "@/i18n/locales";
+import { UI } from "@/i18n/ui";
+import { BUSINESS } from "@/content/business";
+import { getServices } from "@/content/services";
+import { getZones } from "@/content/zones";
+import { pathFor } from "@/content/routes";
+import { whatsappUrl } from "@/lib/whatsapp-booking";
+import { WhatsAppIcon } from "@/components/icons";
+
+const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+
+/** Links every treatment, area and info page, so no page is more than two clicks from any other. */
+export default function SiteFooter({ locale, alternateHref }: { locale: Locale; alternateHref: string }) {
+  const ui = UI[locale];
+  const alternate = otherLocale(locale);
+  const columnTitle = "font-serif text-white text-lg mb-5";
+  const linkClass = "hover:text-gold transition-colors";
+
+  return (
+    <footer className="bg-bamboo-dark text-white/70">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-8">
+          <div>
+            <div className="flex items-center gap-3 mb-4">
+              <div className="relative w-12 h-12 rounded-lg overflow-hidden border border-gold/40">
+                <Image src={BUSINESS.logo} alt="Thai Kech" fill className="object-cover" sizes="48px" />
+              </div>
+              <div>
+                <span className="font-serif text-xl text-gold tracking-wider block">THAI KECH</span>
+                <span className="text-[0.6rem] tracking-[0.2em] uppercase text-white/40">{ui.tagline}</span>
+              </div>
+            </div>
+            <p className="text-sm leading-relaxed mb-5">{ui.footer.description}</p>
+            <p className="flex items-center gap-2 text-gold text-xs tracking-widest uppercase mb-5">
+              <span className="inline-block w-2 h-2 bg-green-400 rounded-full" aria-hidden="true" />
+              {ui.footer.available}
+            </p>
+            <ul className="space-y-2 text-sm">
+              <li>
+                <span className="text-white/40">{ui.footer.phone} : </span>
+                <a href={`tel:+${BUSINESS.phoneDigits}`} className="text-white hover:text-gold transition-colors">
+                  {BUSINESS.phoneDisplay}
+                </a>
+              </li>
+              <li>
+                <span className="text-white/40">{ui.footer.email} : </span>
+                <a href={`mailto:${BUSINESS.email}`} className="text-white hover:text-gold transition-colors">
+                  {BUSINESS.email}
+                </a>
+              </li>
+            </ul>
+            <a
+              href={whatsappUrl(BUSINESS.phoneDigits, ui.footer.whatsappMessage)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-600 hover:bg-green-500 text-white font-medium text-sm rounded-full transition-colors duration-300"
+            >
+              <WhatsAppIcon className="w-5 h-5" />
+              {ui.footer.whatsapp}
+            </a>
+          </div>
+
+          <div>
+            <p className={columnTitle}>{ui.footer.treatments}</p>
+            <ul className="space-y-2.5 text-sm">
+              {getServices(locale).map((service) => (
+                <li key={service.id}>
+                  <Link href={pathFor(`service:${service.id}`, locale)} className={linkClass}>
+                    {capitalize(service.shortName)}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-2">
+                <Link href={pathFor("hammam", locale)} className={linkClass}>
+                  {ui.nav.hammamHub}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("duo", locale)} className={linkClass}>
+                  {ui.nav.duo}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("inRoom", locale)} className={linkClass}>
+                  {ui.nav.inRoom}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className={columnTitle}>{ui.footer.areas}</p>
+            <ul className="space-y-2.5 text-sm">
+              {getZones(locale).map((zone) => (
+                <li key={zone.id}>
+                  <Link href={pathFor(`zone:${zone.id}`, locale)} className={linkClass}>
+                    {zone.name}
+                  </Link>
+                </li>
+              ))}
+              <li className="pt-2">
+                <Link href={pathFor("areas", locale)} className={linkClass}>
+                  {ui.common.allAreas}
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <p className={columnTitle}>{ui.footer.info}</p>
+            <ul className="space-y-2.5 text-sm">
+              <li>
+                <Link href={pathFor("prices", locale)} className={linkClass}>
+                  {ui.nav.prices}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("guides", locale)} className={linkClass}>
+                  {ui.nav.guides}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("charter", locale)} className={linkClass}>
+                  {ui.nav.charter}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("book", locale)} className={linkClass}>
+                  {ui.nav.bookNow}
+                </Link>
+              </li>
+              <li className="pt-2">
+                <a href={alternateHref} hrefLang={alternate} lang={alternate} className={linkClass}>
+                  {UI[alternate].language.name}
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
+          <span>
+            &copy; {new Date().getFullYear()} Thai Kech. {ui.footer.rights}
+          </span>
+          <span>{ui.footer.bottom}</span>
+        </div>
+      </div>
+    </footer>
+  );
+}

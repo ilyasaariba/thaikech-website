@@ -59,8 +59,17 @@ ALTER TABLE public.bookings ENABLE ROW LEVEL SECURITY;
 -- Supprimer les politiques existantes si elles existent et les recréer
 DROP POLICY IF EXISTS "Allow public insert bookings" ON public.bookings;
 CREATE POLICY "Allow public insert bookings" ON public.bookings 
-    FOR INSERT WITH CHECK (true);
+    FOR INSERT WITH CHECK (
+        status = 'pending'
+        AND char_length(customer_name) BETWEEN 2 AND 80
+        AND char_length(customer_phone) BETWEEN 6 AND 25
+        AND number_of_clients BETWEEN 1 AND 10
+        AND booking_date BETWEEN current_date - 1 AND current_date + 60
+        AND (riad_name IS NULL OR char_length(riad_name) <= 120)
+        AND room_number IS NULL
+    );
 
+-- Aucune politique SELECT publique : les réservations contiennent des données
+-- personnelles (nom, téléphone) et la clé anon est publique. L'API insère sans
+-- relire la ligne ; consultez les réservations dans le tableau de bord Supabase.
 DROP POLICY IF EXISTS "Allow admin read bookings" ON public.bookings;
-CREATE POLICY "Allow admin read bookings" ON public.bookings 
-    FOR SELECT USING (true); -- Note : à restreindre ou filtrer si nécessaire

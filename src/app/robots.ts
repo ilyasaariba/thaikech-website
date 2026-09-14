@@ -5,7 +5,7 @@ export default function robots(): MetadataRoute.Robots {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: "/_next/",
+      disallow: "/api/",
     },
     sitemap: "https://www.thaikech.com/sitemap.xml",
   };

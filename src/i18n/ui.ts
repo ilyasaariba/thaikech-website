@@ -1,0 +1,243 @@
+import type { Locale } from "./locales";
+
+// Interface text shared by every page (navigation, footer, section labels).
+
+export interface UiStrings {
+  tagline: string;
+  nav: {
+    treatments: string;
+    massages: string;
+    hammams: string;
+    hammamHub: string;
+    duo: string;
+    inRoom: string;
+    areas: string;
+    prices: string;
+    guides: string;
+    charter: string;
+    book: string;
+    bookNow: string;
+    menu: string;
+  };
+  /** Link to the same page in the other language, written in that language. */
+  language: { name: string; code: string; label: string };
+  /** Shown to visitors whose browser prefers this language, on the other language's page. */
+  suggestion: { text: string; action: string; dismiss: string };
+  footer: {
+    description: string;
+    available: string;
+    contact: string;
+    phone: string;
+    email: string;
+    treatments: string;
+    areas: string;
+    info: string;
+    whatsapp: string;
+    whatsappMessage: string;
+    rights: string;
+    bottom: string;
+  };
+  common: {
+    home: string;
+    breadcrumb: string;
+    price: string;
+    duration: string;
+    from: string;
+    idealFor: string;
+    steps: string;
+    precautions: string;
+    precautionsNote: string;
+    faq: string;
+    related: string;
+    discover: string;
+    bookThis: string;
+    equipment: string;
+    bringHeading: string;
+    bringItems: string[];
+    whereHeading: string;
+    whereText: string;
+    placesHeading: string;
+    popularHeading: string;
+    nearbyHeading: string;
+    allAreas: string;
+    travelIncluded: string;
+    travelQuote: string;
+    therapists: string;
+    twoTherapists: string;
+    payAfter: string;
+    hours: string;
+    published: string;
+    updated: string;
+    otherGuides: string;
+    bookingHeading: string;
+    bookingText: string;
+    ctaHeading: string;
+    ctaText: string;
+    ctaButton: string;
+  };
+}
+
+export const UI: Record<Locale, UiStrings> = {
+  fr: {
+    tagline: "Spa Mobile de Luxe",
+    nav: {
+      treatments: "Soins",
+      massages: "Massages",
+      hammams: "Hammams",
+      hammamHub: "Hammam à domicile",
+      duo: "Massage en duo",
+      inRoom: "Massage en chambre d'hôtel",
+      areas: "Zones",
+      prices: "Tarifs",
+      guides: "Guides",
+      charter: "Charte qualité",
+      book: "Réserver",
+      bookNow: "Réserver maintenant",
+      menu: "Menu de navigation",
+    },
+    language: { name: "Français", code: "FR", label: "Lire cette page en français" },
+    suggestion: {
+      text: "Cette page existe aussi en français.",
+      action: "Voir en français",
+      dismiss: "Fermer",
+    },
+    footer: {
+      description:
+        "Massages et hammams à domicile à Marrakech. Nos thérapeutes femmes apportent tout le nécessaire pour un soin complet, directement dans votre riad, votre villa ou votre hôtel.",
+      available: "Disponible tous les jours, 8h–22h",
+      contact: "Contact",
+      phone: "Téléphone",
+      email: "E-mail",
+      treatments: "Nos soins",
+      areas: "Zones desservies",
+      info: "Infos pratiques",
+      whatsapp: "Contacter via WhatsApp",
+      whatsappMessage: "Bonjour Thai Kech, je souhaite réserver un massage à domicile à Marrakech.",
+      rights: "Tous droits réservés.",
+      bottom: "Massage & Hammam à Domicile — Marrakech, Maroc",
+    },
+    common: {
+      home: "Accueil",
+      breadcrumb: "Fil d'Ariane",
+      price: "Prix",
+      duration: "Durée",
+      from: "Dès",
+      idealFor: "Idéal pour",
+      steps: "Déroulement du soin",
+      precautions: "Précautions",
+      precautionsNote: "En cas de doute, demandez l'avis de votre médecin avant de réserver.",
+      faq: "Questions fréquentes",
+      related: "Autres soins à domicile",
+      discover: "Découvrir le soin",
+      bookThis: "Réserver ce soin",
+      equipment: "Table, huiles et serviettes apportées",
+      bringHeading: "Ce que votre thérapeute apporte",
+      bringItems: [
+        "Table de massage professionnelle pliante",
+        "Huiles de massage et serviettes",
+        "Diffuseur d'huiles essentielles et musique d'ambiance",
+      ],
+      whereHeading: "Où intervenons-nous ?",
+      whereText: "Dans tout Marrakech et ses environs proches, déplacement offert en ville :",
+      placesHeading: "Quartiers et repères",
+      popularHeading: "Soins recommandés dans ce quartier",
+      nearbyHeading: "Zones voisines",
+      allAreas: "Toutes les zones desservies",
+      travelIncluded: "Déplacement offert",
+      travelQuote: "Frais de déplacement annoncés avant confirmation",
+      therapists: "Thérapeutes femmes",
+      twoTherapists: "2 thérapeutes femmes",
+      payAfter: "Paiement après le soin",
+      hours: "Tous les jours 8h–22h",
+      published: "Publié le",
+      updated: "Mis à jour le",
+      otherGuides: "Autres guides",
+      bookingHeading: "Réservez en 30 secondes",
+      bookingText: "Nom, téléphone, nombre de personnes et date : nous confirmons l'horaire sur WhatsApp.",
+      ctaHeading: "Prêt(e) pour votre moment de détente ?",
+      ctaText: "Réservez en 30 secondes : nous vous conseillons et confirmons l'horaire sur WhatsApp.",
+      ctaButton: "Réserver maintenant",
+    },
+  },
+  en: {
+    tagline: "Luxury Mobile Spa",
+    nav: {
+      treatments: "Treatments",
+      massages: "Massages",
+      hammams: "Hammams",
+      hammamHub: "Hammam at home",
+      duo: "Couples massage",
+      inRoom: "In-room massage",
+      areas: "Areas",
+      prices: "Prices",
+      guides: "Guides",
+      charter: "Code of conduct",
+      book: "Book",
+      bookNow: "Book now",
+      menu: "Navigation menu",
+    },
+    language: { name: "English", code: "EN", label: "Read this page in English" },
+    suggestion: {
+      text: "This page is also available in English.",
+      action: "View in English",
+      dismiss: "Close",
+    },
+    footer: {
+      description:
+        "Massages and hammams at home in Marrakech. Our female therapists bring everything needed for a complete treatment, straight to your riad, villa or hotel.",
+      available: "Available every day, 8am–10pm",
+      contact: "Contact",
+      phone: "Phone",
+      email: "Email",
+      treatments: "Our treatments",
+      areas: "Areas we cover",
+      info: "Practical info",
+      whatsapp: "Contact us on WhatsApp",
+      whatsappMessage: "Hello Thai Kech, I would like to book a massage at home in Marrakech.",
+      rights: "All rights reserved.",
+      bottom: "Massage & Hammam at Home — Marrakech, Morocco",
+    },
+    common: {
+      home: "Home",
+      breadcrumb: "Breadcrumb",
+      price: "Price",
+      duration: "Duration",
+      from: "From",
+      idealFor: "Ideal for",
+      steps: "How the treatment works",
+      precautions: "Precautions",
+      precautionsNote: "If in doubt, ask your doctor before booking.",
+      faq: "Frequently asked questions",
+      related: "Other treatments at home",
+      discover: "Discover the treatment",
+      bookThis: "Book this treatment",
+      equipment: "Table, oils and towels provided",
+      bringHeading: "What your therapist brings",
+      bringItems: [
+        "Professional folding massage table",
+        "Massage oils and towels",
+        "Essential oil diffuser and ambient music",
+      ],
+      whereHeading: "Where do we go?",
+      whereText: "All over Marrakech and its close surroundings, with free travel within the city:",
+      placesHeading: "Neighbourhoods and landmarks",
+      popularHeading: "Recommended treatments in this area",
+      nearbyHeading: "Nearby areas",
+      allAreas: "All the areas we cover",
+      travelIncluded: "Free travel",
+      travelQuote: "Travel fee confirmed before booking",
+      therapists: "Female therapists",
+      twoTherapists: "2 female therapists",
+      payAfter: "Pay after your treatment",
+      hours: "Every day 8am–10pm",
+      published: "Published",
+      updated: "Updated",
+      otherGuides: "More guides",
+      bookingHeading: "Book in 30 seconds",
+      bookingText: "Name, phone, number of people and date: we confirm the time on WhatsApp.",
+      ctaHeading: "Ready for your moment of relaxation?",
+      ctaText: "Book in 30 seconds: we advise you and confirm the time on WhatsApp.",
+      ctaButton: "Book now",
+    },
+  },
+};

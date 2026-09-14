@@ -15,7 +15,7 @@ INSERT INTO public.site_settings (key, value) VALUES
 ('phone', '+212 656-371114'),
 ('phone_raw', '212656371114'),
 ('email', 'contact@thaikech.com'),
-('hours', '24h/7'),
+('hours', 'tous les jours, 8h–22h'),
 ('area', 'Marrakech, Palmeraie, Agdal, Gueliz & Environs'),
 ('whatsapp_message', 'Bonjour Thai Kech, je souhaite réserver un massage à domicile à Marrakech.')
 ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value;
