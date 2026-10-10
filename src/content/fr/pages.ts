@@ -2,16 +2,16 @@ import type { PagesCopy } from "../types";
 
 export const pagesFr: PagesCopy = {
   home: {
-    metaTitle: "Thai Kech — Massage & Hammam à Domicile à Marrakech",
+    metaTitle: "Massage à Domicile à Marrakech & Hammam | Thai Kech",
     metaDescription:
       "Massage et hammam à domicile à Marrakech : nos thérapeutes femmes viennent dans votre riad, villa ou hôtel, tous les jours de 8h à 22h. Prix affichés.",
     hero: {
       eyebrow: "Spa Mobile de Luxe · Marrakech",
-      h1Start: "Massage & Hammam",
+      h1Start: "Massage",
       h1Accent: "à Domicile",
       h1End: "à Marrakech",
       subtitle:
-        "Nos thérapeutes femmes viennent directement dans votre **riad, villa ou hôtel** à Marrakech, avec huiles d'argan et ambiance spa complète, **tous les jours de 8h à 22h**.",
+        "Nos thérapeutes femmes viennent directement dans votre **riad, villa ou hôtel** à Marrakech pour un massage ou un hammam, avec huiles d'argan et ambiance spa complète, **tous les jours de 8h à 22h**.",
       seeServices: "Voir nos soins et tarifs",
       badges: ["Thérapeutes Femmes", "Riads · Villas · Hôtels", "Marrakech & Environs"],
       discover: "Découvrir",

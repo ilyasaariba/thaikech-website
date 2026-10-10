@@ -55,7 +55,7 @@ export function rootMetadata(locale: Locale): Metadata {
     metadataBase: new URL(SITE_URL),
     title: {
       template: "%s | Thai Kech",
-      default: locale === "fr" ? "Thai Kech — Massage & Hammam à Domicile à Marrakech" : "Thai Kech — Massage & Hammam at Home in Marrakech",
+      default: locale === "fr" ? "Massage à Domicile à Marrakech & Hammam | Thai Kech" : "Mobile Massage at Home in Marrakech & Hammam | Thai Kech",
     },
     description: SITE_DESCRIPTION[locale],
     applicationName: BUSINESS.name,

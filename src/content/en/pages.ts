@@ -2,16 +2,16 @@ import type { PagesCopy } from "../types";
 
 export const pagesEn: PagesCopy = {
   home: {
-    metaTitle: "Thai Kech — Massage & Hammam at Home in Marrakech",
+    metaTitle: "Mobile Massage at Home in Marrakech & Hammam | Thai Kech",
     metaDescription:
       "Massage and hammam at home in Marrakech: our female therapists come to your riad, villa or hotel, every day from 8am to 10pm. Clear prices, pay after.",
     hero: {
       eyebrow: "Luxury Mobile Spa · Marrakech",
-      h1Start: "Massage & Hammam",
+      h1Start: "Massage",
       h1Accent: "at Home",
       h1End: "in Marrakech",
       subtitle:
-        "Our female therapists come straight to your **riad, villa or hotel** in Marrakech, with argan oils and a complete spa atmosphere, **every day from 8am to 10pm**.",
+        "Our female therapists come straight to your **riad, villa or hotel** in Marrakech for a massage or a hammam, with argan oils and a complete spa atmosphere, **every day from 8am to 10pm**.",
       seeServices: "See our treatments and prices",
       badges: ["Female Therapists", "Riads · Villas · Hotels", "Marrakech & Surroundings"],
       discover: "Discover",
