@@ -1,0 +1,27 @@
+name: Notify search engines (IndexNow)
+
+# After each push to main, Vercel deploys the site. This job waits for the
+# deploy, then tells Bing and the other IndexNow engines which pages changed
+# (sitemap URLs whose lastmod is in the last 3 days). Google reads the sitemap
+# on its own and does not use IndexNow.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "public/**"
+  workflow_dispatch: {}
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Wait for the Vercel deploy to go live
+        run: sleep 240
+      - name: Send changed URLs to IndexNow
+        run: node scripts/indexnow.mjs --recent 3
