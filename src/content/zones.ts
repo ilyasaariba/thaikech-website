@@ -15,7 +15,16 @@ export interface ZoneBase {
 
 export interface Zone extends ZoneBase, ZoneCopy {}
 
-export const ZONE_IDS: ZoneId[] = ["medina", "gueliz", "hivernage", "palmeraie", "agdal", "route-ourika"];
+export const ZONE_IDS: ZoneId[] = [
+  "medina",
+  "gueliz",
+  "hivernage",
+  "palmeraie",
+  "agdal",
+  "route-ourika",
+  "amelkis",
+  "agafay",
+];
 
 const BASE: Record<ZoneId, ZoneBase> = {
   medina: {
@@ -45,8 +54,18 @@ const BASE: Record<ZoneId, ZoneBase> = {
   },
   "route-ourika": {
     id: "route-ourika",
-    neighbours: ["agdal", "medina", "palmeraie"],
+    neighbours: ["agdal", "amelkis", "agafay"],
     services: ["massage-sportif", "massage-4-mains", "hammam-royal"],
+  },
+  amelkis: {
+    id: "amelkis",
+    neighbours: ["route-ourika", "agdal", "palmeraie"],
+    services: ["massage-sportif", "massage-thai", "hammam-royal"],
+  },
+  agafay: {
+    id: "agafay",
+    neighbours: ["route-ourika", "agdal", "medina"],
+    services: ["massage-sportif", "massage-berbere", "massage-4-mains"],
   },
 };
 

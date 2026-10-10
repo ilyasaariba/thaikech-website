@@ -121,7 +121,7 @@ export const pagesFr: PagesCopy = {
         },
         {
           q: "Quels sont vos tarifs de déplacement et vos zones de service ?",
-          a: "Le déplacement est offert dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, Agafay, route d'Amizmiz… Voir nos [zones desservies](areas).",
+          a: "Le déplacement est offert dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, [Amelkis](zone:amelkis), [Agafay](zone:agafay), route d'Amizmiz… Voir nos [zones desservies](areas).",
         },
         {
           q: "Quels sont les modes de paiement acceptés ?",
@@ -482,7 +482,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Venez-vous dans les villas en dehors de Marrakech ?",
-        a: "Oui. Le déplacement est offert dans toute la région de Marrakech, Palmeraie, route de l'Ourika et Agafay comprises. Envoyez-nous la localisation de la villa sur WhatsApp pour organiser le planning. Voir nos [zones desservies](areas).",
+        a: "Oui. Le déplacement est offert dans toute la région de Marrakech, [Palmeraie](zone:palmeraie), [Amelkis](zone:amelkis) et [Agafay](zone:agafay) comprises. Envoyez-nous la localisation de la villa sur WhatsApp pour organiser le planning. Voir nos [zones desservies](areas).",
       },
       {
         q: "Peut-on offrir un massage à la future mariée ?",
@@ -595,7 +595,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Même prix dans toute la région",
         blocks: [
-          "Le prix ne change pas selon l'adresse : le déplacement est offert jusqu'à la [route de l'Ourika](zone:route-ourika), la route d'Amizmiz ou le désert d'Agafay. Voir toutes nos [zones desservies](areas).",
+          "Le prix ne change pas selon l'adresse : le déplacement est offert jusqu'à la [route de l'Ourika](zone:route-ourika), la route d'Amizmiz ou le [désert d'Agafay](zone:agafay). Voir toutes nos [zones desservies](areas).",
         ],
       },
       {
@@ -666,7 +666,7 @@ export const pagesFr: PagesCopy = {
     otherAreasHeading: "Autres quartiers et secteurs",
     otherAreasText:
       "Vous logez ailleurs ? Nous intervenons aussi dans d'autres quartiers de Marrakech et alentours. Envoyez-nous votre localisation sur WhatsApp : nous vous confirmons la disponibilité.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Amelkis", "Route d'Ouarzazate", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Agafay", "Vallée de l'Ourika"],
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Vallée de l'Ourika"],
     sections: [
       {
         heading: "Préparer l'arrivée de votre thérapeute",

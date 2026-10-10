@@ -350,4 +350,121 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       },
     ],
   },
+
+  agafay: {
+    slug: "massage-agafay-desert-camp",
+    name: "Agafay",
+    teaser: "Tented camps and lodges in the stone desert facing the Atlas, south-west of Marrakech.",
+    metaTitle: "Massage at Your Agafay Desert Camp, Marrakech",
+    metaDescription:
+      "Massage at your camp or lodge in the Agafay desert near Marrakech. Female therapists, table and oils provided, free travel, every day 8am–10pm.",
+    h1: "Massage at your Agafay desert camp",
+    lead: [
+      "South-west of Marrakech, the Agafay desert is a stone desert of golden hills facing the peaks of the Atlas. Tented camps and lodges welcome travellers for a quiet night far from the city. Our female therapists come to your camp with the massage table, oils and towels.",
+      "Travel is free, even to Agafay: you only pay for your treatment, at the listed price, after the appointment.",
+    ],
+    places: ["Agafay desert", "Camps and lodges", "Route d'Amizmiz", "Lalla Takerkoust lake"],
+    sections: [
+      {
+        heading: "Before booking: tell your camp",
+        blocks: [
+          "Every camp has its own rules for outside visitors, and some have their own wellness area. Let reception know your therapist is coming, then send us on WhatsApp:",
+          {
+            list: [
+              "the **camp's name** and your tent number;",
+              "the camp's **WhatsApp location**;",
+              "the time you would like, so we can plan the journey from Marrakech.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A massage in your tent or facing the Atlas",
+        blocks: [
+          "The table goes in your tent if it is spacious enough, or in a shaded, private corner the camp offers. Late afternoon is ideal: the treatment ends just before sunset. In winter, desert evenings are cool, so choose the tent.",
+        ],
+      },
+      {
+        heading: "After quad biking, camel riding or hiking",
+        blocks: [
+          "A quad or camel ride works the back and legs. The [sports recovery massage](service:massage-sportif) releases the tension, and the [Berber argan oil massage](service:massage-berbere) extends the calm of the desert. For a birthday or a honeymoon, the [royal four-hands massage](service:massage-4-mains) makes the night at camp unforgettable.",
+          "A hammam is possible if your tent has a shower with hot water: just tell us when you book.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Is there a travel fee to Agafay?",
+        a: "No, travel is free, as it is across the whole Marrakech area.",
+      },
+      {
+        q: "How far ahead should I book?",
+        a: "Agafay is more than half an hour's drive from Marrakech, so it is best to book the day before, or at least a few hours ahead.",
+      },
+      {
+        q: "Can several of us book at the same camp?",
+        a: "Yes. Two therapists can come together for a [couples massage](duo), and for a group treatments follow on two at a time, up to 10 people in the day. See our [bachelorette and group spa](groups) page.",
+      },
+      {
+        q: "My camp already has a spa. Can I still book?",
+        a: "It depends on the camp's rules: ask reception whether outside therapists are allowed before you book.",
+      },
+    ],
+  },
+
+  amelkis: {
+    slug: "massage-amelkis-route-ouarzazate-marrakech",
+    name: "Amelkis and Route d'Ouarzazate",
+    teaser: "Golf courses, gated estates and villas with pools south-east of Marrakech.",
+    metaTitle: "Villa Massage in Amelkis & Route d'Ouarzazate",
+    metaDescription:
+      "Massage and hammam at home in your villa in Amelkis or on the Route d'Ouarzazate, Marrakech: after golf, with family or friends. Free travel, 8am–10pm.",
+    h1: "Massage at home in Amelkis and on the Route d'Ouarzazate",
+    lead: [
+      "South-east of Marrakech, along the Route d'Ouarzazate, Amelkis and its neighbouring areas bring together golf courses, gated estates and villas with pools. Our female therapists come to your villa with all the equipment for a real spa moment, with no need to drive anywhere.",
+      "Travel is free: you only pay for your treatment, at the listed price, after the appointment.",
+    ],
+    places: ["Amelkis", "Route d'Ouarzazate", "Amelkis Golf", "Royal Golf Marrakech"],
+    sections: [
+      {
+        heading: "Gated estates: tell the guard",
+        blocks: [
+          "Most villas are in guarded estates. So your therapist can get in without waiting, give us these details when you confirm on WhatsApp:",
+          {
+            list: [
+              "the **estate's name** and the villa number;",
+              "the villa's **WhatsApp location**;",
+              "the name to give the guard, whom you let know she is coming.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "After a round of golf",
+        blocks: [
+          "Eighteen holes work the back, shoulders and legs. The [sports recovery massage](service:massage-sportif) targets those areas, and the [Thai massage with hot towels](service:massage-thai) restores mobility. Book it for late afternoon, when you are back from the course.",
+        ],
+      },
+      {
+        heading: "A spa in your villa",
+        blocks: [
+          "Villas have space: the table goes in a bedroom, a lounge or a shaded, private spot by the pool. The [royal hammam](service:hammam-royal) takes place in the villa's hammam or a bathroom with a shower. For families or friends, treatments follow on two at a time: see our [bachelorette and group spa](groups) page.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you come to the gated estates in Amelkis?",
+        a: "Yes. Give us the estate's name and the villa number, and let the guard know your therapist is coming.",
+      },
+      {
+        q: "Is travel included?",
+        a: "Yes, travel is free to Amelkis and along the Route d'Ouarzazate, as it is across the whole Marrakech area.",
+      },
+      {
+        q: "Which massage after golf?",
+        a: "The [sports massage](service:massage-sportif) for the muscles, or the [Thai massage](service:massage-thai) to regain flexibility.",
+      },
+    ],
+  },
 };

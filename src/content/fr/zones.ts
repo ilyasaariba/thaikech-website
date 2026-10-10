@@ -350,4 +350,121 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
       },
     ],
   },
+
+  agafay: {
+    slug: "massage-a-domicile-agafay",
+    name: "Agafay",
+    teaser: "Camps sous tente et lodges dans le désert de pierres, face à l'Atlas, au sud-ouest de Marrakech.",
+    metaTitle: "Massage dans votre Camp du Désert d'Agafay",
+    metaDescription:
+      "Massage à domicile dans votre camp ou lodge du désert d'Agafay, près de Marrakech. Thérapeutes femmes, table et huiles apportées, déplacement offert, 8h–22h.",
+    h1: "Massage dans votre camp du désert d'Agafay",
+    lead: [
+      "Au sud-ouest de Marrakech, le désert d'Agafay est un désert de pierres aux collines dorées, face aux sommets de l'Atlas. Camps sous tente et lodges y accueillent les voyageurs pour une nuit au calme, loin de la ville. Nos thérapeutes femmes viennent jusqu'à votre camp avec la table de massage, les huiles et les serviettes.",
+      "Le déplacement est offert, même jusqu'à Agafay : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
+    ],
+    places: ["Désert d'Agafay", "Camps et lodges", "Route d'Amizmiz", "Lac Lalla Takerkoust"],
+    sections: [
+      {
+        heading: "Avant de réserver : prévenez votre camp",
+        blocks: [
+          "Chaque camp a ses règles pour les intervenants extérieurs, et certains ont leur propre espace bien-être. Prévenez la réception de la venue de votre thérapeute, puis envoyez-nous sur WhatsApp :",
+          {
+            list: [
+              "le **nom du camp** et votre numéro de tente ;",
+              "la **localisation WhatsApp** du camp ;",
+              "l'heure souhaitée, pour que nous organisions le trajet depuis Marrakech.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Un massage sous la tente ou face à l'Atlas",
+        blocks: [
+          "La table s'installe dans votre tente, si elle est assez spacieuse, ou dans un coin ombragé et à l'abri des regards proposé par le camp. Les fins d'après-midi sont idéales : le soin se termine juste avant le coucher du soleil. En hiver, les soirées sont fraîches dans le désert : préférez la tente.",
+        ],
+      },
+      {
+        heading: "Après le quad, le dromadaire ou la randonnée",
+        blocks: [
+          "Une balade en quad ou à dos de dromadaire sollicite le dos et les jambes. Le [massage sportif récupération](service:massage-sportif) relâche les tensions, et le [massage berbère à l'huile d'argan](service:massage-berbere) prolonge le calme du désert. Pour un anniversaire ou une lune de miel, le [massage royal à 4 mains](service:massage-4-mains) rend la nuit au camp inoubliable.",
+          "Le hammam est possible si votre tente dispose d'une douche avec eau chaude : dites-le-nous à la réservation.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Le déplacement jusqu'à Agafay est-il payant ?",
+        a: "Non, le déplacement est offert, comme dans toute la région de Marrakech.",
+      },
+      {
+        q: "Combien de temps à l'avance faut-il réserver ?",
+        a: "Agafay est à plus d'une demi-heure de route de Marrakech : réservez de préférence la veille, ou au moins quelques heures avant.",
+      },
+      {
+        q: "Peut-on venir à plusieurs dans le même camp ?",
+        a: "Oui. Deux thérapeutes peuvent venir ensemble pour un [massage en duo](duo), et pour un groupe les soins s'enchaînent deux par deux, jusqu'à 10 personnes dans la journée. Voir notre page [EVJF et groupes](groups).",
+      },
+      {
+        q: "Mon camp a déjà un spa. Puis-je quand même réserver ?",
+        a: "Cela dépend des règles du camp : demandez à la réception si les thérapeutes extérieurs sont acceptés avant de réserver.",
+      },
+    ],
+  },
+
+  amelkis: {
+    slug: "massage-a-domicile-amelkis-route-ouarzazate",
+    name: "Amelkis et route d'Ouarzazate",
+    teaser: "Golfs, résidences fermées et villas avec piscine au sud-est de Marrakech.",
+    metaTitle: "Massage à Domicile à Amelkis, Route d'Ouarzazate",
+    metaDescription:
+      "Massage et hammam à domicile dans votre villa d'Amelkis ou de la route d'Ouarzazate, à Marrakech : après le golf, en famille ou entre amis. Déplacement offert.",
+    h1: "Massage à domicile à Amelkis et route d'Ouarzazate",
+    lead: [
+      "Au sud-est de Marrakech, le long de la route d'Ouarzazate, Amelkis et les quartiers voisins réunissent golfs, résidences fermées et villas avec piscine. Nos thérapeutes femmes viennent dans votre villa avec tout le matériel pour un vrai moment de spa, sans reprendre la voiture.",
+      "Le déplacement est offert : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
+    ],
+    places: ["Amelkis", "Route d'Ouarzazate", "Golf d'Amelkis", "Royal Golf de Marrakech"],
+    sections: [
+      {
+        heading: "Résidences fermées : prévenez le gardien",
+        blocks: [
+          "La plupart des villas se trouvent dans des domaines gardés. Pour que votre thérapeute entre sans attendre, indiquez lors de la confirmation sur WhatsApp :",
+          {
+            list: [
+              "le **nom de la résidence** et le numéro de la villa ;",
+              "la **localisation WhatsApp** de la villa ;",
+              "le nom à donner au gardien, que vous prévenez de son arrivée.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Après une partie de golf",
+        blocks: [
+          "Dix-huit trous sollicitent le dos, les épaules et les jambes. Le [massage sportif récupération](service:massage-sportif) cible ces zones, et le [massage thaï aux serviettes chaudes](service:massage-thai) redonne de la mobilité. Réservez-le pour la fin d'après-midi, au retour du parcours.",
+        ],
+      },
+      {
+        heading: "Un spa dans votre villa",
+        blocks: [
+          "Les villas offrent de l'espace : la table s'installe dans une chambre, un salon ou à l'ombre près de la piscine, à l'abri des regards. Le [hammam royal](service:hammam-royal) se déroule dans le hammam de la villa ou dans une salle de bain avec douche. En famille ou entre amis, les soins s'enchaînent deux par deux : voir notre page [EVJF et groupes](groups).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Venez-vous dans les résidences fermées d'Amelkis ?",
+        a: "Oui. Donnez-nous le nom de la résidence et le numéro de la villa, et prévenez le gardien de l'arrivée de votre thérapeute.",
+      },
+      {
+        q: "Le déplacement est-il inclus ?",
+        a: "Oui, le déplacement est offert à Amelkis et sur la route d'Ouarzazate, comme dans toute la région de Marrakech.",
+      },
+      {
+        q: "Quel massage choisir après le golf ?",
+        a: "Le [massage sportif](service:massage-sportif) pour les muscles, ou le [massage thaï](service:massage-thai) pour retrouver de la souplesse.",
+      },
+    ],
+  },
 };

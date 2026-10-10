@@ -121,7 +121,7 @@ export const pagesEn: PagesCopy = {
         },
         {
           q: "What are your travel fees and service areas?",
-          a: "Travel is free across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, Agafay, Route d'Amizmiz… See the [areas we cover](areas).",
+          a: "Travel is free across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, [Amelkis](zone:amelkis), [Agafay](zone:agafay), Route d'Amizmiz… See the [areas we cover](areas).",
         },
         {
           q: "Which payment methods do you accept?",
@@ -482,7 +482,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "Do you come to villas outside Marrakech?",
-        a: "Yes. Travel is free across the whole Marrakech area, including the Palmeraie, the Route de l'Ourika and Agafay. Send us the villa's location on WhatsApp so we can plan the schedule. See the [areas we cover](areas).",
+        a: "Yes. Travel is free across the whole Marrakech area, including the [Palmeraie](zone:palmeraie), [Amelkis](zone:amelkis) and [Agafay](zone:agafay). Send us the villa's location on WhatsApp so we can plan the schedule. See the [areas we cover](areas).",
       },
       {
         q: "Can the group treat the bride-to-be?",
@@ -595,7 +595,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "Same price across the area",
         blocks: [
-          "The price doesn't change with the address: travel is free as far as the [Route de l'Ourika](zone:route-ourika), the Route d'Amizmiz or the Agafay desert. See all the [areas we cover](areas).",
+          "The price doesn't change with the address: travel is free as far as the [Route de l'Ourika](zone:route-ourika), the Route d'Amizmiz or the [Agafay desert](zone:agafay). See all the [areas we cover](areas).",
         ],
       },
       {
@@ -666,7 +666,7 @@ export const pagesEn: PagesCopy = {
     otherAreasHeading: "Other neighbourhoods and areas",
     otherAreasText:
       "Staying somewhere else? We also cover other neighbourhoods in and around Marrakech. Send us your location on WhatsApp and we will confirm availability.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Amelkis", "Route d'Ouarzazate", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Agafay", "Ourika Valley"],
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Ourika Valley"],
     sections: [
       {
         heading: "Preparing for your therapist's arrival",

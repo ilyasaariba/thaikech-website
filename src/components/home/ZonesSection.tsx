@@ -12,7 +12,7 @@ export default function ZonesSection({ locale }: { locale: Locale }) {
     <section id="zones" className="py-20 sm:py-28 bg-bamboo-dark">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <SectionHeading eyebrow={copy.eyebrow} heading={copy.heading} intro={copy.intro} tone="dark" />
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-6xl mx-auto">
           {getZones(locale).map((zone) => (
             <Link
               key={zone.id}

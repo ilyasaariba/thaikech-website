@@ -10,7 +10,7 @@ export type ServiceId =
   | "hammam-berbere"
   | "hammam-royal";
 
-export type ZoneId = "medina" | "gueliz" | "hivernage" | "palmeraie" | "agdal" | "route-ourika";
+export type ZoneId = "medina" | "gueliz" | "hivernage" | "palmeraie" | "agdal" | "route-ourika" | "agafay" | "amelkis";
 
 export type GuideId =
   | "hammam-at-home"
