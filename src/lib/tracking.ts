@@ -10,6 +10,10 @@ declare global {
   }
 }
 
+// Tag IDs are public (they ship in every page). Env vars can override them.
+export const GOOGLE_ADS_ID = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
+export const GA4_ID = process.env.NEXT_PUBLIC_GA_ID || "G-V3YPD2KZGQ";
+
 interface WhatsAppLead {
   /** Path of the page the form was sent from, e.g. "/tarifs". */
   source: string;
@@ -21,16 +25,15 @@ interface WhatsAppLead {
 export function trackWhatsAppLead({ source, people, serviceId, locale }: WhatsAppLead): void {
   if (typeof window === "undefined") return;
 
-  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
   const adsLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONVERSION_LABEL;
 
   // Google Ads conversion (needs both the tag ID and the conversion label).
-  if (window.gtag && adsId && adsLabel) {
-    window.gtag("event", "conversion", { send_to: `${adsId}/${adsLabel}` });
+  if (window.gtag && GOOGLE_ADS_ID && adsLabel) {
+    window.gtag("event", "conversion", { send_to: `${GOOGLE_ADS_ID}/${adsLabel}` });
   }
 
-  // GA4 recommended lead event (optional).
-  if (window.gtag && process.env.NEXT_PUBLIC_GA_ID) {
+  // GA4 recommended lead event.
+  if (window.gtag && GA4_ID) {
     window.gtag("event", "generate_lead", {
       lead_source: source,
       people,
@@ -64,7 +67,6 @@ interface ContactClick {
 export function trackContactClick({ method, placement, locale }: ContactClick): void {
   if (typeof window === "undefined") return;
 
-  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
   const contactLabel = process.env.NEXT_PUBLIC_GOOGLE_ADS_CONTACT_LABEL;
 
   if (window.gtag) {
@@ -74,8 +76,8 @@ export function trackContactClick({ method, placement, locale }: ContactClick): 
       page_path: window.location.pathname,
       language: locale,
     });
-    if (adsId && contactLabel) {
-      window.gtag("event", "conversion", { send_to: `${adsId}/${contactLabel}` });
+    if (GOOGLE_ADS_ID && contactLabel) {
+      window.gtag("event", "conversion", { send_to: `${GOOGLE_ADS_ID}/${contactLabel}` });
     }
   }
 

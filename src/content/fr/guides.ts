@@ -88,7 +88,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
       {
         q: "Combien coûte un hammam à domicile à Marrakech ?",
-        a: "550 MAD pour le Hammam Berbère et 650 MAD pour le Hammam Royal, déplacement offert dans Marrakech et ses environs proches. Voir nos [tarifs](prices).",
+        a: "550 MAD pour le Hammam Berbère et 650 MAD pour le Hammam Royal, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
     ],
     cta: {
@@ -420,7 +420,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
       {
         q: "Combien coûte le massage femme enceinte à domicile ?",
-        a: "550 MAD pour 1 h 30, déplacement offert dans Marrakech et ses environs proches.",
+        a: "550 MAD pour 1 h 30, déplacement offert dans toute la région de Marrakech.",
       },
       {
         q: "Mon conjoint peut-il se faire masser en même temps ?",
@@ -529,7 +529,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
               "**Hammam à domicile** : comptez un budget comparable à un massage long, selon le rituel.",
             ],
           },
-          "À titre de repère, chez Thai Kech, les soins vont de **450 MAD** (massage berbère, 1 h) à **650 MAD** (massage à 4 mains ou hammam royal), déplacement offert dans Marrakech et ses environs proches. Tous les détails sur notre page [tarifs](prices).",
+          "À titre de repère, chez Thai Kech, les soins vont de **450 MAD** (massage berbère, 1 h) à **650 MAD** (massage à 4 mains ou hammam royal), déplacement offert dans toute la région de Marrakech. Tous les détails sur notre page [tarifs](prices).",
         ],
       },
       {
@@ -582,11 +582,11 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "Combien coûte un massage d'une heure à domicile à Marrakech ?",
-        a: "D'après les tarifs affichés en ligne en octobre 2026, le plus souvent entre 450 et 650 MAD. Chez Thai Kech, le massage berbère d'une heure coûte 450 MAD, déplacement offert en ville.",
+        a: "D'après les tarifs affichés en ligne en octobre 2026, le plus souvent entre 450 et 650 MAD. Chez Thai Kech, le massage berbère d'une heure coûte 450 MAD, déplacement offert dans toute la région de Marrakech.",
       },
       {
         q: "Le déplacement est-il compris dans le prix ?",
-        a: "Cela dépend du prestataire : vérifiez-le avant de confirmer. Chez Thai Kech, il est offert dans Marrakech et ses environs proches ; pour les zones éloignées, d'éventuels frais sont annoncés avant la confirmation.",
+        a: "Cela dépend du prestataire : vérifiez-le avant de confirmer. Chez Thai Kech, il est offert dans toute la région de Marrakech.",
       },
       {
         q: "Faut-il payer avant le massage ?",
@@ -594,7 +594,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
     ],
     cta: {
-      text: "Prix affichés, déplacement offert en ville et paiement après le soin.",
+      text: "Prix affichés, déplacement offert et paiement après le soin.",
       label: "Voir tous nos tarifs",
     },
   },
@@ -689,7 +689,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
       {
         q: "Combien coûte un hammam à domicile à Marrakech ?",
-        a: "Chez Thai Kech, 550 MAD pour le Hammam Berbère (1 h 15) et 650 MAD pour le Hammam Royal (1 h 30), déplacement offert dans Marrakech et ses environs proches.",
+        a: "Chez Thai Kech, 550 MAD pour le Hammam Berbère (1 h 15) et 650 MAD pour le Hammam Royal (1 h 30), déplacement offert dans toute la région de Marrakech.",
       },
       {
         q: "Que faut-il porter au hammam ?",

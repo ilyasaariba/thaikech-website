@@ -1,5 +1,4 @@
 import { after, type NextRequest } from "next/server";
-import { supabase } from "@/lib/supabase";
 import { getService, isServiceId } from "@/content/services";
 import {
   formatLongDate,
@@ -36,9 +35,10 @@ function isRateLimited(ip: string): boolean {
 
 /**
  * POST /api/leads
- * Saves a WhatsApp booking request (name, phone, people, date, page, language)
- * so it can be followed up even if the visitor never presses send in
- * WhatsApp, then alerts the business on Telegram. The form calls it with
+ * Sends a WhatsApp booking request (name, phone, people, date, page,
+ * language) to the business on Telegram, so it can be followed up even if
+ * the visitor never presses send in WhatsApp. Nothing is stored on our side:
+ * the Telegram chat is the record. The form calls it with
  * navigator.sendBeacon, so the page never waits for or reads the response.
  */
 export async function POST(request: NextRequest) {
@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
     return Response.json({ error: "Requête invalide." }, { status: 400 });
   }
 
-  // Bots fill every field, including the hidden one: accept silently, save nothing.
+  // Bots fill every field, including the hidden one: accept silently, send nothing.
   if (body.website) {
     return new Response(null, { status: 204 });
   }
@@ -79,29 +79,10 @@ export async function POST(request: NextRequest) {
     return Response.json({ error: "Données invalides." }, { status: 400 });
   }
 
-  // Insert only (no .select()): leads are private and never read back here.
-  const { error } = await supabase.from("leads").insert({
-    customer_name: name,
-    customer_phone: phone,
-    people,
-    requested_date: date,
-    service_id: service?.id ?? null,
-    source,
-    locale,
-    status: "new",
-  });
+  // Alert after responding, so the visitor's hand-over to WhatsApp never waits.
+  after(() => notifyBusiness({ name, phone, people, date, serviceName: service?.name, source, locale }));
 
-  if (error) {
-    console.error("Lead insert failed:", error.message);
-  }
-
-  // Alert after responding; the alert also covers a failed insert, so the
-  // request is never lost.
-  after(() =>
-    notifyBusiness({ name, phone, people, date, serviceName: service?.name, source, locale, saved: !error })
-  );
-
-  return Response.json({ ok: true }, { status: error ? 202 : 201 });
+  return Response.json({ ok: true }, { status: 202 });
 }
 
 interface LeadAlert {
@@ -112,7 +93,6 @@ interface LeadAlert {
   serviceName?: string;
   source: string | null;
   locale: "fr" | "en";
-  saved: boolean;
 }
 
 async function notifyBusiness(lead: LeadAlert): Promise<void> {
@@ -120,8 +100,9 @@ async function notifyBusiness(lead: LeadAlert): Promise<void> {
   const chatId = process.env.TELEGRAM_CHAT_ID;
 
   if (!token || !chatId) {
-    console.warn(
-      "Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID missing) — skipping lead notification."
+    console.error(
+      "Telegram not configured (TELEGRAM_BOT_TOKEN / TELEGRAM_CHAT_ID missing): booking request lost.",
+      lead
     );
     return;
   }
@@ -142,7 +123,6 @@ async function notifyBusiness(lead: LeadAlert): Promise<void> {
     lead.locale === "en" ? "Langue : anglais 🇬🇧 (répondre en anglais)" : "Langue : français",
     `Page : ${lead.source || "inconnue"}`,
     international ? `Répondre : https://wa.me/${international}` : "",
-    lead.saved ? "" : "⚠️ Non enregistrée dans Supabase",
   ]
     .filter(Boolean)
     .join("\n");
@@ -154,9 +134,9 @@ async function notifyBusiness(lead: LeadAlert): Promise<void> {
       body: JSON.stringify({ chat_id: chatId, text }),
     });
     if (!res.ok) {
-      console.error("Telegram notification failed:", res.status, await res.text());
+      console.error("Telegram notification failed:", res.status, await res.text(), lead);
     }
   } catch (err) {
-    console.error("Telegram notification error:", err);
+    console.error("Telegram notification error:", err, lead);
   }
 }

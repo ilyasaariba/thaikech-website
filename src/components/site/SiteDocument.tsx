@@ -2,6 +2,7 @@ import Script from "next/script";
 import type { ReactNode } from "react";
 import { cinzel, outfit } from "@/app/fonts";
 import type { Locale } from "@/i18n/locales";
+import { GA4_ID, GOOGLE_ADS_ID } from "@/lib/tracking";
 
 const META_PIXEL_ID = "28233906552916903";
 
@@ -14,12 +15,12 @@ const META_PIXEL_ID = "28233906552916903";
  * off the critical rendering path without losing events.
  *
  *   NEXT_PUBLIC_GOOGLE_ADS_ID  - Google Ads tag (defaults to the live account)
- *   NEXT_PUBLIC_GA_ID          - GA4, optional
+ *   NEXT_PUBLIC_GA_ID          - GA4 (defaults to the live property)
  *   NEXT_PUBLIC_SNAP_PIXEL_ID  - Snapchat Pixel (defaults to the live pixel)
  */
 export default function SiteDocument({ locale, children }: { locale: Locale; children: ReactNode }) {
-  const gaId = process.env.NEXT_PUBLIC_GA_ID;
-  const adsId = process.env.NEXT_PUBLIC_GOOGLE_ADS_ID || "AW-18313997338";
+  const gaId = GA4_ID;
+  const adsId = GOOGLE_ADS_ID;
   const snapId = process.env.NEXT_PUBLIC_SNAP_PIXEL_ID || "cc6cc0e1-e19f-40ab-ad27-108f971d1b6e";
   const googleTagId = adsId || gaId;
 

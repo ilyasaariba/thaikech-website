@@ -72,7 +72,6 @@ export interface UiStrings {
     nearbyHeading: string;
     allAreas: string;
     travelIncluded: string;
-    travelQuote: string;
     therapists: string;
     twoTherapists: string;
     payAfter: string;
@@ -158,13 +157,12 @@ export const UI: Record<Locale, UiStrings> = {
         "Diffuseur d'huiles essentielles et musique d'ambiance",
       ],
       whereHeading: "Où intervenons-nous ?",
-      whereText: "Dans tout Marrakech et ses environs proches, déplacement offert en ville :",
+      whereText: "Dans toute la région de Marrakech, déplacement offert :",
       placesHeading: "Quartiers et repères",
       popularHeading: "Soins recommandés dans ce quartier",
       nearbyHeading: "Zones voisines",
       allAreas: "Toutes les zones desservies",
       travelIncluded: "Déplacement offert",
-      travelQuote: "Frais de déplacement annoncés avant confirmation",
       therapists: "Thérapeutes femmes",
       twoTherapists: "2 thérapeutes femmes",
       payAfter: "Paiement après le soin",
@@ -248,13 +246,12 @@ export const UI: Record<Locale, UiStrings> = {
         "Essential oil diffuser and ambient music",
       ],
       whereHeading: "Where do we go?",
-      whereText: "All over Marrakech and its close surroundings, with free travel within the city:",
+      whereText: "Across the whole Marrakech area, with free travel:",
       placesHeading: "Neighbourhoods and landmarks",
       popularHeading: "Recommended treatments in this area",
       nearbyHeading: "Nearby areas",
       allAreas: "All the areas we cover",
       travelIncluded: "Free travel",
-      travelQuote: "Travel fee confirmed before booking",
       therapists: "Female therapists",
       twoTherapists: "2 female therapists",
       payAfter: "Pay after your treatment",

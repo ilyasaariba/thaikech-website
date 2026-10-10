@@ -88,7 +88,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
       {
         q: "How much does a hammam at home cost in Marrakech?",
-        a: "550 MAD for the Berber Hammam and 650 MAD for the Royal Hammam, with free travel within Marrakech and its close surroundings. See our [prices](prices).",
+        a: "550 MAD for the Berber Hammam and 650 MAD for the Royal Hammam, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
     ],
     cta: {
@@ -420,7 +420,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
       {
         q: "How much is a pregnancy massage at home?",
-        a: "550 MAD for 90 minutes, with free travel within Marrakech and its close surroundings.",
+        a: "550 MAD for 90 minutes, with free travel across the whole Marrakech area.",
       },
       {
         q: "Can my partner have a massage at the same time?",
@@ -529,7 +529,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
               "**Hammam at home**: expect a budget similar to a long massage, depending on the ritual.",
             ],
           },
-          "For reference, Thai Kech treatments range from **450 MAD** (Berber massage, 60 min) to **650 MAD** (four-hands massage or royal hammam), with free travel within Marrakech and its close surroundings. Full details on our [prices](prices) page.",
+          "For reference, Thai Kech treatments range from **450 MAD** (Berber massage, 60 min) to **650 MAD** (four-hands massage or royal hammam), with free travel across the whole Marrakech area. Full details on our [prices](prices) page.",
         ],
       },
       {
@@ -582,11 +582,11 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "How much is a one-hour massage at home in Marrakech?",
-        a: "Based on prices published online in October 2026, usually between 450 and 650 MAD. At Thai Kech, the one-hour Berber massage costs 450 MAD, with free travel within the city.",
+        a: "Based on prices published online in October 2026, usually between 450 and 650 MAD. At Thai Kech, the one-hour Berber massage costs 450 MAD, with free travel across the whole Marrakech area.",
       },
       {
         q: "Is travel included in the price?",
-        a: "It depends on the provider, so check before you confirm. At Thai Kech, it is free within Marrakech and its close surroundings; for distant areas, any fee is confirmed before booking.",
+        a: "It depends on the provider, so check before you confirm. At Thai Kech, it is free across the whole Marrakech area.",
       },
       {
         q: "Do I pay before the massage?",
@@ -594,7 +594,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
     ],
     cta: {
-      text: "Clear prices, free travel in the city and payment after your treatment.",
+      text: "Clear prices, free travel and payment after your treatment.",
       label: "See all our prices",
     },
   },
@@ -689,7 +689,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
       {
         q: "How much is a hammam at home in Marrakech?",
-        a: "At Thai Kech, 550 MAD for the Berber Hammam (75 min) and 650 MAD for the Royal Hammam (90 min), with free travel within Marrakech and its close surroundings.",
+        a: "At Thai Kech, 550 MAD for the Berber Hammam (75 min) and 650 MAD for the Royal Hammam (90 min), with free travel across the whole Marrakech area.",
       },
       {
         q: "What should I wear in a hammam?",

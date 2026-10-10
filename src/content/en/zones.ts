@@ -51,7 +51,7 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
     faqs: [
       {
         q: "Is travel to the Medina free?",
-        a: "Yes, travel within the Medina is free, as it is across Marrakech and its close surroundings.",
+        a: "Yes, travel within the Medina is free, as it is across the whole Marrakech area.",
       },
       {
         q: "My riad room is small. Is that a problem?",
@@ -304,18 +304,18 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
     teaser: "Villas, guesthouses and estates south-east of Marrakech, on the road to the Atlas.",
     metaTitle: "Villa Massage on the Route de l'Ourika, Marrakech",
     metaDescription:
-      "Massage and hammam at home in your villa on the Route de l'Ourika near Marrakech. Female therapists, 8am–10pm, any travel fee confirmed before booking.",
+      "Massage and hammam at home in your villa on the Route de l'Ourika near Marrakech. Female therapists, 8am–10pm, free travel, pay after your treatment.",
     h1: "Massage and hammam at home on the Route de l'Ourika",
     lead: [
       "The Route de l'Ourika links Marrakech to the Ourika Valley and the foothills of the Atlas. Along the road, villas, guesthouses and estates welcome travellers looking for peace and quiet. Our female therapists come to you with all the equipment.",
-      "This area is further from the centre, so a travel fee may apply depending on distance. It is always confirmed before your booking, never after the treatment.",
+      "Even this far from the centre, travel is free: you only pay for your treatment, at the listed price, after the appointment.",
     ],
-    places: ["Route de l'Ourika", "Ourika Valley (on request)"],
+    places: ["Route de l'Ourika", "Ourika Valley"],
     sections: [
       {
-        heading: "Transparent travel fees",
+        heading: "Free travel, same prices as in the city",
         blocks: [
-          "Each treatment costs the same as anywhere else (see our [prices](prices)). Only a possible travel fee is added, depending on the distance from Marrakech. Send your location when booking and we will confirm the amount on WhatsApp before confirming your appointment.",
+          "Each treatment costs the same as anywhere else (see our [prices](prices)), and travel to your villa is free. Send your location when booking and we will plan the journey and confirm the time on WhatsApp.",
         ],
       },
       {
@@ -334,11 +334,11 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
     faqs: [
       {
         q: "Is there a travel fee on the Route de l'Ourika?",
-        a: "A fee may apply depending on distance. It is confirmed on WhatsApp before your appointment is confirmed.",
+        a: "No, travel is free, as it is across the whole Marrakech area.",
       },
       {
         q: "How far do you travel?",
-        a: "Send us your villa's location and we will confirm availability and any travel fee.",
+        a: "Across the whole Marrakech area, the Ourika Valley included. Send us your villa's location and we will confirm availability.",
       },
       {
         q: "Should I book further ahead?",
@@ -346,7 +346,7 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       },
       {
         q: "Are treatments more expensive on the Route de l'Ourika?",
-        a: "No, treatments cost the same as in Marrakech. Only a possible travel fee is added.",
+        a: "No, treatments cost the same as in Marrakech, and travel is free.",
       },
     ],
   },

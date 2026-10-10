@@ -3,8 +3,8 @@ import type { ServiceCopy, ServiceId } from "./types";
 import { servicesFr } from "./fr/services";
 import { servicesEn } from "./en/services";
 
-// The treatment catalogue. Prices and durations live here, in the code, so
-// pages render without Supabase. Change a price here and redeploy.
+// The treatment catalogue. Prices and durations live here, in the code.
+// Change a price here and redeploy.
 
 export interface ServiceBase {
   id: ServiceId;

@@ -1,5 +1,5 @@
-// Business facts shared by every page and both languages. This file replaces
-// the Supabase `site_settings` table: pages no longer depend on the database.
+// Business facts shared by every page and both languages. The site has no
+// database: change a fact here and redeploy.
 
 export const SITE_URL = "https://www.thaikech.com";
 

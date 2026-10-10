@@ -77,7 +77,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Combien coûte un massage berbère à domicile à Marrakech ?",
-        a: "Le Massage Berbère Traditionnel coûte 450 MAD pour 1 heure. Le déplacement est offert dans Marrakech et ses environs proches ; pour les zones plus éloignées, d'éventuels frais vous sont indiqués avant la confirmation. Retrouvez tous nos prix sur la page [tarifs](prices).",
+        a: "Le Massage Berbère Traditionnel coûte 450 MAD pour 1 heure. Le déplacement est offert dans toute la région de Marrakech. Retrouvez tous nos prix sur la page [tarifs](prices).",
       },
       {
         q: "Faut-il préparer quelque chose avant l'arrivée de la thérapeute ?",
@@ -170,7 +170,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Quel est le prix d'un massage sportif à domicile à Marrakech ?",
-        a: "Le Massage Sportif Récupération coûte 500 MAD pour 1 heure, déplacement offert dans Marrakech et ses environs proches. Tous les prix sont sur la page [tarifs](prices).",
+        a: "Le Massage Sportif Récupération coûte 500 MAD pour 1 heure, déplacement offert dans toute la région de Marrakech. Tous les prix sont sur la page [tarifs](prices).",
       },
       {
         q: "Le massage sportif est-il douloureux ?",
@@ -260,7 +260,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Combien coûte le massage thaï à domicile à Marrakech ?",
-        a: "Le Massage Thaï Impérial & Serviettes Chaudes coûte 550 MAD pour 1 h 15, déplacement offert dans Marrakech et ses environs proches. Voir tous nos [tarifs](prices).",
+        a: "Le Massage Thaï Impérial & Serviettes Chaudes coûte 550 MAD pour 1 h 15, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
       },
       {
         q: "Le massage thaï est-il douloureux ?",
@@ -351,7 +351,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "Combien coûte le massage femme enceinte à domicile ?",
-        a: "Le Massage Douceur Future Maman coûte 550 MAD pour 1 h 30, déplacement offert dans Marrakech et ses environs proches. Voir tous nos [tarifs](prices).",
+        a: "Le Massage Douceur Future Maman coûte 550 MAD pour 1 h 30, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
       },
       {
         q: "Le massage est-il réalisé par une femme ?",
@@ -441,7 +441,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Combien coûte un massage à 4 mains à domicile à Marrakech ?",
-        a: "Le Massage Royal à 4 Mains coûte 650 MAD pour 1 h 15 avec deux thérapeutes, déplacement offert dans Marrakech et ses environs proches. Voir nos [tarifs](prices).",
+        a: "Le Massage Royal à 4 Mains coûte 650 MAD pour 1 h 15 avec deux thérapeutes, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
       {
         q: "Le massage à 4 mains est-il réalisé par deux femmes ?",
@@ -537,7 +537,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "Combien coûte le hammam berbère à domicile ?",
-        a: "Le Hammam Berbère Traditionnel coûte 550 MAD pour 1 h 15, modelage de 20 minutes compris, déplacement offert dans Marrakech et ses environs proches. Voir nos [tarifs](prices).",
+        a: "Le Hammam Berbère Traditionnel coûte 550 MAD pour 1 h 15, modelage de 20 minutes compris, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
       {
         q: "Peut-on faire le hammam dans une chambre d'hôtel ?",
@@ -624,7 +624,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Combien coûte le hammam royal à domicile à Marrakech ?",
-        a: "650 MAD pour 1 h 30, déplacement offert dans Marrakech et ses environs proches. Voir tous nos [tarifs](prices).",
+        a: "650 MAD pour 1 h 30, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
       },
       {
         q: "Le hammam royal convient-il aux peaux sensibles ?",

@@ -87,7 +87,7 @@ export const pagesFr: PagesCopy = {
         },
         {
           title: "Prix Affichés",
-          text: "Le prix indiqué est celui de votre soin. Le déplacement est offert dans Marrakech et ses environs proches.",
+          text: "Le prix indiqué est celui de votre soin. Le déplacement est offert dans toute la région de Marrakech.",
         },
         {
           title: "Paiement Après le Soin",
@@ -100,7 +100,7 @@ export const pagesFr: PagesCopy = {
       eyebrow: "Zones Desservies",
       heading: "Partout à Marrakech",
       intro:
-        "De la Médina à la Palmeraie, nos thérapeutes viennent jusqu'à vous. Le déplacement est offert dans Marrakech et ses environs proches.",
+        "De la Médina à la Palmeraie, nos thérapeutes viennent jusqu'à vous. Le déplacement est offert dans toute la région de Marrakech.",
       allAreas: "Voir toutes les zones desservies",
     },
     guides: {
@@ -121,11 +121,11 @@ export const pagesFr: PagesCopy = {
         },
         {
           q: "Quels sont vos tarifs de déplacement et vos zones de service ?",
-          a: "Le déplacement est offert dans Marrakech et ses environs proches (Médina, Guéliz, Hivernage, Palmeraie, Agdal). Pour les zones plus éloignées (route de l'Ourika, route d'Amizmiz, etc.), des frais de déplacement peuvent s'appliquer : nous vous les indiquons avant la confirmation. Voir nos [zones desservies](areas).",
+          a: "Le déplacement est offert dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, Agafay, route d'Amizmiz… Voir nos [zones desservies](areas).",
         },
         {
           q: "Quels sont les modes de paiement acceptés ?",
-          a: "Vous réglez directement votre thérapeute après le soin, en espèces (dirhams ou euros) ou par carte bancaire. Tous nos prix sont sur la page [tarifs](prices).",
+          a: "Vous réglez directement votre thérapeute après le soin, en espèces : en dirhams, en euros ou dans une autre devise. Tous nos prix sont sur la page [tarifs](prices).",
         },
         {
           q: "Proposez-vous des massages en duo ou en couple ?",
@@ -234,7 +234,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Le déplacement est-il compris ?",
-        a: "Oui, dans Marrakech et ses environs proches. Pour les zones plus éloignées, d'éventuels frais sont indiqués avant la confirmation.",
+        a: "Oui, dans toute la région de Marrakech.",
       },
     ],
   },
@@ -274,7 +274,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Combien coûte un massage en duo ?",
         blocks: [
-          "Chaque soin est facturé au prix affiché. Par exemple, deux massages berbères coûtent 2 × 450 MAD, soit 900 MAD ; un massage berbère et un massage thaï coûtent 450 + 550 MAD, soit 1 000 MAD. Le déplacement est offert dans Marrakech et ses environs proches. Voir tous nos [tarifs](prices).",
+          "Chaque soin est facturé au prix affiché. Par exemple, deux massages berbères coûtent 2 × 450 MAD, soit 900 MAD ; un massage berbère et un massage thaï coûtent 450 + 550 MAD, soit 1 000 MAD. Le déplacement est offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
         ],
       },
       {
@@ -401,9 +401,9 @@ export const pagesFr: PagesCopy = {
     h1: "Massage EVJF et groupe à domicile à Marrakech",
     lead: [
       "Un EVJF, un anniversaire ou un séjour entre amies à Marrakech ? Transformez votre villa ou votre riad en spa privé le temps d'un après-midi. Nos thérapeutes femmes arrivent avec les tables de massage, les huiles et les serviettes : chacune profite de son soin sans quitter la piscine ou la terrasse.",
-      "Indiquez le nombre de personnes et la date dans le formulaire : nous vous proposons un planning sur WhatsApp, avec des soins qui s'enchaînent deux par deux.",
+      "Jusqu'à 10 personnes dans la même journée : indiquez le nombre de personnes et la date dans le formulaire, nous vous proposons un planning sur WhatsApp, avec des soins qui s'enchaînent deux par deux.",
     ],
-    facts: ["Thérapeutes femmes", "Soins deux par deux", "Chacune son soin", "Paiement après les soins"],
+    facts: ["Jusqu'à 10 personnes par jour", "Thérapeutes femmes", "Soins deux par deux", "Paiement après les soins"],
     sections: [
       {
         heading: "Comment organiser les soins de votre groupe",
@@ -429,7 +429,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Combien ça coûte ?",
         blocks: [
-          "Chaque soin est facturé au prix affiché, de 450 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans Marrakech et ses environs proches ; pour une villa plus éloignée, d'éventuels frais sont annoncés avant la confirmation. Voir tous nos [tarifs](prices).",
+          "Chaque soin est facturé au prix affiché, de 450 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans toute la région de Marrakech, même pour une villa éloignée du centre. Voir tous nos [tarifs](prices).",
         ],
       },
       {
@@ -470,7 +470,7 @@ export const pagesFr: PagesCopy = {
     faqs: [
       {
         q: "Combien de personnes pouvez-vous masser dans la même journée ?",
-        a: "Les soins s'enchaînent deux par deux. Indiquez le nombre de personnes dans le formulaire : nous vous proposons sur WhatsApp un planning adapté aux soins choisis et à nos disponibilités.",
+        a: "Jusqu'à 10 personnes dans la même journée. Les soins s'enchaînent deux par deux : indiquez le nombre de personnes dans le formulaire et nous vous proposons sur WhatsApp un planning adapté aux soins choisis.",
       },
       {
         q: "Chacune peut-elle choisir un soin différent ?",
@@ -482,7 +482,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Venez-vous dans les villas en dehors de Marrakech ?",
-        a: "Selon la distance et nos disponibilités. Envoyez-nous la localisation de la villa sur WhatsApp : nous vous répondons avec les éventuels frais de déplacement, avant toute confirmation. Voir nos [zones desservies](areas).",
+        a: "Oui. Le déplacement est offert dans toute la région de Marrakech, Palmeraie, route de l'Ourika et Agafay comprises. Envoyez-nous la localisation de la villa sur WhatsApp pour organiser le planning. Voir nos [zones desservies](areas).",
       },
       {
         q: "Peut-on offrir un massage à la future mariée ?",
@@ -520,7 +520,7 @@ export const pagesFr: PagesCopy = {
               "la page depuis laquelle vous avez envoyé la demande et la langue du site.",
             ],
           },
-          "Ces informations servent à vous répondre, à organiser votre rendez-vous et à vous recontacter à ce sujet, par exemple si votre message WhatsApp n'est pas parti. Elles sont enregistrées dans notre base de données et transmises à notre équipe par une notification privée. La conversation WhatsApp elle-même relève de la politique de confidentialité de WhatsApp.",
+          "Ces informations servent à vous répondre, à organiser votre rendez-vous et à vous recontacter à ce sujet, par exemple si votre message WhatsApp n'est pas parti. Elles sont transmises à notre équipe par une notification privée, sans être enregistrées dans une base de données sur ce site. La conversation WhatsApp elle-même relève de la politique de confidentialité de WhatsApp.",
         ],
       },
       {
@@ -567,10 +567,10 @@ export const pagesFr: PagesCopy = {
     eyebrow: "Prix affichés",
     h1: "Tarifs massage et hammam à domicile à Marrakech",
     lead: [
-      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage berbère à 650 MAD pour le massage à 4 mains ou le hammam royal. La thérapeute, le matériel et le déplacement dans Marrakech et ses environs proches sont compris.",
+      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage berbère à 650 MAD pour le massage à 4 mains ou le hammam royal. La thérapeute, le matériel et le déplacement dans toute la région de Marrakech sont compris.",
       "Aucun paiement en ligne : vous réglez directement après votre soin.",
     ],
-    facts: ["De 450 à 650 MAD", "Déplacement offert en ville", "Matériel compris", "Paiement après le soin"],
+    facts: ["De 450 à 650 MAD", "Déplacement offert", "Matériel compris", "Paiement après le soin"],
     table: {
       caption: "Nos soins à domicile et leurs tarifs",
       treatment: "Soin",
@@ -586,22 +586,22 @@ export const pagesFr: PagesCopy = {
             list: [
               "Votre thérapeute femme, pendant toute la durée du soin",
               "La table de massage professionnelle, les huiles, les serviettes et le diffuseur",
-              "Le déplacement dans Marrakech et ses environs proches : Médina, Guéliz, Hivernage, Palmeraie, Agdal",
+              "Le déplacement dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, Agafay…",
               "L'installation et le rangement",
             ],
           },
         ],
       },
       {
-        heading: "Zones plus éloignées",
+        heading: "Même prix dans toute la région",
         blocks: [
-          "Pour la [route de l'Ourika](zone:route-ourika), la route d'Amizmiz ou d'autres zones éloignées, des frais de déplacement peuvent s'appliquer selon la distance. Ils vous sont indiqués sur WhatsApp avant la confirmation, jamais après le soin. Voir toutes nos [zones desservies](areas).",
+          "Le prix ne change pas selon l'adresse : le déplacement est offert jusqu'à la [route de l'Ourika](zone:route-ourika), la route d'Amizmiz ou le désert d'Agafay. Voir toutes nos [zones desservies](areas).",
         ],
       },
       {
         heading: "Paiement",
         blocks: [
-          "Vous réglez directement votre thérapeute après le soin, en espèces (dirhams ou euros) ou par carte bancaire.",
+          "Vous réglez directement votre thérapeute après le soin, en espèces : en dirhams, en euros ou dans une autre devise.",
         ],
       },
       {
@@ -635,7 +635,7 @@ export const pagesFr: PagesCopy = {
     faqs: [
       {
         q: "Le déplacement est-il vraiment offert ?",
-        a: "Oui, dans Marrakech et ses environs proches. Pour les zones éloignées, d'éventuels frais sont annoncés avant la confirmation.",
+        a: "Oui, dans toute la région de Marrakech, sans aucun supplément.",
       },
       {
         q: "Faut-il payer à l'avance ?",
@@ -655,18 +655,18 @@ export const pagesFr: PagesCopy = {
   areas: {
     metaTitle: "Zones Desservies : Massage à Domicile à Marrakech",
     metaDescription:
-      "Massage et hammam à domicile dans tout Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika. Déplacement offert en ville.",
+      "Massage et hammam à domicile dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, Agafay. Déplacement offert.",
     eyebrow: "Zones desservies",
     h1: "Massage à domicile partout à Marrakech",
     lead: [
-      "Nos thérapeutes femmes se déplacent dans tout Marrakech et ses environs proches : riads de la Médina, appartements de Guéliz, hôtels de l'Hivernage, villas de la Palmeraie, résidences de l'Agdal. Le déplacement est offert en ville.",
-      "Pour les zones plus éloignées, comme la route de l'Ourika ou la route d'Amizmiz, d'éventuels frais de déplacement vous sont indiqués avant la confirmation.",
+      "Nos thérapeutes femmes se déplacent dans toute la région de Marrakech : riads de la Médina, appartements de Guéliz, hôtels de l'Hivernage, villas de la Palmeraie, résidences de l'Agdal, domaines de la route de l'Ourika et camps du désert d'Agafay. Le déplacement est toujours offert.",
+      "Pour les adresses éloignées du centre, comme la route de l'Ourika, Agafay ou la route d'Amizmiz, réservez de préférence quelques heures à l'avance : nous organisons le trajet.",
     ],
-    facts: ["Déplacement offert en ville", "Tous les jours 8h–22h", "Riads, villas, hôtels", "Thérapeutes femmes"],
+    facts: ["Déplacement offert", "Tous les jours 8h–22h", "Riads, villas, hôtels", "Thérapeutes femmes"],
     otherAreasHeading: "Autres quartiers et secteurs",
     otherAreasText:
-      "Vous logez ailleurs ? Nous intervenons aussi dans d'autres quartiers de Marrakech et alentours. Envoyez-nous votre localisation sur WhatsApp : nous vous confirmons la disponibilité et les éventuels frais.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Route de Fès", "Route d'Amizmiz"],
+      "Vous logez ailleurs ? Nous intervenons aussi dans d'autres quartiers de Marrakech et alentours. Envoyez-nous votre localisation sur WhatsApp : nous vous confirmons la disponibilité.",
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Amelkis", "Route d'Ouarzazate", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Agafay", "Vallée de l'Ourika"],
     sections: [
       {
         heading: "Préparer l'arrivée de votre thérapeute",
@@ -684,14 +684,14 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Déplacement : ce qui est inclus",
         blocks: [
-          "Le déplacement est offert dans Marrakech et ses environs proches. Au-delà, des frais peuvent s'appliquer selon la distance ; ils sont toujours annoncés avant la confirmation. Les soins, eux, gardent le même prix partout : voir nos [tarifs](prices).",
+          "Le déplacement est offert dans toute la région de Marrakech, quelle que soit l'adresse. Les soins gardent le même prix partout : voir nos [tarifs](prices).",
         ],
       },
     ],
     faqs: [
       {
         q: "Intervenez-vous en dehors de Marrakech ?",
-        a: "Selon la distance et nos disponibilités. Envoyez-nous votre localisation sur WhatsApp : nous vous répondons avec les éventuels frais de déplacement.",
+        a: "Oui, dans toute la région de Marrakech : route de l'Ourika, Agafay, route d'Amizmiz, Amelkis, Al Maaden… Envoyez-nous votre localisation sur WhatsApp pour confirmer la disponibilité.",
       },
       {
         q: "Combien de temps à l'avance faut-il réserver ?",
@@ -699,7 +699,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Le prix des soins change-t-il selon le quartier ?",
-        a: "Non. Seuls d'éventuels frais de déplacement s'ajoutent pour les zones éloignées.",
+        a: "Non. Le prix est le même partout et le déplacement est toujours offert.",
       },
     ],
   },
@@ -743,7 +743,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Des prix clairs",
         blocks: [
-          "Le prix affiché est le prix du soin. Le déplacement est offert dans Marrakech et ses environs proches ; pour les zones éloignées, d'éventuels frais sont annoncés avant la confirmation. Vous réglez après le soin. Voir nos [tarifs](prices).",
+          "Le prix affiché est le prix du soin. Le déplacement est offert dans toute la région de Marrakech. Vous réglez après le soin. Voir nos [tarifs](prices).",
         ],
       },
       {

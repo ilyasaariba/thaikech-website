@@ -74,7 +74,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is a Berber massage at home in Marrakech?",
-        a: "The Traditional Berber Massage costs 450 MAD for 60 minutes. Travel is free within Marrakech and its close surroundings; for more distant areas, any travel fee is confirmed before your booking. See all our [prices](prices).",
+        a: "The Traditional Berber Massage costs 450 MAD for 60 minutes. Travel is free across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Do I need to prepare anything before the therapist arrives?",
@@ -167,7 +167,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is a sports massage at home in Marrakech?",
-        a: "The Sports Recovery Massage costs 500 MAD for 60 minutes, with free travel within Marrakech and its close surroundings. See all our [prices](prices).",
+        a: "The Sports Recovery Massage costs 500 MAD for 60 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Does a sports massage hurt?",
@@ -257,7 +257,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is a Thai massage at home in Marrakech?",
-        a: "The Imperial Thai Massage & Hot Towels costs 550 MAD for 75 minutes, with free travel within Marrakech and its close surroundings. See all our [prices](prices).",
+        a: "The Imperial Thai Massage & Hot Towels costs 550 MAD for 75 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Does Thai massage hurt?",
@@ -348,7 +348,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "How much is a pregnancy massage at home?",
-        a: "The Gentle Mum-to-Be Massage costs 550 MAD for 90 minutes, with free travel within Marrakech and its close surroundings. See all our [prices](prices).",
+        a: "The Gentle Mum-to-Be Massage costs 550 MAD for 90 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Is the massage done by a woman?",
@@ -438,7 +438,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is a four-hands massage at home in Marrakech?",
-        a: "The Royal Four-Hands Massage costs 650 MAD for 75 minutes with two therapists, with free travel within Marrakech and its close surroundings. See our [prices](prices).",
+        a: "The Royal Four-Hands Massage costs 650 MAD for 75 minutes with two therapists, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
       {
         q: "Is the four-hands massage done by two women?",
@@ -534,7 +534,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "How much is the Berber hammam at home?",
-        a: "The Traditional Berber Hammam costs 550 MAD for 75 minutes, including the 20-minute massage, with free travel within Marrakech and its close surroundings. See our [prices](prices).",
+        a: "The Traditional Berber Hammam costs 550 MAD for 75 minutes, including the 20-minute massage, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
       {
         q: "Can I have the hammam in a hotel room?",
@@ -621,7 +621,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is the royal hammam at home in Marrakech?",
-        a: "650 MAD for 90 minutes, with free travel within Marrakech and its close surroundings. See all our [prices](prices).",
+        a: "650 MAD for 90 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Is the royal hammam suitable for sensitive skin?",

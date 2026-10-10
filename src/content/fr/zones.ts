@@ -51,7 +51,7 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
     faqs: [
       {
         q: "Le déplacement dans la Médina est-il payant ?",
-        a: "Non, le déplacement est offert dans la Médina, comme dans le reste de Marrakech et ses environs proches.",
+        a: "Non, le déplacement est offert dans la Médina, comme dans toute la région de Marrakech.",
       },
       {
         q: "Ma chambre de riad est petite, est-ce un problème ?",
@@ -304,18 +304,18 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
     teaser: "Villas, maisons d'hôtes et domaines au sud-est de Marrakech, sur la route de l'Atlas.",
     metaTitle: "Massage à Domicile Route de l'Ourika, Marrakech",
     metaDescription:
-      "Massage et hammam à domicile dans votre villa route de l'Ourika, près de Marrakech. Thérapeutes femmes, 8h–22h, frais de déplacement éventuels annoncés avant.",
+      "Massage et hammam à domicile dans votre villa route de l'Ourika, près de Marrakech. Thérapeutes femmes, 8h–22h, déplacement offert, paiement après le soin.",
     h1: "Massage et hammam à domicile route de l'Ourika",
     lead: [
       "La route de l'Ourika relie Marrakech à la vallée de l'Ourika et aux contreforts de l'Atlas. Le long de cette route, villas, maisons d'hôtes et domaines accueillent les voyageurs en quête de calme. Nos thérapeutes femmes viennent jusqu'à vous avec tout le matériel.",
-      "Cette zone est plus éloignée du centre : des frais de déplacement peuvent s'appliquer selon la distance. Ils vous sont toujours indiqués avant la confirmation, jamais après le soin.",
+      "Même loin du centre, le déplacement est offert : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
     ],
-    places: ["Route de l'Ourika", "Vallée de l'Ourika (sur demande)"],
+    places: ["Route de l'Ourika", "Vallée de l'Ourika"],
     sections: [
       {
-        heading: "Des frais de déplacement transparents",
+        heading: "Déplacement offert, même prix qu'en ville",
         blocks: [
-          "Le prix de chaque soin reste le même que partout ailleurs (voir nos [tarifs](prices)). Seuls d'éventuels frais de déplacement s'ajoutent, selon la distance depuis Marrakech. Envoyez votre localisation au moment de la réservation : nous vous confirmons le montant sur WhatsApp avant de valider le rendez-vous.",
+          "Le prix de chaque soin reste le même que partout ailleurs (voir nos [tarifs](prices)), et le déplacement est offert jusqu'à votre villa. Envoyez votre localisation au moment de la réservation : nous organisons le trajet et confirmons l'horaire sur WhatsApp.",
         ],
       },
       {
@@ -334,11 +334,11 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
     faqs: [
       {
         q: "Le déplacement route de l'Ourika est-il payant ?",
-        a: "Des frais peuvent s'appliquer selon la distance. Ils vous sont indiqués sur WhatsApp avant la confirmation du rendez-vous.",
+        a: "Non, le déplacement est offert, comme dans toute la région de Marrakech.",
       },
       {
         q: "Jusqu'où vous déplacez-vous ?",
-        a: "Envoyez-nous la localisation de votre villa : nous vous confirmons la disponibilité et les éventuels frais de déplacement.",
+        a: "Dans toute la région de Marrakech, vallée de l'Ourika comprise. Envoyez-nous la localisation de votre villa : nous vous confirmons la disponibilité.",
       },
       {
         q: "Faut-il réserver plus à l'avance ?",
@@ -346,7 +346,7 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
       },
       {
         q: "Les soins sont-ils plus chers route de l'Ourika ?",
-        a: "Non, les soins sont au même prix que dans Marrakech. Seuls d'éventuels frais de déplacement s'ajoutent.",
+        a: "Non, les soins sont au même prix que dans Marrakech, et le déplacement est offert.",
       },
     ],
   },

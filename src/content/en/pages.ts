@@ -87,7 +87,7 @@ export const pagesEn: PagesCopy = {
         },
         {
           title: "Clear Prices",
-          text: "The price shown is the price of your treatment. Travel is free within Marrakech and its close surroundings.",
+          text: "The price shown is the price of your treatment. Travel is free across the whole Marrakech area.",
         },
         {
           title: "Pay After Your Treatment",
@@ -100,7 +100,7 @@ export const pagesEn: PagesCopy = {
       eyebrow: "Areas We Cover",
       heading: "All Over Marrakech",
       intro:
-        "From the Medina to the Palmeraie, our therapists come to you. Travel is free within Marrakech and its close surroundings.",
+        "From the Medina to the Palmeraie, our therapists come to you. Travel is free across the whole Marrakech area.",
       allAreas: "See all the areas we cover",
     },
     guides: {
@@ -121,11 +121,11 @@ export const pagesEn: PagesCopy = {
         },
         {
           q: "What are your travel fees and service areas?",
-          a: "Travel is free within Marrakech and its close surroundings (Medina, Gueliz, Hivernage, Palmeraie, Agdal). For more distant areas (Route de l'Ourika, Route d'Amizmiz, etc.), a travel fee may apply: we tell you before confirming. See the [areas we cover](areas).",
+          a: "Travel is free across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, Agafay, Route d'Amizmiz… See the [areas we cover](areas).",
         },
         {
           q: "Which payment methods do you accept?",
-          a: "You pay your therapist directly after the treatment, in cash (dirhams or euros) or by bank card. All our prices are on the [prices](prices) page.",
+          a: "You pay your therapist directly after the treatment, in cash: dirhams, euros or another currency. All our prices are on the [prices](prices) page.",
         },
         {
           q: "Do you offer couples massages?",
@@ -234,7 +234,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "Is travel included?",
-        a: "Yes, within Marrakech and its close surroundings. For more distant areas, any fee is confirmed before booking.",
+        a: "Yes, across the whole Marrakech area.",
       },
     ],
   },
@@ -274,7 +274,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "How much is a couples massage?",
         blocks: [
-          "Each treatment is charged at its listed price. For example, two Berber massages cost 2 × 450 MAD, so 900 MAD; one Berber and one Thai massage cost 450 + 550 MAD, so 1,000 MAD. Travel is free within Marrakech and its close surroundings. See all our [prices](prices).",
+          "Each treatment is charged at its listed price. For example, two Berber massages cost 2 × 450 MAD, so 900 MAD; one Berber and one Thai massage cost 450 + 550 MAD, so 1,000 MAD. Travel is free across the whole Marrakech area. See all our [prices](prices).",
         ],
       },
       {
@@ -401,9 +401,9 @@ export const pagesEn: PagesCopy = {
     h1: "Bachelorette and group spa at your villa in Marrakech",
     lead: [
       "A bachelorette, a birthday or a girls' trip to Marrakech? Turn your villa or riad into a private spa for the afternoon. Our female therapists arrive with massage tables, oils and towels, so everyone enjoys their treatment without leaving the pool or the terrace.",
-      "Enter the number of people and the date in the form: we will suggest a schedule on WhatsApp, with treatments following on two at a time.",
+      "Up to 10 people in the same day: enter the number of people and the date in the form and we will suggest a schedule on WhatsApp, with treatments following on two at a time.",
     ],
-    facts: ["Female therapists", "Two at a time", "Everyone's own choice", "Pay after your treatments"],
+    facts: ["Up to 10 people a day", "Female therapists", "Two at a time", "Pay after your treatments"],
     sections: [
       {
         heading: "How we organise treatments for your group",
@@ -429,7 +429,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "How much does it cost?",
         blocks: [
-          "Each treatment is charged at its listed price, from 450 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free within Marrakech and its close surroundings; for a more distant villa, any travel fee is confirmed before booking. See all our [prices](prices).",
+          "Each treatment is charged at its listed price, from 450 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free across the whole Marrakech area, even for a villa far from the centre. See all our [prices](prices).",
         ],
       },
       {
@@ -470,7 +470,7 @@ export const pagesEn: PagesCopy = {
     faqs: [
       {
         q: "How many people can you treat in one day?",
-        a: "Treatments follow on two at a time. Enter the number of people in the form and we will suggest a schedule on WhatsApp that fits the treatments chosen and our availability.",
+        a: "Up to 10 people in the same day. Treatments follow on two at a time: enter the number of people in the form and we will suggest a schedule on WhatsApp that fits the treatments chosen.",
       },
       {
         q: "Can everyone choose a different treatment?",
@@ -482,7 +482,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "Do you come to villas outside Marrakech?",
-        a: "Depending on distance and availability. Send us the villa's location on WhatsApp and we will reply with any travel fee before anything is confirmed. See the [areas we cover](areas).",
+        a: "Yes. Travel is free across the whole Marrakech area, including the Palmeraie, the Route de l'Ourika and Agafay. Send us the villa's location on WhatsApp so we can plan the schedule. See the [areas we cover](areas).",
       },
       {
         q: "Can the group treat the bride-to-be?",
@@ -520,7 +520,7 @@ export const pagesEn: PagesCopy = {
               "the page you sent the request from and the language of the site.",
             ],
           },
-          "We use this information to reply to you, arrange your appointment and contact you about it, for example if your WhatsApp message was not sent. It is stored in our database and passed to our team through a private notification. The WhatsApp conversation itself is covered by WhatsApp's privacy policy.",
+          "We use this information to reply to you, arrange your appointment and contact you about it, for example if your WhatsApp message was not sent. It is passed to our team through a private notification and is not stored in a database on this website. The WhatsApp conversation itself is covered by WhatsApp's privacy policy.",
         ],
       },
       {
@@ -567,10 +567,10 @@ export const pagesEn: PagesCopy = {
     eyebrow: "Clear prices",
     h1: "Massage and hammam at home prices in Marrakech",
     lead: [
-      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the Berber massage to 650 MAD for the four-hands massage or the royal hammam. The therapist, equipment and travel within Marrakech and its close surroundings are included.",
+      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the Berber massage to 650 MAD for the four-hands massage or the royal hammam. The therapist, equipment and travel across the whole Marrakech area are included.",
       "No online payment: you pay directly after your treatment.",
     ],
-    facts: ["450 to 650 MAD", "Free travel in the city", "Equipment included", "Pay after your treatment"],
+    facts: ["450 to 650 MAD", "Free travel", "Equipment included", "Pay after your treatment"],
     table: {
       caption: "Our at-home treatments and their prices",
       treatment: "Treatment",
@@ -586,22 +586,22 @@ export const pagesEn: PagesCopy = {
             list: [
               "Your female therapist, for the whole treatment",
               "The professional massage table, oils, towels and diffuser",
-              "Travel within Marrakech and its close surroundings: Medina, Gueliz, Hivernage, Palmeraie, Agdal",
+              "Travel across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, Agafay…",
               "Setting up and packing away",
             ],
           },
         ],
       },
       {
-        heading: "More distant areas",
+        heading: "Same price across the area",
         blocks: [
-          "For the [Route de l'Ourika](zone:route-ourika), the Route d'Amizmiz or other distant areas, a travel fee may apply depending on distance. It is confirmed on WhatsApp before booking, never after the treatment. See all the [areas we cover](areas).",
+          "The price doesn't change with the address: travel is free as far as the [Route de l'Ourika](zone:route-ourika), the Route d'Amizmiz or the Agafay desert. See all the [areas we cover](areas).",
         ],
       },
       {
         heading: "Payment",
         blocks: [
-          "You pay your therapist directly after the treatment, in cash (dirhams or euros) or by bank card.",
+          "You pay your therapist directly after the treatment, in cash: dirhams, euros or another currency.",
         ],
       },
       {
@@ -635,7 +635,7 @@ export const pagesEn: PagesCopy = {
     faqs: [
       {
         q: "Is travel really free?",
-        a: "Yes, within Marrakech and its close surroundings. For distant areas, any fee is confirmed before booking.",
+        a: "Yes, across the whole Marrakech area, with no extra charge.",
       },
       {
         q: "Do I need to pay in advance?",
@@ -655,18 +655,18 @@ export const pagesEn: PagesCopy = {
   areas: {
     metaTitle: "Areas We Cover: Massage at Home in Marrakech",
     metaDescription:
-      "Massage and hammam at home all over Marrakech: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika. Free travel within the city.",
+      "Massage and hammam at home across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, Agafay. Free travel.",
     eyebrow: "Areas we cover",
     h1: "Massage at home all over Marrakech",
     lead: [
-      "Our female therapists travel all over Marrakech and its close surroundings: Medina riads, Gueliz apartments, Hivernage hotels, Palmeraie villas and Agdal residences. Travel within the city is free.",
-      "For more distant areas, such as the Route de l'Ourika or the Route d'Amizmiz, any travel fee is confirmed before booking.",
+      "Our female therapists travel across the whole Marrakech area: Medina riads, Gueliz apartments, Hivernage hotels, Palmeraie villas, Agdal residences, estates on the Route de l'Ourika and camps in the Agafay desert. Travel is always free.",
+      "For addresses far from the centre, such as the Route de l'Ourika, Agafay or the Route d'Amizmiz, it helps to book a few hours ahead so we can plan the journey.",
     ],
-    facts: ["Free travel in the city", "Every day 8am–10pm", "Riads, villas, hotels", "Female therapists"],
+    facts: ["Free travel", "Every day 8am–10pm", "Riads, villas, hotels", "Female therapists"],
     otherAreasHeading: "Other neighbourhoods and areas",
     otherAreasText:
-      "Staying somewhere else? We also cover other neighbourhoods in and around Marrakech. Send us your location on WhatsApp and we will confirm availability and any travel fee.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Route de Fès", "Route d'Amizmiz"],
+      "Staying somewhere else? We also cover other neighbourhoods in and around Marrakech. Send us your location on WhatsApp and we will confirm availability.",
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Amelkis", "Route d'Ouarzazate", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Agafay", "Ourika Valley"],
     sections: [
       {
         heading: "Preparing for your therapist's arrival",
@@ -684,14 +684,14 @@ export const pagesEn: PagesCopy = {
       {
         heading: "Travel: what's included",
         blocks: [
-          "Travel is free within Marrakech and its close surroundings. Beyond that, a fee may apply depending on distance; it is always confirmed before booking. Treatments cost the same everywhere: see our [prices](prices).",
+          "Travel is free across the whole Marrakech area, whatever the address. Treatments cost the same everywhere: see our [prices](prices).",
         ],
       },
     ],
     faqs: [
       {
         q: "Do you travel outside Marrakech?",
-        a: "Depending on distance and availability. Send us your location on WhatsApp and we will reply with any travel fee.",
+        a: "Yes, across the whole Marrakech area: Route de l'Ourika, Agafay, Route d'Amizmiz, Amelkis, Al Maaden… Send us your location on WhatsApp to confirm availability.",
       },
       {
         q: "How far in advance should I book?",
@@ -699,7 +699,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "Do treatment prices change by neighbourhood?",
-        a: "No. Only a possible travel fee is added for distant areas.",
+        a: "No. The price is the same everywhere and travel is always free.",
       },
     ],
   },
@@ -743,7 +743,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "Clear prices",
         blocks: [
-          "The price shown is the price of the treatment. Travel is free within Marrakech and its close surroundings; for distant areas, any fee is confirmed before booking. You pay after the treatment. See our [prices](prices).",
+          "The price shown is the price of the treatment. Travel is free across the whole Marrakech area. You pay after the treatment. See our [prices](prices).",
         ],
       },
       {

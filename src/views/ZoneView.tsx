@@ -57,7 +57,7 @@ export default function ZoneView({ id, locale }: { id: ZoneId; locale: Locale })
         h1={zone.h1}
         lead={zone.lead}
         facts={[
-          zone.travelIncluded ? ui.common.travelIncluded : ui.common.travelQuote,
+          ui.common.travelIncluded,
           ui.common.therapists,
           ui.common.hours,
           ui.common.payAfter,

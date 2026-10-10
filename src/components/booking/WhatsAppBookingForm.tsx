@@ -46,8 +46,8 @@ function getClockSnapshot(): string {
 
 const getSearchSnapshot = () => window.location.search;
 
-// Saves the request so it can be followed up even if the visitor never
-// presses send in WhatsApp. sendBeacon still delivers while the page hands
+// Alerts the business on Telegram so the request can be followed up even if
+// the visitor never presses send in WhatsApp. sendBeacon still delivers while the page hands
 // over to WhatsApp; fetch with keepalive is the fallback.
 function saveLead(lead: Record<string, unknown>) {
   const body = JSON.stringify(lead);
