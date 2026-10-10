@@ -11,6 +11,8 @@ export interface UiStrings {
     hammamHub: string;
     duo: string;
     inRoom: string;
+    groups: string;
+    privacy: string;
     areas: string;
     prices: string;
     guides: string;
@@ -23,6 +25,15 @@ export interface UiStrings {
   language: { name: string; code: string; label: string };
   /** Shown to visitors whose browser prefers this language, on the other language's page. */
   suggestion: { text: string; action: string; dismiss: string };
+  /** Floating WhatsApp button and mobile contact bar. */
+  contact: {
+    whatsapp: string;
+    question: string;
+    book: string;
+    /** Pre-filled WhatsApp message; {page} is replaced by the page's topic. */
+    message: string;
+    messageAbout: string;
+  };
   footer: {
     description: string;
     available: string;
@@ -87,6 +98,8 @@ export const UI: Record<Locale, UiStrings> = {
       hammamHub: "Hammam à domicile",
       duo: "Massage en duo",
       inRoom: "Massage en chambre d'hôtel",
+      groups: "EVJF & groupes",
+      privacy: "Confidentialité",
       areas: "Zones",
       prices: "Tarifs",
       guides: "Guides",
@@ -100,6 +113,13 @@ export const UI: Record<Locale, UiStrings> = {
       text: "Cette page existe aussi en français.",
       action: "Voir en français",
       dismiss: "Fermer",
+    },
+    contact: {
+      whatsapp: "WhatsApp",
+      question: "Une question ? Écrivez-nous",
+      book: "Réserver",
+      message: "Bonjour Thai Kech, j'ai une question sur vos soins à domicile à Marrakech.",
+      messageAbout: "Bonjour Thai Kech, j'ai une question au sujet de : {page}.",
     },
     footer: {
       description:
@@ -168,6 +188,8 @@ export const UI: Record<Locale, UiStrings> = {
       hammamHub: "Hammam at home",
       duo: "Couples massage",
       inRoom: "In-room massage",
+      groups: "Bachelorette & groups",
+      privacy: "Privacy",
       areas: "Areas",
       prices: "Prices",
       guides: "Guides",
@@ -181,6 +203,13 @@ export const UI: Record<Locale, UiStrings> = {
       text: "This page is also available in English.",
       action: "View in English",
       dismiss: "Close",
+    },
+    contact: {
+      whatsapp: "WhatsApp",
+      question: "Questions? Message us",
+      book: "Book",
+      message: "Hello Thai Kech, I have a question about your treatments at home in Marrakech.",
+      messageAbout: "Hello Thai Kech, I have a question about: {page}.",
     },
     footer: {
       description:

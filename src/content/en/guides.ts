@@ -503,4 +503,202 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       label: "See our prices",
     },
   },
+
+  "home-massage-prices": {
+    slug: "massage-at-home-prices-marrakech",
+    title: "How much does a massage at home cost in Marrakech? 2026 prices",
+    metaTitle: "Massage at Home Prices in Marrakech (2026 Guide)",
+    metaDescription:
+      "How much is a massage at home in Marrakech? 2026 price ranges, what changes the price, travel fees, tipping and the traps to avoid before you book.",
+    excerpt:
+      "Price ranges, travel fees, actual treatment time: everything to check before booking a massage at home in Marrakech.",
+    imageAlt: "Therapist massaging a client's back with argan oil",
+    intro: [
+      "Riad, villa or hotel room: in Marrakech, many providers will come to you for a massage or a hammam. Advertised prices vary, and so does what they include.",
+      "Here are the price ranges published online in October 2026, what changes the price and the questions to ask before you confirm.",
+    ],
+    sections: [
+      {
+        heading: "Prices at a glance",
+        blocks: [
+          "Based on the prices published online by at-home massage providers in Marrakech in October 2026:",
+          {
+            list: [
+              "**One-hour massage**: usually between **450 and 650 MAD** per person;",
+              "**90-minute massage**: up to about **900 MAD** with some spas that travel;",
+              "**Hammam at home**: expect a budget similar to a long massage, depending on the ritual.",
+            ],
+          },
+          "For reference, Thai Kech treatments range from **450 MAD** (Berber massage, 60 min) to **650 MAD** (four-hands massage or royal hammam), with free travel within Marrakech and its close surroundings. Full details on our [prices](prices) page.",
+        ],
+      },
+      {
+        heading: "What changes the price",
+        blocks: [
+          {
+            list: [
+              "**Actual treatment time**: compare the price per minute, not just the headline price.",
+              "**Type of treatment**: a [four-hands massage](service:massage-4-mains) takes two therapists, and a hammam needs more products and time.",
+              "**Distance**: some providers charge travel on top, especially for villas outside the city.",
+              "**Number of people**: a [couples massage](duo) or a [group](groups) is usually charged treatment by treatment.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "At home or at a spa: what budget?",
+        blocks: [
+          "At a spa, add the return taxi and the time spent travelling to the price of the treatment. Big hotel spas generally charge more than at-home providers.",
+          "At home, the price often includes travel within the city, and you stay relaxed afterwards, with no journey back.",
+        ],
+      },
+      {
+        heading: "Fees to check before you confirm",
+        blocks: [
+          {
+            list: [
+              "Is **travel** included, or charged depending on the area?",
+              "Is the price **per person** or per session, for a couple?",
+              "Does the stated time cover the **treatment itself**, not the set-up?",
+              "Do you **pay in advance**, or after the treatment?",
+            ],
+          },
+          "The simplest way: ask for the final price in writing on WhatsApp before you confirm.",
+        ],
+      },
+      {
+        heading: "What about tipping?",
+        blocks: [
+          "Tipping is never compulsory, but it is appreciated in Morocco. Our guidelines are in the guide [tipping for a massage or hammam in Morocco](guide:tipping).",
+        ],
+      },
+      {
+        heading: "A very low price? Be careful",
+        blocks: [
+          "Some very cheap listings, especially on social media, are not professional wellness treatments. Before booking, check that the provider shows its prices, its treatments and clear rules, like our [code of conduct](charter).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much is a one-hour massage at home in Marrakech?",
+        a: "Based on prices published online in October 2026, usually between 450 and 650 MAD. At Thai Kech, the one-hour Berber massage costs 450 MAD, with free travel within the city.",
+      },
+      {
+        q: "Is travel included in the price?",
+        a: "It depends on the provider, so check before you confirm. At Thai Kech, it is free within Marrakech and its close surroundings; for distant areas, any fee is confirmed before booking.",
+      },
+      {
+        q: "Do I pay before the massage?",
+        a: "Some providers ask for payment in advance. At Thai Kech, there is no online payment: you pay after the treatment.",
+      },
+    ],
+    cta: {
+      text: "Clear prices, free travel in the city and payment after your treatment.",
+      label: "See all our prices",
+    },
+  },
+
+  "hammam-marrakech": {
+    slug: "hammam-marrakech-public-spa-or-at-home",
+    title: "Hammam in Marrakech: public, spa or at home, which to choose?",
+    metaTitle: "Hammam in Marrakech: Public, Spa or at Home?",
+    metaDescription:
+      "Public hammam, spa hammam or hammam at home in Marrakech: what happens, atmosphere, privacy, budget and tips to choose the right one for your stay.",
+    excerpt:
+      "Neighbourhood hammam, spa or a ritual in your riad: the differences, to choose the hammam that suits you in Marrakech.",
+    imageAlt: "Black soap, kessa glove and rhassoul clay on a marble hammam table",
+    intro: [
+      "You can't stay in Marrakech without hearing about the hammam. But a neighbourhood hammam, a spa hammam and a ritual at home are completely different experiences.",
+      "Here is how each one works, what to bring and how to choose.",
+    ],
+    sections: [
+      {
+        heading: "The hammam, a Moroccan tradition",
+        blocks: [
+          "In Morocco, the hammam is part of everyday life. People go to wash in the steam, scrub their skin and catch up. The ritual rests on three steps: black soap, a scrub with a kessa glove and rinsing, sometimes followed by a clay such as rhassoul.",
+        ],
+      },
+      {
+        heading: "The public neighbourhood hammam",
+        blocks: [
+          "This is the most authentic experience: a shared hot room, with separate hours or areas for women and men. Entry is cheap, and you can ask one of the hammam attendants to do the scrub for you.",
+          {
+            list: [
+              "**Pros**: a real slice of local life, a very small budget.",
+              "**Cons**: a shared space, little privacy and customs to learn. Bring your own black soap, glove, towel and sandals.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "The spa or riad hammam",
+        blocks: [
+          "Spas and some riads offer a private hammam with a steam room, often combined with a massage. The experience is comfortable and well supervised.",
+          {
+            list: [
+              "**Pros**: a real hot room and a polished setting.",
+              "**Cons**: a return journey, time slots to book and a higher budget.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Hammam at home",
+        blocks: [
+          "The ritual comes to you, in your bathroom or your riad's or villa's private hammam. There is no steam room, but every step is there: black soap, kessa, clay, rinsing, then argan oil.",
+          {
+            list: [
+              "**Pros**: complete privacy, a female therapist just for you, no journey.",
+              "**Cons**: no steam; you need a shower with hot water.",
+            ],
+          },
+          "The full sequence is explained in our guide [hammam at home: what to expect](guide:hammam-at-home).",
+        ],
+      },
+      {
+        heading: "Which one should you choose?",
+        blocks: [
+          {
+            list: [
+              "You want to **live the city like a local**: the neighbourhood hammam, with someone who knows the place.",
+              "You want **steam and a spa setting**: a spa hammam or your riad's.",
+              "You want **privacy and no travelling**, or you are with family, a partner or friends: the [hammam at home](hammam).",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Tips for your first hammam",
+        blocks: [
+          {
+            list: [
+              "Avoid waxing in the 24 hours before or after the scrub.",
+              "No scrubbing on sunburn.",
+              "Drink water and plan a quiet moment afterwards.",
+              "Pregnant? Ask your doctor before any hammam; see our guide [massage and pregnancy](guide:pregnancy-travel).",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can tourists go to a public hammam?",
+        a: "Yes, many neighbourhood hammams welcome visitors. Ask your riad for an address and the hours for women or men.",
+      },
+      {
+        q: "How much is a hammam at home in Marrakech?",
+        a: "At Thai Kech, 550 MAD for the Berber Hammam (75 min) and 650 MAD for the Royal Hammam (90 min), with free travel within Marrakech and its close surroundings.",
+      },
+      {
+        q: "What should I wear in a hammam?",
+        a: "At a public hammam, underwear bottoms or swimwear. At home, swimwear or underwear you don't mind getting wet.",
+      },
+    ],
+    cta: {
+      text: "The hammam ritual, in complete privacy in your riad or villa.",
+      label: "Discover hammam at home",
+    },
+  },
 };

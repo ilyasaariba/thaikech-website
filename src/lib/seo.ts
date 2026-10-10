@@ -69,6 +69,20 @@ export function rootMetadata(locale: Locale): Metadata {
       card: "summary_large_image",
       images: shareImages(locale),
     },
+    verification: siteVerification(),
+  };
+}
+
+// Ownership tags for Google Search Console and Bing Webmaster Tools. A
+// verification code is public by design (it sits in every page's HTML), so
+// it may live in the code once known; the env vars allow setting it earlier.
+function siteVerification(): Metadata["verification"] {
+  const google = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
+  const bing = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
+  if (!google && !bing) return undefined;
+  return {
+    ...(google ? { google } : {}),
+    ...(bing ? { other: { "msvalidate.01": bing } } : {}),
   };
 }
 
@@ -166,6 +180,7 @@ export function businessNode(locale: Locale, { withCatalog = false } = {}): Json
       opens: BUSINESS.opens,
       closes: BUSINESS.closes,
     },
+    ...(BUSINESS.sameAs.length > 0 ? { sameAs: BUSINESS.sameAs } : {}),
   };
 
   if (withCatalog) {

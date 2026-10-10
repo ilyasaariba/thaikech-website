@@ -18,6 +18,8 @@ export interface Guide extends GuideBase, GuideCopy {}
 
 /** Newest first on the guides index. */
 export const GUIDE_IDS: GuideId[] = [
+  "home-massage-prices",
+  "hammam-marrakech",
   "hammam-at-home",
   "berber-or-thai",
   "hotel-room-massage",
@@ -27,6 +29,20 @@ export const GUIDE_IDS: GuideId[] = [
 ];
 
 const BASE: Record<GuideId, GuideBase> = {
+  "home-massage-prices": {
+    id: "home-massage-prices",
+    published: "2026-10-10",
+    updated: "2026-10-10",
+    image: "/assets/massage-huile-argan-therapeute.webp",
+    target: "prices",
+  },
+  "hammam-marrakech": {
+    id: "hammam-marrakech",
+    published: "2026-10-10",
+    updated: "2026-10-10",
+    image: "/assets/hammam-berbere-savon-noir-kessa.webp",
+    target: "hammam",
+  },
   "hammam-at-home": {
     id: "hammam-at-home",
     published: "2026-09-14",

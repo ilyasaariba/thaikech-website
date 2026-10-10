@@ -11,12 +11,12 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Un massage enveloppant à l'huile d'argan : pressions glissées et étirements doux pour relâcher le corps et apaiser l'esprit.",
     imageAlt: "Table de massage dressée avec huile d'argan et serviettes dans un décor marocain",
-    metaTitle: "Massage Berbère à Domicile à Marrakech – 450 MAD",
+    metaTitle: "Massage Marocain Berbère à Domicile à Marrakech – 450 MAD",
     metaDescription:
-      "Massage berbère traditionnel à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
+      "Massage marocain relaxant à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
     h1: "Massage berbère à domicile à Marrakech",
     lead: [
-      "Inspiré des gestes de bien-être marocains, le massage berbère associe l'huile d'argan à des pressions glissées et des étirements doux. C'est le soin idéal pour découvrir le massage marocain sans quitter votre riad, votre villa ou votre chambre d'hôtel.",
+      "Inspiré des gestes de bien-être marocains, le massage berbère est un massage relaxant qui associe l'huile d'argan à des pressions glissées et des étirements doux. C'est le soin idéal pour découvrir le massage marocain sans quitter votre riad, votre villa ou votre chambre d'hôtel.",
       "Votre thérapeute arrive avec la table de massage, les huiles et les serviettes, installe l'espace et vous laisse profiter d'une heure de détente complète. Vous réglez après le soin.",
     ],
     idealFor: [
@@ -110,7 +110,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       "Massage sportif et récupération à domicile à Marrakech, après un trek dans l'Atlas, un golf ou le sport. 1 h, 500 MAD, dans votre riad, villa ou hôtel.",
     h1: "Massage sportif à domicile à Marrakech",
     lead: [
-      "Randonnée dans l'Atlas, parcours de golf, journée de marche dans la Médina ou séance de sport : le massage sportif Thai Kech aide votre corps à récupérer. Des pressions plus profondes et des mouvements toniques ciblent les zones tendues (jambes, dos, épaules) pour relâcher les muscles et retrouver de la souplesse.",
+      "Randonnée dans l'Atlas, parcours de golf, journée de marche dans la Médina ou séance de sport : le massage sportif Thai Kech aide votre corps à récupérer. Proche du massage deep tissue, il utilise des pressions plus profondes et des mouvements toniques qui ciblent les zones tendues (jambes, dos, épaules) pour relâcher les muscles et retrouver de la souplesse.",
       "Le soin dure une heure et se déroule chez vous, dans votre riad, votre villa ou votre chambre d'hôtel. Pas de trajet après l'effort : vous restez au calme.",
     ],
     idealFor: [
@@ -198,12 +198,12 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Pressions ciblées et étirements inspirés du Nuad Boran, associés à des serviettes chaudes pour dénouer les tensions.",
     imageAlt: "Thérapeute réalisant un étirement de la jambe pendant un massage thaï",
-    metaTitle: "Massage Thaï à Domicile à Marrakech – 550 MAD",
+    metaTitle: "Massage Thaïlandais à Domicile à Marrakech – 550 MAD",
     metaDescription:
       "Massage thaï impérial à domicile à Marrakech : pressions, étirements et serviettes chaudes, 1 h 15 pour 550 MAD. Dans votre riad, villa ou hôtel, 8h–22h.",
     h1: "Massage thaï à domicile à Marrakech",
     lead: [
-      "Envie d'un massage thaï sans traverser la ville jusqu'à un spa ? Notre Massage Thaï Impérial vient à vous. Il combine des pressions ciblées et des étirements inspirés du Nuad Boran, le massage traditionnel thaïlandais, avec des serviettes chaudes qui aident les muscles à se relâcher.",
+      "Envie d'un massage thaïlandais sans traverser la ville jusqu'à un spa ? Notre Massage Thaï Impérial vient à vous. Il combine des pressions ciblées et des étirements inspirés du Nuad Boran, le massage traditionnel thaïlandais, avec des serviettes chaudes qui aident les muscles à se relâcher.",
       "Le soin dure 1 h 15. Il convient à celles et ceux qui aiment un massage actif, qui délie le dos, les hanches et les jambes tout en restant confortable.",
     ],
     idealFor: [

@@ -503,4 +503,202 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       label: "Voir nos tarifs",
     },
   },
+
+  "home-massage-prices": {
+    slug: "prix-massage-a-domicile-marrakech",
+    title: "Prix d'un massage à domicile à Marrakech : à quoi s'attendre en 2026",
+    metaTitle: "Prix d'un Massage à Domicile à Marrakech (2026)",
+    metaDescription:
+      "Combien coûte un massage à domicile à Marrakech ? Fourchettes de prix 2026, ce qui fait varier le tarif, frais de déplacement, pourboire et pièges à éviter.",
+    excerpt:
+      "Fourchettes de prix, frais de déplacement, durée réelle : tout ce qu'il faut vérifier avant de réserver un massage à domicile à Marrakech.",
+    imageAlt: "Thérapeute massant le dos d'une cliente à l'huile d'argan",
+    intro: [
+      "Riad, villa ou chambre d'hôtel : à Marrakech, de nombreux prestataires se déplacent pour un massage ou un hammam. Les prix affichés varient, et ce qu'ils incluent aussi.",
+      "Voici les fourchettes de prix relevées en ligne en octobre 2026, ce qui fait varier le tarif et les questions à poser avant de confirmer.",
+    ],
+    sections: [
+      {
+        heading: "Les prix en bref",
+        blocks: [
+          "D'après les tarifs affichés en ligne par les prestataires de massage à domicile à Marrakech en octobre 2026 :",
+          {
+            list: [
+              "**Massage d'une heure** : le plus souvent entre **450 et 650 MAD** par personne ;",
+              "**Massage d'1 h 30** : jusqu'à **900 MAD** environ chez certains spas qui se déplacent ;",
+              "**Hammam à domicile** : comptez un budget comparable à un massage long, selon le rituel.",
+            ],
+          },
+          "À titre de repère, chez Thai Kech, les soins vont de **450 MAD** (massage berbère, 1 h) à **650 MAD** (massage à 4 mains ou hammam royal), déplacement offert dans Marrakech et ses environs proches. Tous les détails sur notre page [tarifs](prices).",
+        ],
+      },
+      {
+        heading: "Ce qui fait varier le prix",
+        blocks: [
+          {
+            list: [
+              "**La durée réelle du soin** : comparez le prix à la minute, pas seulement le prix affiché.",
+              "**Le type de soin** : un [massage à 4 mains](service:massage-4-mains) mobilise deux thérapeutes, un hammam demande plus de produits et de temps.",
+              "**La distance** : certains prestataires facturent le déplacement en plus, surtout pour les villas éloignées de la ville.",
+              "**Le nombre de personnes** : un [massage en duo](duo) ou un [groupe](groups) se paie en général soin par soin.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Massage à domicile ou en spa : quel budget ?",
+        blocks: [
+          "Au spa, ajoutez au prix du soin le trajet aller-retour en taxi et le temps perdu. Les spas des grands hôtels affichent en général des tarifs plus élevés que les prestataires à domicile.",
+          "À domicile, le prix inclut souvent le déplacement en ville, et vous restez détendu(e) jusqu'au bout, sans reprendre la route après le soin.",
+        ],
+      },
+      {
+        heading: "Les frais à vérifier avant de confirmer",
+        blocks: [
+          {
+            list: [
+              "Le **déplacement** est-il compris, ou facturé selon le quartier ?",
+              "Le prix est-il **par personne** ou par séance, pour un duo ?",
+              "La durée annoncée correspond-elle au **soin lui-même**, hors installation ?",
+              "Faut-il **payer à l'avance**, ou après le soin ?",
+            ],
+          },
+          "Le plus simple : demandez le prix final par écrit sur WhatsApp avant de confirmer.",
+        ],
+      },
+      {
+        heading: "Et le pourboire ?",
+        blocks: [
+          "Le pourboire n'est jamais obligatoire, mais il est apprécié au Maroc. Nos repères sont dans le guide [pourboire massage et hammam au Maroc](guide:tipping).",
+        ],
+      },
+      {
+        heading: "Un prix très bas ? Restez prudent",
+        blocks: [
+          "Certaines annonces très bon marché, notamment sur les réseaux sociaux, ne correspondent pas à des soins bien-être professionnels. Avant de réserver, vérifiez que le prestataire affiche ses prix, ses soins et un cadre clair, comme notre [charte qualité](charter).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Combien coûte un massage d'une heure à domicile à Marrakech ?",
+        a: "D'après les tarifs affichés en ligne en octobre 2026, le plus souvent entre 450 et 650 MAD. Chez Thai Kech, le massage berbère d'une heure coûte 450 MAD, déplacement offert en ville.",
+      },
+      {
+        q: "Le déplacement est-il compris dans le prix ?",
+        a: "Cela dépend du prestataire : vérifiez-le avant de confirmer. Chez Thai Kech, il est offert dans Marrakech et ses environs proches ; pour les zones éloignées, d'éventuels frais sont annoncés avant la confirmation.",
+      },
+      {
+        q: "Faut-il payer avant le massage ?",
+        a: "Certains prestataires demandent un paiement à l'avance. Chez Thai Kech, aucun paiement en ligne : vous réglez après le soin.",
+      },
+    ],
+    cta: {
+      text: "Prix affichés, déplacement offert en ville et paiement après le soin.",
+      label: "Voir tous nos tarifs",
+    },
+  },
+
+  "hammam-marrakech": {
+    slug: "hammam-marrakech-public-spa-ou-domicile",
+    title: "Hammam à Marrakech : public, spa ou à domicile, lequel choisir ?",
+    metaTitle: "Hammam à Marrakech : Public, Spa ou à Domicile ?",
+    metaDescription:
+      "Hammam public, hammam de spa ou hammam à domicile à Marrakech : déroulé, ambiance, intimité, budget et conseils pour bien choisir pendant votre séjour.",
+    excerpt:
+      "Hammam de quartier, spa ou rituel dans votre riad : les différences, pour choisir le hammam qui vous correspond à Marrakech.",
+    imageAlt: "Savon noir, gant de kessa et rassoul posés sur une table de hammam en marbre",
+    intro: [
+      "Impossible de séjourner à Marrakech sans entendre parler du hammam. Mais entre le hammam de quartier, le hammam d'un spa et le rituel à domicile, l'expérience n'a rien à voir.",
+      "Voici comment se passe chacun, ce qu'il faut prévoir et comment choisir selon vos envies.",
+    ],
+    sections: [
+      {
+        heading: "Le hammam, une tradition marocaine",
+        blocks: [
+          "Au Maroc, le hammam fait partie de la vie quotidienne. On y va pour se laver à la vapeur, se gommer la peau et se retrouver. Le rituel repose sur trois gestes : le savon noir, le gommage au gant de kessa et le rinçage, parfois suivi d'une argile comme le rassoul.",
+        ],
+      },
+      {
+        heading: "Le hammam public de quartier",
+        blocks: [
+          "C'est l'expérience la plus authentique : une salle chaude partagée, avec des horaires ou des espaces séparés pour les femmes et les hommes. L'entrée est bon marché et l'on peut demander à une employée du hammam de réaliser le gommage.",
+          {
+            list: [
+              "**Pour** : l'immersion dans la vie locale, un budget très réduit.",
+              "**Contre** : un espace partagé, peu d'intimité, des codes à connaître. Apportez votre savon noir, votre gant, une serviette et des sandales.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Le hammam de spa ou de riad",
+        blocks: [
+          "Les spas et certains riads proposent un hammam privé, avec salle de vapeur, souvent associé à un massage. L'expérience est confortable et encadrée.",
+          {
+            list: [
+              "**Pour** : la vraie salle chaude, un cadre soigné.",
+              "**Contre** : un trajet aller-retour, des créneaux à réserver et un budget plus élevé.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Le hammam à domicile",
+        blocks: [
+          "Le rituel vient à vous, dans votre salle de bain ou le hammam privé de votre riad ou de votre villa. Il n'y a pas de salle de vapeur, mais tous les gestes sont là : savon noir, kessa, argile, rinçage, puis huile d'argan.",
+          {
+            list: [
+              "**Pour** : l'intimité totale, une thérapeute femme rien que pour vous, aucun trajet.",
+              "**Contre** : pas de vapeur ; il faut une douche avec eau chaude.",
+            ],
+          },
+          "Le déroulé complet est expliqué dans notre guide [hammam à domicile : comment ça se passe](guide:hammam-at-home).",
+        ],
+      },
+      {
+        heading: "Lequel choisir ?",
+        blocks: [
+          {
+            list: [
+              "Vous voulez **vivre la ville comme les Marrakchis** : le hammam de quartier, avec quelqu'un qui connaît les lieux.",
+              "Vous voulez **la vapeur et un cadre spa** : le hammam d'un spa ou de votre riad.",
+              "Vous voulez **l'intimité, sans trajet**, ou vous êtes en famille, en couple ou entre amies : le [hammam à domicile](hammam).",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Nos conseils pour un premier hammam",
+        blocks: [
+          {
+            list: [
+              "Évitez l'épilation dans les 24 heures avant ou après le gommage.",
+              "Pas de gommage sur un coup de soleil.",
+              "Buvez de l'eau et prévoyez un moment calme après.",
+              "Enceinte ? Demandez l'avis de votre médecin avant tout hammam ; voir notre guide [massage et grossesse](guide:pregnancy-travel).",
+            ],
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Peut-on aller au hammam public quand on est touriste ?",
+        a: "Oui, de nombreux hammams de quartier accueillent les visiteurs. Demandez à votre riad une adresse et les horaires réservés aux femmes ou aux hommes.",
+      },
+      {
+        q: "Combien coûte un hammam à domicile à Marrakech ?",
+        a: "Chez Thai Kech, 550 MAD pour le Hammam Berbère (1 h 15) et 650 MAD pour le Hammam Royal (1 h 30), déplacement offert dans Marrakech et ses environs proches.",
+      },
+      {
+        q: "Que faut-il porter au hammam ?",
+        a: "Au hammam public, une culotte ou un maillot de bain. À domicile, un maillot ou des sous-vêtements que vous ne craignez pas de mouiller.",
+      },
+    ],
+    cta: {
+      text: "Le rituel du hammam, en toute intimité dans votre riad ou votre villa.",
+      label: "Découvrir le hammam à domicile",
+    },
+  },
 };

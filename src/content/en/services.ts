@@ -8,12 +8,12 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     summary:
       "A soothing argan oil massage: long gliding strokes and gentle stretches to release the body and quiet the mind.",
     imageAlt: "Massage table set with argan oil and towels in a Moroccan-style room",
-    metaTitle: "Berber Massage at Home in Marrakech – 450 MAD",
+    metaTitle: "Moroccan Berber Massage at Home in Marrakech – 450 MAD",
     metaDescription:
-      "Traditional Berber argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
+      "Relaxing Moroccan argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
     h1: "Berber massage at home in Marrakech",
     lead: [
-      "Inspired by Moroccan wellness traditions, the Berber massage combines argan oil with long gliding strokes and gentle stretches. It is the perfect way to discover Moroccan massage without leaving your riad, villa or hotel room.",
+      "Inspired by Moroccan wellness traditions, the Berber massage is a relaxing massage that combines argan oil with long gliding strokes and gentle stretches. It is the perfect way to discover Moroccan massage without leaving your riad, villa or hotel room.",
       "Your therapist arrives with the massage table, oils and towels, sets everything up and lets you enjoy a full hour of relaxation. You pay after the treatment.",
     ],
     idealFor: [
@@ -102,12 +102,12 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     summary:
       "A deep, invigorating massage that targets muscle tension to restore flexibility after exercise.",
     imageAlt: "Massage table with oil and stones, ready for a sports massage",
-    metaTitle: "Sports Massage at Home in Marrakech – 500 MAD",
+    metaTitle: "Deep Tissue & Sports Massage at Home, Marrakech – 500 MAD",
     metaDescription:
-      "Sports recovery massage at home in Marrakech after an Atlas trek, golf or training. 60 min for 500 MAD, in your riad, villa or hotel, daily 8am–10pm.",
+      "Deep tissue-style sports recovery massage at home in Marrakech after an Atlas trek, golf or training. 60 min for 500 MAD, in your riad, villa or hotel.",
     h1: "Sports massage at home in Marrakech",
     lead: [
-      "An Atlas trek, a round of golf, a day walking the Medina or a workout: the Thai Kech sports massage helps your body recover. Deeper pressure and invigorating strokes target tight areas (legs, back, shoulders) to loosen muscles and restore flexibility.",
+      "An Atlas trek, a round of golf, a day walking the Medina or a workout: the Thai Kech sports massage helps your body recover. Close to a deep tissue massage, it uses deeper pressure and invigorating strokes that target tight areas (legs, back, shoulders) to loosen muscles and restore flexibility.",
       "The treatment lasts one hour and takes place in your riad, villa or hotel room. No travelling after exercise: you stay put and relax.",
     ],
     idealFor: [

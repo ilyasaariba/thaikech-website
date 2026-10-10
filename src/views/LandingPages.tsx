@@ -7,7 +7,7 @@ import { UI } from "@/i18n/ui";
 import { BUSINESS } from "@/content/business";
 import { getPages } from "@/content/pages";
 import type { LandingCopy, ServiceId } from "@/content/types";
-import { bookingPathFor, pathFor } from "@/content/routes";
+import { bookingPathFor, isNoindexKey, pathFor } from "@/content/routes";
 import { formatDuration, getService, getServices } from "@/content/services";
 import { getZones } from "@/content/zones";
 import { breadcrumbNode, businessNode, faqNode, jsonLdGraph, pageMetadata, serviceNode } from "@/lib/seo";
@@ -19,13 +19,19 @@ import ContentSections from "@/components/ContentSections";
 import FaqList from "@/components/FaqList";
 import ServiceCard from "@/components/ServiceCard";
 
-type LandingKey = "hammam" | "duo" | "inRoom" | "prices" | "areas" | "charter";
+type LandingKey = "hammam" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter" | "privacy";
 
 const pick = (locale: Locale, fr: string, en: string) => (locale === "fr" ? fr : en);
 
 export function landingMetadata(key: LandingKey, locale: Locale): Metadata {
   const copy = getPages(locale)[key];
-  return pageMetadata({ locale, key, title: copy.metaTitle, description: copy.metaDescription });
+  return pageMetadata({
+    locale,
+    key,
+    title: copy.metaTitle,
+    description: copy.metaDescription,
+    noindex: isNoindexKey(key),
+  });
 }
 
 function crumbName(key: LandingKey, locale: Locale): string {
@@ -34,9 +40,11 @@ function crumbName(key: LandingKey, locale: Locale): string {
     hammam: ui.nav.hammamHub,
     duo: ui.nav.duo,
     inRoom: ui.nav.inRoom,
+    groups: ui.nav.groups,
     prices: ui.nav.prices,
     areas: ui.footer.areas,
     charter: ui.nav.charter,
+    privacy: ui.nav.privacy,
   };
   return names[key];
 }
@@ -193,6 +201,38 @@ export function InRoomPage({ locale }: { locale: Locale }) {
       }
     />
   );
+}
+
+export function GroupsPage({ locale }: { locale: Locale }) {
+  const copy = getPages(locale).groups;
+  return (
+    <LandingLayout
+      locale={locale}
+      pageKey="groups"
+      copy={copy}
+      image={{
+        src: "/assets/massage-duo-couple.webp",
+        alt: pick(
+          locale,
+          "Deux tables de massage installées côte à côte dans une villa à Marrakech",
+          "Two massage tables set up side by side in a villa in Marrakech"
+        ),
+      }}
+      schema={[serviceNode({ locale, key: "groups", name: copy.h1, description: copy.metaDescription })]}
+      wide={
+        <ServiceGrid
+          locale={locale}
+          heading={pick(locale, "Des soins pensés pour les groupes", "Treatments that suit a group")}
+          ids={["massage-berbere", "hammam-royal", "massage-4-mains"]}
+        />
+      }
+    />
+  );
+}
+
+export function PrivacyPage({ locale }: { locale: Locale }) {
+  const copy = getPages(locale).privacy;
+  return <LandingLayout locale={locale} pageKey="privacy" copy={copy} />;
 }
 
 export function PricesPage({ locale }: { locale: Locale }) {

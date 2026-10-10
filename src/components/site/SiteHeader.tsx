@@ -45,6 +45,7 @@ export default function SiteHeader({
         { href: pathFor("hammam", locale), label: ui.nav.hammamHub },
         { href: pathFor("duo", locale), label: ui.nav.duo },
         { href: pathFor("inRoom", locale), label: ui.nav.inRoom },
+        { href: pathFor("groups", locale), label: ui.nav.groups },
       ]}
       links={[
         { href: pathFor("areas", locale), label: ui.nav.areas },

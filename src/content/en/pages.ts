@@ -29,7 +29,7 @@ export const pagesEn: PagesCopy = {
     occasions: {
       eyebrow: "For Every Stay",
       heading: "A Treatment That Fits Your Stay",
-      intro: "Couple, hotel, riad or villa: we arrange the treatment around where you are staying.",
+      intro: "Couple, group, hotel, riad or villa: we arrange the treatment around your stay.",
       items: [
         {
           key: "duo",
@@ -45,6 +45,11 @@ export const pagesEn: PagesCopy = {
           key: "hammam",
           title: "Hammam at home",
           text: "Black soap, kessa and rhassoul, without leaving your riad or villa.",
+        },
+        {
+          key: "groups",
+          title: "Bachelorettes and groups",
+          text: "Your villa becomes a private spa: treatments follow on two at a time for the whole group.",
         },
       ],
     },
@@ -185,6 +190,7 @@ export const pagesEn: PagesCopy = {
               "**Hammam at home**: the ritual in complete privacy, at your place, with no journey and a therapist who takes care of you alone.",
             ],
           },
+          "Our guide [hammam in Marrakech: public, spa or at home?](guide:hammam-marrakech) compares all three in detail.",
         ],
       },
       {
@@ -286,7 +292,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "Groups and families",
         blocks: [
-          "More than two of you? Enter the number of people in the form: treatments follow on two at a time and we will suggest a schedule on WhatsApp.",
+          "More than two of you? Enter the number of people in the form: treatments follow on two at a time and we will suggest a schedule on WhatsApp. All the details on our [bachelorette and group spa](groups) page.",
         ],
       },
     ],
@@ -311,11 +317,11 @@ export const pagesEn: PagesCopy = {
   },
 
   inRoom: {
-    metaTitle: "In-Room Massage in Hotels & Riads in Marrakech",
+    metaTitle: "In-Room Massage in Hotels, Riads & Villas in Marrakech",
     metaDescription:
       "Massage in your hotel room, riad, villa or apartment in Marrakech: female therapists, table and oils provided, daily 8am–10pm, pay after your treatment.",
     eyebrow: "Hotel · Riad · Villa · Apartment",
-    h1: "In-room massage in your hotel or riad in Marrakech",
+    h1: "In-room massage in your hotel, riad or villa in Marrakech",
     lead: [
       "No need to book a spa or take a taxi: our female therapists come to your hotel room, riad, villa or apartment with the massage table, oils and towels.",
       "You enjoy your treatment in peace, then stay relaxed with no journey. You pay after the treatment.",
@@ -387,6 +393,173 @@ export const pagesEn: PagesCopy = {
     ],
   },
 
+  groups: {
+    metaTitle: "Bachelorette & Group Spa at Your Villa in Marrakech",
+    metaDescription:
+      "Hen party, birthday or girls' trip: massages and hammams for your group in your villa or riad in Marrakech. Female therapists, clear prices, pay after.",
+    eyebrow: "Bachelorette · Birthday · Girls' trip · Family",
+    h1: "Bachelorette and group spa at your villa in Marrakech",
+    lead: [
+      "A bachelorette, a birthday or a girls' trip to Marrakech? Turn your villa or riad into a private spa for the afternoon. Our female therapists arrive with massage tables, oils and towels, so everyone enjoys their treatment without leaving the pool or the terrace.",
+      "Enter the number of people and the date in the form: we will suggest a schedule on WhatsApp, with treatments following on two at a time.",
+    ],
+    facts: ["Female therapists", "Two at a time", "Everyone's own choice", "Pay after your treatments"],
+    sections: [
+      {
+        heading: "How we organise treatments for your group",
+        blocks: [
+          {
+            ordered: true,
+            list: [
+              "Fill in the form with the **number of people** and the **date**.",
+              "On WhatsApp, we suggest a **schedule**: arrival time, order and each person's treatment.",
+              "Two therapists arrive together and set up **two tables** in a quiet corner of the villa or riad.",
+              "Treatments **follow on two at a time**: while two people are being massaged, the others enjoy the pool, the sun or brunch.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "How much time should we allow?",
+        blocks: [
+          "Two people are massaged at the same time, so count the length of the treatments divided by two, plus setting up. For example, for 6 people who each choose a one-hour massage, allow about 3.5 hours on site.",
+          "We fine-tune the schedule with you on WhatsApp, depending on the treatments chosen and our availability.",
+        ],
+      },
+      {
+        heading: "How much does it cost?",
+        blocks: [
+          "Each treatment is charged at its listed price, from 450 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free within Marrakech and its close surroundings; for a more distant villa, any travel fee is confirmed before booking. See all our [prices](prices).",
+        ],
+      },
+      {
+        heading: "Which treatments suit a group?",
+        blocks: [
+          {
+            list: [
+              "**[Berber massage](service:massage-berbere)** (60 min, 450 MAD): argan oil relaxation, perfect for a first massage in Morocco.",
+              "**[Thai massage](service:massage-thai)** (75 min, 550 MAD): pressure, stretches and hot towels for those who like an active massage.",
+              "**[Royal hammam](service:hammam-royal)** (90 min, 650 MAD): glowing skin before the party or the wedding.",
+              "**[Four-hands massage](service:massage-4-mains)** (75 min, 650 MAD): two therapists for the bride-to-be or the birthday girl, a gift from the group she won't forget.",
+              "**[Pregnancy massage](service:massage-future-maman)** (90 min, 550 MAD) if one of you is expecting.",
+            ],
+          },
+          "Each hammam in progress needs a bathroom with a shower and hot water: tell us how many your villa has and we will plan around it.",
+        ],
+      },
+      {
+        heading: "Bachelorette in Marrakech: our tips",
+        blocks: [
+          {
+            list: [
+              "**Book a few days ahead**, especially at weekends: a group keeps two therapists busy for several hours.",
+              "**Pick the right moment**: the afternoon you arrive, to start well, or the day after the party, to recover.",
+              "**Save the royal hammam for the day before the wedding** if the bachelorette is just before the big day.",
+              "**Have water and some shade ready**: the Marrakech sun is strong, even in spring.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "A strictly professional setting",
+        blocks: [
+          "Our treatments are professional, non-sensual wellness treatments performed by female therapists, for groups as for individual clients. See our [code of conduct](charter).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How many people can you treat in one day?",
+        a: "Treatments follow on two at a time. Enter the number of people in the form and we will suggest a schedule on WhatsApp that fits the treatments chosen and our availability.",
+      },
+      {
+        q: "Can everyone choose a different treatment?",
+        a: "Yes. Each person chooses their own treatment and pays its listed price.",
+      },
+      {
+        q: "Do we need to pay in advance?",
+        a: "No. There is no online payment: you pay after the treatments.",
+      },
+      {
+        q: "Do you come to villas outside Marrakech?",
+        a: "Depending on distance and availability. Send us the villa's location on WhatsApp and we will reply with any travel fee before anything is confirmed. See the [areas we cover](areas).",
+      },
+      {
+        q: "Can the group treat the bride-to-be?",
+        a: "Yes. Just tell us on WhatsApp: the [four-hands massage](service:massage-4-mains) is our most exclusive treatment to make her feel special.",
+      },
+    ],
+  },
+
+  privacy: {
+    metaTitle: "Privacy Policy",
+    metaDescription:
+      "What information Thai Kech collects on this website, why, and how to exercise your rights of access and deletion.",
+    eyebrow: "Your data",
+    h1: "Privacy policy",
+    lead: [
+      "This page explains what information we collect on this website, what it is used for and how to exercise your rights.",
+      "In short: we only use your details to arrange your appointment, and we never sell them.",
+    ],
+    facts: ["No online payment", "No selling of data", "Right of access and deletion", "contact@thaikech.com"],
+    sections: [
+      {
+        heading: "Who we are",
+        blocks: [
+          "Thai Kech is a mobile spa offering massages and hammams at home in Marrakech, Morocco. For any question about your data: contact@thaikech.com or WhatsApp +212 656-371114.",
+        ],
+      },
+      {
+        heading: "Information you give us",
+        blocks: [
+          "When you use the booking form, we receive:",
+          {
+            list: [
+              "your name and phone number;",
+              "the number of people, the requested date and, if you chose one, the treatment;",
+              "the page you sent the request from and the language of the site.",
+            ],
+          },
+          "We use this information to reply to you, arrange your appointment and contact you about it, for example if your WhatsApp message was not sent. It is stored in our database and passed to our team through a private notification. The WhatsApp conversation itself is covered by WhatsApp's privacy policy.",
+        ],
+      },
+      {
+        heading: "Analytics and advertising",
+        blocks: [
+          "This website uses tools from Google, Meta (Facebook, Instagram) and Snapchat to measure visits and the effectiveness of our ads, for example to know how many booking requests come from an ad. These tools may use cookies or similar identifiers.",
+          "You can limit or block them in your browser settings and in the ad settings of your Google, Meta and Snapchat accounts.",
+        ],
+      },
+      {
+        heading: "What we don't do",
+        blocks: [
+          {
+            list: [
+              "We don't sell your information or share it for marketing purposes.",
+              "We don't take any online payment and collect no bank details on this website.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Your rights",
+        blocks: [
+          "Under Moroccan Law No. 09-08 on the protection of individuals with regard to the processing of personal data and, for visitors from the European Union, the GDPR, you can ask to access, correct or delete your data, and object to its use. Write to us at contact@thaikech.com and we will reply as soon as possible.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Can I ask for my booking request to be deleted?",
+        a: "Yes, at any time: write to contact@thaikech.com or on WhatsApp, giving the name and number you used.",
+      },
+      {
+        q: "Is my information shared?",
+        a: "We don't sell your information or share it for marketing purposes: it is used to arrange your appointment.",
+      },
+    ],
+  },
+
   prices: {
     metaTitle: "Massage & Hammam at Home Prices in Marrakech",
     metaDescription:
@@ -434,7 +607,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "For two or for groups",
         blocks: [
-          "Each treatment is charged at its listed price: for a [couples massage](duo), simply add up the two treatments chosen. The [four-hands massage](service:massage-4-mains), given by two therapists to one person, costs 650 MAD.",
+          "Each treatment is charged at its listed price: for a [couples massage](duo), simply add up the two treatments chosen; for a [bachelorette or group](groups), add up everyone's treatments. The [four-hands massage](service:massage-4-mains), given by two therapists to one person, costs 650 MAD.",
         ],
       },
       {
@@ -455,6 +628,7 @@ export const pagesEn: PagesCopy = {
               "**when you pay**: before or after the treatment.",
             ],
           },
+          "Market price ranges are explained in our guide [massage at home prices in Marrakech](guide:home-massage-prices).",
         ],
       },
     ],

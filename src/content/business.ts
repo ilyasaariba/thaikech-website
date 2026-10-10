@@ -14,7 +14,13 @@ export const BUSINESS = {
   logo: "/assets/thai-kech-logo.jpg",
   heroImage: "/assets/massage-riad-marrakech.webp",
   geo: { latitude: 31.6295, longitude: -7.9811 },
+  /**
+   * Official profiles (Google Business Profile, Instagram, Facebook,
+   * TripAdvisor…). Listed as `sameAs` in the structured data so search engines
+   * connect them to this site. Add each URL once the profile exists.
+   */
+  sameAs: [] as string[],
 } as const;
 
 /** Date the site content was last reviewed; used when a page has no own date. */
-export const CONTENT_UPDATED = "2026-09-14";
+export const CONTENT_UPDATED = "2026-10-10";

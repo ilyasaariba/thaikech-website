@@ -18,7 +18,9 @@ export type GuideId =
   | "tipping"
   | "hotel-room-massage"
   | "pregnancy-travel"
-  | "atlas-trek-recovery";
+  | "atlas-trek-recovery"
+  | "home-massage-prices"
+  | "hammam-marrakech";
 
 export type StaticPageKey =
   | "home"
@@ -29,7 +31,9 @@ export type StaticPageKey =
   | "duo"
   | "inRoom"
   | "charter"
-  | "guides";
+  | "guides"
+  | "groups"
+  | "privacy";
 
 /** Identifies a page independently of its language; see src/content/routes.ts. */
 export type PageKey = StaticPageKey | `service:${ServiceId}` | `zone:${ZoneId}` | `guide:${GuideId}`;
@@ -144,6 +148,8 @@ export interface PagesCopy {
   hammam: LandingCopy;
   duo: LandingCopy;
   inRoom: LandingCopy;
+  groups: LandingCopy;
+  privacy: LandingCopy;
   prices: LandingCopy & {
     table: { caption: string; treatment: string; duration: string; price: string; book: string };
   };

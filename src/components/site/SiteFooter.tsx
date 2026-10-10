@@ -8,6 +8,7 @@ import { getZones } from "@/content/zones";
 import { pathFor } from "@/content/routes";
 import { whatsappUrl } from "@/lib/whatsapp-booking";
 import { WhatsAppIcon } from "@/components/icons";
+import ContactLink from "./ContactLink";
 
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
 
@@ -40,9 +41,15 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
             <ul className="space-y-2 text-sm">
               <li>
                 <span className="text-white/40">{ui.footer.phone} : </span>
-                <a href={`tel:+${BUSINESS.phoneDigits}`} className="text-white hover:text-gold transition-colors">
+                <ContactLink
+                  href={`tel:+${BUSINESS.phoneDigits}`}
+                  method="phone"
+                  placement="footer"
+                  locale={locale}
+                  className="text-white hover:text-gold transition-colors"
+                >
                   {BUSINESS.phoneDisplay}
-                </a>
+                </ContactLink>
               </li>
               <li>
                 <span className="text-white/40">{ui.footer.email} : </span>
@@ -51,15 +58,16 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
                 </a>
               </li>
             </ul>
-            <a
+            <ContactLink
               href={whatsappUrl(BUSINESS.phoneDigits, ui.footer.whatsappMessage)}
-              target="_blank"
-              rel="noopener noreferrer"
+              method="whatsapp"
+              placement="footer"
+              locale={locale}
               className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-600 hover:bg-green-500 text-white font-medium text-sm rounded-full transition-colors duration-300"
             >
               <WhatsAppIcon className="w-5 h-5" />
               {ui.footer.whatsapp}
-            </a>
+            </ContactLink>
           </div>
 
           <div>
@@ -85,6 +93,11 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
               <li>
                 <Link href={pathFor("inRoom", locale)} className={linkClass}>
                   {ui.nav.inRoom}
+                </Link>
+              </li>
+              <li>
+                <Link href={pathFor("groups", locale)} className={linkClass}>
+                  {ui.nav.groups}
                 </Link>
               </li>
             </ul>
@@ -145,6 +158,9 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
             &copy; {new Date().getFullYear()} Thai Kech. {ui.footer.rights}
           </span>
           <span>{ui.footer.bottom}</span>
+          <Link href={pathFor("privacy", locale)} className="hover:text-gold transition-colors">
+            {ui.nav.privacy}
+          </Link>
         </div>
       </div>
     </footer>

@@ -29,7 +29,7 @@ export const pagesFr: PagesCopy = {
     occasions: {
       eyebrow: "Pour Chaque Séjour",
       heading: "Un Soin Adapté à Votre Séjour",
-      intro: "Couple, hôtel, riad ou villa : nous organisons le soin selon votre lieu de séjour.",
+      intro: "Couple, groupe, hôtel, riad ou villa : nous organisons le soin selon votre séjour.",
       items: [
         {
           key: "duo",
@@ -45,6 +45,11 @@ export const pagesFr: PagesCopy = {
           key: "hammam",
           title: "Hammam à domicile",
           text: "Savon noir, kessa et rassoul, sans quitter votre riad ou votre villa.",
+        },
+        {
+          key: "groups",
+          title: "EVJF et groupes",
+          text: "Votre villa devient un spa privé : les soins s'enchaînent deux par deux pour tout le groupe.",
         },
       ],
     },
@@ -185,6 +190,7 @@ export const pagesFr: PagesCopy = {
               "**Hammam à domicile** : le rituel en toute intimité, chez vous, sans trajet, avec une thérapeute qui s'occupe uniquement de vous.",
             ],
           },
+          "Notre guide [hammam à Marrakech : public, spa ou à domicile ?](guide:hammam-marrakech) compare les trois en détail.",
         ],
       },
       {
@@ -286,7 +292,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Groupes et familles",
         blocks: [
-          "Vous êtes plus de deux ? Indiquez le nombre de personnes dans le formulaire : les soins s'enchaînent deux par deux et nous vous proposons un planning sur WhatsApp.",
+          "Vous êtes plus de deux ? Indiquez le nombre de personnes dans le formulaire : les soins s'enchaînent deux par deux et nous vous proposons un planning sur WhatsApp. Tous les détails sur notre page [EVJF et groupes](groups).",
         ],
       },
     ],
@@ -311,11 +317,11 @@ export const pagesFr: PagesCopy = {
   },
 
   inRoom: {
-    metaTitle: "Massage en Chambre d'Hôtel ou Riad à Marrakech",
+    metaTitle: "Massage à l'Hôtel, en Riad ou en Villa à Marrakech",
     metaDescription:
       "Massage dans votre chambre d'hôtel, riad, villa ou appartement à Marrakech : thérapeutes femmes, table et huiles apportées, 8h–22h, paiement après le soin.",
     eyebrow: "Hôtel · Riad · Villa · Appartement",
-    h1: "Massage dans votre chambre d'hôtel ou votre riad à Marrakech",
+    h1: "Massage dans votre chambre d'hôtel, votre riad ou votre villa à Marrakech",
     lead: [
       "Pas besoin de réserver un spa ni de prendre un taxi : nos thérapeutes femmes viennent dans votre chambre d'hôtel, votre riad, votre villa ou votre appartement, avec la table de massage, les huiles et les serviettes.",
       "Vous profitez de votre soin au calme, puis vous restez détendu(e), sans trajet. Vous réglez après le soin.",
@@ -387,6 +393,173 @@ export const pagesFr: PagesCopy = {
     ],
   },
 
+  groups: {
+    metaTitle: "Massage EVJF & Groupe à Domicile à Marrakech",
+    metaDescription:
+      "EVJF, anniversaire, séjour entre amies : massages et hammams pour votre groupe, dans votre villa ou votre riad à Marrakech. Thérapeutes femmes, prix affichés.",
+    eyebrow: "EVJF · Anniversaire · Entre amies · Famille",
+    h1: "Massage EVJF et groupe à domicile à Marrakech",
+    lead: [
+      "Un EVJF, un anniversaire ou un séjour entre amies à Marrakech ? Transformez votre villa ou votre riad en spa privé le temps d'un après-midi. Nos thérapeutes femmes arrivent avec les tables de massage, les huiles et les serviettes : chacune profite de son soin sans quitter la piscine ou la terrasse.",
+      "Indiquez le nombre de personnes et la date dans le formulaire : nous vous proposons un planning sur WhatsApp, avec des soins qui s'enchaînent deux par deux.",
+    ],
+    facts: ["Thérapeutes femmes", "Soins deux par deux", "Chacune son soin", "Paiement après les soins"],
+    sections: [
+      {
+        heading: "Comment organiser les soins de votre groupe",
+        blocks: [
+          {
+            ordered: true,
+            list: [
+              "Remplissez le formulaire avec le **nombre de personnes** et la **date**.",
+              "Sur WhatsApp, nous vous proposons un **planning** : heure d'arrivée, ordre de passage et soin de chacune.",
+              "Deux thérapeutes arrivent ensemble et installent **deux tables** dans un coin calme de la villa ou du riad.",
+              "Les soins **s'enchaînent deux par deux** : pendant que deux personnes sont massées, les autres profitent de la piscine, du soleil ou du brunch.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Combien de temps prévoir ?",
+        blocks: [
+          "Deux personnes sont massées en même temps. Comptez donc la durée des soins divisée par deux, plus l'installation. Par exemple, pour 6 personnes qui choisissent un massage d'une heure, prévoyez environ 3 h 30 sur place.",
+          "Nous ajustons le planning avec vous sur WhatsApp selon les soins choisis et nos disponibilités.",
+        ],
+      },
+      {
+        heading: "Combien ça coûte ?",
+        blocks: [
+          "Chaque soin est facturé au prix affiché, de 450 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans Marrakech et ses environs proches ; pour une villa plus éloignée, d'éventuels frais sont annoncés avant la confirmation. Voir tous nos [tarifs](prices).",
+        ],
+      },
+      {
+        heading: "Quels soins choisir pour un groupe ?",
+        blocks: [
+          {
+            list: [
+              "**[Massage berbère](service:massage-berbere)** (1 h, 450 MAD) : la détente à l'huile d'argan, parfaite pour un premier massage au Maroc.",
+              "**[Massage thaï](service:massage-thai)** (1 h 15, 550 MAD) : pressions, étirements et serviettes chaudes pour celles qui aiment un massage actif.",
+              "**[Hammam royal](service:hammam-royal)** (1 h 30, 650 MAD) : une peau éclatante avant la soirée ou le mariage.",
+              "**[Massage à 4 mains](service:massage-4-mains)** (1 h 15, 650 MAD) : deux thérapeutes pour la future mariée ou la reine de l'anniversaire, un cadeau du groupe qu'elle n'oubliera pas.",
+              "**[Massage femme enceinte](service:massage-future-maman)** (1 h 30, 550 MAD) si l'une d'entre vous attend un bébé.",
+            ],
+          },
+          "Chaque hammam en cours demande une salle de bain avec douche et eau chaude : dites-nous combien votre villa en compte, nous organisons le planning en conséquence.",
+        ],
+      },
+      {
+        heading: "EVJF à Marrakech : nos conseils",
+        blocks: [
+          {
+            list: [
+              "**Réservez quelques jours à l'avance**, surtout le week-end : un groupe mobilise deux thérapeutes pendant plusieurs heures.",
+              "**Placez les soins au bon moment** : l'après-midi de votre arrivée pour bien commencer, ou le lendemain de la soirée pour récupérer.",
+              "**Gardez le hammam royal pour la veille du mariage** si l'EVJF tombe juste avant le grand jour.",
+              "**Prévoyez de l'eau et un coin à l'ombre** : à Marrakech, le soleil tape fort, même au printemps.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Un cadre strictement professionnel",
+        blocks: [
+          "Nos soins sont des soins bien-être professionnels et non sensuels, réalisés par des thérapeutes femmes, pour les groupes comme pour les clientes seules. Voir notre [charte qualité](charter).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Combien de personnes pouvez-vous masser dans la même journée ?",
+        a: "Les soins s'enchaînent deux par deux. Indiquez le nombre de personnes dans le formulaire : nous vous proposons sur WhatsApp un planning adapté aux soins choisis et à nos disponibilités.",
+      },
+      {
+        q: "Chacune peut-elle choisir un soin différent ?",
+        a: "Oui. Chaque personne choisit son soin et paie le prix affiché.",
+      },
+      {
+        q: "Faut-il payer à l'avance ?",
+        a: "Non. Aucun paiement en ligne : vous réglez après les soins.",
+      },
+      {
+        q: "Venez-vous dans les villas en dehors de Marrakech ?",
+        a: "Selon la distance et nos disponibilités. Envoyez-nous la localisation de la villa sur WhatsApp : nous vous répondons avec les éventuels frais de déplacement, avant toute confirmation. Voir nos [zones desservies](areas).",
+      },
+      {
+        q: "Peut-on offrir un massage à la future mariée ?",
+        a: "Oui. Précisez-le sur WhatsApp : le [massage à 4 mains](service:massage-4-mains) est le soin le plus exclusif pour la mettre à l'honneur.",
+      },
+    ],
+  },
+
+  privacy: {
+    metaTitle: "Politique de Confidentialité",
+    metaDescription:
+      "Quelles informations Thai Kech recueille sur ce site, pourquoi, combien de temps et comment exercer vos droits d'accès et de suppression.",
+    eyebrow: "Vos données",
+    h1: "Politique de confidentialité",
+    lead: [
+      "Cette page explique quelles informations nous recueillons sur ce site, à quoi elles servent et comment exercer vos droits.",
+      "En résumé : nous utilisons vos coordonnées uniquement pour organiser votre rendez-vous, et nous ne les vendons jamais.",
+    ],
+    facts: ["Aucun paiement en ligne", "Aucune revente de données", "Droit d'accès et de suppression", "contact@thaikech.com"],
+    sections: [
+      {
+        heading: "Qui sommes-nous ?",
+        blocks: [
+          "Thai Kech est un spa mobile qui propose des massages et des hammams à domicile à Marrakech (Maroc). Pour toute question sur vos données : contact@thaikech.com ou WhatsApp +212 656-371114.",
+        ],
+      },
+      {
+        heading: "Les informations que vous nous donnez",
+        blocks: [
+          "Quand vous utilisez le formulaire de réservation, nous recevons :",
+          {
+            list: [
+              "votre nom et votre numéro de téléphone ;",
+              "le nombre de personnes, la date souhaitée et, le cas échéant, le soin choisi ;",
+              "la page depuis laquelle vous avez envoyé la demande et la langue du site.",
+            ],
+          },
+          "Ces informations servent à vous répondre, à organiser votre rendez-vous et à vous recontacter à ce sujet, par exemple si votre message WhatsApp n'est pas parti. Elles sont enregistrées dans notre base de données et transmises à notre équipe par une notification privée. La conversation WhatsApp elle-même relève de la politique de confidentialité de WhatsApp.",
+        ],
+      },
+      {
+        heading: "Mesure d'audience et publicité",
+        blocks: [
+          "Ce site utilise des outils de Google, de Meta (Facebook, Instagram) et de Snapchat pour mesurer les visites et l'efficacité de nos publicités, par exemple pour savoir combien de demandes de réservation viennent d'une annonce. Ces outils peuvent utiliser des cookies ou des identifiants similaires.",
+          "Vous pouvez les limiter ou les bloquer dans les réglages de votre navigateur et dans les paramètres publicitaires de vos comptes Google, Meta et Snapchat.",
+        ],
+      },
+      {
+        heading: "Ce que nous ne faisons pas",
+        blocks: [
+          {
+            list: [
+              "Nous ne vendons pas vos informations et ne les partageons pas à des fins commerciales.",
+              "Nous ne demandons aucun paiement en ligne et ne recueillons aucune donnée bancaire sur ce site.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Vos droits",
+        blocks: [
+          "Conformément à la loi marocaine n° 09-08 relative à la protection des personnes physiques à l'égard du traitement des données à caractère personnel et, pour les visiteurs de l'Union européenne, au RGPD, vous pouvez demander l'accès à vos données, leur rectification ou leur suppression, et vous opposer à leur utilisation. Écrivez-nous à contact@thaikech.com : nous vous répondons dans les meilleurs délais.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Puis-je demander la suppression de ma demande de réservation ?",
+        a: "Oui, à tout moment : écrivez à contact@thaikech.com ou sur WhatsApp en précisant le nom et le numéro utilisés.",
+      },
+      {
+        q: "Mes informations sont-elles partagées ?",
+        a: "Nous ne vendons pas vos informations et ne les partageons pas à des fins commerciales : elles servent à organiser votre rendez-vous.",
+      },
+    ],
+  },
+
   prices: {
     metaTitle: "Tarifs Massage & Hammam à Domicile à Marrakech",
     metaDescription:
@@ -434,7 +607,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "À deux ou en groupe",
         blocks: [
-          "Chaque soin est facturé au prix affiché : pour un [massage en duo](duo), additionnez simplement les deux soins choisis. Le [massage à 4 mains](service:massage-4-mains), réalisé par deux thérapeutes pour une seule personne, coûte 650 MAD.",
+          "Chaque soin est facturé au prix affiché : pour un [massage en duo](duo), additionnez simplement les deux soins choisis ; pour un [EVJF ou un groupe](groups), additionnez les soins de chacune. Le [massage à 4 mains](service:massage-4-mains), réalisé par deux thérapeutes pour une seule personne, coûte 650 MAD.",
         ],
       },
       {
@@ -455,6 +628,7 @@ export const pagesFr: PagesCopy = {
               "le **moment du paiement** : avant ou après le soin.",
             ],
           },
+          "Les fourchettes de prix du marché sont détaillées dans notre guide [prix d'un massage à domicile à Marrakech](guide:home-massage-prices).",
         ],
       },
     ],

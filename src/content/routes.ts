@@ -18,7 +18,16 @@ const STATIC_PATHS: Record<StaticPageKey, Record<Locale, string>> = {
   inRoom: { fr: "/massage-chambre-hotel-riad-marrakech", en: "/en/in-room-massage-marrakech" },
   charter: { fr: "/charte-qualite", en: "/en/code-of-conduct" },
   guides: { fr: "/guides", en: "/en/guides" },
+  groups: { fr: "/massage-groupe-evjf-marrakech", en: "/en/group-spa-bachelorette-marrakech" },
+  privacy: { fr: "/confidentialite", en: "/en/privacy" },
 };
+
+/** Pages kept out of search results and the sitemap. */
+const NOINDEX_KEYS: StaticPageKey[] = ["book", "privacy"];
+
+export function isNoindexKey(key: PageKey): boolean {
+  return (NOINDEX_KEYS as string[]).includes(key);
+}
 
 const PREFIX: Record<Locale, string> = { fr: "", en: "/en" };
 
@@ -48,9 +57,9 @@ export function bookingPathFor(serviceId: ServiceId, locale: Locale): string {
   return `${STATIC_PATHS.book[locale]}?service=${serviceId}`;
 }
 
-/** Every indexable page (the booking form is noindex). */
+/** Every indexable page (the booking form and the privacy policy are noindex). */
 export function indexablePageKeys(): PageKey[] {
-  const statics = (Object.keys(STATIC_PATHS) as StaticPageKey[]).filter((key) => key !== "book");
+  const statics = (Object.keys(STATIC_PATHS) as StaticPageKey[]).filter((key) => !isNoindexKey(key));
   return [
     ...statics,
     ...SERVICE_IDS.map((id) => `service:${id}` as const),
