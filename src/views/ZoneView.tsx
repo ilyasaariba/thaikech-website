@@ -5,6 +5,7 @@ import { UI } from "@/i18n/ui";
 import type { ZoneId } from "@/content/types";
 import { getService } from "@/content/services";
 import { getZone } from "@/content/zones";
+import { guidesFor } from "@/content/guides";
 import { pathFor } from "@/content/routes";
 import { breadcrumbNode, businessNode, faqNode, jsonLdGraph, pageMetadata, serviceNode } from "@/lib/seo";
 import PageShell from "@/components/site/PageShell";
@@ -14,6 +15,7 @@ import CtaBand from "@/components/page/CtaBand";
 import ContentSections from "@/components/ContentSections";
 import FaqList from "@/components/FaqList";
 import ServiceCard from "@/components/ServiceCard";
+import GuideLinks from "@/components/page/GuideLinks";
 
 export function zoneMetadata(id: ZoneId, locale: Locale): Metadata {
   const zone = getZone(id, locale);
@@ -86,6 +88,8 @@ export default function ZoneView({ id, locale }: { id: ZoneId; locale: Locale })
             <h2 className={h2}>{ui.common.faq}</h2>
             <FaqList faqs={zone.faqs} locale={locale} />
           </section>
+
+          <GuideLinks guides={guidesFor(key, locale)} locale={locale} heading={ui.common.readFirst} />
 
           <section className="mt-12">
             <h2 className={h2}>{ui.common.nearbyHeading}</h2>

@@ -6,6 +6,7 @@ import { UI } from "@/i18n/ui";
 import type { ServiceId } from "@/content/types";
 import { getService } from "@/content/services";
 import { getZones } from "@/content/zones";
+import { guidesFor } from "@/content/guides";
 import { pathFor } from "@/content/routes";
 import { breadcrumbNode, businessNode, faqNode, jsonLdGraph, pageMetadata, serviceNode } from "@/lib/seo";
 import PageShell from "@/components/site/PageShell";
@@ -16,6 +17,7 @@ import ContentSections from "@/components/ContentSections";
 import FaqList from "@/components/FaqList";
 import RichText from "@/components/RichText";
 import ServiceCard from "@/components/ServiceCard";
+import GuideLinks from "@/components/page/GuideLinks";
 import { CheckIcon } from "@/components/icons";
 
 export function serviceMetadata(id: ServiceId, locale: Locale): Metadata {
@@ -160,6 +162,8 @@ export default function ServiceView({ id, locale }: { id: ServiceId; locale: Loc
             <h2 className={h2}>{ui.common.faq}</h2>
             <FaqList faqs={service.faqs} locale={locale} />
           </section>
+
+          <GuideLinks guides={guidesFor(key, locale)} locale={locale} heading={ui.common.readFirst} />
         </div>
 
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">

@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { LANGUAGE_TAG, type Locale } from "@/i18n/locales";
 import { UI } from "@/i18n/ui";
 import { getPages } from "@/content/pages";
-import { getGuide, getGuides } from "@/content/guides";
+import { getGuide } from "@/content/guides";
 import { pathFor, resolveGuideSlug } from "@/content/routes";
 import { articleNode, breadcrumbNode, businessNode, faqNode, jsonLdGraph, pageMetadata } from "@/lib/seo";
 import PageShell from "@/components/site/PageShell";
@@ -125,12 +125,14 @@ export default function GuideView({ slug, locale }: { slug: string; locale: Loca
         <div className="max-w-6xl mx-auto">
           <h2 className="font-serif text-2xl sm:text-3xl text-bamboo mb-8 text-center">{ui.common.otherGuides}</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-            {getGuides(locale)
-              .filter((other) => other.id !== id)
-              .slice(0, 3)
-              .map((other) => (
-                <GuideCard key={other.id} guide={other} locale={locale} readMore={getPages(locale).guidesIndex.readMore} />
-              ))}
+            {guide.related.map((relatedId) => (
+              <GuideCard
+                key={relatedId}
+                guide={getGuide(relatedId, locale)}
+                locale={locale}
+                readMore={getPages(locale).guidesIndex.readMore}
+              />
+            ))}
           </div>
         </div>
       </section>

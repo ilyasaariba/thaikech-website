@@ -79,6 +79,7 @@ export interface UiStrings {
     published: string;
     updated: string;
     otherGuides: string;
+    readFirst: string;
     bookingHeading: string;
     bookingText: string;
     ctaHeading: string;
@@ -170,6 +171,7 @@ export const UI: Record<Locale, UiStrings> = {
       published: "Publié le",
       updated: "Mis à jour le",
       otherGuides: "Autres guides",
+      readFirst: "À lire avant votre soin",
       bookingHeading: "Réservez en 30 secondes",
       bookingText: "Nom, téléphone, nombre de personnes et date : nous confirmons l'horaire sur WhatsApp.",
       ctaHeading: "Prêt(e) pour votre moment de détente ?",
@@ -259,6 +261,7 @@ export const UI: Record<Locale, UiStrings> = {
       published: "Published",
       updated: "Updated",
       otherGuides: "More guides",
+      readFirst: "Read before your treatment",
       bookingHeading: "Book in 30 seconds",
       bookingText: "Name, phone, number of people and date: we confirm the time on WhatsApp.",
       ctaHeading: "Ready for your moment of relaxation?",

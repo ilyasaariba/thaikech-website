@@ -10,6 +10,7 @@ import type { LandingCopy, ServiceId } from "@/content/types";
 import { bookingPathFor, isNoindexKey, pathFor } from "@/content/routes";
 import { formatDuration, getService, getServices } from "@/content/services";
 import { getZones } from "@/content/zones";
+import { guidesFor } from "@/content/guides";
 import { breadcrumbNode, businessNode, faqNode, jsonLdGraph, pageMetadata, serviceNode } from "@/lib/seo";
 import PageShell from "@/components/site/PageShell";
 import JsonLd from "@/components/JsonLd";
@@ -18,6 +19,7 @@ import CtaBand from "@/components/page/CtaBand";
 import ContentSections from "@/components/ContentSections";
 import FaqList from "@/components/FaqList";
 import ServiceCard from "@/components/ServiceCard";
+import GuideLinks from "@/components/page/GuideLinks";
 
 type LandingKey = "hammam" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter" | "privacy";
 
@@ -102,6 +104,7 @@ function LandingLayout({ locale, pageKey, copy, image, before, after, wide, with
             <h2 className="font-serif text-2xl sm:text-3xl text-bamboo mb-6">{ui.common.faq}</h2>
             <FaqList faqs={copy.faqs} locale={locale} />
           </section>
+          <GuideLinks guides={guidesFor(pageKey, locale)} locale={locale} heading={ui.common.readFirst} />
         </div>
         {wide}
       </div>
