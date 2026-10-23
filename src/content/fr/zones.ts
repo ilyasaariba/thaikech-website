@@ -467,4 +467,189 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
       },
     ],
   },
+
+  "route-amizmiz": {
+    slug: "massage-a-domicile-route-d-amizmiz",
+    name: "Route d'Amizmiz",
+    teaser: "Golfs, hôtels de luxe et villas au sud-ouest de Marrakech, sur la route du lac de Lalla Takerkoust.",
+    metaTitle: "Massage à Domicile Route d'Amizmiz, Marrakech",
+    metaDescription:
+      "Massage et hammam à domicile route d'Amizmiz : villas, Royal Palm, Selman, Samanah. Thérapeutes femmes, 8h–22h, déplacement offert, paiement après le soin.",
+    h1: "Massage et hammam à domicile route d'Amizmiz",
+    lead: [
+      "Au sud-ouest de Marrakech, la route d'Amizmiz file vers le lac de Lalla Takerkoust et les contreforts de l'Atlas. Elle dessert quelques-unes des adresses les plus prisées de la région : le Selman au kilomètre 5, le Fairmont Royal Palm et son golf au kilomètre 12, le Samanah Country Club, et de nombreuses villas avec piscine. Nos thérapeutes femmes viennent jusqu'à vous avec tout le matériel.",
+      "Le déplacement est offert : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
+    ],
+    places: ["Route d'Amizmiz", "Selman Marrakech", "Fairmont Royal Palm", "Samanah Country Club", "Tameslouht", "Lac Lalla Takerkoust"],
+    sections: [
+      {
+        heading: "Villas et domaines : une adresse au kilomètre",
+        blocks: [
+          "Sur la route d'Amizmiz, les adresses se donnent souvent au kilomètre (« route d'Amizmiz, km 12 »). Lors de la confirmation sur WhatsApp, envoyez-nous :",
+          {
+            list: [
+              "la **localisation WhatsApp** de la villa ;",
+              "le **nom du domaine** ou de la résidence, et le numéro de la villa ;",
+              "le nom à donner au gardien, que vous prévenez de l'arrivée de votre thérapeute.",
+            ],
+          },
+          "Comptez une vingtaine de minutes de route depuis la Médina pour les adresses autour du kilomètre 12 : réservez de préférence quelques heures à l'avance, nous organisons le trajet.",
+        ],
+      },
+      {
+        heading: "Après une partie de golf",
+        blocks: [
+          "Le golf du Royal Palm compte 18 trous, et le Samanah Country Club est tout proche. Après le parcours, le [massage sportif récupération](service:massage-sportif) détend le dos, les épaules et les jambes. Pour une fin de journée d'exception, le [massage royal à 4 mains](service:massage-4-mains) transforme votre villa en spa.",
+        ],
+      },
+      {
+        heading: "À l'hôtel : vérifiez auprès de la réception",
+        blocks: [
+          "Chaque hôtel a ses propres règles pour les intervenants extérieurs. Si vous séjournez à l'hôtel et souhaitez un soin dans votre chambre ou votre villa, demandez d'abord à la réception si les thérapeutes extérieurs sont acceptés, puis prévenez-la de l'heure du soin. Tous nos conseils : [se faire masser dans sa chambre d'hôtel](guide:hotel-room-massage).",
+        ],
+      },
+      {
+        heading: "Jusqu'à Lalla Takerkoust et l'Agafay",
+        blocks: [
+          "La route d'Amizmiz mène aussi au lac de Lalla Takerkoust et à de nombreux camps du [désert d'Agafay](zone:agafay). Le déplacement reste offert, même loin du centre : envoyez-nous votre localisation pour que nous organisions le trajet.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Le déplacement route d'Amizmiz est-il payant ?",
+        a: "Non. Il est offert, comme dans toute la région de Marrakech, jusqu'au lac de Lalla Takerkoust et à Amizmiz.",
+      },
+      {
+        q: "Venez-vous dans les hôtels de la route d'Amizmiz ?",
+        a: "Nous venons dans les villas, les résidences et les hôtels qui acceptent les intervenants extérieurs. Les règles varient selon l'établissement : renseignez-vous auprès de la réception avant de réserver.",
+      },
+      {
+        q: "Quel soin choisir après le golf ?",
+        a: "Le [massage sportif](service:massage-sportif) pour les muscles, ou le [massage thaï](service:massage-thai) pour retrouver de la souplesse.",
+      },
+      {
+        q: "Combien de temps à l'avance faut-il réserver ?",
+        a: "Pour une adresse éloignée du centre, réservez de préférence quelques heures à l'avance. Nous intervenons tous les jours de 8h à 22h.",
+      },
+    ],
+  },
+
+  targa: {
+    slug: "massage-a-domicile-targa-marrakech",
+    name: "Targa",
+    teaser: "Villas avec piscine et résidences fermées à l'ouest de Marrakech, à quelques minutes de Guéliz.",
+    metaTitle: "Massage à Domicile à Targa, Marrakech",
+    metaDescription:
+      "Massage, hammam et soins beauté à domicile dans votre villa de Targa, à Marrakech : résidences fermées, piscine, famille ou amis. Thérapeutes femmes, 8h–22h.",
+    h1: "Massage et hammam à domicile à Targa",
+    lead: [
+      "À l'ouest de Marrakech, le long de la route de Targa, ce quartier résidentiel réunit des villas avec jardin et piscine, souvent dans des résidences fermées. Beaucoup se louent pour des vacances en famille ou entre amis, à quelques minutes de Guéliz et de l'Hivernage. Nos thérapeutes femmes viennent dans votre villa avec tout le matériel.",
+      "Le déplacement est offert : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
+    ],
+    places: ["Route de Targa", "Targa Palmiers", "Hay Targa"],
+    sections: [
+      {
+        heading: "Résidences avec gardien : facilitez l'accès",
+        blocks: [
+          "À Targa, de nombreuses villas se trouvent dans des résidences gardées. Pour que votre thérapeute arrive à l'heure, précisez sur WhatsApp le nom de la résidence, le numéro de la villa et votre localisation, et prévenez le gardien de son arrivée.",
+        ],
+      },
+      {
+        heading: "Un spa au bord de la piscine",
+        blocks: [
+          "Les villas de Targa ont de l'espace : la table de massage s'installe dans une chambre, un salon ou à l'ombre près de la piscine. Le [hammam royal](service:hammam-royal) se déroule dans le hammam de la villa ou dans une salle de bain avec douche et eau chaude. Tous les détails sur notre page [hammam à domicile](hammam).",
+        ],
+      },
+      {
+        heading: "Avant une soirée à Guéliz ou à l'Hivernage",
+        blocks: [
+          "Targa est à quelques minutes des restaurants de [Guéliz](zone:gueliz) et de l'[Hivernage](zone:hivernage). Avant de sortir, réservez un [brushing](service:brushing) ou une [manucure](service:manucure) dans votre villa, ou un [massage berbère](service:massage-berbere) pour commencer la soirée détendue.",
+        ],
+      },
+      {
+        heading: "En famille ou entre amis",
+        blocks: [
+          "Pour un groupe, les soins s'enchaînent deux par deux, jusqu'à 10 personnes dans la même journée. Chacun choisit son soin et paie le prix affiché : voir notre page [EVJF et groupes](groups).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Venez-vous dans les résidences fermées de Targa ?",
+        a: "Oui. Donnez-nous le nom de la résidence et le numéro de la villa, et prévenez le gardien de l'arrivée de votre thérapeute.",
+      },
+      {
+        q: "Le déplacement est-il inclus à Targa ?",
+        a: "Oui, le déplacement est offert à Targa, comme dans toute la région de Marrakech.",
+      },
+      {
+        q: "Proposez-vous aussi des soins beauté ?",
+        a: "Oui : [brushing](service:brushing) (350 MAD), [manucure](service:manucure) et [pédicure](service:pedicure) (300 MAD chacune), à domicile.",
+      },
+      {
+        q: "Pouvez-vous recevoir un groupe dans la même villa ?",
+        a: "Oui, jusqu'à 10 personnes dans la même journée. Indiquez le nombre de personnes dans le formulaire : nous proposons un planning sur WhatsApp.",
+      },
+    ],
+  },
+
+  "al-maaden": {
+    slug: "massage-a-domicile-al-maaden-marrakech",
+    name: "Al Maaden",
+    teaser: "Golf, villas avec piscine privée et Park Hyatt dans un domaine sécurisé, au sud-est de Marrakech.",
+    metaTitle: "Massage à Domicile à Al Maaden, Marrakech",
+    metaDescription:
+      "Massage et hammam à domicile à Al Maaden, Marrakech : villas du golf, résidences et hôtels du domaine. Thérapeutes femmes, 8h–22h, déplacement offert.",
+    h1: "Massage et hammam à domicile à Al Maaden",
+    lead: [
+      "Au sud-est de Marrakech, à une quinzaine de minutes de la Médina, Al Maaden Golf Resort réunit un parcours de golf de 18 trous, des villas avec jardin et piscine privée et le Park Hyatt Marrakech, dans un domaine sécurisé. Le MACAAL, musée consacré à l'art contemporain africain, se trouve tout près. Nos thérapeutes femmes viennent dans votre villa ou votre résidence avec tout le matériel.",
+      "Le déplacement est offert : vous payez uniquement votre soin, au prix affiché, après le rendez-vous.",
+    ],
+    places: ["Al Maaden Golf Resort", "Park Hyatt Marrakech", "MACAAL", "Route du Golf Royal", "Sidi Youssef Ben Ali"],
+    sections: [
+      {
+        heading: "Un domaine sécurisé : prévenez l'accueil",
+        blocks: [
+          "Pour entrer dans le domaine sans attendre, votre thérapeute a besoin de quelques informations. Lors de la confirmation sur WhatsApp, indiquez le nom ou le numéro de votre villa et votre localisation, et prévenez l'accueil ou le gardien de son arrivée.",
+        ],
+      },
+      {
+        heading: "Après un parcours de golf",
+        blocks: [
+          "Le parcours de 18 trous d'Al Maaden, dessiné par l'architecte Kyle Phillips, sollicite le dos, les épaules et les jambes. Le [massage sportif récupération](service:massage-sportif) cible ces zones, et le [massage thaï aux serviettes chaudes](service:massage-thai) redonne de la mobilité. Réservez-le pour la fin d'après-midi, au retour du parcours.",
+        ],
+      },
+      {
+        heading: "Culture et détente",
+        blocks: [
+          "Après une visite du MACAAL, terminez la journée dans votre villa par un [massage berbère](service:massage-berbere) à l'huile d'argan ou un [hammam royal](service:hammam-royal). Pour un moment à deux, réservez un [massage en duo](duo) au bord de votre piscine privée.",
+        ],
+      },
+      {
+        heading: "À l'hôtel",
+        blocks: [
+          "Vous séjournez au Park Hyatt ou dans un autre hôtel ? Chaque établissement a ses règles pour les intervenants extérieurs : demandez à la réception avant de réserver un soin dans votre chambre. Nos conseils : [se faire masser dans sa chambre d'hôtel](guide:hotel-room-massage).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Venez-vous dans le domaine d'Al Maaden ?",
+        a: "Oui, dans les villas et les résidences du domaine. Donnez-nous le nom ou le numéro de la villa et votre localisation, et prévenez l'accueil de l'arrivée de votre thérapeute.",
+      },
+      {
+        q: "Le déplacement est-il offert à Al Maaden ?",
+        a: "Oui, comme dans toute la région de Marrakech.",
+      },
+      {
+        q: "Quel massage choisir après le golf ?",
+        a: "Le [massage sportif](service:massage-sportif) pour les muscles, ou le [massage thaï](service:massage-thai) pour retrouver de la souplesse.",
+      },
+      {
+        q: "Pouvez-vous venir dans un hôtel du domaine ?",
+        a: "Cela dépend des règles de l'hôtel : demandez à la réception si les thérapeutes extérieurs sont acceptés avant de réserver.",
+      },
+    ],
+  },
 };

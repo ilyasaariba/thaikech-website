@@ -152,8 +152,8 @@ export function jsonLdGraph(...nodes: (JsonLdNode | undefined | false)[]): JsonL
 }
 
 const BUSINESS_DESCRIPTION: Record<Locale, string> = {
-  fr: "Spa à domicile à Marrakech : massages et hammams dans votre riad, votre villa ou votre hôtel, par des thérapeutes femmes.",
-  en: "Mobile spa in Marrakech: massages and hammams at home, in your riad, villa or hotel, by female therapists.",
+  fr: "Spa à domicile à Marrakech : massages, hammams et soins beauté dans votre riad, votre villa ou votre hôtel, par des thérapeutes femmes.",
+  en: "Mobile spa in Marrakech: massages, hammams and beauty treatments at home, in your riad, villa or hotel, by female therapists.",
 };
 
 /** The business, with its service area, hours and priced catalogue. */
@@ -200,7 +200,7 @@ export function businessNode(locale: Locale, { withCatalog = false } = {}): Json
   if (withCatalog) {
     node.hasOfferCatalog = {
       "@type": "OfferCatalog",
-      name: locale === "fr" ? "Massages et hammams à domicile" : "Massages and hammams at home",
+      name: locale === "fr" ? "Massages, hammams et soins beauté à domicile" : "Massages, hammams and beauty treatments at home",
       itemListElement: getServices(locale).map((service) => ({
         "@type": "Offer",
         price: service.price,

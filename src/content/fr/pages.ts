@@ -18,11 +18,12 @@ export const pagesFr: PagesCopy = {
     },
     services: {
       eyebrow: "Nos Soins",
-      heading: "Massages et Hammams à Domicile",
+      heading: "Massages, Hammams et Beauté à Domicile",
       intro:
-        "Sept soins signature, aux prix affichés, réalisés dans votre riad, votre villa ou votre hôtel à Marrakech. Chaque soin a sa page : déroulé, bienfaits et précautions.",
+        "Nos massages, hammams et soins beauté, aux prix affichés, réalisés dans votre riad, votre villa ou votre hôtel à Marrakech. Chaque soin a sa page : déroulé, bienfaits et précautions.",
       massages: "Massages",
       hammams: "Hammams",
+      beauty: "Beauté à domicile",
       hammamLink: "Tout savoir sur le hammam à domicile",
       allPrices: "Comparer tous les tarifs",
     },
@@ -125,7 +126,7 @@ export const pagesFr: PagesCopy = {
         },
         {
           q: "Quels sont vos tarifs de déplacement et vos zones de service ?",
-          a: "Le déplacement est offert dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, [Amelkis](zone:amelkis), [Agafay](zone:agafay), route d'Amizmiz… Voir nos [zones desservies](areas).",
+          a: "Le déplacement est offert dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, [Amelkis](zone:amelkis), [Al Maaden](zone:al-maaden), [Targa](zone:targa), [Agafay](zone:agafay), [route d'Amizmiz](zone:route-amizmiz)… Voir nos [zones desservies](areas).",
         },
         {
           q: "Quels sont les modes de paiement acceptés ?",
@@ -433,7 +434,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Combien ça coûte ?",
         blocks: [
-          "Chaque soin est facturé au prix affiché, de 450 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans toute la région de Marrakech, même pour une villa éloignée du centre. Voir tous nos [tarifs](prices).",
+          "Chaque soin est facturé au prix affiché, de 300 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans toute la région de Marrakech, même pour une villa éloignée du centre. Voir tous nos [tarifs](prices).",
         ],
       },
       {
@@ -446,6 +447,7 @@ export const pagesFr: PagesCopy = {
               "**[Hammam royal](service:hammam-royal)** (1 h 30, 650 MAD) : une peau éclatante avant la soirée ou le mariage.",
               "**[Massage à 4 mains](service:massage-4-mains)** (1 h 15, 650 MAD) : deux thérapeutes pour la future mariée ou la reine de l'anniversaire, un cadeau du groupe qu'elle n'oubliera pas.",
               "**[Massage femme enceinte](service:massage-future-maman)** (1 h 30, 550 MAD) si l'une d'entre vous attend un bébé.",
+              "**[Brushing](service:brushing)** (1 h, 350 MAD), **[manucure](service:manucure)** ou **[pédicure](service:pedicure)** (1 h, 300 MAD chacune) : pour être prêtes avant la soirée.",
             ],
           },
           "Chaque hammam en cours demande une salle de bain avec douche et eau chaude : dites-nous combien votre villa en compte, nous organisons le planning en conséquence.",
@@ -567,14 +569,14 @@ export const pagesFr: PagesCopy = {
   prices: {
     metaTitle: "Tarifs Massage & Hammam à Domicile à Marrakech",
     metaDescription:
-      "Tous nos prix de massage et de hammam à domicile à Marrakech, de 450 à 650 MAD : durée, ce qui est inclus, déplacement et paiement après le soin.",
+      "Tous nos prix à domicile à Marrakech : massages et hammams de 450 à 650 MAD, brushing, manucure et pédicure dès 300 MAD. Déplacement offert, paiement après.",
     eyebrow: "Prix affichés",
     h1: "Tarifs massage et hammam à domicile à Marrakech",
     lead: [
-      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage berbère à 650 MAD pour le massage à 4 mains ou le hammam royal. La thérapeute, le matériel et le déplacement dans toute la région de Marrakech sont compris.",
+      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage berbère à 650 MAD pour le massage à 4 mains ou le hammam royal. Côté beauté, la manucure et la pédicure coûtent 300 MAD chacune, le brushing 350 MAD. La thérapeute, le matériel et le déplacement dans toute la région de Marrakech sont compris.",
       "Aucun paiement en ligne : vous réglez directement après votre soin.",
     ],
-    facts: ["De 450 à 650 MAD", "Déplacement offert", "Matériel compris", "Paiement après le soin"],
+    facts: ["De 300 à 650 MAD", "Déplacement offert", "Matériel compris", "Paiement après le soin"],
     table: {
       caption: "Nos soins à domicile et leurs tarifs",
       treatment: "Soin",
@@ -589,7 +591,7 @@ export const pagesFr: PagesCopy = {
           {
             list: [
               "Votre thérapeute femme, pendant toute la durée du soin",
-              "La table de massage professionnelle, les huiles, les serviettes et le diffuseur",
+              "Pour les massages et les hammams : la table de massage professionnelle, les huiles, les serviettes et le diffuseur",
               "Le déplacement dans toute la région de Marrakech : Médina, Guéliz, Hivernage, Palmeraie, Agdal, route de l'Ourika, Agafay…",
               "L'installation et le rangement",
             ],
@@ -599,7 +601,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Même prix dans toute la région",
         blocks: [
-          "Le prix ne change pas selon l'adresse : le déplacement est offert jusqu'à la [route de l'Ourika](zone:route-ourika), la route d'Amizmiz ou le [désert d'Agafay](zone:agafay). Voir toutes nos [zones desservies](areas).",
+          "Le prix ne change pas selon l'adresse : le déplacement est offert jusqu'à la [route de l'Ourika](zone:route-ourika), la [route d'Amizmiz](zone:route-amizmiz) ou le [désert d'Agafay](zone:agafay). Voir toutes nos [zones desservies](areas).",
         ],
       },
       {
@@ -647,7 +649,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Quel est le soin le moins cher ?",
-        a: "Le Massage Berbère Traditionnel, à 450 MAD pour 1 heure.",
+        a: "La [manucure](service:manucure) et la [pédicure](service:pedicure), à 300 MAD chacune pour environ 1 heure. Parmi les massages, le Massage Berbère Traditionnel coûte 450 MAD pour 1 heure.",
       },
       {
         q: "Combien coûte un massage en duo ?",
@@ -670,7 +672,7 @@ export const pagesFr: PagesCopy = {
     otherAreasHeading: "Autres quartiers et secteurs",
     otherAreasText:
       "Vous logez ailleurs ? Nous intervenons aussi dans d'autres quartiers de Marrakech et alentours. Envoyez-nous votre localisation sur WhatsApp : nous vous confirmons la disponibilité.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Vallée de l'Ourika"],
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Route de Fès", "Vallée de l'Ourika", "Tameslouht", "Lalla Takerkoust"],
     sections: [
       {
         heading: "Préparer l'arrivée de votre thérapeute",
@@ -695,7 +697,7 @@ export const pagesFr: PagesCopy = {
     faqs: [
       {
         q: "Intervenez-vous en dehors de Marrakech ?",
-        a: "Oui, dans toute la région de Marrakech : route de l'Ourika, Agafay, route d'Amizmiz, Amelkis, Al Maaden… Envoyez-nous votre localisation sur WhatsApp pour confirmer la disponibilité.",
+        a: "Oui, dans toute la région de Marrakech : [route de l'Ourika](zone:route-ourika), [Agafay](zone:agafay), [route d'Amizmiz](zone:route-amizmiz), [Amelkis](zone:amelkis), [Al Maaden](zone:al-maaden)… Envoyez-nous votre localisation sur WhatsApp pour confirmer la disponibilité.",
       },
       {
         q: "Combien de temps à l'avance faut-il réserver ?",

@@ -24,6 +24,9 @@ export const ZONE_IDS: ZoneId[] = [
   "route-ourika",
   "amelkis",
   "agafay",
+  "route-amizmiz",
+  "targa",
+  "al-maaden",
 ];
 
 const BASE: Record<ZoneId, ZoneBase> = {
@@ -34,7 +37,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   },
   gueliz: {
     id: "gueliz",
-    neighbours: ["hivernage", "medina", "palmeraie"],
+    neighbours: ["hivernage", "targa", "medina"],
     services: ["massage-thai", "massage-sportif", "massage-berbere"],
   },
   hivernage: {
@@ -59,13 +62,28 @@ const BASE: Record<ZoneId, ZoneBase> = {
   },
   amelkis: {
     id: "amelkis",
-    neighbours: ["route-ourika", "agdal", "palmeraie"],
+    neighbours: ["al-maaden", "route-ourika", "agdal"],
     services: ["massage-sportif", "massage-thai", "hammam-royal"],
   },
   agafay: {
     id: "agafay",
-    neighbours: ["route-ourika", "agdal", "medina"],
+    neighbours: ["route-amizmiz", "route-ourika", "agdal"],
     services: ["massage-sportif", "massage-berbere", "massage-4-mains"],
+  },
+  "route-amizmiz": {
+    id: "route-amizmiz",
+    neighbours: ["agafay", "targa", "hivernage"],
+    services: ["massage-4-mains", "massage-sportif", "hammam-royal"],
+  },
+  targa: {
+    id: "targa",
+    neighbours: ["gueliz", "hivernage", "route-amizmiz"],
+    services: ["hammam-royal", "massage-berbere", "brushing"],
+  },
+  "al-maaden": {
+    id: "al-maaden",
+    neighbours: ["amelkis", "agdal", "route-ourika"],
+    services: ["massage-thai", "massage-sportif", "massage-4-mains"],
   },
 };
 

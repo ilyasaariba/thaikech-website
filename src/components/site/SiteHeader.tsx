@@ -35,12 +35,14 @@ export default function SiteHeader({
         treatments: ui.nav.treatments,
         massages: ui.nav.massages,
         hammams: ui.nav.hammams,
+        beauty: ui.nav.beauty,
         book: ui.nav.book,
         bookNow: ui.nav.bookNow,
         menu: ui.nav.menu,
       }}
       massages={services.filter((s) => s.category === "massage").map(toLink)}
       hammams={services.filter((s) => s.category === "hammam").map(toLink)}
+      beauty={services.filter((s) => s.category === "beauty").map(toLink)}
       extras={[
         { href: pathFor("hammam", locale), label: ui.nav.hammamHub },
         { href: pathFor("duo", locale), label: ui.nav.duo },

@@ -640,4 +640,286 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       },
     ],
   },
+
+  brushing: {
+    slug: "brushing-a-domicile-marrakech",
+    name: "Shampoing & Brushing",
+    shortName: "brushing",
+    summary:
+      "Un shampoing puis un brushing à la brosse ronde et au sèche-cheveux, pour des cheveux lisses, souples et pleins de volume, sans aller au salon.",
+    imageAlt: "Brushing à la brosse ronde et au sèche-cheveux sur cheveux mi-longs",
+    metaTitle: "Brushing à Domicile à Marrakech – 350 MAD",
+    metaDescription:
+      "Shampoing et brushing à domicile à Marrakech, dans votre riad, villa ou hôtel : 1 h, 350 MAD, par nos thérapeutes femmes, tous les jours de 8h à 22h.",
+    h1: "Brushing à domicile à Marrakech",
+    lead: [
+      "Un dîner, une soirée, un mariage, ou simplement l'envie de cheveux impeccables après une journée au soleil ? Votre thérapeute vient dans votre riad, votre villa ou votre chambre d'hôtel pour un shampoing suivi d'un brushing, sans que vous ayez à chercher un salon dans une ville que vous connaissez peu.",
+      "Le soin dure environ une heure et coûte 350 MAD, déplacement offert dans toute la région de Marrakech. Vous réglez après le soin.",
+    ],
+    idealFor: [
+      "Se préparer pour un dîner, une soirée ou un mariage à Marrakech",
+      "Retrouver des cheveux nets après la piscine, le soleil ou le hammam",
+      "Un EVJF ou un anniversaire : les brushings s'enchaînent dans votre villa ([EVJF et groupes](groups))",
+      "Compléter une [manucure](service:manucure) avant un événement",
+    ],
+    steps: [
+      {
+        title: "Installation",
+        text: "Votre thérapeute s'installe près de la salle de bain et d'une prise électrique, puis vous demande le résultat souhaité : lisse, souple, avec plus ou moins de volume.",
+      },
+      {
+        title: "Shampoing",
+        text: "Les cheveux sont lavés et rincés, puis essorés délicatement dans une serviette.",
+      },
+      {
+        title: "Brushing",
+        text: "Mèche par mèche, à la brosse ronde et au sèche-cheveux, les cheveux sont lissés et prennent du volume.",
+      },
+      {
+        title: "Finitions",
+        text: "Un dernier passage pour discipliner les longueurs et vérifier le résultat avec vous devant le miroir.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Un brushing sans aller au salon",
+        blocks: [
+          "En voyage, trouver un salon de coiffure, réserver un créneau et s'y rendre prend du temps. Avec le brushing à domicile, c'est votre thérapeute qui vient à vous : vous restez dans votre riad, votre villa ou votre chambre d'hôtel, et vous êtes prête au moment de sortir.",
+          "Le soin comprend le shampoing et le brushing. Il dure environ une heure, selon la longueur et l'épaisseur des cheveux.",
+        ],
+      },
+      {
+        heading: "Combien de temps tient un brushing ?",
+        blocks: [
+          "Un brushing tient en général jusqu'au prochain shampoing. L'humidité, la chaleur, la piscine ou la vapeur du hammam le font retomber plus vite.",
+          {
+            note: "Vous avez aussi prévu un [hammam](hammam) ou une baignade ? Placez le brushing après, en fin de journée, juste avant de sortir.",
+          },
+        ],
+      },
+      {
+        heading: "Avant une soirée ou entre amies",
+        blocks: [
+          "Pour un dîner, réservez le brushing en fin d'après-midi. Pour un groupe, plusieurs brushings peuvent s'enchaîner dans votre villa ou votre riad, jusqu'à 10 personnes dans la même journée : voir notre page [EVJF et groupes](groups). Et pour des mains assorties, ajoutez une [manucure](service:manucure).",
+        ],
+      },
+    ],
+    precautions: [
+      "Signalez un cuir chevelu sensible ou irrité, ou une allergie à un produit capillaire.",
+      "Si vos cheveux ont été colorés, défrisés ou lissés récemment, précisez-le à la réservation.",
+      "Évitez la piscine, le hammam ou une douche juste après le brushing : l'eau et la vapeur le font retomber.",
+    ],
+    faqs: [
+      {
+        q: "Combien coûte un brushing à domicile à Marrakech ?",
+        a: "Le shampoing et brushing coûte 350 MAD et dure environ 1 heure. Le déplacement est offert dans toute la région de Marrakech. Voir tous nos prix sur la page [tarifs](prices).",
+      },
+      {
+        q: "Le shampoing est-il compris ?",
+        a: "Oui. Le soin comprend un shampoing, puis le brushing.",
+      },
+      {
+        q: "Que faut-il prévoir ?",
+        a: "Une salle de bain pour le shampoing, une prise électrique et une chaise, idéalement près d'un miroir.",
+      },
+      {
+        q: "Peut-on réserver plusieurs brushings pour un groupe ?",
+        a: "Oui, jusqu'à 10 personnes dans la même journée : les soins s'enchaînent dans votre villa ou votre riad. Indiquez le nombre de personnes dans le formulaire, nous organisons le planning sur WhatsApp. Voir [EVJF et groupes](groups).",
+      },
+      {
+        q: "Peut-on combiner brushing et manucure ?",
+        a: "Oui. Réservez les deux soins, par exemple une [manucure](service:manucure) puis le brushing, et précisez-le dans votre demande : nous organisons l'horaire avec vous sur WhatsApp.",
+      },
+    ],
+    onSite: [
+      "Une salle de bain pour le shampoing",
+      "Une prise électrique et une chaise",
+      "Un miroir à proximité, si possible",
+    ],
+  },
+
+  manucure: {
+    slug: "manucure-a-domicile-marrakech",
+    name: "Manucure & Vernis Classique",
+    shortName: "manucure",
+    summary:
+      "Limage et mise en forme des ongles, soin des cuticules et pose d'un vernis classique, pour des mains soignées sans quitter votre riad ou votre villa.",
+    imageAlt: "Pose d'un vernis classique pendant une manucure",
+    metaTitle: "Manucure à Domicile à Marrakech – 300 MAD",
+    metaDescription:
+      "Manucure à domicile à Marrakech : limage, soin des cuticules et vernis classique dans votre riad, villa ou hôtel. 1 h, 300 MAD, thérapeutes femmes, 8h–22h.",
+    h1: "Manucure à domicile à Marrakech",
+    lead: [
+      "Des mains soignées sans chercher un salon : votre thérapeute vient dans votre riad, votre villa ou votre chambre d'hôtel pour une manucure complète. Limage et mise en forme des ongles, soin des cuticules, puis pose d'un vernis classique.",
+      "Le soin dure environ une heure et coûte 300 MAD, déplacement offert dans toute la région de Marrakech. Vous réglez après le soin.",
+    ],
+    idealFor: [
+      "Des mains impeccables pour un dîner, un mariage ou vos photos de vacances",
+      "Un moment beauté entre amies ou pendant un [EVJF](groups)",
+      "Compléter une [pédicure](service:pedicure) pour les mains et les pieds",
+      "Se faire chouchouter sans quitter la terrasse ou le bord de la piscine",
+    ],
+    steps: [
+      {
+        title: "Installation",
+        text: "Votre thérapeute s'installe à une table, dans un endroit bien éclairé, et vous demande comment vous aimez vos ongles.",
+      },
+      {
+        title: "Limage et mise en forme",
+        text: "Les ongles sont limés et mis en forme selon la forme que vous préférez.",
+      },
+      {
+        title: "Soin des cuticules",
+        text: "Les cuticules sont repoussées et soignées pour un contour d'ongle net.",
+      },
+      {
+        title: "Vernis classique",
+        text: "Pose du vernis, couche après couche, puis quelques minutes de séchage avant de reprendre vos activités.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Une manucure au vernis classique",
+        blocks: [
+          "Notre manucure comprend la pose d'un vernis classique, qui s'enlève avec un dissolvant ordinaire. Nous ne posons pas de vernis semi-permanent.",
+          "Le soin dure environ une heure. Il se déroule à une table, dans votre chambre, votre salon ou à l'ombre sur la terrasse.",
+        ],
+      },
+      {
+        heading: "Combien de temps tient le vernis ?",
+        blocks: [
+          "Un vernis classique tient en général quelques jours, selon l'usage de vos mains : la piscine, le sable et les produits ménagers l'abîment plus vite.",
+          {
+            note: "Laissez le vernis sécher complètement avant de toucher l'eau ou de fouiller dans votre sac : les premières minutes comptent.",
+          },
+        ],
+      },
+      {
+        heading: "Manucure et pédicure le même jour",
+        blocks: [
+          "Pour les mains et les pieds, réservez une manucure et une [pédicure](service:pedicure) : 300 MAD chacune, soit 600 MAD les deux. Précisez-le dans votre demande, nous organisons l'horaire sur WhatsApp. Pour une soirée, ajoutez un [brushing](service:brushing).",
+        ],
+      },
+    ],
+    precautions: [
+      "Signalez toute allergie connue à un vernis ou à un dissolvant.",
+      "En cas de plaie, d'infection ou de mycose de l'ongle, attendez la guérison avant le soin.",
+      "Prévoyez le temps de séchage : évitez l'eau et les gestes appuyés juste après la pose.",
+    ],
+    faqs: [
+      {
+        q: "Combien coûte une manucure à domicile à Marrakech ?",
+        a: "300 MAD pour environ 1 heure, vernis classique compris. Le déplacement est offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
+      },
+      {
+        q: "Que comprend la manucure ?",
+        a: "Le limage et la mise en forme des ongles, le soin des cuticules et la pose d'un vernis classique.",
+      },
+      {
+        q: "Proposez-vous le vernis semi-permanent ?",
+        a: "Non. Notre manucure comprend un vernis classique, qui s'enlève avec un dissolvant ordinaire.",
+      },
+      {
+        q: "Peut-on faire une manucure et une pédicure ensemble ?",
+        a: "Oui. Chaque soin coûte 300 MAD, soit 600 MAD pour la [manucure et la pédicure](service:pedicure). Indiquez les deux soins dans votre demande.",
+      },
+      {
+        q: "Que faut-il prévoir ?",
+        a: "Une table, une chaise et un endroit bien éclairé. Votre thérapeute s'occupe du reste.",
+      },
+    ],
+    onSite: ["Une table et une chaise", "Un endroit bien éclairé"],
+  },
+
+  pedicure: {
+    slug: "pedicure-a-domicile-marrakech",
+    name: "Pédicure & Bain de Pieds",
+    shortName: "pédicure",
+    summary:
+      "Bain de pieds, gommage, limage, soin des cuticules et vernis classique : des pieds doux et soignés après vos journées de marche à Marrakech.",
+    imageAlt: "Pieds dans un bain de pieds aux fleurs avant une pédicure",
+    metaTitle: "Pédicure à Domicile à Marrakech – 300 MAD",
+    metaDescription:
+      "Pédicure à domicile à Marrakech : bain de pieds, gommage, limage, soin des cuticules et vernis classique dans votre riad, villa ou hôtel. 1 h, 300 MAD.",
+    h1: "Pédicure à domicile à Marrakech",
+    lead: [
+      "Après des journées à marcher dans la Médina ou en sandales au bord de la piscine, vos pieds méritent une pause. Votre thérapeute vient dans votre riad, votre villa ou votre chambre d'hôtel pour une pédicure complète : bain de pieds, gommage, limage, soin des cuticules et vernis classique.",
+      "Le soin dure environ une heure et coûte 300 MAD, déplacement offert dans toute la région de Marrakech. Vous réglez après le soin.",
+    ],
+    idealFor: [
+      "Des pieds doux après des journées de marche dans les souks",
+      "Être prête pour les sandales, la piscine ou une soirée",
+      "Un moment de détente avant ou après un [massage](service:massage-berbere)",
+      "Compléter une [manucure](service:manucure) pour les mains et les pieds",
+    ],
+    steps: [
+      {
+        title: "Bain de pieds",
+        text: "Vos pieds se détendent dans un bain d'eau tiède qui assouplit la peau.",
+      },
+      {
+        title: "Gommage",
+        text: "Un gommage élimine les peaux mortes et adoucit les pieds.",
+      },
+      {
+        title: "Limage et cuticules",
+        text: "Les ongles sont limés et mis en forme, puis les cuticules sont soignées.",
+      },
+      {
+        title: "Vernis classique",
+        text: "Pose du vernis, puis un temps de séchage avant de remettre vos chaussures.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Une pédicure de confort, à domicile",
+        blocks: [
+          "Notre pédicure est un soin esthétique et de bien-être : bain de pieds, gommage, limage, soin des cuticules et vernis classique, en une heure environ.",
+          {
+            note: "Ce n'est pas un soin médical. Pour un ongle incarné, une verrue, une mycose ou une douleur au pied, consultez un podologue.",
+          },
+        ],
+      },
+      {
+        heading: "Après la marche dans la Médina ou dans l'Atlas",
+        blocks: [
+          "Les ruelles de la Médina, les souks ou une randonnée dans l'Atlas mettent les pieds à rude épreuve. Le bain de pieds et le gommage les remettent en forme. Pour les jambes lourdes, associez la pédicure à un [massage sportif](service:massage-sportif), et lisez nos conseils pour [récupérer après le Toubkal](guide:atlas-trek-recovery).",
+        ],
+      },
+      {
+        heading: "Manucure et pédicure le même jour",
+        blocks: [
+          "Réservez une [manucure](service:manucure) et une pédicure : 300 MAD chacune, soit 600 MAD les deux. Précisez-le dans votre demande, nous organisons l'horaire sur WhatsApp.",
+        ],
+      },
+    ],
+    precautions: [
+      "Diabète, troubles de la circulation ou plaie au pied : demandez l'avis de votre médecin avant le soin.",
+      "En cas de mycose, de verrue ou d'ongle incarné, consultez un podologue : la pédicure esthétique ne les soigne pas.",
+      "Signalez toute allergie connue à un vernis ou à un produit de gommage.",
+    ],
+    faqs: [
+      {
+        q: "Combien coûte une pédicure à domicile à Marrakech ?",
+        a: "300 MAD pour environ 1 heure, vernis classique compris. Le déplacement est offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
+      },
+      {
+        q: "Que comprend la pédicure ?",
+        a: "Un bain de pieds, un gommage, le limage et la mise en forme des ongles, le soin des cuticules et la pose d'un vernis classique.",
+      },
+      {
+        q: "Que faut-il prévoir ?",
+        a: "Un fauteuil ou une chaise confortable et un accès à l'eau tiède pour le bain de pieds.",
+      },
+      {
+        q: "Soignez-vous les ongles incarnés ou les cors ?",
+        a: "Non. Notre pédicure est un soin esthétique. Pour un ongle incarné, un cor douloureux ou une mycose, consultez un podologue.",
+      },
+      {
+        q: "Peut-on faire une manucure et une pédicure ensemble ?",
+        a: "Oui. Chaque soin coûte 300 MAD, soit 600 MAD pour la [manucure](service:manucure) et la pédicure.",
+      },
+    ],
+    onSite: ["Un fauteuil ou une chaise confortable", "Un accès à l'eau tiède pour le bain de pieds"],
+  },
 };

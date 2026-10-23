@@ -61,7 +61,7 @@ function titleSize(title: string): number {
 
 export async function renderShareImage(card: ShareCard, locale: Locale): Promise<Buffer> {
   const [photo, logo] = await Promise.all([
-    sharp(publicFile(card.photo)).resize(WIDTH, HEIGHT, { fit: "cover" }).jpeg({ quality: 92 }).toBuffer(),
+    sharp(publicFile(card.photo)).flop(card.mirror ?? false).resize(WIDTH, HEIGHT, { fit: "cover" }).jpeg({ quality: 92 }).toBuffer(),
     readFile(publicFile(BUSINESS.logo)),
   ]);
 

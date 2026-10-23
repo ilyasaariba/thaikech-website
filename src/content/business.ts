@@ -14,7 +14,7 @@ export const BUSINESS = {
   logo: "/assets/thai-kech-logo.jpg",
   heroImage: "/assets/massage-riad-marrakech.webp",
   geo: { latitude: 31.6295, longitude: -7.9811 },
-  /** The Google Business Profile is named "thaikech": an alternate name in the structured data. */
+  /** Instagram handle, web address and former Google profile name: an alternate name in the structured data. */
   alternateName: "thaikech",
   /**
    * Official profiles, linked in the footer and listed as `sameAs` in the

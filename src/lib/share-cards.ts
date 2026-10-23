@@ -21,20 +21,24 @@ export interface ShareCard {
   badge?: string[];
   /** Photo in public/, drawn behind the text. */
   photo: string;
+  /** Flip the photo so its subject lands on the right, clear of the text. */
+  mirror?: boolean;
   /** Alt text of the finished image. */
   alt: string;
 }
 
-const LABELS: Record<Locale, { massage: string; hammam: string; area: string; guide: string }> = {
+const LABELS: Record<Locale, { massage: string; hammam: string; beauty: string; area: string; guide: string }> = {
   fr: {
     massage: "Massage à domicile · Marrakech",
     hammam: "Hammam à domicile · Marrakech",
+    beauty: "Beauté à domicile · Marrakech",
     area: "Massage & hammam à domicile",
     guide: "Guide pratique · Marrakech",
   },
   en: {
     massage: "Massage at home · Marrakech",
     hammam: "Hammam at home · Marrakech",
+    beauty: "Beauty at home · Marrakech",
     area: "Massage & hammam at home",
     guide: "Practical guide · Marrakech",
   },
@@ -54,6 +58,9 @@ const LANDING_PHOTO: Partial<Record<StaticPageKey, string>> = {
 
 type LandingKey = "hammam" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter";
 
+/** Photos whose subject sits on the left, where the text panel would hide it. */
+const MIRRORED_PHOTOS = new Set(["/assets/pedicure-bain-de-pieds.webp"]);
+
 function hasCard(key: PageKey): boolean {
   return key.includes(":") || key in LANDING_PHOTO;
 }
@@ -72,10 +79,11 @@ export function shareCard(key: PageKey, locale: Locale): ShareCard | undefined {
       ...(service.therapists === 2 ? [ui.common.twoTherapists] : []),
     ];
     return {
-      eyebrow: service.category === "hammam" ? labels.hammam : labels.massage,
+      eyebrow: labels[service.category],
       title: service.name,
       badge,
       photo: service.image,
+      mirror: MIRRORED_PHOTOS.has(service.image),
       alt: `${service.name} — ${badge.join(" · ")}`,
     };
   }

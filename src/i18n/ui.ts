@@ -8,6 +8,7 @@ export interface UiStrings {
     treatments: string;
     massages: string;
     hammams: string;
+    beauty: string;
     hammamHub: string;
     duo: string;
     inRoom: string;
@@ -68,6 +69,7 @@ export interface UiStrings {
     equipment: string;
     bringHeading: string;
     bringItems: string[];
+    onSiteHeading: string;
     whereHeading: string;
     whereText: string;
     placesHeading: string;
@@ -98,6 +100,7 @@ export const UI: Record<Locale, UiStrings> = {
       treatments: "Soins",
       massages: "Massages",
       hammams: "Hammams",
+      beauty: "Beauté",
       hammamHub: "Hammam à domicile",
       duo: "Massage en duo",
       inRoom: "Massage en chambre d'hôtel",
@@ -126,7 +129,7 @@ export const UI: Record<Locale, UiStrings> = {
     },
     footer: {
       description:
-        "Massages et hammams à domicile à Marrakech. Nos thérapeutes femmes apportent tout le nécessaire pour un soin complet, directement dans votre riad, votre villa ou votre hôtel.",
+        "Massages, hammams et soins beauté à domicile à Marrakech. Nos thérapeutes femmes viennent directement dans votre riad, votre villa ou votre hôtel.",
       available: "Disponible tous les jours, 8h–22h",
       contact: "Contact",
       phone: "Téléphone",
@@ -162,6 +165,7 @@ export const UI: Record<Locale, UiStrings> = {
         "Huiles de massage et serviettes",
         "Diffuseur d'huiles essentielles et musique d'ambiance",
       ],
+      onSiteHeading: "À prévoir sur place",
       whereHeading: "Où intervenons-nous ?",
       whereText: "Dans toute la région de Marrakech, déplacement offert :",
       placesHeading: "Quartiers et repères",
@@ -190,6 +194,7 @@ export const UI: Record<Locale, UiStrings> = {
       treatments: "Treatments",
       massages: "Massages",
       hammams: "Hammams",
+      beauty: "Beauty",
       hammamHub: "Hammam at home",
       duo: "Couples massage",
       inRoom: "In-room massage",
@@ -218,7 +223,7 @@ export const UI: Record<Locale, UiStrings> = {
     },
     footer: {
       description:
-        "Massages and hammams at home in Marrakech. Our female therapists bring everything needed for a complete treatment, straight to your riad, villa or hotel.",
+        "Massages, hammams and beauty treatments at home in Marrakech. Our female therapists come straight to your riad, villa or hotel.",
       available: "Available every day, 8am–10pm",
       contact: "Contact",
       phone: "Phone",
@@ -254,6 +259,7 @@ export const UI: Record<Locale, UiStrings> = {
         "Massage oils and towels",
         "Essential oil diffuser and ambient music",
       ],
+      onSiteHeading: "What to have ready",
       whereHeading: "Where do we go?",
       whereText: "Across the whole Marrakech area, with free travel:",
       placesHeading: "Neighbourhoods and landmarks",

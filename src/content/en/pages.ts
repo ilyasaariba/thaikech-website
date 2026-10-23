@@ -18,11 +18,12 @@ export const pagesEn: PagesCopy = {
     },
     services: {
       eyebrow: "Our Treatments",
-      heading: "Massages and Hammams at Home",
+      heading: "Massages, Hammams and Beauty at Home",
       intro:
-        "Seven signature treatments at clear prices, delivered in your riad, villa or hotel in Marrakech. Each treatment has its own page: how it works, benefits and precautions.",
+        "Our massages, hammams and beauty treatments at clear prices, delivered in your riad, villa or hotel in Marrakech. Each treatment has its own page: how it works, benefits and precautions.",
       massages: "Massages",
       hammams: "Hammams",
+      beauty: "Beauty at home",
       hammamLink: "All about hammam at home",
       allPrices: "Compare all prices",
     },
@@ -125,7 +126,7 @@ export const pagesEn: PagesCopy = {
         },
         {
           q: "What are your travel fees and service areas?",
-          a: "Travel is free across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, [Amelkis](zone:amelkis), [Agafay](zone:agafay), Route d'Amizmiz… See the [areas we cover](areas).",
+          a: "Travel is free across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, [Amelkis](zone:amelkis), [Al Maaden](zone:al-maaden), [Targa](zone:targa), [Agafay](zone:agafay), [Route d'Amizmiz](zone:route-amizmiz)… See the [areas we cover](areas).",
         },
         {
           q: "Which payment methods do you accept?",
@@ -433,7 +434,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "How much does it cost?",
         blocks: [
-          "Each treatment is charged at its listed price, from 450 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free across the whole Marrakech area, even for a villa far from the centre. See all our [prices](prices).",
+          "Each treatment is charged at its listed price, from 300 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free across the whole Marrakech area, even for a villa far from the centre. See all our [prices](prices).",
         ],
       },
       {
@@ -446,6 +447,7 @@ export const pagesEn: PagesCopy = {
               "**[Royal hammam](service:hammam-royal)** (90 min, 650 MAD): glowing skin before the party or the wedding.",
               "**[Four-hands massage](service:massage-4-mains)** (75 min, 650 MAD): two therapists for the bride-to-be or the birthday girl, a gift from the group she won't forget.",
               "**[Pregnancy massage](service:massage-future-maman)** (90 min, 550 MAD) if one of you is expecting.",
+              "**[Blow-dry](service:brushing)** (60 min, 350 MAD), **[manicure](service:manucure)** or **[pedicure](service:pedicure)** (60 min, 300 MAD each): to be ready for the night out.",
             ],
           },
           "Each hammam in progress needs a bathroom with a shower and hot water: tell us how many your villa has and we will plan around it.",
@@ -567,14 +569,14 @@ export const pagesEn: PagesCopy = {
   prices: {
     metaTitle: "Massage & Hammam at Home Prices in Marrakech",
     metaDescription:
-      "All our prices for massage and hammam at home in Marrakech, from 450 to 650 MAD: duration, what's included, travel and payment after your treatment.",
+      "All our prices at home in Marrakech: massages and hammams from 450 to 650 MAD, blow-dry, manicure and pedicure from 300 MAD. Free travel, pay after.",
     eyebrow: "Clear prices",
     h1: "Massage and hammam at home prices in Marrakech",
     lead: [
-      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the Berber massage to 650 MAD for the four-hands massage or the royal hammam. The therapist, equipment and travel across the whole Marrakech area are included.",
+      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the Berber massage to 650 MAD for the four-hands massage or the royal hammam. For beauty, the manicure and the pedicure cost 300 MAD each and the blow-dry 350 MAD. The therapist, equipment and travel across the whole Marrakech area are included.",
       "No online payment: you pay directly after your treatment.",
     ],
-    facts: ["450 to 650 MAD", "Free travel", "Equipment included", "Pay after your treatment"],
+    facts: ["300 to 650 MAD", "Free travel", "Equipment included", "Pay after your treatment"],
     table: {
       caption: "Our at-home treatments and their prices",
       treatment: "Treatment",
@@ -589,7 +591,7 @@ export const pagesEn: PagesCopy = {
           {
             list: [
               "Your female therapist, for the whole treatment",
-              "The professional massage table, oils, towels and diffuser",
+              "For massages and hammams: the professional massage table, oils, towels and diffuser",
               "Travel across the whole Marrakech area: Medina, Gueliz, Hivernage, Palmeraie, Agdal, Route de l'Ourika, Agafay…",
               "Setting up and packing away",
             ],
@@ -599,7 +601,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "Same price across the area",
         blocks: [
-          "The price doesn't change with the address: travel is free as far as the [Route de l'Ourika](zone:route-ourika), the Route d'Amizmiz or the [Agafay desert](zone:agafay). See all the [areas we cover](areas).",
+          "The price doesn't change with the address: travel is free as far as the [Route de l'Ourika](zone:route-ourika), the [Route d'Amizmiz](zone:route-amizmiz) or the [Agafay desert](zone:agafay). See all the [areas we cover](areas).",
         ],
       },
       {
@@ -647,7 +649,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "What is the least expensive treatment?",
-        a: "The Traditional Berber Massage, at 450 MAD for 60 minutes.",
+        a: "The [manicure](service:manucure) and the [pedicure](service:pedicure), at 300 MAD each for about 60 minutes. Among the massages, the Traditional Berber Massage costs 450 MAD for 60 minutes.",
       },
       {
         q: "How much is a couples massage?",
@@ -670,7 +672,7 @@ export const pagesEn: PagesCopy = {
     otherAreasHeading: "Other neighbourhoods and areas",
     otherAreasText:
       "Staying somewhere else? We also cover other neighbourhoods in and around Marrakech. Send us your location on WhatsApp and we will confirm availability.",
-    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Targa", "Al Maaden", "Route de Fès", "Route d'Amizmiz", "Ourika Valley"],
+    otherAreas: ["Kasbah", "Mellah", "Bab Doukkala", "Majorelle", "Semlalia", "Route de Fès", "Ourika Valley", "Tameslouht", "Lalla Takerkoust"],
     sections: [
       {
         heading: "Preparing for your therapist's arrival",
@@ -695,7 +697,7 @@ export const pagesEn: PagesCopy = {
     faqs: [
       {
         q: "Do you travel outside Marrakech?",
-        a: "Yes, across the whole Marrakech area: Route de l'Ourika, Agafay, Route d'Amizmiz, Amelkis, Al Maaden… Send us your location on WhatsApp to confirm availability.",
+        a: "Yes, across the whole Marrakech area: [Route de l'Ourika](zone:route-ourika), [Agafay](zone:agafay), [Route d'Amizmiz](zone:route-amizmiz), [Amelkis](zone:amelkis), [Al Maaden](zone:al-maaden)… Send us your location on WhatsApp to confirm availability.",
       },
       {
         q: "How far in advance should I book?",

@@ -11,7 +11,7 @@ export interface ServiceBase {
   /** Price in Moroccan dirhams (MAD). */
   price: number;
   minutes: number;
-  category: "massage" | "hammam";
+  category: "massage" | "hammam" | "beauty";
   image: string;
   therapists: 1 | 2;
   related: ServiceId[];
@@ -19,7 +19,11 @@ export interface ServiceBase {
 
 export interface Service extends ServiceBase, ServiceCopy {}
 
-/** Ordered as shown on the site: price ascending, massages before hammams at equal price. */
+/**
+ * Ordered as shown on the site: massages and hammams first (the core offer),
+ * by price ascending with massages before hammams at equal price, then the
+ * beauty treatments.
+ */
 export const SERVICE_IDS: ServiceId[] = [
   "massage-berbere",
   "massage-sportif",
@@ -28,6 +32,9 @@ export const SERVICE_IDS: ServiceId[] = [
   "hammam-berbere",
   "massage-4-mains",
   "hammam-royal",
+  "brushing",
+  "manucure",
+  "pedicure",
 ];
 
 const BASE: Record<ServiceId, ServiceBase> = {
@@ -93,6 +100,35 @@ const BASE: Record<ServiceId, ServiceBase> = {
     image: "/assets/hammam-royal-fleur-oranger.webp",
     therapists: 1,
     related: ["hammam-berbere", "massage-4-mains", "massage-berbere"],
+  },
+  // Beauty photos: Unsplash License (unsplash.com/photos/FkAZqQJTbXM,
+  // Xa8fX8bQCgs and qeuJczNo54w).
+  brushing: {
+    id: "brushing",
+    price: 350,
+    minutes: 60,
+    category: "beauty",
+    image: "/assets/brushing-cheveux-a-domicile.webp",
+    therapists: 1,
+    related: ["manucure", "pedicure", "hammam-royal"],
+  },
+  manucure: {
+    id: "manucure",
+    price: 300,
+    minutes: 60,
+    category: "beauty",
+    image: "/assets/manucure-vernis-classique.webp",
+    therapists: 1,
+    related: ["pedicure", "brushing", "massage-berbere"],
+  },
+  pedicure: {
+    id: "pedicure",
+    price: 300,
+    minutes: 60,
+    category: "beauty",
+    image: "/assets/pedicure-bain-de-pieds.webp",
+    therapists: 1,
+    related: ["manucure", "brushing", "massage-sportif"],
   },
 };
 

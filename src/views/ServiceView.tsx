@@ -42,6 +42,11 @@ export default function ServiceView({ id, locale }: { id: ServiceId; locale: Loc
     ...(service.category === "hammam" ? [{ name: ui.nav.hammamHub, href: pathFor("hammam", locale) }] : []),
     { name: service.name, href: path },
   ];
+  const categoryLabel = { massage: ui.nav.massages, hammam: ui.nav.hammams, beauty: ui.nav.beauty }[service.category];
+  // Beauty treatments need no massage table: they list what to have ready instead.
+  const kit = service.onSite
+    ? { heading: ui.common.onSiteHeading, items: service.onSite }
+    : { heading: ui.common.bringHeading, items: ui.common.bringItems };
 
   return (
     <PageShell locale={locale} pageKey={key}>
@@ -64,10 +69,15 @@ export default function ServiceView({ id, locale }: { id: ServiceId; locale: Loc
       <LandingHero
         locale={locale}
         crumbs={crumbs}
-        eyebrow={service.category === "hammam" ? ui.nav.hammams : ui.nav.massages}
+        eyebrow={categoryLabel}
         h1={service.h1}
         lead={service.lead}
-        facts={[ui.common.travelIncluded, ui.common.payAfter, ui.common.hours, ui.common.equipment]}
+        facts={[
+          ui.common.travelIncluded,
+          ui.common.payAfter,
+          ui.common.hours,
+          service.category === "beauty" ? ui.common.therapists : ui.common.equipment,
+        ]}
         priceTag={{ price: service.price, minutes: service.minutes, therapists: service.therapists }}
         preset={{ id: service.id, name: service.name, price: service.price }}
         source={path}
@@ -115,9 +125,9 @@ export default function ServiceView({ id, locale }: { id: ServiceId; locale: Loc
           </div>
 
           <section className="mt-12 rounded-2xl bg-bamboo text-white p-6 sm:p-8">
-            <h2 className="font-serif text-2xl text-gold mb-4">{ui.common.bringHeading}</h2>
+            <h2 className="font-serif text-2xl text-gold mb-4">{kit.heading}</h2>
             <ul className="space-y-2.5">
-              {ui.common.bringItems.map((item) => (
+              {kit.items.map((item) => (
                 <li key={item} className="flex gap-3 text-white/85">
                   <CheckIcon className="w-5 h-5 text-gold flex-shrink-0" />
                   {item}

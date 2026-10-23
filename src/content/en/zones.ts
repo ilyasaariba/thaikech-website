@@ -467,4 +467,189 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       },
     ],
   },
+
+  "route-amizmiz": {
+    slug: "massage-route-d-amizmiz-marrakech",
+    name: "Route d'Amizmiz",
+    teaser: "Golf courses, luxury hotels and villas south-west of Marrakech, on the road to Lake Lalla Takerkoust.",
+    metaTitle: "Villa Massage on the Route d'Amizmiz, Marrakech",
+    metaDescription:
+      "Massage and hammam at home on the Route d'Amizmiz: villas, Royal Palm, Selman, Samanah. Female therapists, 8am–10pm, free travel, pay after your treatment.",
+    h1: "Massage and hammam at home on the Route d'Amizmiz",
+    lead: [
+      "South-west of Marrakech, the Route d'Amizmiz runs towards Lake Lalla Takerkoust and the foothills of the Atlas. It serves some of the most sought-after addresses in the area: the Selman at kilometre 5, the Fairmont Royal Palm and its golf course at kilometre 12, the Samanah Country Club, and many villas with pools. Our female therapists come to you with all the equipment.",
+      "Travel is free: you only pay for your treatment, at the listed price, after the appointment.",
+    ],
+    places: ["Route d'Amizmiz", "Selman Marrakech", "Fairmont Royal Palm", "Samanah Country Club", "Tameslouht", "Lake Lalla Takerkoust"],
+    sections: [
+      {
+        heading: "Villas and estates: an address by the kilometre",
+        blocks: [
+          "On the Route d'Amizmiz, addresses are often given by the kilometre (\"Route d'Amizmiz, km 12\"). When you confirm on WhatsApp, send us:",
+          {
+            list: [
+              "the villa's **WhatsApp location**;",
+              "the **estate's name** or residence, and the villa number;",
+              "the name to give the guard, whom you let know she is coming.",
+            ],
+          },
+          "Allow about twenty minutes' drive from the Medina for addresses around kilometre 12: ideally book a few hours ahead, and we plan the journey.",
+        ],
+      },
+      {
+        heading: "After a round of golf",
+        blocks: [
+          "The Royal Palm golf course has 18 holes, and the Samanah Country Club is close by. After your round, the [sports recovery massage](service:massage-sportif) relaxes the back, shoulders and legs. For a truly special evening, the [royal four-hands massage](service:massage-4-mains) turns your villa into a spa.",
+        ],
+      },
+      {
+        heading: "At a hotel: check with reception",
+        blocks: [
+          "Each hotel has its own rules for outside practitioners. If you are staying at a hotel and would like a treatment in your room or villa, first ask reception whether outside therapists are allowed, then let them know the time of your treatment. All our tips: [having a massage in your hotel room](guide:hotel-room-massage).",
+        ],
+      },
+      {
+        heading: "As far as Lalla Takerkoust and Agafay",
+        blocks: [
+          "The Route d'Amizmiz also leads to Lake Lalla Takerkoust and many camps in the [Agafay desert](zone:agafay). Travel stays free, even far from the centre: send us your location so we can plan the journey.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you charge for travel on the Route d'Amizmiz?",
+        a: "No. Travel is free, as it is across the whole Marrakech area, as far as Lake Lalla Takerkoust and Amizmiz.",
+      },
+      {
+        q: "Do you come to the hotels on the Route d'Amizmiz?",
+        a: "We come to villas, residences and hotels that allow outside practitioners. Rules vary from one hotel to another: check with reception before booking.",
+      },
+      {
+        q: "Which treatment after golf?",
+        a: "The [sports massage](service:massage-sportif) for the muscles, or the [Thai massage](service:massage-thai) to regain flexibility.",
+      },
+      {
+        q: "How far in advance should I book?",
+        a: "For an address far from the centre, ideally book a few hours ahead. We work every day from 8am to 10pm.",
+      },
+    ],
+  },
+
+  targa: {
+    slug: "massage-targa-marrakech",
+    name: "Targa",
+    teaser: "Villas with pools and gated residences west of Marrakech, a few minutes from Gueliz.",
+    metaTitle: "Villa Massage in Targa, Marrakech",
+    metaDescription:
+      "Massage, hammam and beauty treatments at your villa in Targa, Marrakech: gated residences, pools, family or friends. Female therapists, 8am–10pm.",
+    h1: "Massage and hammam at home in Targa",
+    lead: [
+      "West of Marrakech, along the Route de Targa, this residential area brings together villas with gardens and pools, often in gated residences. Many are rented for holidays with family or friends, a few minutes from Gueliz and Hivernage. Our female therapists come to your villa with all the equipment.",
+      "Travel is free: you only pay for your treatment, at the listed price, after the appointment.",
+    ],
+    places: ["Route de Targa", "Targa Palmiers", "Hay Targa"],
+    sections: [
+      {
+        heading: "Guarded residences: make access easy",
+        blocks: [
+          "In Targa, many villas are in guarded residences. So your therapist arrives on time, give us the residence's name, the villa number and your location on WhatsApp, and let the guard know she is coming.",
+        ],
+      },
+      {
+        heading: "A spa by the pool",
+        blocks: [
+          "Villas in Targa have space: the massage table goes in a bedroom, a lounge or a shaded spot by the pool. The [royal hammam](service:hammam-royal) takes place in the villa's hammam or a bathroom with a shower and hot water. All the details are on our [hammam at home](hammam) page.",
+        ],
+      },
+      {
+        heading: "Before a night out in Gueliz or Hivernage",
+        blocks: [
+          "Targa is a few minutes from the restaurants of [Gueliz](zone:gueliz) and [Hivernage](zone:hivernage). Before going out, book a [blow-dry](service:brushing) or a [manicure](service:manucure) at your villa, or a [Berber massage](service:massage-berbere) to start the evening relaxed.",
+        ],
+      },
+      {
+        heading: "With family or friends",
+        blocks: [
+          "For a group, treatments follow on two at a time, up to 10 people in the same day. Everyone chooses their treatment and pays the listed price: see our [bachelorette and group spa](groups) page.",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you come to the gated residences in Targa?",
+        a: "Yes. Give us the residence's name and the villa number, and let the guard know your therapist is coming.",
+      },
+      {
+        q: "Is travel included in Targa?",
+        a: "Yes, travel is free in Targa, as it is across the whole Marrakech area.",
+      },
+      {
+        q: "Do you also offer beauty treatments?",
+        a: "Yes: [blow-dry](service:brushing) (350 MAD), [manicure](service:manucure) and [pedicure](service:pedicure) (300 MAD each), at home.",
+      },
+      {
+        q: "Can you look after a group in the same villa?",
+        a: "Yes, up to 10 people in the same day. Enter the number of people in the form and we suggest a schedule on WhatsApp.",
+      },
+    ],
+  },
+
+  "al-maaden": {
+    slug: "massage-al-maaden-marrakech",
+    name: "Al Maaden",
+    teaser: "Golf, villas with private pools and the Park Hyatt on a secure estate south-east of Marrakech.",
+    metaTitle: "Massage at Al Maaden Golf Resort, Marrakech",
+    metaDescription:
+      "Massage and hammam at home at Al Maaden, Marrakech: golf villas, residences and the estate's hotels. Female therapists, 8am–10pm, free travel.",
+    h1: "Massage and hammam at home at Al Maaden",
+    lead: [
+      "South-east of Marrakech, about fifteen minutes from the Medina, Al Maaden Golf Resort brings together an 18-hole golf course, villas with gardens and private pools, and the Park Hyatt Marrakech, on a secure estate. The MACAAL, a museum of contemporary African art, is close by. Our female therapists come to your villa or residence with all the equipment.",
+      "Travel is free: you only pay for your treatment, at the listed price, after the appointment.",
+    ],
+    places: ["Al Maaden Golf Resort", "Park Hyatt Marrakech", "MACAAL", "Route du Golf Royal", "Sidi Youssef Ben Ali"],
+    sections: [
+      {
+        heading: "A secure estate: tell the front desk",
+        blocks: [
+          "So your therapist can enter the estate without waiting, she needs a few details. When you confirm on WhatsApp, give us your villa's name or number and your location, and let the front desk or the guard know she is coming.",
+        ],
+      },
+      {
+        heading: "After a round of golf",
+        blocks: [
+          "Al Maaden's 18-hole course, designed by architect Kyle Phillips, works the back, shoulders and legs. The [sports recovery massage](service:massage-sportif) targets those areas, and the [Thai massage with hot towels](service:massage-thai) restores mobility. Book it for late afternoon, when you are back from the course.",
+        ],
+      },
+      {
+        heading: "Culture and relaxation",
+        blocks: [
+          "After a visit to the MACAAL, end the day at your villa with an argan oil [Berber massage](service:massage-berbere) or a [royal hammam](service:hammam-royal). For a moment together, book a [couples massage](duo) by your private pool.",
+        ],
+      },
+      {
+        heading: "At a hotel",
+        blocks: [
+          "Staying at the Park Hyatt or another hotel? Each one has its own rules for outside practitioners: ask reception before booking a treatment in your room. Our tips: [having a massage in your hotel room](guide:hotel-room-massage).",
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Do you come to the Al Maaden estate?",
+        a: "Yes, to the villas and residences on the estate. Give us the villa's name or number and your location, and let the front desk know your therapist is coming.",
+      },
+      {
+        q: "Is travel free to Al Maaden?",
+        a: "Yes, as it is across the whole Marrakech area.",
+      },
+      {
+        q: "Which massage after golf?",
+        a: "The [sports massage](service:massage-sportif) for the muscles, or the [Thai massage](service:massage-thai) to regain flexibility.",
+      },
+      {
+        q: "Can you come to a hotel on the estate?",
+        a: "It depends on the hotel's rules: ask reception whether outside therapists are allowed before booking.",
+      },
+    ],
+  },
 };

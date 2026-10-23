@@ -21,12 +21,14 @@ export interface NavMenuProps {
     treatments: string;
     massages: string;
     hammams: string;
+    beauty: string;
     book: string;
     bookNow: string;
     menu: string;
   };
   massages: NavLink[];
   hammams: NavLink[];
+  beauty: NavLink[];
   extras: NavLink[];
   links: NavLink[];
   alternate: { href: string; code: string; label: string; lang: string };
@@ -50,6 +52,7 @@ export default function NavMenu({
   labels,
   massages,
   hammams,
+  beauty,
   extras,
   links,
   alternate,
@@ -119,6 +122,16 @@ export default function NavMenu({
                     <p className="text-gold text-[0.7rem] tracking-[0.25em] uppercase mb-3">{labels.massages}</p>
                     <ul className="space-y-2.5">
                       {massages.map((link) => (
+                        <li key={link.href}>
+                          <Link href={link.href} className="text-sm text-white/80 hover:text-gold transition-colors">
+                            {link.label}
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                    <p className="text-gold text-[0.7rem] tracking-[0.25em] uppercase mt-6 mb-3">{labels.beauty}</p>
+                    <ul className="space-y-2.5">
+                      {beauty.map((link) => (
                         <li key={link.href}>
                           <Link href={link.href} className="text-sm text-white/80 hover:text-gold transition-colors">
                             {link.label}
@@ -241,6 +254,16 @@ export default function NavMenu({
           <p className="text-gold text-[0.7rem] tracking-[0.25em] uppercase mb-3">{labels.hammams}</p>
           <ul className="space-y-3 mb-6">
             {hammams.map((link) => (
+              <li key={link.href}>
+                <Link href={link.href} onClick={closeMenu} className="text-white/85 hover:text-gold">
+                  {link.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <p className="text-gold text-[0.7rem] tracking-[0.25em] uppercase mb-3">{labels.beauty}</p>
+          <ul className="space-y-3 mb-6">
+            {beauty.map((link) => (
               <li key={link.href}>
                 <Link href={link.href} onClick={closeMenu} className="text-white/85 hover:text-gold">
                   {link.label}

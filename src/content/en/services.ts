@@ -637,4 +637,282 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       },
     ],
   },
+
+  brushing: {
+    slug: "blow-dry-at-home-marrakech",
+    name: "Hair Wash & Blow-Dry",
+    shortName: "blow-dry",
+    summary:
+      "A hair wash followed by a blow-dry with a round brush, for smooth, supple hair with volume, without going to a salon.",
+    imageAlt: "Blow-dry with a round brush and hair dryer on mid-length hair",
+    metaTitle: "Blow-Dry at Home in Marrakech – 350 MAD",
+    metaDescription:
+      "Hair wash and blow-dry at home in Marrakech, in your riad, villa or hotel: 60 min for 350 MAD, by our female therapists, every day from 8am to 10pm.",
+    h1: "Blow-dry at home in Marrakech",
+    lead: [
+      "A dinner, a party, a wedding, or simply perfect hair after a day in the sun? Your therapist comes to your riad, villa or hotel room for a hair wash followed by a blow-dry, so you don't have to find a salon in a city you hardly know.",
+      "The treatment takes about an hour and costs 350 MAD, with free travel across the whole Marrakech area. You pay after the treatment.",
+    ],
+    idealFor: [
+      "Getting ready for a dinner, a party or a wedding in Marrakech",
+      "Neat hair again after the pool, the sun or the hammam",
+      "A hen party or a birthday: blow-dries follow one another at your villa ([bachelorette and groups](groups))",
+      "Adding to a [manicure](service:manucure) before an event",
+    ],
+    steps: [
+      {
+        title: "Set-up",
+        text: "Your therapist sets up near the bathroom and a power socket, then asks about the result you want: smooth, supple, with more or less volume.",
+      },
+      {
+        title: "Hair wash",
+        text: "Your hair is washed and rinsed, then gently towel-dried.",
+      },
+      {
+        title: "Blow-dry",
+        text: "Section by section, with a round brush and a hair dryer, your hair is smoothed and given volume.",
+      },
+      {
+        title: "Finishing touches",
+        text: "A final pass to tame the lengths, then a check of the result with you in front of the mirror.",
+      },
+    ],
+    sections: [
+      {
+        heading: "A blow-dry without going to a salon",
+        blocks: [
+          "On holiday, finding a hair salon, booking a slot and getting there takes time. With a blow-dry at home, your therapist comes to you: you stay in your riad, villa or hotel room, and you are ready when it's time to go out.",
+          "The treatment includes the hair wash and the blow-dry. It takes about an hour, depending on the length and thickness of your hair.",
+        ],
+      },
+      {
+        heading: "How long does a blow-dry last?",
+        blocks: [
+          "A blow-dry usually lasts until your next hair wash. Humidity, heat, the pool or hammam steam make it drop sooner.",
+          {
+            note: "Also planning a [hammam](hammam) or a swim? Book the blow-dry afterwards, late in the day, just before you go out.",
+          },
+        ],
+      },
+      {
+        heading: "Before a night out or with friends",
+        blocks: [
+          "For a dinner, book the blow-dry for late afternoon. For a group, several blow-dries can follow one another at your villa or riad, up to 10 people in the same day: see our [bachelorette and group spa](groups) page. And for matching hands, add a [manicure](service:manucure).",
+        ],
+      },
+    ],
+    precautions: [
+      "Tell us if your scalp is sensitive or irritated, or if you are allergic to a hair product.",
+      "If your hair was recently coloured, relaxed or straightened, mention it when you book.",
+      "Avoid the pool, the hammam or a shower right after the blow-dry: water and steam make it drop.",
+    ],
+    faqs: [
+      {
+        q: "How much is a blow-dry at home in Marrakech?",
+        a: "The hair wash and blow-dry costs 350 MAD and takes about 60 minutes. Travel is free across the whole Marrakech area. See all our [prices](prices).",
+      },
+      {
+        q: "Is the hair wash included?",
+        a: "Yes. The treatment includes a hair wash, then the blow-dry.",
+      },
+      {
+        q: "What do I need to have ready?",
+        a: "A bathroom for the hair wash, a power socket and a chair, ideally near a mirror.",
+      },
+      {
+        q: "Can we book several blow-dries for a group?",
+        a: "Yes, up to 10 people in the same day: the treatments follow one another at your villa or riad. Enter the number of people in the form and we plan the day with you on WhatsApp. See [bachelorette and groups](groups).",
+      },
+      {
+        q: "Can I combine a blow-dry and a manicure?",
+        a: "Yes. Book both treatments, for example a [manicure](service:manucure) then the blow-dry, and mention it in your request: we arrange the timing with you on WhatsApp.",
+      },
+    ],
+    onSite: ["A bathroom for the hair wash", "A power socket and a chair", "A mirror nearby, if possible"],
+  },
+
+  manucure: {
+    slug: "manicure-at-home-marrakech",
+    name: "Manicure & Classic Polish",
+    shortName: "manicure",
+    summary:
+      "Nail filing and shaping, cuticle care and classic polish, for well-groomed hands without leaving your riad or villa.",
+    imageAlt: "Classic nail polish being applied during a manicure",
+    metaTitle: "Manicure at Home in Marrakech – 300 MAD",
+    metaDescription:
+      "Manicure at home in Marrakech: nail filing, cuticle care and classic polish in your riad, villa or hotel. 60 min for 300 MAD, female therapists, 8am–10pm.",
+    h1: "Manicure at home in Marrakech",
+    lead: [
+      "Well-groomed hands without looking for a salon: your therapist comes to your riad, villa or hotel room for a complete manicure. Nail filing and shaping, cuticle care, then classic nail polish.",
+      "The treatment takes about an hour and costs 300 MAD, with free travel across the whole Marrakech area. You pay after the treatment.",
+    ],
+    idealFor: [
+      "Perfect hands for a dinner, a wedding or your holiday photos",
+      "A beauty moment with friends or during a [hen party](groups)",
+      "Adding a [pedicure](service:pedicure) for hands and feet",
+      "Being pampered without leaving the terrace or the pool",
+    ],
+    steps: [
+      {
+        title: "Set-up",
+        text: "Your therapist sets up at a table, in a well-lit spot, and asks how you like your nails.",
+      },
+      {
+        title: "Filing and shaping",
+        text: "Your nails are filed and shaped the way you prefer.",
+      },
+      {
+        title: "Cuticle care",
+        text: "The cuticles are pushed back and cared for, for a clean nail outline.",
+      },
+      {
+        title: "Classic polish",
+        text: "The polish goes on coat by coat, followed by a few minutes of drying before you carry on with your day.",
+      },
+    ],
+    sections: [
+      {
+        heading: "A manicure with classic polish",
+        blocks: [
+          "Our manicure includes classic nail polish, which comes off with ordinary nail polish remover. We do not apply semi-permanent (gel) polish.",
+          "The treatment takes about an hour. It takes place at a table, in your room, your lounge or in the shade on the terrace.",
+        ],
+      },
+      {
+        heading: "How long does the polish last?",
+        blocks: [
+          "Classic polish usually lasts a few days, depending on how much you use your hands: the pool, sand and household products wear it down faster.",
+          {
+            note: "Let the polish dry completely before touching water or digging in your bag: the first minutes count.",
+          },
+        ],
+      },
+      {
+        heading: "Manicure and pedicure on the same day",
+        blocks: [
+          "For hands and feet, book a manicure and a [pedicure](service:pedicure): 300 MAD each, so 600 MAD for both. Mention it in your request and we arrange the timing on WhatsApp. For a night out, add a [blow-dry](service:brushing).",
+        ],
+      },
+    ],
+    precautions: [
+      "Tell us about any known allergy to a nail polish or a polish remover.",
+      "If you have a wound, an infection or a nail fungus, wait until it has healed.",
+      "Allow drying time: avoid water and pressure on your nails right after the polish.",
+    ],
+    faqs: [
+      {
+        q: "How much is a manicure at home in Marrakech?",
+        a: "300 MAD for about 60 minutes, classic polish included. Travel is free across the whole Marrakech area. See all our [prices](prices).",
+      },
+      {
+        q: "What does the manicure include?",
+        a: "Nail filing and shaping, cuticle care and classic nail polish.",
+      },
+      {
+        q: "Do you offer semi-permanent (gel) polish?",
+        a: "No. Our manicure includes classic polish, which comes off with ordinary nail polish remover.",
+      },
+      {
+        q: "Can I have a manicure and a pedicure together?",
+        a: "Yes. Each treatment costs 300 MAD, so 600 MAD for the [manicure and the pedicure](service:pedicure). Mention both treatments in your request.",
+      },
+      {
+        q: "What do I need to have ready?",
+        a: "A table, a chair and a well-lit spot. Your therapist takes care of the rest.",
+      },
+    ],
+    onSite: ["A table and a chair", "A well-lit spot"],
+  },
+
+  pedicure: {
+    slug: "pedicure-at-home-marrakech",
+    name: "Pedicure & Foot Soak",
+    shortName: "pedicure",
+    summary:
+      "Foot soak, scrub, nail filing, cuticle care and classic polish: soft, well-groomed feet after your days of walking in Marrakech.",
+    imageAlt: "Feet in a flower foot bath before a pedicure",
+    metaTitle: "Pedicure at Home in Marrakech – 300 MAD",
+    metaDescription:
+      "Pedicure at home in Marrakech: foot soak, scrub, nail filing, cuticle care and classic polish in your riad, villa or hotel. 60 min for 300 MAD.",
+    h1: "Pedicure at home in Marrakech",
+    lead: [
+      "After days walking through the Medina or in sandals by the pool, your feet deserve a break. Your therapist comes to your riad, villa or hotel room for a complete pedicure: foot soak, scrub, nail filing, cuticle care and classic polish.",
+      "The treatment takes about an hour and costs 300 MAD, with free travel across the whole Marrakech area. You pay after the treatment.",
+    ],
+    idealFor: [
+      "Soft feet after days of walking in the souks",
+      "Being ready for sandals, the pool or a night out",
+      "A relaxing moment before or after a [massage](service:massage-berbere)",
+      "Adding a [manicure](service:manucure) for hands and feet",
+    ],
+    steps: [
+      {
+        title: "Foot soak",
+        text: "Your feet relax in a bath of warm water that softens the skin.",
+      },
+      {
+        title: "Scrub",
+        text: "A scrub removes dead skin and softens your feet.",
+      },
+      {
+        title: "Filing and cuticles",
+        text: "Your nails are filed and shaped, then the cuticles are cared for.",
+      },
+      {
+        title: "Classic polish",
+        text: "The polish goes on, followed by drying time before you put your shoes back on.",
+      },
+    ],
+    sections: [
+      {
+        heading: "A comfort pedicure, at home",
+        blocks: [
+          "Our pedicure is a beauty and wellness treatment: foot soak, scrub, nail filing, cuticle care and classic polish, in about an hour.",
+          {
+            note: "It is not a medical treatment. For an ingrown toenail, a wart, a fungal infection or foot pain, see a podiatrist.",
+          },
+        ],
+      },
+      {
+        heading: "After walking the Medina or the Atlas",
+        blocks: [
+          "The Medina's alleys, the souks or a hike in the Atlas put your feet to the test. The foot soak and the scrub get them back in shape. For heavy legs, pair the pedicure with a [sports massage](service:massage-sportif), and read our tips on [recovering after Toubkal](guide:atlas-trek-recovery).",
+        ],
+      },
+      {
+        heading: "Manicure and pedicure on the same day",
+        blocks: [
+          "Book a [manicure](service:manucure) and a pedicure: 300 MAD each, so 600 MAD for both. Mention it in your request and we arrange the timing on WhatsApp.",
+        ],
+      },
+    ],
+    precautions: [
+      "Diabetes, circulation problems or a wound on the foot: ask your doctor before the treatment.",
+      "For a fungal infection, a wart or an ingrown toenail, see a podiatrist: a beauty pedicure does not treat them.",
+      "Tell us about any known allergy to a nail polish or a scrub product.",
+    ],
+    faqs: [
+      {
+        q: "How much is a pedicure at home in Marrakech?",
+        a: "300 MAD for about 60 minutes, classic polish included. Travel is free across the whole Marrakech area. See all our [prices](prices).",
+      },
+      {
+        q: "What does the pedicure include?",
+        a: "A foot soak, a scrub, nail filing and shaping, cuticle care and classic nail polish.",
+      },
+      {
+        q: "What do I need to have ready?",
+        a: "A comfortable armchair or chair and access to warm water for the foot soak.",
+      },
+      {
+        q: "Do you treat ingrown toenails or corns?",
+        a: "No. Our pedicure is a beauty treatment. For an ingrown toenail, a painful corn or a fungal infection, see a podiatrist.",
+      },
+      {
+        q: "Can I have a manicure and a pedicure together?",
+        a: "Yes. Each treatment costs 300 MAD, so 600 MAD for the [manicure](service:manucure) and the pedicure.",
+      },
+    ],
+    onSite: ["A comfortable armchair or chair", "Access to warm water for the foot soak"],
+  },
 };

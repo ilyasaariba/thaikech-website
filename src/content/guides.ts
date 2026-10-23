@@ -60,7 +60,7 @@ const BASE: Record<GuideId, GuideBase> = {
     image: "/assets/hammam-royal-fleur-oranger.webp",
     target: "hammam",
     related: ["hammam-marrakech", "pregnancy-travel", "hotel-room-massage"],
-    shownOn: ["hammam", "groups", "service:hammam-berbere", "service:hammam-royal", "zone:palmeraie"],
+    shownOn: ["hammam", "groups", "service:hammam-berbere", "service:hammam-royal", "zone:palmeraie", "zone:targa"],
   },
   "berber-or-thai": {
     id: "berber-or-thai",
@@ -78,7 +78,17 @@ const BASE: Record<GuideId, GuideBase> = {
     image: "/assets/massage-tete-relaxation.webp",
     target: "inRoom",
     related: ["tipping", "hammam-at-home", "berber-or-thai"],
-    shownOn: ["inRoom", "duo", "service:massage-4-mains", "zone:medina", "zone:hivernage", "zone:agdal", "zone:agafay"],
+    shownOn: [
+      "inRoom",
+      "duo",
+      "service:massage-4-mains",
+      "zone:medina",
+      "zone:hivernage",
+      "zone:agdal",
+      "zone:agafay",
+      "zone:route-amizmiz",
+      "zone:al-maaden",
+    ],
   },
   "atlas-trek-recovery": {
     id: "atlas-trek-recovery",
@@ -87,7 +97,7 @@ const BASE: Record<GuideId, GuideBase> = {
     image: "/assets/massage-sportif-recuperation.webp",
     target: "service:massage-sportif",
     related: ["berber-or-thai", "hammam-marrakech", "hotel-room-massage"],
-    shownOn: ["service:massage-sportif", "service:massage-thai", "zone:route-ourika", "zone:amelkis"],
+    shownOn: ["service:massage-sportif", "service:massage-thai", "service:pedicure", "zone:route-ourika", "zone:amelkis"],
   },
   "pregnancy-travel": {
     id: "pregnancy-travel",

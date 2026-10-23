@@ -8,9 +8,23 @@ export type ServiceId =
   | "massage-future-maman"
   | "massage-4-mains"
   | "hammam-berbere"
-  | "hammam-royal";
+  | "hammam-royal"
+  | "brushing"
+  | "manucure"
+  | "pedicure";
 
-export type ZoneId = "medina" | "gueliz" | "hivernage" | "palmeraie" | "agdal" | "route-ourika" | "agafay" | "amelkis";
+export type ZoneId =
+  | "medina"
+  | "gueliz"
+  | "hivernage"
+  | "palmeraie"
+  | "agdal"
+  | "route-ourika"
+  | "agafay"
+  | "amelkis"
+  | "route-amizmiz"
+  | "targa"
+  | "al-maaden";
 
 export type GuideId =
   | "hammam-at-home"
@@ -72,6 +86,11 @@ export interface ServiceCopy {
   sections: Section[];
   precautions: string[];
   faqs: Faq[];
+  /**
+   * What the client has ready (a bathroom, a chair…). Shown instead of the
+   * massage equipment list on beauty treatments.
+   */
+  onSite?: string[];
 }
 
 export interface ZoneCopy {
@@ -134,7 +153,7 @@ export interface HomeCopy {
     badges: string[];
     discover: string;
   };
-  services: SectionHeader & { massages: string; hammams: string; hammamLink: string; allPrices: string };
+  services: SectionHeader & { massages: string; hammams: string; beauty: string; hammamLink: string; allPrices: string };
   occasions: SectionHeader & { items: { key: PageKey; title: string; text: string }[] };
   concept: SectionHeader & { steps: Step[] };
   commitments: SectionHeader & { items: Step[]; charterLink: string };
