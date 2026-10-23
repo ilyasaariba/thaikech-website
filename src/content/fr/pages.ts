@@ -524,10 +524,10 @@ export const pagesFr: PagesCopy = {
         ],
       },
       {
-        heading: "Mesure d'audience et publicité",
+        heading: "Mesure d'audience",
         blocks: [
-          "Ce site utilise des outils de Google, de Meta (Facebook, Instagram) et de Snapchat pour mesurer les visites et l'efficacité de nos publicités, par exemple pour savoir combien de demandes de réservation viennent d'une annonce. Ces outils peuvent utiliser des cookies ou des identifiants similaires.",
-          "Vous pouvez les limiter ou les bloquer dans les réglages de votre navigateur et dans les paramètres publicitaires de vos comptes Google, Meta et Snapchat.",
+          "Ce site utilise Google Analytics pour mesurer les visites, par exemple pour savoir quelles pages sont lues et combien de demandes de réservation sont envoyées. Cet outil peut utiliser des cookies ou des identifiants similaires.",
+          "Vous pouvez le limiter ou le bloquer dans les réglages de votre navigateur.",
         ],
       },
       {

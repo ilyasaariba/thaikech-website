@@ -524,10 +524,10 @@ export const pagesEn: PagesCopy = {
         ],
       },
       {
-        heading: "Analytics and advertising",
+        heading: "Analytics",
         blocks: [
-          "This website uses tools from Google, Meta (Facebook, Instagram) and Snapchat to measure visits and the effectiveness of our ads, for example to know how many booking requests come from an ad. These tools may use cookies or similar identifiers.",
-          "You can limit or block them in your browser settings and in the ad settings of your Google, Meta and Snapchat accounts.",
+          "This website uses Google Analytics to measure visits, for example to know which pages are read and how many booking requests are sent. This tool may use cookies or similar identifiers.",
+          "You can limit or block it in your browser settings.",
         ],
       },
       {
