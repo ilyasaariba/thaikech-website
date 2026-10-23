@@ -2,11 +2,11 @@ import type { PagesCopy } from "../types";
 
 export const pagesFr: PagesCopy = {
   home: {
-    metaTitle: "Massage à Domicile à Marrakech & Hammam | Thai Kech",
+    metaTitle: "Massage à Domicile à Marrakech : Spa & Hammam | Thai Kech",
     metaDescription:
-      "Massage et hammam à domicile à Marrakech : nos thérapeutes femmes viennent dans votre riad, villa ou hôtel, tous les jours de 8h à 22h. Prix affichés.",
+      "Votre spa à domicile à Marrakech : massage et hammam dans votre riad, villa ou hôtel par nos thérapeutes femmes, tous les jours de 8h à 22h. Prix affichés.",
     hero: {
-      eyebrow: "Spa Mobile de Luxe · Marrakech",
+      eyebrow: "Spa à Domicile · Marrakech",
       h1Start: "Massage",
       h1Accent: "à Domicile",
       h1End: "à Marrakech",
@@ -55,7 +55,7 @@ export const pagesFr: PagesCopy = {
     },
     concept: {
       eyebrow: "Comment Ça Marche",
-      heading: "Votre Spa, en 3 Étapes",
+      heading: "Votre Spa à Domicile en 3 Étapes",
       intro: "Un service conçu pour votre confort. Sans stress, sans déplacement.",
       steps: [
         {
@@ -115,6 +115,10 @@ export const pagesFr: PagesCopy = {
       heading: "FAQ & Bien-être",
       intro: "Tout ce que vous devez savoir pour préparer votre moment de détente à Marrakech.",
       items: [
+        {
+          q: "Qu'est-ce qu'un spa à domicile ?",
+          a: "C'est le spa qui vient à vous. Votre thérapeute apporte la table de massage, les huiles d'argan, les serviettes, le diffuseur et la musique, et installe l'ambiance d'un spa dans votre riad, votre villa ou votre chambre d'hôtel. Vous profitez d'un massage ou d'un [hammam à domicile](hammam) sans vous déplacer, puis vous restez au calme chez vous. Tous nos soins sont sur la page [tarifs](prices).",
+        },
         {
           q: "Comment se passe l'installation à domicile ou dans notre riad ?",
           a: "Votre thérapeute arrive avec tout le matériel nécessaire : table de massage pliante professionnelle, huiles de massage à l'argan, serviettes chaudes à usage unique, diffuseur d'huiles essentielles et musique d'ambiance, pour recréer l'expérience d'un spa dans votre chambre, votre suite ou au bord de la piscine.",
@@ -400,7 +404,7 @@ export const pagesFr: PagesCopy = {
     eyebrow: "EVJF · Anniversaire · Entre amies · Famille",
     h1: "Massage EVJF et groupe à domicile à Marrakech",
     lead: [
-      "Un EVJF, un anniversaire ou un séjour entre amies à Marrakech ? Transformez votre villa ou votre riad en spa privé le temps d'un après-midi. Nos thérapeutes femmes arrivent avec les tables de massage, les huiles et les serviettes : chacune profite de son soin sans quitter la piscine ou la terrasse.",
+      "Un EVJF, un anniversaire ou un séjour entre amies à Marrakech ? Offrez-vous un spa à domicile : votre villa ou votre riad devient un spa privé le temps d'un après-midi. Nos thérapeutes femmes arrivent avec les tables de massage, les huiles et les serviettes : chacune profite de son soin sans quitter la piscine ou la terrasse.",
       "Jusqu'à 10 personnes dans la même journée : indiquez le nombre de personnes et la date dans le formulaire, nous vous proposons un planning sur WhatsApp, avec des soins qui s'enchaînent deux par deux.",
     ],
     facts: ["Jusqu'à 10 personnes par jour", "Thérapeutes femmes", "Soins deux par deux", "Paiement après les soins"],

@@ -89,7 +89,7 @@ export interface UiStrings {
 
 export const UI: Record<Locale, UiStrings> = {
   fr: {
-    tagline: "Spa Mobile de Luxe",
+    tagline: "Spa à Domicile",
     nav: {
       treatments: "Soins",
       massages: "Massages",

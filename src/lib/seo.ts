@@ -142,7 +142,7 @@ export function jsonLdGraph(...nodes: (JsonLdNode | undefined | false)[]): JsonL
 }
 
 const BUSINESS_DESCRIPTION: Record<Locale, string> = {
-  fr: "Spa mobile à Marrakech : massages et hammams à domicile, dans votre riad, votre villa ou votre hôtel, par des thérapeutes femmes.",
+  fr: "Spa à domicile à Marrakech : massages et hammams dans votre riad, votre villa ou votre hôtel, par des thérapeutes femmes.",
   en: "Mobile spa in Marrakech: massages and hammams at home, in your riad, villa or hotel, by female therapists.",
 };
 

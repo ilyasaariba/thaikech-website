@@ -2,11 +2,11 @@ import type { PagesCopy } from "../types";
 
 export const pagesEn: PagesCopy = {
   home: {
-    metaTitle: "Mobile Massage at Home in Marrakech & Hammam | Thai Kech",
+    metaTitle: "Mobile Massage & Spa at Home in Marrakech | Thai Kech",
     metaDescription:
-      "Massage and hammam at home in Marrakech: our female therapists come to your riad, villa or hotel, every day from 8am to 10pm. Clear prices, pay after.",
+      "Your mobile spa in Marrakech: massage and hammam at home in your riad, villa or hotel by our female therapists, every day 8am–10pm. Clear prices, pay after.",
     hero: {
-      eyebrow: "Luxury Mobile Spa · Marrakech",
+      eyebrow: "Mobile Spa at Home · Marrakech",
       h1Start: "Massage",
       h1Accent: "at Home",
       h1End: "in Marrakech",
@@ -55,7 +55,7 @@ export const pagesEn: PagesCopy = {
     },
     concept: {
       eyebrow: "How It Works",
-      heading: "Your Spa in 3 Steps",
+      heading: "Your Mobile Spa in 3 Steps",
       intro: "A service designed for your comfort. No stress, no travelling.",
       steps: [
         {
@@ -115,6 +115,10 @@ export const pagesEn: PagesCopy = {
       heading: "FAQ & Wellness",
       intro: "Everything you need to know to prepare your moment of relaxation in Marrakech.",
       items: [
+        {
+          q: "What is a mobile spa?",
+          a: "It's the spa that comes to you. Your therapist brings the massage table, argan oils, towels, diffuser and music, and sets up a spa atmosphere in your riad, villa or hotel room. You enjoy a massage or a [hammam at home](hammam) without going anywhere, then stay relaxed where you are. All our treatments are on the [prices](prices) page.",
+        },
         {
           q: "How does the set-up work at home or in our riad?",
           a: "Your therapist arrives with all the equipment: a professional folding massage table, argan massage oils, single-use hot towels, an essential oil diffuser and ambient music, to recreate the spa experience in your room, your suite or by the pool.",
