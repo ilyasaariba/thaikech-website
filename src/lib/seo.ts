@@ -162,6 +162,7 @@ export function businessNode(locale: Locale, { withCatalog = false } = {}): Json
     "@type": "HealthAndBeautyBusiness",
     "@id": BUSINESS_ID,
     name: BUSINESS.name,
+    alternateName: BUSINESS.alternateName,
     url: SITE_URL,
     logo: absoluteUrl(BUSINESS.logo),
     image: absoluteUrl(BUSINESS.heroImage),
@@ -169,6 +170,9 @@ export function businessNode(locale: Locale, { withCatalog = false } = {}): Json
     telephone: `+${BUSINESS.phoneDigits}`,
     email: BUSINESS.email,
     priceRange: `${PRICE_RANGE.min}–${PRICE_RANGE.max} MAD`,
+    // Cash only, in any currency, after the treatment.
+    paymentAccepted: "Cash",
+    hasMap: BUSINESS.profiles.google,
     address: {
       "@type": "PostalAddress",
       addressLocality: "Marrakech",
@@ -190,7 +194,7 @@ export function businessNode(locale: Locale, { withCatalog = false } = {}): Json
       opens: BUSINESS.opens,
       closes: BUSINESS.closes,
     },
-    ...(BUSINESS.sameAs.length > 0 ? { sameAs: BUSINESS.sameAs } : {}),
+    sameAs: Object.values(BUSINESS.profiles),
   };
 
   if (withCatalog) {

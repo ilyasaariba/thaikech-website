@@ -45,6 +45,9 @@ export interface UiStrings {
     info: string;
     whatsapp: string;
     whatsappMessage: string;
+    /** Accessible name of a profile icon; {network} is "Instagram", "Facebook"… */
+    profile: string;
+    review: string;
     rights: string;
     bottom: string;
   };
@@ -133,6 +136,8 @@ export const UI: Record<Locale, UiStrings> = {
       info: "Infos pratiques",
       whatsapp: "Contacter via WhatsApp",
       whatsappMessage: "Bonjour Thai Kech, je souhaite réserver un massage à domicile à Marrakech.",
+      profile: "Thai Kech sur {network}",
+      review: "Laisser un avis Google",
       rights: "Tous droits réservés.",
       bottom: "Massage & Hammam à Domicile — Marrakech, Maroc",
     },
@@ -223,6 +228,8 @@ export const UI: Record<Locale, UiStrings> = {
       info: "Practical info",
       whatsapp: "Contact us on WhatsApp",
       whatsappMessage: "Hello Thai Kech, I would like to book a massage at home in Marrakech.",
+      profile: "Thai Kech on {network}",
+      review: "Leave a Google review",
       rights: "All rights reserved.",
       bottom: "Massage & Hammam at Home — Marrakech, Morocco",
     },

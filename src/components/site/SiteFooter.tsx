@@ -7,10 +7,16 @@ import { getServices } from "@/content/services";
 import { getZones } from "@/content/zones";
 import { pathFor } from "@/content/routes";
 import { whatsappUrl } from "@/lib/whatsapp-booking";
-import { WhatsAppIcon } from "@/components/icons";
+import { FacebookIcon, InstagramIcon, MapPinIcon, StarIcon, WhatsAppIcon } from "@/components/icons";
 import ContactLink from "./ContactLink";
 
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
+
+const PROFILES = [
+  { network: "Google Maps", href: BUSINESS.profiles.google, Icon: MapPinIcon },
+  { network: "Instagram", href: BUSINESS.profiles.instagram, Icon: InstagramIcon },
+  { network: "Facebook", href: BUSINESS.profiles.facebook, Icon: FacebookIcon },
+];
 
 /** Links every treatment, area and info page, so no page is more than two clicks from any other. */
 export default function SiteFooter({ locale, alternateHref }: { locale: Locale; alternateHref: string }) {
@@ -68,6 +74,32 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
               <WhatsAppIcon className="w-5 h-5" />
               {ui.footer.whatsapp}
             </ContactLink>
+            {/* rel="me": these profiles belong to the business, the same entity as this site. */}
+            <ul className="mt-6 flex items-center gap-3">
+              {PROFILES.map(({ network, href, Icon }) => (
+                <li key={network}>
+                  <a
+                    href={href}
+                    target="_blank"
+                    rel="me noopener noreferrer"
+                    aria-label={ui.footer.profile.replace("{network}", network)}
+                    title={network}
+                    className="flex h-10 w-10 items-center justify-center rounded-full border border-white/20 text-white/80 hover:border-gold hover:text-gold transition-colors"
+                  >
+                    <Icon className="w-5 h-5" />
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <a
+              href={BUSINESS.reviewUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 inline-flex items-center gap-2 text-sm text-gold hover:text-gold-light transition-colors"
+            >
+              <StarIcon className="w-4 h-4" />
+              {ui.footer.review}
+            </a>
           </div>
 
           <div>

@@ -14,12 +14,20 @@ export const BUSINESS = {
   logo: "/assets/thai-kech-logo.jpg",
   heroImage: "/assets/massage-riad-marrakech.webp",
   geo: { latitude: 31.6295, longitude: -7.9811 },
+  /** The Google Business Profile is named "thaikech": an alternate name in the structured data. */
+  alternateName: "thaikech",
   /**
-   * Official profiles (Google Business Profile, Instagram, Facebook,
-   * TripAdvisor…). Listed as `sameAs` in the structured data so search engines
-   * connect them to this site. Add each URL once the profile exists.
+   * Official profiles, linked in the footer and listed as `sameAs` in the
+   * structured data so search engines connect them to this site. The Google
+   * one is the profile's permanent Maps URL (by CID), not a share link.
    */
-  sameAs: [] as string[],
+  profiles: {
+    google: "https://www.google.com/maps?cid=11868810268905023501",
+    instagram: "https://www.instagram.com/thaikech/",
+    facebook: "https://www.facebook.com/profile.php?id=61594386443527",
+  },
+  /** Opens the "write a review" box of the Google Business Profile. */
+  reviewUrl: "https://g.page/r/CQ2ol1AOfLakEBM/review",
 } as const;
 
 /** Date the site content was last reviewed; used when a page has no own date. */
