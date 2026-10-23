@@ -5,6 +5,7 @@ import type { Faq, PageKey } from "@/content/types";
 import { pathFor } from "@/content/routes";
 import { PRICE_RANGE, getServices } from "@/content/services";
 import { getZones } from "@/content/zones";
+import { shareImageFor } from "./share-cards";
 
 export const BUSINESS_ID = `${SITE_URL}/#business`;
 export const WEBSITE_ID = `${SITE_URL}/#website`;
@@ -28,7 +29,9 @@ export function stripMarkup(text: string): string {
 
 // Branded share images (1200×630) shown by WhatsApp, Facebook and X. Set on
 // every page explicitly: a page's own openGraph object replaces the one from
-// its layout, including any image-file convention.
+// its layout, including any image-file convention. This brand card serves
+// the home, booking and privacy pages; the others get their own card
+// (share-cards.ts).
 const SHARE_IMAGE: Record<Locale, { url: string; alt: string }> = {
   fr: {
     url: "/og/thai-kech-fr.jpg",
@@ -42,6 +45,12 @@ const SHARE_IMAGE: Record<Locale, { url: string; alt: string }> = {
 
 function shareImages(locale: Locale) {
   return [{ ...SHARE_IMAGE[locale], width: 1200, height: 630 }];
+}
+
+/** The page's own share card when it has one, else the brand card. */
+function pageShareImages(key: PageKey, locale: Locale) {
+  const own = shareImageFor(key, locale);
+  return own ? [{ ...own, width: 1200, height: 630, type: "image/jpeg" }] : shareImages(locale);
 }
 
 const SITE_DESCRIPTION: Record<Locale, string> = {
@@ -101,6 +110,7 @@ export function pageMetadata({ locale, key, title, description, absoluteTitle, n
   const fr = pathFor(key, "fr");
   const en = pathFor(key, "en");
   const canonical = locale === "fr" ? fr : en;
+  const images = pageShareImages(key, locale);
 
   return {
     title: absoluteTitle ? { absolute: title } : title,
@@ -118,14 +128,14 @@ export function pageMetadata({ locale, key, title, description, absoluteTitle, n
       url: canonical,
       title,
       description,
-      images: shareImages(locale),
+      images,
       ...(article ?? {}),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: shareImages(locale),
+      images,
     },
     ...(noindex ? { robots: { index: false, follow: true } } : {}),
   };
