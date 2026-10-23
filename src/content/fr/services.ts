@@ -11,7 +11,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Un massage enveloppant à l'huile d'argan : pressions glissées et étirements doux pour relâcher le corps et apaiser l'esprit.",
     imageAlt: "Table de massage dressée avec huile d'argan et serviettes dans un décor marocain",
-    metaTitle: "Massage Marocain Berbère à Domicile à Marrakech – 450 MAD",
+    metaTitle: "Massage Marocain Berbère à Domicile à Marrakech",
     metaDescription:
       "Massage marocain relaxant à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
     h1: "Massage berbère à domicile à Marrakech",
@@ -198,7 +198,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Pressions ciblées et étirements inspirés du Nuad Boran, associés à des serviettes chaudes pour dénouer les tensions.",
     imageAlt: "Thérapeute réalisant un étirement de la jambe pendant un massage thaï",
-    metaTitle: "Massage Thaïlandais à Domicile à Marrakech – 550 MAD",
+    metaTitle: "Massage Thaïlandais à Domicile à Marrakech",
     metaDescription:
       "Massage thaï impérial à domicile à Marrakech : pressions, étirements et serviettes chaudes, 1 h 15 pour 550 MAD. Dans votre riad, villa ou hôtel, 8h–22h.",
     h1: "Massage thaï à domicile à Marrakech",
@@ -375,7 +375,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Deux thérapeutes, des gestes synchronisés : une expérience de lâcher-prise totale, dans votre riad ou votre villa.",
     imageAlt: "Deux paires de mains massant le dos d'une cliente pendant un massage à 4 mains",
-    metaTitle: "Massage 4 Mains à Domicile à Marrakech – 650 MAD",
+    metaTitle: "Massage 4 Mains à Domicile, Marrakech – 650 MAD",
     metaDescription:
       "Massage royal à 4 mains à domicile à Marrakech : deux thérapeutes femmes, gestes synchronisés, 1 h 15 pour 650 MAD. Dans votre riad, villa ou hôtel, 8h–22h.",
     h1: "Massage à 4 mains à domicile à Marrakech",
@@ -465,7 +465,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Savon noir à l'eucalyptus, gommage au gant de kessa, enveloppement au rassoul et modelage de 20 minutes à l'huile d'argan.",
     imageAlt: "Savon noir, gant de kessa et rassoul posés sur une table de hammam en marbre",
-    metaTitle: "Hammam Berbère à Domicile à Marrakech – 550 MAD",
+    metaTitle: "Hammam Berbère à Domicile, Marrakech – 550 MAD",
     metaDescription:
       "Hammam berbère à domicile à Marrakech : savon noir, gommage kessa, rassoul et modelage à l'argan. 1 h 15 pour 550 MAD, dans votre riad, villa ou hôtel.",
     h1: "Hammam berbère à domicile à Marrakech",

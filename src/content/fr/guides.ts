@@ -436,7 +436,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
   tipping: {
     slug: "pourboire-massage-hammam-maroc",
     title: "Pourboire pour un massage ou un hammam au Maroc : combien laisser ?",
-    metaTitle: "Pourboire Massage et Hammam au Maroc : Combien ?",
+    metaTitle: "Massage et Hammam au Maroc : Quel Pourboire ?",
     metaDescription:
       "Faut-il laisser un pourboire après un massage ou un hammam au Maroc ? Usages, montants courants et conseils pour un soin à domicile à Marrakech.",
     excerpt:

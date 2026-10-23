@@ -8,7 +8,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     summary:
       "A soothing argan oil massage: long gliding strokes and gentle stretches to release the body and quiet the mind.",
     imageAlt: "Massage table set with argan oil and towels in a Moroccan-style room",
-    metaTitle: "Moroccan Berber Massage at Home in Marrakech – 450 MAD",
+    metaTitle: "Moroccan Berber Massage at Home in Marrakech",
     metaDescription:
       "Relaxing Moroccan argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
     h1: "Berber massage at home in Marrakech",
@@ -102,7 +102,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     summary:
       "A deep, invigorating massage that targets muscle tension to restore flexibility after exercise.",
     imageAlt: "Massage table with oil and stones, ready for a sports massage",
-    metaTitle: "Deep Tissue & Sports Massage at Home, Marrakech – 500 MAD",
+    metaTitle: "Deep Tissue & Sports Massage at Home, Marrakech",
     metaDescription:
       "Deep tissue-style sports recovery massage at home in Marrakech after an Atlas trek, golf or training. 60 min for 500 MAD, in your riad, villa or hotel.",
     h1: "Sports massage at home in Marrakech",

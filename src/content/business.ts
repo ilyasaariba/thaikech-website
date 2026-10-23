@@ -23,4 +23,4 @@ export const BUSINESS = {
 } as const;
 
 /** Date the site content was last reviewed; used when a page has no own date. */
-export const CONTENT_UPDATED = "2026-10-10";
+export const CONTENT_UPDATED = "2026-10-23";

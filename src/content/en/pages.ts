@@ -321,7 +321,7 @@ export const pagesEn: PagesCopy = {
   },
 
   inRoom: {
-    metaTitle: "In-Room Massage in Hotels, Riads & Villas in Marrakech",
+    metaTitle: "In-Room Massage in Marrakech: Hotel, Riad, Villa",
     metaDescription:
       "Massage in your hotel room, riad, villa or apartment in Marrakech: female therapists, table and oils provided, daily 8am–10pm, pay after your treatment.",
     eyebrow: "Hotel · Riad · Villa · Apartment",
