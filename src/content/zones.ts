@@ -68,7 +68,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   agafay: {
     id: "agafay",
     neighbours: ["route-amizmiz", "route-ourika", "agdal"],
-    services: ["massage-sportif", "massage-berbere", "massage-4-mains"],
+    services: ["massage-pierres-chaudes", "massage-sportif", "massage-berbere"],
   },
   "route-amizmiz": {
     id: "route-amizmiz",

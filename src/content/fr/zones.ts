@@ -38,7 +38,7 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
       {
         heading: "Hammam privé du riad ou salle de bain",
         blocks: [
-          "De nombreux riads disposent d'un petit hammam ou d'une salle de bain spacieuse : c'est l'endroit idéal pour un [hammam berbère](service:hammam-berbere) au savon noir et au gant de kessa. Une douche avec eau chaude suffit pour les rinçages.",
+          "De nombreux riads disposent d'un petit hammam ou d'une salle de bain spacieuse : c'est l'endroit idéal pour un [hammam traditionnel marocain](service:hammam-berbere) au savon noir et au gant de kessa. Une douche avec eau chaude suffit pour les rinçages.",
         ],
       },
       {
@@ -63,7 +63,7 @@ export const zonesFr: Record<ZoneId, ZoneCopy> = {
       },
       {
         q: "Proposez-vous le hammam dans les riads ?",
-        a: "Oui. Le [hammam berbère](service:hammam-berbere) et le [hammam royal](service:hammam-royal) se font dans le hammam privé du riad ou dans une salle de bain avec douche.",
+        a: "Oui. Le [hammam traditionnel](service:hammam-berbere) et le [hammam royal](service:hammam-royal) se font dans le hammam privé du riad ou dans une salle de bain avec douche.",
       },
     ],
   },

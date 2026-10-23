@@ -38,7 +38,7 @@ const BASE: Record<GuideId, GuideBase> = {
   "home-massage-prices": {
     id: "home-massage-prices",
     published: "2026-10-10",
-    updated: "2026-10-10",
+    updated: "2026-10-23",
     image: "/assets/massage-huile-argan-therapeute.webp",
     target: "prices",
     related: ["tipping", "berber-or-thai", "hotel-room-massage"],
@@ -47,7 +47,7 @@ const BASE: Record<GuideId, GuideBase> = {
   "hammam-marrakech": {
     id: "hammam-marrakech",
     published: "2026-10-10",
-    updated: "2026-10-10",
+    updated: "2026-10-23",
     image: "/assets/hammam-berbere-savon-noir-kessa.webp",
     target: "hammam",
     related: ["hammam-at-home", "tipping", "pregnancy-travel"],
@@ -56,7 +56,7 @@ const BASE: Record<GuideId, GuideBase> = {
   "hammam-at-home": {
     id: "hammam-at-home",
     published: "2026-09-14",
-    updated: "2026-09-14",
+    updated: "2026-10-23",
     image: "/assets/hammam-royal-fleur-oranger.webp",
     target: "hammam",
     related: ["hammam-marrakech", "pregnancy-travel", "hotel-room-massage"],
@@ -93,16 +93,23 @@ const BASE: Record<GuideId, GuideBase> = {
   "atlas-trek-recovery": {
     id: "atlas-trek-recovery",
     published: "2026-09-14",
-    updated: "2026-09-14",
+    updated: "2026-10-23",
     image: "/assets/massage-sportif-recuperation.webp",
     target: "service:massage-sportif",
     related: ["berber-or-thai", "hammam-marrakech", "hotel-room-massage"],
-    shownOn: ["service:massage-sportif", "service:massage-thai", "service:pedicure", "zone:route-ourika", "zone:amelkis"],
+    shownOn: [
+      "service:massage-sportif",
+      "service:massage-thai",
+      "service:massage-pierres-chaudes",
+      "service:pedicure",
+      "zone:route-ourika",
+      "zone:amelkis",
+    ],
   },
   "pregnancy-travel": {
     id: "pregnancy-travel",
     published: "2026-09-14",
-    updated: "2026-09-14",
+    updated: "2026-10-23",
     image: "/assets/massage-femme-enceinte.webp",
     target: "service:massage-future-maman",
     related: ["hammam-at-home", "hotel-room-massage", "berber-or-thai"],

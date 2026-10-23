@@ -160,7 +160,7 @@ export const pagesFr: PagesCopy = {
     h1: "Hammam à domicile à Marrakech",
     lead: [
       "Le rituel du hammam marocain, sans quitter votre riad, votre villa ou votre chambre d'hôtel. Nos thérapeutes femmes apportent savon noir, gant de kessa, rassoul et huile d'argan, et installent le soin dans votre salle de bain ou le hammam privé de votre logement.",
-      "Deux rituels au choix : le Hammam Berbère Traditionnel (1 h 15, 550 MAD) et le Hammam Royal Éclat & Fleur d'Oranger (1 h 30, 650 MAD).",
+      "Deux rituels au choix : le Hammam Traditionnel Marocain (1 h 15, 550 MAD) et le Hammam Royal Éclat & Fleur d'Oranger (1 h 30, 650 MAD).",
     ],
     facts: ["Dès 550 MAD", "1 h 15 à 1 h 30", "Thérapeutes femmes", "Paiement après le soin"],
     sections: [
@@ -172,7 +172,7 @@ export const pagesFr: PagesCopy = {
             list: [
               "**Savon noir** appliqué sur la peau humide, pour préparer le gommage.",
               "**Gommage au gant de kessa** pour éliminer les peaux mortes.",
-              "**Enveloppement au rassoul** (Hammam Berbère) ou **soin au sel et à la fleur d'oranger** (Hammam Royal).",
+              "**Enveloppement au rassoul** (Hammam Traditionnel) ou **soin au sel et à la fleur d'oranger** (Hammam Royal).",
               "**Rinçage**, puis **modelage à l'huile d'argan** ou **masque à l'argan**, selon le rituel.",
             ],
           },
@@ -203,7 +203,7 @@ export const pagesFr: PagesCopy = {
         blocks: [
           {
             list: [
-              "**[Hammam Berbère Traditionnel](service:hammam-berbere)** : l'essentiel du rituel (savon noir, kessa, rassoul) avec 20 minutes de modelage à l'argan. Idéal pour découvrir et se détendre.",
+              "**[Hammam Traditionnel Marocain](service:hammam-berbere)** : l'essentiel du rituel (savon noir, kessa, rassoul) avec 20 minutes de modelage à l'argan. Idéal pour découvrir et se détendre.",
               "**[Hammam Royal Éclat & Fleur d'Oranger](service:hammam-royal)** : le rituel le plus complet, avec gommage au sel et à la fleur d'oranger, râpe des pieds et masque à l'argan. Idéal avant un événement.",
             ],
           },
@@ -434,7 +434,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "Combien ça coûte ?",
         blocks: [
-          "Chaque soin est facturé au prix affiché, de 300 à 650 MAD par personne. Exemple : 6 massages berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans toute la région de Marrakech, même pour une villa éloignée du centre. Voir tous nos [tarifs](prices).",
+          "Chaque soin est facturé au prix affiché, de 300 à 750 MAD par personne. Exemple : 6 massages relaxants berbères coûtent 6 × 450 MAD, soit 2 700 MAD. Le déplacement est offert dans toute la région de Marrakech, même pour une villa éloignée du centre. Voir tous nos [tarifs](prices).",
         ],
       },
       {
@@ -442,10 +442,10 @@ export const pagesFr: PagesCopy = {
         blocks: [
           {
             list: [
-              "**[Massage berbère](service:massage-berbere)** (1 h, 450 MAD) : la détente à l'huile d'argan, parfaite pour un premier massage au Maroc.",
+              "**[Massage relaxant berbère](service:massage-berbere)** (1 h, 450 MAD) : la détente à l'huile d'argan, parfaite pour un premier massage au Maroc.",
               "**[Massage thaï](service:massage-thai)** (1 h 15, 550 MAD) : pressions, étirements et serviettes chaudes pour celles qui aiment un massage actif.",
               "**[Hammam royal](service:hammam-royal)** (1 h 30, 650 MAD) : une peau éclatante avant la soirée ou le mariage.",
-              "**[Massage à 4 mains](service:massage-4-mains)** (1 h 15, 650 MAD) : deux thérapeutes pour la future mariée ou la reine de l'anniversaire, un cadeau du groupe qu'elle n'oubliera pas.",
+              "**[Massage à 4 mains](service:massage-4-mains)** (1 h 15, 750 MAD) : deux thérapeutes pour la future mariée ou la reine de l'anniversaire, un cadeau du groupe qu'elle n'oubliera pas.",
               "**[Massage femme enceinte](service:massage-future-maman)** (1 h 30, 550 MAD) si l'une d'entre vous attend un bébé.",
               "**[Brushing](service:brushing)** (1 h, 350 MAD), **[manucure](service:manucure)** ou **[pédicure](service:pedicure)** (1 h, 300 MAD chacune) : pour être prêtes avant la soirée.",
             ],
@@ -569,14 +569,14 @@ export const pagesFr: PagesCopy = {
   prices: {
     metaTitle: "Tarifs Massage & Hammam à Domicile à Marrakech",
     metaDescription:
-      "Tous nos prix à domicile à Marrakech : massages et hammams de 450 à 650 MAD, brushing, manucure et pédicure dès 300 MAD. Déplacement offert, paiement après.",
+      "Tous nos prix à domicile à Marrakech : massages et hammams de 450 à 750 MAD, brushing, manucure et pédicure dès 300 MAD. Déplacement offert, paiement après.",
     eyebrow: "Prix affichés",
     h1: "Tarifs massage et hammam à domicile à Marrakech",
     lead: [
-      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage berbère à 650 MAD pour le massage à 4 mains ou le hammam royal. Côté beauté, la manucure et la pédicure coûtent 300 MAD chacune, le brushing 350 MAD. La thérapeute, le matériel et le déplacement dans toute la région de Marrakech sont compris.",
+      "Chez Thai Kech, le prix affiché est le prix de votre soin : de 450 MAD pour le massage relaxant berbère à 750 MAD pour le massage royal à 4 mains. Côté beauté, la manucure et la pédicure coûtent 300 MAD chacune, le brushing 350 MAD. La thérapeute, le matériel et le déplacement dans toute la région de Marrakech sont compris.",
       "Aucun paiement en ligne : vous réglez directement après votre soin.",
     ],
-    facts: ["De 300 à 650 MAD", "Déplacement offert", "Matériel compris", "Paiement après le soin"],
+    facts: ["De 300 à 750 MAD", "Déplacement offert", "Matériel compris", "Paiement après le soin"],
     table: {
       caption: "Nos soins à domicile et leurs tarifs",
       treatment: "Soin",
@@ -613,7 +613,7 @@ export const pagesFr: PagesCopy = {
       {
         heading: "À deux ou en groupe",
         blocks: [
-          "Chaque soin est facturé au prix affiché : pour un [massage en duo](duo), additionnez simplement les deux soins choisis ; pour un [EVJF ou un groupe](groups), additionnez les soins de chacune. Le [massage à 4 mains](service:massage-4-mains), réalisé par deux thérapeutes pour une seule personne, coûte 650 MAD.",
+          "Chaque soin est facturé au prix affiché : pour un [massage en duo](duo), additionnez simplement les deux soins choisis ; pour un [EVJF ou un groupe](groups), additionnez les soins de chacune. Le [massage à 4 mains](service:massage-4-mains), réalisé par deux thérapeutes pour une seule personne, coûte 750 MAD.",
         ],
       },
       {
@@ -649,7 +649,7 @@ export const pagesFr: PagesCopy = {
       },
       {
         q: "Quel est le soin le moins cher ?",
-        a: "La [manucure](service:manucure) et la [pédicure](service:pedicure), à 300 MAD chacune pour environ 1 heure. Parmi les massages, le Massage Berbère Traditionnel coûte 450 MAD pour 1 heure.",
+        a: "La [manucure](service:manucure) et la [pédicure](service:pedicure), à 300 MAD chacune pour environ 1 heure. Parmi les massages, le Massage Relaxant Berbère coûte 450 MAD pour 1 heure.",
       },
       {
         q: "Combien coûte un massage en duo ?",

@@ -38,7 +38,7 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       {
         heading: "The riad's hammam or your bathroom",
         blocks: [
-          "Many riads have a small hammam or a spacious bathroom: the ideal place for a [Berber hammam](service:hammam-berbere) with black soap and a kessa glove scrub. A shower with hot water is enough for rinsing.",
+          "Many riads have a small hammam or a spacious bathroom: the ideal place for a [traditional Moroccan hammam](service:hammam-berbere) with black soap and a kessa glove scrub. A shower with hot water is enough for rinsing.",
         ],
       },
       {
@@ -63,7 +63,7 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       },
       {
         q: "Do you offer hammam treatments in riads?",
-        a: "Yes. The [Berber hammam](service:hammam-berbere) and the [royal hammam](service:hammam-royal) take place in the riad's private hammam or in a bathroom with a shower.",
+        a: "Yes. The [traditional hammam](service:hammam-berbere) and the [royal hammam](service:hammam-royal) take place in the riad's private hammam or in a bathroom with a shower.",
       },
     ],
   },

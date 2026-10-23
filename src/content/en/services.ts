@@ -3,17 +3,17 @@ import type { ServiceCopy, ServiceId } from "../types";
 export const servicesEn: Record<ServiceId, ServiceCopy> = {
   "massage-berbere": {
     slug: "berber-massage-marrakech",
-    name: "Traditional Berber Massage",
-    shortName: "Berber massage",
+    name: "Relaxing Berber Massage",
+    shortName: "relaxing massage",
     summary:
       "A soothing argan oil massage: long gliding strokes and gentle stretches to release the body and quiet the mind.",
     imageAlt: "Massage table set with argan oil and towels in a Moroccan-style room",
-    metaTitle: "Moroccan Berber Massage at Home in Marrakech",
+    metaTitle: "Relaxing Berber Massage at Home in Marrakech",
     metaDescription:
       "Relaxing Moroccan argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
-    h1: "Berber massage at home in Marrakech",
+    h1: "Relaxing Berber massage at home in Marrakech",
     lead: [
-      "Inspired by Moroccan wellness traditions, the Berber massage is a relaxing massage that combines argan oil with long gliding strokes and gentle stretches. It is the perfect way to discover Moroccan massage without leaving your riad, villa or hotel room.",
+      "Inspired by Moroccan wellness traditions, our relaxing Berber massage combines argan oil with long gliding strokes and gentle stretches. It is the perfect way to unwind and discover Moroccan massage without leaving your riad, villa or hotel room.",
       "Your therapist arrives with the massage table, oils and towels, sets everything up and lets you enjoy a full hour of relaxation. You pay after the treatment.",
     ],
     idealFor: [
@@ -73,8 +73,8 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     ],
     faqs: [
       {
-        q: "How much is a Berber massage at home in Marrakech?",
-        a: "The Traditional Berber Massage costs 450 MAD for 60 minutes. Travel is free across the whole Marrakech area. See all our [prices](prices).",
+        q: "How much is a relaxing massage at home in Marrakech?",
+        a: "The Relaxing Berber Massage costs 450 MAD for 60 minutes. Travel is free across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Do I need to prepare anything before the therapist arrives?",
@@ -154,7 +154,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         heading: "Firm pressure, never painful",
         blocks: [
           "A sports massage can be intense, but it should not hurt. Say so at any time if the pressure is too strong: your therapist adjusts straight away.",
-          "Looking for all-over relaxation instead? Choose the [Berber massage](service:massage-berbere) or the [Thai massage with hot towels](service:massage-thai).",
+          "Looking for all-over relaxation instead? Choose the [relaxing Berber massage](service:massage-berbere), the [hot stone massage](service:massage-pierres-chaudes) or the [Thai massage with hot towels](service:massage-thai).",
         ],
       },
     ],
@@ -171,7 +171,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "Does a sports massage hurt?",
-        a: "It is firmer than a relaxing massage, but it should not be painful. You can ask for lighter pressure at any time.",
+        a: "It is firmer than a [relaxing massage](service:massage-berbere), but it should not be painful. You can ask for lighter pressure at any time.",
       },
       {
         q: "Can I book on the same day, after a hike?",
@@ -276,7 +276,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
 
   "massage-future-maman": {
     slug: "pregnancy-massage-marrakech",
-    name: "Gentle Mum-to-Be Massage",
+    name: "Pregnancy Massage",
     shortName: "pregnancy massage",
     summary:
       "A soothing massage adapted to pregnancy, with neutral argan oil, to ease the lower back and help you relax.",
@@ -286,7 +286,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       "Prenatal massage at home in Marrakech: 90 gentle minutes with neutral argan oil for mums-to-be, by our female therapists. 550 MAD, daily 8am–10pm.",
     h1: "Pregnancy massage at home in Marrakech",
     lead: [
-      "The Gentle Mum-to-Be Massage is designed for pregnant women travelling or staying in Marrakech. Slow, enveloping strokes with neutral argan oil help ease tension in the lower back and legs and offer a real moment of calm.",
+      "Our pregnancy massage is designed for mums-to-be travelling or staying in Marrakech. Slow, enveloping strokes with neutral argan oil help ease tension in the lower back and legs and offer a real moment of calm.",
       "It lasts 90 minutes and takes place in your riad, villa or hotel with one of our female therapists. No travelling and no waiting room: you stay comfortably where you are.",
     ],
     idealFor: [
@@ -348,7 +348,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "How much is a pregnancy massage at home?",
-        a: "The Gentle Mum-to-Be Massage costs 550 MAD for 90 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
+        a: "The Pregnancy Massage costs 550 MAD for 90 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
       },
       {
         q: "Is the massage done by a woman?",
@@ -372,13 +372,13 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     summary:
       "Two therapists, perfectly synchronised movements: complete letting go, in your riad or villa.",
     imageAlt: "Two pairs of hands massaging a client's back during a four-hands massage",
-    metaTitle: "Four-Hands Massage in Marrakech – 650 MAD",
+    metaTitle: "Four-Hands Massage in Marrakech – 750 MAD",
     metaDescription:
-      "Royal four-hands massage at home in Marrakech: two female therapists, synchronised movements, 75 min for 650 MAD. In your riad, villa or hotel, 8am–10pm.",
+      "Royal four-hands massage at home in Marrakech: two female therapists, synchronised movements, 75 min for 750 MAD. In your riad, villa or hotel, 8am–10pm.",
     h1: "Four-hands massage at home in Marrakech",
     lead: [
       "The Royal Four-Hands Massage is our most immersive treatment: two therapists work at the same time, with synchronised movements from your back to your feet. You can't follow every stroke, and that is exactly what helps you let go.",
-      "It lasts 75 minutes and costs 650 MAD, for one person massaged by two therapists. It makes a perfect gift for a birthday, a honeymoon or a special moment during your stay.",
+      "It lasts 75 minutes and costs 750 MAD, for one person massaged by two therapists. It makes a perfect gift for a birthday, a honeymoon or a special moment during your stay.",
     ],
     idealFor: [
       "A memorable treat: birthday, honeymoon, gift",
@@ -417,7 +417,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
           "Don't mix them up:",
           {
             list: [
-              "**Four-hands massage**: one person, massaged by two therapists at the same time (650 MAD, 75 min).",
+              "**Four-hands massage**: one person, massaged by two therapists at the same time (750 MAD, 75 min).",
               "**Couples massage**: two people, each massaged by their own therapist, side by side. Each person chooses their treatment at the listed price. See our [couples massage](duo).",
             ],
           },
@@ -438,7 +438,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "How much is a four-hands massage at home in Marrakech?",
-        a: "The Royal Four-Hands Massage costs 650 MAD for 75 minutes with two therapists, with free travel across the whole Marrakech area. See our [prices](prices).",
+        a: "The Royal Four-Hands Massage costs 750 MAD for 75 minutes with two therapists, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
       {
         q: "Is the four-hands massage done by two women?",
@@ -455,19 +455,109 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     ],
   },
 
+  "massage-pierres-chaudes": {
+    slug: "hot-stone-massage-marrakech",
+    name: "Hot Stone Massage",
+    shortName: "hot stone massage",
+    summary:
+      "Smooth heated stones, placed on the body then glided over it: the warmth helps muscles let go, for deep relaxation.",
+    imageAlt: "Therapist placing hot stones along the back during a massage",
+    metaTitle: "Hot Stone Massage at Home, Marrakech – 600 MAD",
+    metaDescription:
+      "Hot stone massage at home in Marrakech: warmth and deep relaxation in your riad, villa or hotel. 60 min for 600 MAD, female therapists, daily 8am–10pm.",
+    h1: "Hot stone massage at home in Marrakech",
+    lead: [
+      "The hot stone massage combines your therapist's hands with the warmth of smooth stones, first placed on the body, then used to massage. The warmth helps the muscles let go and makes the massage especially enveloping.",
+      "The treatment takes an hour and costs 600 MAD, with free travel across the whole Marrakech area. Your therapist comes to your riad, villa or hotel room, and you pay after the treatment.",
+    ],
+    idealFor: [
+      "Deep relaxation, when you find it hard to switch off",
+      "Tension in the back and shoulders",
+      "Cool winter evenings in Marrakech",
+      "A special moment during your stay, in a riad or villa",
+    ],
+    steps: [
+      {
+        title: "Set-up",
+        text: "While the stones warm up, your therapist sets up the table and asks about tense areas and the pressure you like.",
+      },
+      {
+        title: "Stones placed",
+        text: "Hot stones are placed on certain areas, along the back for example, to spread their warmth.",
+      },
+      {
+        title: "Stone massage",
+        text: "The hot stones glide over the muscles with massage oil, alternating with the hands, to ease tension.",
+      },
+      {
+        title: "Slow finish",
+        text: "The treatment ends gently. Take your time getting up and drink a glass of water.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Why warmth relaxes",
+        blocks: [
+          "Warmth helps muscles let go: that is why a hot bath feels so good after a long day. With hot stones, it spreads over the back, shoulders or legs while your therapist massages.",
+          "The pressure stays pleasant: this massage is about relaxation, not effort. For firmer muscle work, choose the [sports massage](service:massage-sportif).",
+        ],
+      },
+      {
+        heading: "Hot stones or relaxing massage?",
+        blocks: [
+          "The [relaxing Berber massage](service:massage-berbere) (60 min, 450 MAD) uses argan oil and the hands alone. The hot stone massage (60 min, 600 MAD) adds the warmth of the stones, for deeper, more enveloping relaxation.",
+        ],
+      },
+      {
+        heading: "Warm, never burning",
+        blocks: [
+          "The stones should feel pleasantly warm, never burning. If a stone feels too hot, say so straight away: your therapist removes it at once.",
+        ],
+      },
+    ],
+    precautions: [
+      "During pregnancy, choose our [pregnancy massage](service:massage-future-maman): the heat of the stones is not advised.",
+      "Diabetes, circulation problems, varicose veins, a heart condition or high blood pressure: ask your doctor before booking.",
+      "No hot stones on sunburn, irritated skin, a wound or a swollen area.",
+      "Tell your therapist immediately if anything feels like it burns.",
+    ],
+    faqs: [
+      {
+        q: "How much is a hot stone massage at home in Marrakech?",
+        a: "600 MAD for 60 minutes, with free travel across the whole Marrakech area. See all our [prices](prices).",
+      },
+      {
+        q: "Can hot stones burn?",
+        a: "They should be warm, never burning. Say at any time if a stone feels too hot: your therapist removes it at once.",
+      },
+      {
+        q: "Can I have a hot stone massage while pregnant?",
+        a: "We don't advise it. Choose our [pregnancy massage](service:massage-future-maman), designed for pregnancy.",
+      },
+      {
+        q: "Do I need to prepare anything?",
+        a: "No: your therapist brings the table, stones, oil and towels. You only need a quiet room with enough space for the table.",
+      },
+      {
+        q: "Is the hot stone massage a sensual treatment?",
+        a: "No. Thai Kech offers professional, non-sensual wellness treatments only, performed by female therapists. See our [code of conduct](charter).",
+      },
+    ],
+  },
+
   "hammam-berbere": {
     slug: "berber-hammam-marrakech",
-    name: "Traditional Berber Hammam",
-    shortName: "Berber hammam",
+    name: "Traditional Moroccan Hammam",
+    shortName: "traditional hammam",
     summary:
       "Eucalyptus black soap, kessa glove scrub, Atlas rhassoul clay wrap and a 20-minute argan oil massage.",
     imageAlt: "Black soap, kessa glove and rhassoul clay on a marble hammam table",
-    metaTitle: "Berber Hammam at Home in Marrakech – 550 MAD",
+    metaTitle: "Traditional Moroccan Hammam at Home, Marrakech",
     metaDescription:
-      "Moroccan hammam at home in Marrakech: black soap, kessa scrub, rhassoul clay and argan oil massage. 75 min for 550 MAD, in your riad, villa or hotel.",
-    h1: "Berber hammam at home in Marrakech",
+      "Traditional Moroccan hammam at home in Marrakech: black soap, kessa scrub, rhassoul clay and argan oil massage. 75 min for 550 MAD, in your riad or villa.",
+    h1: "Traditional Moroccan hammam at home in Marrakech",
     lead: [
-      "The hammam is Morocco's signature beauty ritual. With the Traditional Berber Hammam, it comes to you: eucalyptus black soap, a vigorous kessa glove scrub, a rhassoul clay wrap from the Atlas, then a relaxing 20-minute argan oil massage.",
+      "The hammam is Morocco's signature beauty ritual. With the Traditional Moroccan Hammam, it comes to you: eucalyptus black soap, a vigorous kessa glove scrub, a rhassoul clay wrap from the Atlas, then a relaxing 20-minute argan oil massage.",
       "The treatment lasts 75 minutes. It takes place in your bathroom or in the private hammam of your riad or villa, and leaves your skin clean, soft and nourished.",
     ],
     idealFor: [
@@ -503,9 +593,9 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Berber hammam or royal hammam?",
+        heading: "Traditional hammam or royal hammam?",
         blocks: [
-          "The Berber Hammam is the essential Moroccan ritual, in 75 minutes. The [Royal Radiance & Orange Blossom Hammam](service:hammam-royal) goes further, in 90 minutes: salt crystal and orange blossom exfoliation, foot filing and an argan face and body mask.",
+          "The Traditional Moroccan Hammam is the essential ritual, in 75 minutes. The [Royal Radiance & Orange Blossom Hammam](service:hammam-royal) goes further, in 90 minutes: salt crystal and orange blossom exfoliation, foot filing and an argan face and body mask.",
         ],
       },
       {
@@ -533,8 +623,8 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         a: "No. A private hammam is a bonus, but a bathroom with a shower and hot water is enough for rinsing. We check the space with you when confirming on WhatsApp.",
       },
       {
-        q: "How much is the Berber hammam at home?",
-        a: "The Traditional Berber Hammam costs 550 MAD for 75 minutes, including the 20-minute massage, with free travel across the whole Marrakech area. See our [prices](prices).",
+        q: "How much is the Moroccan hammam at home?",
+        a: "The Traditional Moroccan Hammam costs 550 MAD for 75 minutes, including the 20-minute massage, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
       {
         q: "Can I have the hammam in a hotel room?",
@@ -594,15 +684,15 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Royal hammam or Berber hammam?",
+        heading: "Royal hammam or traditional hammam?",
         blocks: [
           {
             list: [
-              "**[Berber Hammam](service:hammam-berbere)** (550 MAD, 75 min): black soap, kessa, rhassoul and a 20-minute argan massage.",
+              "**[Traditional Moroccan Hammam](service:hammam-berbere)** (550 MAD, 75 min): black soap, kessa, rhassoul and a 20-minute argan massage.",
               "**Royal Hammam** (650 MAD, 90 min): black soap, salt and orange blossom, foot filing and an argan face and body mask.",
             ],
           },
-          "Mainly after relaxation? The Berber hammam includes a massage. Want glowing skin from head to toe? Choose the royal hammam.",
+          "Mainly after relaxation? The traditional hammam includes a massage. Want glowing skin from head to toe? Choose the royal hammam.",
         ],
       },
       {

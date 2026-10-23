@@ -7,6 +7,7 @@ export type ServiceId =
   | "massage-thai"
   | "massage-future-maman"
   | "massage-4-mains"
+  | "massage-pierres-chaudes"
   | "hammam-berbere"
   | "hammam-royal"
   | "brushing"

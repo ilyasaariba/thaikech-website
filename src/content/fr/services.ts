@@ -6,17 +6,17 @@ import type { ServiceCopy, ServiceId } from "../types";
 export const servicesFr: Record<ServiceId, ServiceCopy> = {
   "massage-berbere": {
     slug: "massage-berbere-a-domicile-marrakech",
-    name: "Massage Berbère Traditionnel",
-    shortName: "massage berbère",
+    name: "Massage Relaxant Berbère",
+    shortName: "massage relaxant",
     summary:
       "Un massage enveloppant à l'huile d'argan : pressions glissées et étirements doux pour relâcher le corps et apaiser l'esprit.",
     imageAlt: "Table de massage dressée avec huile d'argan et serviettes dans un décor marocain",
-    metaTitle: "Massage Marocain Berbère à Domicile à Marrakech",
+    metaTitle: "Massage Relaxant Berbère à Domicile à Marrakech",
     metaDescription:
-      "Massage marocain relaxant à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
-    h1: "Massage berbère à domicile à Marrakech",
+      "Massage relaxant marocain à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
+    h1: "Massage relaxant berbère à domicile à Marrakech",
     lead: [
-      "Inspiré des gestes de bien-être marocains, le massage berbère est un massage relaxant qui associe l'huile d'argan à des pressions glissées et des étirements doux. C'est le soin idéal pour découvrir le massage marocain sans quitter votre riad, votre villa ou votre chambre d'hôtel.",
+      "Inspiré des gestes de bien-être marocains, notre massage relaxant berbère associe l'huile d'argan à des pressions glissées et des étirements doux. C'est le soin idéal pour se détendre et découvrir le massage marocain sans quitter votre riad, votre villa ou votre chambre d'hôtel.",
       "Votre thérapeute arrive avec la table de massage, les huiles et les serviettes, installe l'espace et vous laisse profiter d'une heure de détente complète. Vous réglez après le soin.",
     ],
     idealFor: [
@@ -76,8 +76,8 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     ],
     faqs: [
       {
-        q: "Combien coûte un massage berbère à domicile à Marrakech ?",
-        a: "Le Massage Berbère Traditionnel coûte 450 MAD pour 1 heure. Le déplacement est offert dans toute la région de Marrakech. Retrouvez tous nos prix sur la page [tarifs](prices).",
+        q: "Combien coûte un massage relaxant à domicile à Marrakech ?",
+        a: "Le Massage Relaxant Berbère coûte 450 MAD pour 1 heure. Le déplacement est offert dans toute la région de Marrakech. Retrouvez tous nos prix sur la page [tarifs](prices).",
       },
       {
         q: "Faut-il préparer quelque chose avant l'arrivée de la thérapeute ?",
@@ -100,15 +100,15 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
 
   "massage-sportif": {
     slug: "massage-sportif-a-domicile-marrakech",
-    name: "Massage Sportif Récupération",
+    name: "Massage Sportif & Tonique",
     shortName: "massage sportif",
     summary:
       "Un massage profond et tonique qui cible les tensions musculaires, pour retrouver de la souplesse après l'effort.",
     imageAlt: "Table de massage avec huile et pierres, prête pour un massage sportif",
-    metaTitle: "Massage Sportif à Domicile à Marrakech – 500 MAD",
+    metaTitle: "Massage Sportif & Tonique à Domicile, Marrakech",
     metaDescription:
-      "Massage sportif et récupération à domicile à Marrakech, après un trek dans l'Atlas, un golf ou le sport. 1 h, 500 MAD, dans votre riad, villa ou hôtel.",
-    h1: "Massage sportif à domicile à Marrakech",
+      "Massage sportif et tonique à domicile à Marrakech, après un trek dans l'Atlas, un golf ou le sport. 1 h, 500 MAD, dans votre riad, villa ou hôtel.",
+    h1: "Massage sportif et tonique à domicile à Marrakech",
     lead: [
       "Randonnée dans l'Atlas, parcours de golf, journée de marche dans la Médina ou séance de sport : le massage sportif Thai Kech aide votre corps à récupérer. Proche du massage deep tissue, il utilise des pressions plus profondes et des mouvements toniques qui ciblent les zones tendues (jambes, dos, épaules) pour relâcher les muscles et retrouver de la souplesse.",
       "Le soin dure une heure et se déroule chez vous, dans votre riad, votre villa ou votre chambre d'hôtel. Pas de trajet après l'effort : vous restez au calme.",
@@ -157,7 +157,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         heading: "Une pression ferme, jamais douloureuse",
         blocks: [
           "Un massage sportif peut être intense, mais il ne doit pas faire mal. Signalez à tout moment si la pression est trop forte : votre thérapeute l'ajuste immédiatement.",
-          "Vous cherchez plutôt une détente globale ? Choisissez le [massage berbère](service:massage-berbere) ou le [massage thaï aux serviettes chaudes](service:massage-thai).",
+          "Vous cherchez plutôt une détente globale ? Choisissez le [massage relaxant berbère](service:massage-berbere), le [massage aux pierres chaudes](service:massage-pierres-chaudes) ou le [massage thaï aux serviettes chaudes](service:massage-thai).",
         ],
       },
     ],
@@ -170,11 +170,11 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Quel est le prix d'un massage sportif à domicile à Marrakech ?",
-        a: "Le Massage Sportif Récupération coûte 500 MAD pour 1 heure, déplacement offert dans toute la région de Marrakech. Tous les prix sont sur la page [tarifs](prices).",
+        a: "Le Massage Sportif & Tonique coûte 500 MAD pour 1 heure, déplacement offert dans toute la région de Marrakech. Tous les prix sont sur la page [tarifs](prices).",
       },
       {
         q: "Le massage sportif est-il douloureux ?",
-        a: "Il est plus appuyé qu'un massage relaxant, mais il ne doit pas être douloureux. Vous pouvez demander à tout moment d'adoucir la pression.",
+        a: "Il est plus appuyé qu'un [massage relaxant](service:massage-berbere), mais il ne doit pas être douloureux. Vous pouvez demander à tout moment d'adoucir la pression.",
       },
       {
         q: "Puis-je réserver le jour même, après une randonnée ?",
@@ -279,7 +279,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
 
   "massage-future-maman": {
     slug: "massage-femme-enceinte-a-domicile-marrakech",
-    name: "Massage Douceur Future Maman",
+    name: "Massage Femme Enceinte",
     shortName: "massage femme enceinte",
     summary:
       "Un massage enveloppant adapté à la grossesse, à l'huile d'argan neutre, pour soulager le bas du dos et se détendre.",
@@ -289,7 +289,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       "Massage prénatal à domicile à Marrakech : 1 h 30 de douceur à l'huile d'argan neutre pour la future maman, par nos thérapeutes femmes. 550 MAD, 8h–22h.",
     h1: "Massage femme enceinte à domicile à Marrakech",
     lead: [
-      "Le Massage Douceur Future Maman est pensé pour les femmes enceintes en voyage ou en séjour à Marrakech. Des mouvements fluides et enveloppants, réalisés à l'huile d'argan neutre, aident à soulager les tensions du bas du dos et des jambes et offrent un vrai moment de calme.",
+      "Notre massage femme enceinte est pensé pour les futures mamans en voyage ou en séjour à Marrakech. Des mouvements fluides et enveloppants, réalisés à l'huile d'argan neutre, aident à soulager les tensions du bas du dos et des jambes et offrent un vrai moment de calme.",
       "Il dure 1 h 30 et se déroule dans votre riad, votre villa ou votre hôtel, avec l'une de nos thérapeutes femmes. Pas de trajet ni de salle d'attente : vous restez installée confortablement.",
     ],
     idealFor: [
@@ -351,7 +351,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       },
       {
         q: "Combien coûte le massage femme enceinte à domicile ?",
-        a: "Le Massage Douceur Future Maman coûte 550 MAD pour 1 h 30, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
+        a: "Le Massage Femme Enceinte coûte 550 MAD pour 1 h 30, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
       },
       {
         q: "Le massage est-il réalisé par une femme ?",
@@ -375,13 +375,13 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Deux thérapeutes, des gestes synchronisés : une expérience de lâcher-prise totale, dans votre riad ou votre villa.",
     imageAlt: "Deux paires de mains massant le dos d'une cliente pendant un massage à 4 mains",
-    metaTitle: "Massage 4 Mains à Domicile, Marrakech – 650 MAD",
+    metaTitle: "Massage 4 Mains à Domicile, Marrakech – 750 MAD",
     metaDescription:
-      "Massage royal à 4 mains à domicile à Marrakech : deux thérapeutes femmes, gestes synchronisés, 1 h 15 pour 650 MAD. Dans votre riad, villa ou hôtel, 8h–22h.",
+      "Massage royal à 4 mains à domicile à Marrakech : deux thérapeutes femmes, gestes synchronisés, 1 h 15 pour 750 MAD. Dans votre riad, villa ou hôtel, 8h–22h.",
     h1: "Massage à 4 mains à domicile à Marrakech",
     lead: [
       "Le Massage Royal à 4 Mains est notre soin le plus immersif : deux thérapeutes travaillent en même temps, avec des gestes synchronisés du dos jusqu'aux pieds. Impossible de suivre chaque mouvement, et c'est justement ce qui aide à lâcher prise.",
-      "Il dure 1 h 15 et coûte 650 MAD, pour une personne massée par deux thérapeutes. C'est le cadeau idéal pour un anniversaire, une lune de miel ou un moment d'exception pendant votre séjour.",
+      "Il dure 1 h 15 et coûte 750 MAD, pour une personne massée par deux thérapeutes. C'est le cadeau idéal pour un anniversaire, une lune de miel ou un moment d'exception pendant votre séjour.",
     ],
     idealFor: [
       "Offrir un moment inoubliable : anniversaire, lune de miel, cadeau",
@@ -420,7 +420,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
           "Ne les confondez pas :",
           {
             list: [
-              "**Massage à 4 mains** : une seule personne, massée par deux thérapeutes en même temps (650 MAD, 1 h 15).",
+              "**Massage à 4 mains** : une seule personne, massée par deux thérapeutes en même temps (750 MAD, 1 h 15).",
               "**Massage en duo** : deux personnes, chacune massée par sa thérapeute, côte à côte. Chacun choisit son soin, au prix affiché. Voir le [massage en duo](duo).",
             ],
           },
@@ -441,7 +441,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     faqs: [
       {
         q: "Combien coûte un massage à 4 mains à domicile à Marrakech ?",
-        a: "Le Massage Royal à 4 Mains coûte 650 MAD pour 1 h 15 avec deux thérapeutes, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
+        a: "Le Massage Royal à 4 Mains coûte 750 MAD pour 1 h 15 avec deux thérapeutes, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
       {
         q: "Le massage à 4 mains est-il réalisé par deux femmes ?",
@@ -458,19 +458,109 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     ],
   },
 
+  "massage-pierres-chaudes": {
+    slug: "massage-pierres-chaudes-a-domicile-marrakech",
+    name: "Massage aux Pierres Chaudes",
+    shortName: "massage aux pierres chaudes",
+    summary:
+      "Des pierres lisses chauffées, posées puis glissées sur le corps : la chaleur aide les muscles à se relâcher, pour une détente profonde.",
+    imageAlt: "Thérapeute posant des pierres chaudes le long du dos pendant un massage",
+    metaTitle: "Massage Pierres Chaudes à Domicile à Marrakech",
+    metaDescription:
+      "Massage aux pierres chaudes à domicile à Marrakech : chaleur et détente profonde dans votre riad, villa ou hôtel. 1 h, 600 MAD, thérapeutes femmes, 8h–22h.",
+    h1: "Massage aux pierres chaudes à domicile à Marrakech",
+    lead: [
+      "Le massage aux pierres chaudes associe les mains de votre thérapeute et la chaleur de pierres lisses, d'abord posées sur le corps, puis utilisées pour masser. La chaleur aide les muscles à se relâcher et rend le massage particulièrement enveloppant.",
+      "Le soin dure une heure et coûte 600 MAD, déplacement offert dans toute la région de Marrakech. Votre thérapeute vient dans votre riad, votre villa ou votre chambre d'hôtel, et vous réglez après le soin.",
+    ],
+    idealFor: [
+      "Une détente profonde, quand vous avez du mal à décrocher",
+      "Les tensions du dos et des épaules",
+      "Les soirées fraîches de l'hiver à Marrakech",
+      "Un moment d'exception pendant votre séjour, en riad ou en villa",
+    ],
+    steps: [
+      {
+        title: "Installation",
+        text: "Pendant que les pierres chauffent, votre thérapeute installe la table et vous demande vos zones de tension et la pression que vous aimez.",
+      },
+      {
+        title: "Pierres posées",
+        text: "Des pierres chaudes sont posées sur certaines zones, le long du dos par exemple, pour diffuser leur chaleur.",
+      },
+      {
+        title: "Massage aux pierres",
+        text: "Les pierres chaudes glissent sur les muscles avec l'huile de massage, en alternance avec les mains, pour dénouer les tensions.",
+      },
+      {
+        title: "Retour au calme",
+        text: "Le soin se termine en douceur. Prenez le temps de vous relever et buvez un verre d'eau.",
+      },
+    ],
+    sections: [
+      {
+        heading: "Pourquoi la chaleur détend",
+        blocks: [
+          "La chaleur aide les muscles à se relâcher : c'est pour cela qu'un bain chaud fait du bien après une longue journée. Avec les pierres chaudes, elle est diffusée sur le dos, les épaules ou les jambes, pendant que la thérapeute masse.",
+          "La pression reste agréable : ce massage cherche la détente, pas l'effort. Pour un travail musculaire plus appuyé, choisissez le [massage sportif et tonique](service:massage-sportif).",
+        ],
+      },
+      {
+        heading: "Pierres chaudes ou massage relaxant ?",
+        blocks: [
+          "Le [massage relaxant berbère](service:massage-berbere) (1 h, 450 MAD) se fait à l'huile d'argan, avec les mains. Le massage aux pierres chaudes (1 h, 600 MAD) y ajoute la chaleur des pierres, pour une détente plus profonde et plus enveloppante.",
+        ],
+      },
+      {
+        heading: "Chaudes, jamais brûlantes",
+        blocks: [
+          "Les pierres doivent être agréablement chaudes, jamais brûlantes. Si une pierre vous semble trop chaude, dites-le tout de suite : votre thérapeute la retire aussitôt.",
+        ],
+      },
+    ],
+    precautions: [
+      "Pendant la grossesse, choisissez notre [massage femme enceinte](service:massage-future-maman) : la chaleur des pierres n'est pas conseillée.",
+      "Diabète, troubles de la circulation, varices, problème cardiaque ou hypertension : demandez l'avis de votre médecin avant de réserver.",
+      "Pas de pierres chaudes sur un coup de soleil, une peau irritée, une plaie ou une zone enflée.",
+      "Signalez immédiatement toute sensation de brûlure.",
+    ],
+    faqs: [
+      {
+        q: "Combien coûte un massage aux pierres chaudes à domicile à Marrakech ?",
+        a: "600 MAD pour 1 heure, déplacement offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
+      },
+      {
+        q: "Les pierres chaudes peuvent-elles brûler ?",
+        a: "Elles doivent être chaudes, jamais brûlantes. Signalez à tout moment si une pierre vous semble trop chaude : votre thérapeute la retire aussitôt.",
+      },
+      {
+        q: "Peut-on faire un massage aux pierres chaudes enceinte ?",
+        a: "Nous ne le conseillons pas. Choisissez notre [massage femme enceinte](service:massage-future-maman), conçu pour la grossesse.",
+      },
+      {
+        q: "Faut-il préparer quelque chose ?",
+        a: "Non : votre thérapeute apporte la table, les pierres, l'huile et les serviettes. Il suffit d'une pièce calme avec assez de place pour installer la table.",
+      },
+      {
+        q: "Le massage aux pierres chaudes est-il un soin sensuel ?",
+        a: "Non. Thai Kech propose uniquement des soins bien-être professionnels et non sensuels, réalisés par des thérapeutes femmes. Voir notre [charte qualité](charter).",
+      },
+    ],
+  },
+
   "hammam-berbere": {
     slug: "hammam-berbere-a-domicile-marrakech",
-    name: "Hammam Berbère Traditionnel",
-    shortName: "hammam berbère",
+    name: "Hammam Traditionnel Marocain",
+    shortName: "hammam traditionnel",
     summary:
       "Savon noir à l'eucalyptus, gommage au gant de kessa, enveloppement au rassoul et modelage de 20 minutes à l'huile d'argan.",
     imageAlt: "Savon noir, gant de kessa et rassoul posés sur une table de hammam en marbre",
-    metaTitle: "Hammam Berbère à Domicile, Marrakech – 550 MAD",
+    metaTitle: "Hammam Marocain à Domicile à Marrakech",
     metaDescription:
-      "Hammam berbère à domicile à Marrakech : savon noir, gommage kessa, rassoul et modelage à l'argan. 1 h 15 pour 550 MAD, dans votre riad, villa ou hôtel.",
-    h1: "Hammam berbère à domicile à Marrakech",
+      "Hammam traditionnel marocain à domicile à Marrakech : savon noir, gommage kessa, rassoul et modelage à l'argan. 1 h 15, 550 MAD, dans votre riad ou villa.",
+    h1: "Hammam traditionnel marocain à domicile à Marrakech",
     lead: [
-      "Le hammam est le rituel de beauté marocain par excellence. Avec le Hammam Berbère Traditionnel, il vient à vous : savon noir à l'eucalyptus, gommage vigoureux au gant de kessa, enveloppement au rassoul de l'Atlas, puis un modelage relaxant de 20 minutes à l'huile d'argan.",
+      "Le hammam est le rituel de beauté marocain par excellence. Avec le Hammam Traditionnel Marocain, il vient à vous : savon noir à l'eucalyptus, gommage vigoureux au gant de kessa, enveloppement au rassoul de l'Atlas, puis un modelage relaxant de 20 minutes à l'huile d'argan.",
       "Le soin dure 1 h 15. Il se déroule dans votre salle de bain ou dans le hammam privé de votre riad ou de votre villa, et laisse la peau nette, douce et nourrie.",
     ],
     idealFor: [
@@ -506,9 +596,9 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Hammam berbère ou hammam royal ?",
+        heading: "Hammam traditionnel ou hammam royal ?",
         blocks: [
-          "Le Hammam Berbère est l'essentiel du rituel marocain, en 1 h 15. Le [Hammam Royal Éclat & Fleur d'Oranger](service:hammam-royal) va plus loin, en 1 h 30 : gommage aux cristaux de sel et fleur d'oranger, râpe des pieds et masque visage et corps à l'argan.",
+          "Le Hammam Traditionnel Marocain est l'essentiel du rituel, en 1 h 15. Le [Hammam Royal Éclat & Fleur d'Oranger](service:hammam-royal) va plus loin, en 1 h 30 : gommage aux cristaux de sel et fleur d'oranger, râpe des pieds et masque visage et corps à l'argan.",
         ],
       },
       {
@@ -536,8 +626,8 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         a: "Non. Un hammam privé est un plus, mais une salle de bain avec douche et eau chaude suffit pour les rinçages. Nous vérifions l'espace avec vous lors de la confirmation sur WhatsApp.",
       },
       {
-        q: "Combien coûte le hammam berbère à domicile ?",
-        a: "Le Hammam Berbère Traditionnel coûte 550 MAD pour 1 h 15, modelage de 20 minutes compris, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
+        q: "Combien coûte le hammam marocain à domicile ?",
+        a: "Le Hammam Traditionnel Marocain coûte 550 MAD pour 1 h 15, modelage de 20 minutes compris, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
       {
         q: "Peut-on faire le hammam dans une chambre d'hôtel ?",
@@ -597,15 +687,15 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Hammam royal ou hammam berbère ?",
+        heading: "Hammam royal ou hammam traditionnel ?",
         blocks: [
           {
             list: [
-              "**[Hammam Berbère](service:hammam-berbere)** (550 MAD, 1 h 15) : savon noir, kessa, rassoul et modelage de 20 minutes à l'argan.",
+              "**[Hammam Traditionnel Marocain](service:hammam-berbere)** (550 MAD, 1 h 15) : savon noir, kessa, rassoul et modelage de 20 minutes à l'argan.",
               "**Hammam Royal** (650 MAD, 1 h 30) : savon noir, sel et fleur d'oranger, râpe des pieds et masque corps et visage à l'argan.",
             ],
           },
-          "Vous cherchez surtout la détente ? Le hammam berbère inclut un modelage. Vous voulez une peau éclatante de la tête aux pieds ? Choisissez le hammam royal.",
+          "Vous cherchez surtout la détente ? Le hammam traditionnel inclut un modelage. Vous voulez une peau éclatante de la tête aux pieds ? Choisissez le hammam royal.",
         ],
       },
       {

@@ -1,16 +1,17 @@
 # Thai Kech
 
-> Mobile spa in Marrakech, Morocco: massages, hammams and beauty treatments (blow-dry, manicure, pedicure) at home, in your riad, villa, hotel room or apartment. Treatments by female therapists, every day from 8am to 10pm. Clear prices from 300 to 650 MAD, free travel across the whole Marrakech area, payment in cash (any currency) after the treatment. Professional, non-sensual wellness treatments only. Booking via the website form or WhatsApp (+212 656-371114). Website in French (default) and English (/en).
+> Mobile spa in Marrakech, Morocco: massages, hammams and beauty treatments (blow-dry, manicure, pedicure) at home, in your riad, villa, hotel room or apartment. Treatments by female therapists, every day from 8am to 10pm. Clear prices from 300 to 750 MAD, free travel across the whole Marrakech area, payment in cash (any currency) after the treatment. Professional, non-sensual wellness treatments only. Booking via the website form or WhatsApp (+212 656-371114). Website in French (default) and English (/en).
 
 ## Treatments (price, duration)
 
-- [Traditional Berber Massage](https://www.thaikech.com/en/berber-massage-marrakech): argan oil relaxing massage, 450 MAD, 60 min
-- [Sports Recovery Massage](https://www.thaikech.com/en/sports-massage-marrakech): deep pressure, after hiking, golf or sport, 500 MAD, 60 min
+- [Relaxing Berber Massage](https://www.thaikech.com/en/berber-massage-marrakech): argan oil relaxing massage, 450 MAD, 60 min
+- [Sports Recovery Massage](https://www.thaikech.com/en/sports-massage-marrakech): deep, invigorating pressure, after hiking, golf or sport, 500 MAD, 60 min
 - [Imperial Thai Massage & Hot Towels](https://www.thaikech.com/en/thai-massage-marrakech): pressure and stretches, 550 MAD, 75 min
 - [Pregnancy Massage](https://www.thaikech.com/en/pregnancy-massage-marrakech): gentle, neutral argan oil, 550 MAD, 90 min
-- [Traditional Berber Hammam](https://www.thaikech.com/en/berber-hammam-marrakech): black soap, kessa scrub, rhassoul, 20-min argan massage, 550 MAD, 75 min
-- [Royal Four-Hands Massage](https://www.thaikech.com/en/four-hands-massage-marrakech): two therapists for one person, 650 MAD, 75 min
+- [Traditional Moroccan Hammam](https://www.thaikech.com/en/berber-hammam-marrakech): black soap, kessa scrub, rhassoul, 20-min argan massage, 550 MAD, 75 min
+- [Hot Stone Massage](https://www.thaikech.com/en/hot-stone-massage-marrakech): heated smooth stones and massage, 600 MAD, 60 min
 - [Royal Radiance & Orange Blossom Hammam](https://www.thaikech.com/en/royal-hammam-marrakech): salt and orange blossom scrub, foot care, argan mask, 650 MAD, 90 min
+- [Royal Four-Hands Massage](https://www.thaikech.com/en/four-hands-massage-marrakech): two therapists for one person, 750 MAD, 75 min
 - [Hair Wash & Blow-Dry](https://www.thaikech.com/en/blow-dry-at-home-marrakech): hair wash then round-brush blow-dry, 350 MAD, 60 min
 - [Manicure & Classic Polish](https://www.thaikech.com/en/manicure-at-home-marrakech): filing, cuticle care, classic polish, 300 MAD, 60 min
 - [Pedicure & Foot Soak](https://www.thaikech.com/en/pedicure-at-home-marrakech): foot soak, scrub, filing, cuticle care, classic polish, 300 MAD, 60 min

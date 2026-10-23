@@ -30,8 +30,9 @@ export const SERVICE_IDS: ServiceId[] = [
   "massage-thai",
   "massage-future-maman",
   "hammam-berbere",
-  "massage-4-mains",
+  "massage-pierres-chaudes",
   "hammam-royal",
+  "massage-4-mains",
   "brushing",
   "manucure",
   "pedicure",
@@ -45,7 +46,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-berbere-huile-argan.webp",
     therapists: 1,
-    related: ["massage-thai", "hammam-berbere", "massage-sportif"],
+    related: ["massage-pierres-chaudes", "massage-thai", "hammam-berbere"],
   },
   "massage-sportif": {
     id: "massage-sportif",
@@ -54,7 +55,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-sportif-recuperation.webp",
     therapists: 1,
-    related: ["massage-thai", "massage-berbere", "massage-4-mains"],
+    related: ["massage-pierres-chaudes", "massage-thai", "massage-berbere"],
   },
   "massage-thai": {
     id: "massage-thai",
@@ -85,7 +86,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
   },
   "massage-4-mains": {
     id: "massage-4-mains",
-    price: 650,
+    price: 750,
     minutes: 75,
     category: "massage",
     image: "/assets/massage-4-mains.webp",
@@ -100,6 +101,16 @@ const BASE: Record<ServiceId, ServiceBase> = {
     image: "/assets/hammam-royal-fleur-oranger.webp",
     therapists: 1,
     related: ["hammam-berbere", "massage-4-mains", "massage-berbere"],
+  },
+  // Photo: Unsplash License (unsplash.com/photos/SMwCQZWayj0).
+  "massage-pierres-chaudes": {
+    id: "massage-pierres-chaudes",
+    price: 600,
+    minutes: 60,
+    category: "massage",
+    image: "/assets/massage-pierres-chaudes.webp",
+    therapists: 1,
+    related: ["massage-berbere", "massage-sportif", "massage-4-mains"],
   },
   // Beauty photos: Unsplash License (unsplash.com/photos/FkAZqQJTbXM,
   // Xa8fX8bQCgs and qeuJczNo54w).

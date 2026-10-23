@@ -34,7 +34,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
               "**Argan oil**: a final massage to nourish the skin and prolong the relaxation.",
             ],
           },
-          "This is exactly how our [Traditional Berber Hammam](service:hammam-berbere) unfolds. The [Royal Hammam](service:hammam-royal) adds a salt crystal and orange blossom treatment, foot filing and an argan mask.",
+          "This is exactly how our [Traditional Moroccan Hammam](service:hammam-berbere) unfolds. The [Royal Hammam](service:hammam-royal) adds a salt crystal and orange blossom treatment, foot filing and an argan mask.",
         ],
       },
       {
@@ -80,7 +80,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "How long does a hammam at home take?",
-        a: "Our Berber Hammam lasts 75 minutes including the massage, and the Royal Hammam 90 minutes.",
+        a: "Our Traditional Moroccan Hammam lasts 75 minutes including the massage, and the Royal Hammam 90 minutes.",
       },
       {
         q: "Do I need to be naked?",
@@ -88,7 +88,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
       {
         q: "How much does a hammam at home cost in Marrakech?",
-        a: "550 MAD for the Berber Hammam and 650 MAD for the Royal Hammam, with free travel across the whole Marrakech area. See our [prices](prices).",
+        a: "550 MAD for the Traditional Moroccan Hammam and 650 MAD for the Royal Hammam, with free travel across the whole Marrakech area. See our [prices](prices).",
       },
     ],
     cta: {
@@ -328,7 +328,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       {
         heading: "And afterwards?",
         blocks: [
-          "Once the aches have gone, enjoy Marrakech in a different way: a [Berber hammam](service:hammam-berbere) for your skin, or a [Berber massage](service:massage-berbere) for complete relaxation before your flight home.",
+          "Once the aches have gone, enjoy Marrakech in a different way: a [traditional hammam](service:hammam-berbere) for your skin, or a [relaxing Berber massage](service:massage-berbere) for complete relaxation before your flight home.",
         ],
       },
     ],
@@ -375,7 +375,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       {
         heading: "Choose a massage designed for pregnancy",
         blocks: [
-          "Not every massage is suitable. Avoid deep pressure, the intense stretches of [Thai massage](service:massage-thai) and vigorous scrubs. Our [Gentle Mum-to-Be Massage](service:massage-future-maman) is designed for pregnancy: slow strokes, neutral argan oil and 90 gentle minutes.",
+          "Not every massage is suitable. Avoid deep pressure, the intense stretches of [Thai massage](service:massage-thai) and vigorous scrubs. Our [Pregnancy Massage](service:massage-future-maman) is designed for pregnancy: slow strokes, neutral argan oil and 90 gentle minutes.",
         ],
       },
       {
@@ -529,7 +529,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
               "**Hammam at home**: expect a budget similar to a long massage, depending on the ritual.",
             ],
           },
-          "For reference, Thai Kech treatments range from **450 MAD** (Berber massage, 60 min) to **650 MAD** (four-hands massage or royal hammam), with free travel across the whole Marrakech area. Full details on our [prices](prices) page.",
+          "For reference, Thai Kech massages and hammams range from **450 MAD** (relaxing Berber massage, 60 min) to **750 MAD** (royal four-hands massage, 75 min), with free travel across the whole Marrakech area. Full details on our [prices](prices) page.",
         ],
       },
       {
@@ -582,7 +582,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "How much is a one-hour massage at home in Marrakech?",
-        a: "Based on prices published online in October 2026, usually between 450 and 650 MAD. At Thai Kech, the one-hour Berber massage costs 450 MAD, with free travel across the whole Marrakech area.",
+        a: "Based on prices published online in October 2026, usually between 450 and 650 MAD. At Thai Kech, the one-hour relaxing Berber massage costs 450 MAD, with free travel across the whole Marrakech area.",
       },
       {
         q: "Is travel included in the price?",
@@ -689,7 +689,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       },
       {
         q: "How much is a hammam at home in Marrakech?",
-        a: "At Thai Kech, 550 MAD for the Berber Hammam (75 min) and 650 MAD for the Royal Hammam (90 min), with free travel across the whole Marrakech area.",
+        a: "At Thai Kech, 550 MAD for the Traditional Moroccan Hammam (75 min) and 650 MAD for the Royal Hammam (90 min), with free travel across the whole Marrakech area.",
       },
       {
         q: "What should I wear in a hammam?",

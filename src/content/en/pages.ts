@@ -160,7 +160,7 @@ export const pagesEn: PagesCopy = {
     h1: "Hammam at home in Marrakech",
     lead: [
       "The Moroccan hammam ritual, without leaving your riad, villa or hotel room. Our female therapists bring black soap, a kessa glove, rhassoul clay and argan oil, and set up the treatment in your bathroom or your accommodation's private hammam.",
-      "Two rituals to choose from: the Traditional Berber Hammam (75 min, 550 MAD) and the Royal Radiance & Orange Blossom Hammam (90 min, 650 MAD).",
+      "Two rituals to choose from: the Traditional Moroccan Hammam (75 min, 550 MAD) and the Royal Radiance & Orange Blossom Hammam (90 min, 650 MAD).",
     ],
     facts: ["From 550 MAD", "75 to 90 minutes", "Female therapists", "Pay after your treatment"],
     sections: [
@@ -172,7 +172,7 @@ export const pagesEn: PagesCopy = {
             list: [
               "**Black soap** applied to damp skin to prepare for the scrub.",
               "**Kessa glove scrub** to remove dead skin.",
-              "**Rhassoul clay wrap** (Berber Hammam) or **salt and orange blossom treatment** (Royal Hammam).",
+              "**Rhassoul clay wrap** (Traditional Hammam) or **salt and orange blossom treatment** (Royal Hammam).",
               "**Rinsing**, then an **argan oil massage** or **argan mask**, depending on the ritual.",
             ],
           },
@@ -203,7 +203,7 @@ export const pagesEn: PagesCopy = {
         blocks: [
           {
             list: [
-              "**[Traditional Berber Hammam](service:hammam-berbere)**: the essentials of the ritual (black soap, kessa, rhassoul) with a 20-minute argan massage. Ideal to discover it and unwind.",
+              "**[Traditional Moroccan Hammam](service:hammam-berbere)**: the essentials of the ritual (black soap, kessa, rhassoul) with a 20-minute argan massage. Ideal to discover it and unwind.",
               "**[Royal Radiance & Orange Blossom Hammam](service:hammam-royal)**: the most complete ritual, with a salt and orange blossom scrub, foot filing and an argan mask. Ideal before a special event.",
             ],
           },
@@ -434,7 +434,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "How much does it cost?",
         blocks: [
-          "Each treatment is charged at its listed price, from 300 to 650 MAD per person. For example, 6 Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free across the whole Marrakech area, even for a villa far from the centre. See all our [prices](prices).",
+          "Each treatment is charged at its listed price, from 300 to 750 MAD per person. For example, 6 relaxing Berber massages cost 6 × 450 MAD, so 2,700 MAD. Travel is free across the whole Marrakech area, even for a villa far from the centre. See all our [prices](prices).",
         ],
       },
       {
@@ -442,10 +442,10 @@ export const pagesEn: PagesCopy = {
         blocks: [
           {
             list: [
-              "**[Berber massage](service:massage-berbere)** (60 min, 450 MAD): argan oil relaxation, perfect for a first massage in Morocco.",
+              "**[Relaxing Berber massage](service:massage-berbere)** (60 min, 450 MAD): argan oil relaxation, perfect for a first massage in Morocco.",
               "**[Thai massage](service:massage-thai)** (75 min, 550 MAD): pressure, stretches and hot towels for those who like an active massage.",
               "**[Royal hammam](service:hammam-royal)** (90 min, 650 MAD): glowing skin before the party or the wedding.",
-              "**[Four-hands massage](service:massage-4-mains)** (75 min, 650 MAD): two therapists for the bride-to-be or the birthday girl, a gift from the group she won't forget.",
+              "**[Four-hands massage](service:massage-4-mains)** (75 min, 750 MAD): two therapists for the bride-to-be or the birthday girl, a gift from the group she won't forget.",
               "**[Pregnancy massage](service:massage-future-maman)** (90 min, 550 MAD) if one of you is expecting.",
               "**[Blow-dry](service:brushing)** (60 min, 350 MAD), **[manicure](service:manucure)** or **[pedicure](service:pedicure)** (60 min, 300 MAD each): to be ready for the night out.",
             ],
@@ -569,14 +569,14 @@ export const pagesEn: PagesCopy = {
   prices: {
     metaTitle: "Massage & Hammam at Home Prices in Marrakech",
     metaDescription:
-      "All our prices at home in Marrakech: massages and hammams from 450 to 650 MAD, blow-dry, manicure and pedicure from 300 MAD. Free travel, pay after.",
+      "All our prices at home in Marrakech: massages and hammams from 450 to 750 MAD, blow-dry, manicure and pedicure from 300 MAD. Free travel, pay after.",
     eyebrow: "Clear prices",
     h1: "Massage and hammam at home prices in Marrakech",
     lead: [
-      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the Berber massage to 650 MAD for the four-hands massage or the royal hammam. For beauty, the manicure and the pedicure cost 300 MAD each and the blow-dry 350 MAD. The therapist, equipment and travel across the whole Marrakech area are included.",
+      "At Thai Kech, the price shown is the price of your treatment: from 450 MAD for the relaxing Berber massage to 750 MAD for the royal four-hands massage. For beauty, the manicure and the pedicure cost 300 MAD each and the blow-dry 350 MAD. The therapist, equipment and travel across the whole Marrakech area are included.",
       "No online payment: you pay directly after your treatment.",
     ],
-    facts: ["300 to 650 MAD", "Free travel", "Equipment included", "Pay after your treatment"],
+    facts: ["300 to 750 MAD", "Free travel", "Equipment included", "Pay after your treatment"],
     table: {
       caption: "Our at-home treatments and their prices",
       treatment: "Treatment",
@@ -613,7 +613,7 @@ export const pagesEn: PagesCopy = {
       {
         heading: "For two or for groups",
         blocks: [
-          "Each treatment is charged at its listed price: for a [couples massage](duo), simply add up the two treatments chosen; for a [bachelorette or group](groups), add up everyone's treatments. The [four-hands massage](service:massage-4-mains), given by two therapists to one person, costs 650 MAD.",
+          "Each treatment is charged at its listed price: for a [couples massage](duo), simply add up the two treatments chosen; for a [bachelorette or group](groups), add up everyone's treatments. The [four-hands massage](service:massage-4-mains), given by two therapists to one person, costs 750 MAD.",
         ],
       },
       {
@@ -649,7 +649,7 @@ export const pagesEn: PagesCopy = {
       },
       {
         q: "What is the least expensive treatment?",
-        a: "The [manicure](service:manucure) and the [pedicure](service:pedicure), at 300 MAD each for about 60 minutes. Among the massages, the Traditional Berber Massage costs 450 MAD for 60 minutes.",
+        a: "The [manicure](service:manucure) and the [pedicure](service:pedicure), at 300 MAD each for about 60 minutes. Among the massages, the Relaxing Berber Massage costs 450 MAD for 60 minutes.",
       },
       {
         q: "How much is a couples massage?",

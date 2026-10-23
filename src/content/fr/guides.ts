@@ -34,7 +34,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
               "**L'huile d'argan** : un modelage final pour nourrir la peau et prolonger la détente.",
             ],
           },
-          "C'est exactement le déroulé de notre [Hammam Berbère Traditionnel](service:hammam-berbere). Le [Hammam Royal](service:hammam-royal) y ajoute un soin aux cristaux de sel et à la fleur d'oranger, une râpe des pieds et un masque à l'argan.",
+          "C'est exactement le déroulé de notre [Hammam Traditionnel Marocain](service:hammam-berbere). Le [Hammam Royal](service:hammam-royal) y ajoute un soin aux cristaux de sel et à la fleur d'oranger, une râpe des pieds et un masque à l'argan.",
         ],
       },
       {
@@ -80,7 +80,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "Combien de temps dure un hammam à domicile ?",
-        a: "Notre Hammam Berbère dure 1 h 15, modelage compris, et le Hammam Royal 1 h 30.",
+        a: "Notre Hammam Traditionnel Marocain dure 1 h 15, modelage compris, et le Hammam Royal 1 h 30.",
       },
       {
         q: "Faut-il être nu(e) ?",
@@ -88,7 +88,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
       {
         q: "Combien coûte un hammam à domicile à Marrakech ?",
-        a: "550 MAD pour le Hammam Berbère et 650 MAD pour le Hammam Royal, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
+        a: "550 MAD pour le Hammam Traditionnel Marocain et 650 MAD pour le Hammam Royal, déplacement offert dans toute la région de Marrakech. Voir nos [tarifs](prices).",
       },
     ],
     cta: {
@@ -328,7 +328,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       {
         heading: "Et ensuite ?",
         blocks: [
-          "Une fois les courbatures passées, profitez de Marrakech autrement : un [hammam berbère](service:hammam-berbere) pour la peau, ou un [massage berbère](service:massage-berbere) pour une détente complète avant le vol retour.",
+          "Une fois les courbatures passées, profitez de Marrakech autrement : un [hammam traditionnel](service:hammam-berbere) pour la peau, ou un [massage relaxant berbère](service:massage-berbere) pour une détente complète avant le vol retour.",
         ],
       },
     ],
@@ -375,7 +375,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       {
         heading: "Choisir un massage adapté à la grossesse",
         blocks: [
-          "Tous les massages ne conviennent pas. Évitez les pressions profondes, les étirements intenses du [massage thaï](service:massage-thai) et les gommages vigoureux. Notre [Massage Douceur Future Maman](service:massage-future-maman) est conçu pour la grossesse : gestes lents, huile d'argan neutre et 1 h 30 de douceur.",
+          "Tous les massages ne conviennent pas. Évitez les pressions profondes, les étirements intenses du [massage thaï](service:massage-thai) et les gommages vigoureux. Notre [Massage Femme Enceinte](service:massage-future-maman) est conçu pour la grossesse : gestes lents, huile d'argan neutre et 1 h 30 de douceur.",
         ],
       },
       {
@@ -529,7 +529,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
               "**Hammam à domicile** : comptez un budget comparable à un massage long, selon le rituel.",
             ],
           },
-          "À titre de repère, chez Thai Kech, les soins vont de **450 MAD** (massage berbère, 1 h) à **650 MAD** (massage à 4 mains ou hammam royal), déplacement offert dans toute la région de Marrakech. Tous les détails sur notre page [tarifs](prices).",
+          "À titre de repère, chez Thai Kech, les massages et les hammams vont de **450 MAD** (massage relaxant berbère, 1 h) à **750 MAD** (massage royal à 4 mains, 1 h 15), déplacement offert dans toute la région de Marrakech. Tous les détails sur notre page [tarifs](prices).",
         ],
       },
       {
@@ -582,7 +582,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
     faqs: [
       {
         q: "Combien coûte un massage d'une heure à domicile à Marrakech ?",
-        a: "D'après les tarifs affichés en ligne en octobre 2026, le plus souvent entre 450 et 650 MAD. Chez Thai Kech, le massage berbère d'une heure coûte 450 MAD, déplacement offert dans toute la région de Marrakech.",
+        a: "D'après les tarifs affichés en ligne en octobre 2026, le plus souvent entre 450 et 650 MAD. Chez Thai Kech, le massage relaxant berbère d'une heure coûte 450 MAD, déplacement offert dans toute la région de Marrakech.",
       },
       {
         q: "Le déplacement est-il compris dans le prix ?",
@@ -689,7 +689,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       },
       {
         q: "Combien coûte un hammam à domicile à Marrakech ?",
-        a: "Chez Thai Kech, 550 MAD pour le Hammam Berbère (1 h 15) et 650 MAD pour le Hammam Royal (1 h 30), déplacement offert dans toute la région de Marrakech.",
+        a: "Chez Thai Kech, 550 MAD pour le Hammam Traditionnel Marocain (1 h 15) et 650 MAD pour le Hammam Royal (1 h 30), déplacement offert dans toute la région de Marrakech.",
       },
       {
         q: "Que faut-il porter au hammam ?",
