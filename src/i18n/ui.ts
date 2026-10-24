@@ -34,6 +34,8 @@ export interface UiStrings {
     /** Pre-filled WhatsApp message; {page} is replaced by the page's topic. */
     message: string;
     messageAbout: string;
+    /** Pre-filled message of every area page; {area} is the area's name. */
+    messageArea: string;
   };
   footer: {
     description: string;
@@ -45,7 +47,6 @@ export interface UiStrings {
     areas: string;
     info: string;
     whatsapp: string;
-    whatsappMessage: string;
     /** Accessible name of a profile icon; {network} is "Instagram", "Facebook"… */
     profile: string;
     review: string;
@@ -126,6 +127,7 @@ export const UI: Record<Locale, UiStrings> = {
       book: "Réserver",
       message: "Bonjour Thai Kech, j'ai une question sur vos soins à domicile à Marrakech.",
       messageAbout: "Bonjour Thai Kech, j'ai une question au sujet de : {page}.",
+      messageArea: "Bonjour Thai Kech, venez-vous jusqu'à moi ? Je séjourne dans le secteur {area}.",
     },
     footer: {
       description:
@@ -138,7 +140,6 @@ export const UI: Record<Locale, UiStrings> = {
       areas: "Zones desservies",
       info: "Infos pratiques",
       whatsapp: "Contacter via WhatsApp",
-      whatsappMessage: "Bonjour Thai Kech, je souhaite réserver un massage à domicile à Marrakech.",
       profile: "Thai Kech sur {network}",
       review: "Laisser un avis Google",
       rights: "Tous droits réservés.",
@@ -220,6 +221,7 @@ export const UI: Record<Locale, UiStrings> = {
       book: "Book",
       message: "Hello Thai Kech, I have a question about your treatments at home in Marrakech.",
       messageAbout: "Hello Thai Kech, I have a question about: {page}.",
+      messageArea: "Hello Thai Kech, do you come to my area? I'm staying in the {area} area.",
     },
     footer: {
       description:
@@ -232,7 +234,6 @@ export const UI: Record<Locale, UiStrings> = {
       areas: "Areas we cover",
       info: "Practical info",
       whatsapp: "Contact us on WhatsApp",
-      whatsappMessage: "Hello Thai Kech, I would like to book a massage at home in Marrakech.",
       profile: "Thai Kech on {network}",
       review: "Leave a Google review",
       rights: "All rights reserved.",

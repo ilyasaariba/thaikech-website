@@ -6,7 +6,6 @@ import { BUSINESS } from "@/content/business";
 import { getServices } from "@/content/services";
 import { getZones } from "@/content/zones";
 import { pathFor } from "@/content/routes";
-import { whatsappUrl } from "@/lib/whatsapp-booking";
 import { FacebookIcon, InstagramIcon, MapPinIcon, StarIcon, WhatsAppIcon } from "@/components/icons";
 import ContactLink from "./ContactLink";
 
@@ -18,8 +17,19 @@ const PROFILES = [
   { network: "Facebook", href: BUSINESS.profiles.facebook, Icon: FacebookIcon },
 ];
 
-/** Links every treatment, area and info page, so no page is more than two clicks from any other. */
-export default function SiteFooter({ locale, alternateHref }: { locale: Locale; alternateHref: string }) {
+/**
+ * Links every treatment, area and info page, so no page is more than two clicks from any other.
+ * The WhatsApp button sends the same page-aware message as the floating button.
+ */
+export default function SiteFooter({
+  locale,
+  alternateHref,
+  whatsappHref,
+}: {
+  locale: Locale;
+  alternateHref: string;
+  whatsappHref: string;
+}) {
   const ui = UI[locale];
   const alternate = otherLocale(locale);
   const columnTitle = "font-serif text-white text-lg mb-5";
@@ -65,7 +75,7 @@ export default function SiteFooter({ locale, alternateHref }: { locale: Locale; 
               </li>
             </ul>
             <ContactLink
-              href={whatsappUrl(BUSINESS.phoneDigits, ui.footer.whatsappMessage)}
+              href={whatsappHref}
               method="whatsapp"
               placement="footer"
               locale={locale}
