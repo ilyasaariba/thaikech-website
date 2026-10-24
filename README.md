@@ -1,36 +1,35 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Thai Kech
 
-## Getting Started
+Website and business files of Thai Kech, the mobile spa in Marrakech: massages, hammams and beauty treatments at home, in riads, villas and hotels. Live site: https://www.thaikech.com (French) and https://www.thaikech.com/en (English).
 
-First, run the development server:
+## What is in this folder
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+| Folder or file | What it is | On GitHub |
+|---|---|---|
+| `src/` | The website code | yes |
+| `src/content/` | Every text and fact on the site: treatments and prices (`services.ts`, `fr/services.ts`, `en/services.ts`), areas (`zones.ts`), guides (`guides.ts`), phone, hours and profiles (`business.ts`) | yes |
+| `public/` | Photos, logo, share images, `llms.txt` (summary for AI search), and the Google and IndexNow verification files | yes |
+| `scripts/` | Tools, listed below | yes |
+| `.github/workflows/` | After each deploy, tells Bing which pages changed | yes |
+| `business/` | Private business files: WhatsApp replies, AI assistant, review replies, growth plan, research, original logo. See `business/README.md` | **no, private** |
+| `AGENTS.md`, `CLAUDE.md` | Instructions for Claude | yes |
+| Other files | Next.js settings. `node_modules/` and `.next/` are generated and can be deleted at any time | — |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tools (`scripts/`)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Tool | What it does |
+|---|---|
+| `indexnow.mjs` | Tells Bing, Yandex and the other IndexNow engines which pages changed. Runs by itself after each deploy |
+| `seo-crawl.mjs` | Crawls a local build: titles, descriptions, canonicals, hreflang, share images, H1, structured data, broken links. With `--compare` it proves a change moved nothing Google reads |
+| `title-width.mjs` | Measures titles in pixels, the way Google cuts them (about 580px) |
+| `page-similarity.mjs` | Measures how much text pages share, so area pages never look like copies of each other |
+| `screenshot.mjs` | Takes a screenshot of a page at phone or desktop width |
+| `competitor-scrape.mjs` | Reads competitors' sites and sitemaps (list in `business/growth-plan.md`, section 14) |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Each tool explains its usage in its first lines. The crawl tools run against a production build: `npm run build`, then `npx next start -p 3123`.
 
-## Learn More
+## Work on the site
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Run it on this computer: `npm install` once, then `npm run dev` and open http://localhost:3000.
+- Publish: push to the `main` branch on GitHub, and Vercel deploys www.thaikech.com automatically.
+- When a price or treatment changes, also update `public/llms.txt`, the two WhatsApp files in `business/whatsapp/`, and the Google Business Profile.

@@ -41,7 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 
-# internal notes
-FIXES.md
-
-growth-plan/
+# private business files (WhatsApp replies, plans, research): never on GitHub
+/business/

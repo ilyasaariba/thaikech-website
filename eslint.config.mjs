@@ -12,8 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
-    // Private business plan and tooling (git-ignored).
-    "growth-plan/**",
+    // Private business files (git-ignored).
+    "business/**",
   ]),
 ]);
 
