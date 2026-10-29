@@ -328,7 +328,7 @@ export default function WhatsAppBookingForm({
 
         <button
           type="submit"
-          className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-green-600 hover:bg-green-500 text-white font-semibold text-base rounded-full transition-colors duration-300"
+          className="w-full inline-flex items-center justify-center gap-2 px-6 py-4 bg-green-700 hover:bg-green-800 text-white font-semibold text-base rounded-full transition-colors duration-300"
         >
           <WhatsAppIcon className="w-5 h-5" />
           {copy.submit}

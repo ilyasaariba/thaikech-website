@@ -46,7 +46,7 @@ export default function SiteFooter({
               </div>
               <div>
                 <span className="font-serif text-xl text-gold tracking-wider block">THAI KECH</span>
-                <span className="text-[0.6rem] tracking-[0.2em] uppercase text-white/40">{ui.tagline}</span>
+                <span className="text-[0.6rem] tracking-[0.2em] uppercase text-white/60">{ui.tagline}</span>
               </div>
             </div>
             <p className="text-sm leading-relaxed mb-5">{ui.footer.description}</p>
@@ -56,7 +56,7 @@ export default function SiteFooter({
             </p>
             <ul className="space-y-2 text-sm">
               <li>
-                <span className="text-white/40">{ui.footer.phone} : </span>
+                <span className="text-white/60">{ui.footer.phone} : </span>
                 <ContactLink
                   href={`tel:+${BUSINESS.phoneDigits}`}
                   method="phone"
@@ -68,7 +68,7 @@ export default function SiteFooter({
                 </ContactLink>
               </li>
               <li>
-                <span className="text-white/40">{ui.footer.email} : </span>
+                <span className="text-white/60">{ui.footer.email} : </span>
                 <a href={`mailto:${BUSINESS.email}`} className="text-white hover:text-gold transition-colors">
                   {BUSINESS.email}
                 </a>
@@ -79,7 +79,7 @@ export default function SiteFooter({
               method="whatsapp"
               placement="footer"
               locale={locale}
-              className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-600 hover:bg-green-500 text-white font-medium text-sm rounded-full transition-colors duration-300"
+              className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-700 hover:bg-green-800 text-white font-medium text-sm rounded-full transition-colors duration-300"
             >
               <WhatsAppIcon className="w-5 h-5" />
               {ui.footer.whatsapp}
@@ -200,7 +200,7 @@ export default function SiteFooter({
           </div>
         </div>
 
-        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/40">
+        <div className="mt-12 pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/60">
           <span>
             &copy; {new Date().getFullYear()} Thai Kech. {ui.footer.rights}
           </span>

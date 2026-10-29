@@ -13,7 +13,8 @@
   --color-lotus-dark: #E8E3D8;
   --color-gold: #C5A059;
   --color-gold-light: #D4B474;
-  --color-gold-dark: #A8863F;
+  /* Gold for small text on light backgrounds: 4.9:1 on lotus, 5.5:1 on white (WCAG AA). */
+  --color-gold-dark: #856425;
   --color-charcoal: #2B2B2B;
   --color-charcoal-light: #4A4A4A;
 }

@@ -73,7 +73,7 @@ export default function Hero({ locale }: { locale: Locale }) {
         <div className="mt-8 flex justify-center">
           <a
             href="#services"
-            className="flex flex-col items-center gap-1.5 text-white/40 hover:text-gold transition-colors duration-300"
+            className="flex flex-col items-center gap-1.5 text-white/60 hover:text-gold transition-colors duration-300"
           >
             <span className="text-[10px] tracking-widest uppercase">{hero.discover}</span>
             <svg className="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24" aria-hidden="true">

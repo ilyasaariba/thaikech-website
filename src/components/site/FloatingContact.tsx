@@ -77,7 +77,7 @@ export default function FloatingContact({ locale, whatsappHref, labels }: Floati
             placement="mobile-bar"
             locale={locale}
             tabIndex={scrolled ? 0 : -1}
-            className="flex flex-1 items-center justify-center gap-2 py-3.5 rounded-full bg-[#25D366] text-white font-semibold text-sm tracking-wide"
+            className="flex flex-1 items-center justify-center gap-2 py-3.5 rounded-full bg-green-700 text-white font-semibold text-sm tracking-wide"
           >
             <WhatsAppIcon className="w-5 h-5" />
             {labels.whatsapp}

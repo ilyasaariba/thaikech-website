@@ -421,7 +421,7 @@ export const zonesEn: Record<ZoneId, ZoneCopy> = {
       "Massage and hammam at home in your villa in Amelkis or on the Route d'Ouarzazate, Marrakech: after golf, with family or friends. Free travel, 8am–10pm.",
     h1: "Massage at home in Amelkis and on the Route d'Ouarzazate",
     lead: [
-      "South-east of Marrakech, along the Route d'Ouarzazate, Amelkis and its neighbouring areas bring together golf courses, gated estates and villas with pools. Our female therapists come to your villa with all the equipment for a real spa moment, with no need to drive anywhere.",
+      "South-east of Marrakech, along the Route d'Ouarzazate, Amelkis and its neighbouring areas bring together golf courses, gated estates and villas with pools. Our female therapists come to your villa with all the equipment for a real spa moment, with no need to drive anywhere. Here the Route d'Ouarzazate means the road leaving Marrakech to the south-east: we don't travel to the city of Ouarzazate, about 200 km away.",
       "Travel is free: you only pay for your treatment, at the listed price, after the appointment.",
     ],
     places: ["Amelkis", "Route d'Ouarzazate", "Amelkis Golf", "Royal Golf Marrakech"],

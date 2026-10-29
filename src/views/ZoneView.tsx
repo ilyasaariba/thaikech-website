@@ -107,7 +107,7 @@ export default function ZoneView({ id, locale }: { id: ZoneId; locale: Locale })
               <li>
                 <Link
                   href={pathFor("areas", locale)}
-                  className="inline-block rounded-full bg-bamboo px-4 py-2 text-sm text-gold hover:bg-bamboo-dark transition-colors"
+                  className="inline-block rounded-full bg-bamboo px-4 py-2 text-sm text-gold-light hover:bg-bamboo-dark transition-colors"
                 >
                   {ui.common.allAreas}
                 </Link>

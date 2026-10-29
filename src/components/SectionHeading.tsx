@@ -12,7 +12,7 @@ export default function SectionHeading({ eyebrow, heading, intro, tone = "light"
     <div className="text-center mb-14">
       <div className="flex items-center justify-center gap-4 mb-4">
         <span className={`block w-10 h-px ${dark ? "bg-gold/60" : "bg-gold"}`} />
-        <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">{eyebrow}</span>
+        <span className={`text-xs tracking-[0.3em] uppercase font-medium ${dark ? "text-gold" : "text-gold-dark"}`}>{eyebrow}</span>
         <span className={`block w-10 h-px ${dark ? "bg-gold/60" : "bg-gold"}`} />
       </div>
       <h2 className={`font-serif text-3xl sm:text-4xl md:text-5xl mb-4 ${dark ? "text-white" : "text-bamboo"}`}>
