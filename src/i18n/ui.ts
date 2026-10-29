@@ -10,6 +10,7 @@ export interface UiStrings {
     hammams: string;
     beauty: string;
     hammamHub: string;
+    beautyHub: string;
     duo: string;
     inRoom: string;
     groups: string;
@@ -103,6 +104,7 @@ export const UI: Record<Locale, UiStrings> = {
       hammams: "Hammams",
       beauty: "Beauté",
       hammamHub: "Hammam à domicile",
+      beautyHub: "Beauté à domicile",
       duo: "Massage en duo",
       inRoom: "Massage en chambre d'hôtel",
       groups: "EVJF & groupes",
@@ -197,6 +199,7 @@ export const UI: Record<Locale, UiStrings> = {
       hammams: "Hammams",
       beauty: "Beauty",
       hammamHub: "Hammam at home",
+      beautyHub: "Beauty at home",
       duo: "Couples massage",
       inRoom: "In-room massage",
       groups: "Bachelorette & groups",

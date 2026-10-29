@@ -33,22 +33,22 @@ const BASE: Record<ZoneId, ZoneBase> = {
   medina: {
     id: "medina",
     neighbours: ["hivernage", "gueliz", "agdal"],
-    services: ["hammam-berbere", "massage-berbere", "massage-4-mains"],
+    services: ["hammam-berbere", "massage-berbere", "pedicure"],
   },
   gueliz: {
     id: "gueliz",
     neighbours: ["hivernage", "targa", "medina"],
-    services: ["massage-thai", "massage-sportif", "massage-berbere"],
+    services: ["massage-berbere", "massage-sportif", "manucure"],
   },
   hivernage: {
     id: "hivernage",
     neighbours: ["gueliz", "medina", "agdal"],
-    services: ["massage-berbere", "massage-4-mains", "hammam-royal"],
+    services: ["massage-berbere", "hammam-berbere", "manucure"],
   },
   palmeraie: {
     id: "palmeraie",
     neighbours: ["gueliz", "medina", "hivernage"],
-    services: ["massage-4-mains", "hammam-royal", "massage-berbere"],
+    services: ["massage-berbere", "hammam-berbere", "massage-sportif"],
   },
   agdal: {
     id: "agdal",
@@ -58,12 +58,12 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "route-ourika": {
     id: "route-ourika",
     neighbours: ["agdal", "amelkis", "agafay"],
-    services: ["massage-sportif", "massage-4-mains", "hammam-royal"],
+    services: ["massage-sportif", "hammam-berbere", "massage-berbere"],
   },
   amelkis: {
     id: "amelkis",
     neighbours: ["al-maaden", "route-ourika", "agdal"],
-    services: ["massage-sportif", "massage-thai", "hammam-royal"],
+    services: ["massage-sportif", "massage-berbere", "pedicure"],
   },
   agafay: {
     id: "agafay",
@@ -73,7 +73,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "route-amizmiz": {
     id: "route-amizmiz",
     neighbours: ["agafay", "targa", "hivernage"],
-    services: ["massage-4-mains", "massage-sportif", "hammam-royal"],
+    services: ["massage-sportif", "hammam-berbere", "manucure"],
   },
   targa: {
     id: "targa",
@@ -83,7 +83,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "al-maaden": {
     id: "al-maaden",
     neighbours: ["amelkis", "agdal", "route-ourika"],
-    services: ["massage-thai", "massage-sportif", "massage-4-mains"],
+    services: ["massage-sportif", "massage-berbere", "hammam-royal"],
   },
 };
 

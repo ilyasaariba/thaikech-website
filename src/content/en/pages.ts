@@ -11,7 +11,7 @@ export const pagesEn: PagesCopy = {
       h1Accent: "at Home",
       h1End: "in Marrakech",
       subtitle:
-        "Our female therapists come straight to your **riad, villa or hotel** in Marrakech for a massage or a hammam, with argan oils and a complete spa atmosphere, **every day from 8am to 10pm**.",
+        "Our female therapists come straight to your **riad, villa or hotel** in Marrakech for a massage, a hammam or a beauty treatment, with argan oils and a complete spa atmosphere, **every day from 8am to 10pm**.",
       seeServices: "See our treatments and prices",
       badges: ["Female Therapists", "Riads · Villas · Hotels", "Marrakech & Surroundings"],
       discover: "Discover",
@@ -25,22 +25,23 @@ export const pagesEn: PagesCopy = {
       hammams: "Hammams",
       beauty: "Beauty at home",
       hammamLink: "All about hammam at home",
+      beautyLink: "All about beauty at home",
       allPrices: "Compare all prices",
     },
     occasions: {
       eyebrow: "For Every Stay",
       heading: "A Treatment That Fits Your Stay",
-      intro: "Couple, group, hotel, riad or villa: we arrange the treatment around your stay.",
+      intro: "Hotel, riad, villa or apartment: we arrange the treatment around your stay.",
       items: [
         {
-          key: "duo",
-          title: "Couples massage",
-          text: "Two therapists, two treatments, at the same time: perfect for couples or friends.",
+          key: "service:massage-berbere",
+          title: "Relaxing massage",
+          text: "An hour of argan oil massage after the souks or a long journey, without leaving your riad.",
         },
         {
-          key: "inRoom",
-          title: "In-room massage in hotels and riads",
-          text: "Reception, space, privacy: everything is covered for a massage in your room.",
+          key: "service:massage-sportif",
+          title: "Sports recovery massage",
+          text: "After an Atlas trek, a round of golf or a long day on foot: firm pressure to help you recover.",
         },
         {
           key: "hammam",
@@ -48,9 +49,9 @@ export const pagesEn: PagesCopy = {
           text: "Black soap, kessa and rhassoul, without leaving your riad or villa.",
         },
         {
-          key: "groups",
-          title: "Bachelorettes and groups",
-          text: "Your villa becomes a private spa: treatments follow on two at a time for the whole group.",
+          key: "beauty",
+          title: "Beauty at home",
+          text: "Manicure, pedicure and blow-dry in your riad, hotel or apartment.",
         },
       ],
     },
@@ -133,8 +134,8 @@ export const pagesEn: PagesCopy = {
           a: "You pay your therapist directly after the treatment, in cash: dirhams, euros or another currency. All our prices are on the [prices](prices) page.",
         },
         {
-          q: "Do you offer couples massages?",
-          a: "Yes. Two therapists come at the same time to give your treatments side by side in your riad, villa or hotel. See our [couples massage](duo).",
+          q: "Do you offer beauty treatments at home?",
+          a: "Yes: manicure and pedicure at 300 MAD each, hair wash and blow-dry at 350 MAD, in your riad, villa, hotel or apartment. See [beauty at home](beauty).",
         },
         {
           q: "How far in advance should I book?",
@@ -240,6 +241,83 @@ export const pagesEn: PagesCopy = {
       {
         q: "Is travel included?",
         a: "Yes, across the whole Marrakech area.",
+      },
+    ],
+  },
+
+  beauty: {
+    metaTitle: "Beauty at Home in Marrakech: Manicure & Blow-Dry",
+    metaDescription:
+      "Manicure, pedicure and blow-dry at home in Marrakech, in your riad, villa, hotel or apartment. From 300 MAD, female therapists, 8am–10pm, free travel.",
+    eyebrow: "Manicure · Pedicure · Blow-dry",
+    h1: "Beauty at home in Marrakech",
+    lead: [
+      "Polished nails, soft feet and a flawless blow-dry: your therapist comes to your riad, villa, hotel room or apartment with everything needed, so you don't have to hunt for a salon in a city you hardly know.",
+      "Three treatments of about an hour each: the [manicure](service:manucure) and the [pedicure](service:pedicure) at 300 MAD, the [hair wash and blow-dry](service:brushing) at 350 MAD. Free travel across the whole Marrakech area, and you pay after the treatment.",
+    ],
+    facts: ["From 300 MAD", "About 1 hour each", "Female therapists", "Pay after your treatment"],
+    sections: [
+      {
+        heading: "Manicure, pedicure or blow-dry: which to choose?",
+        blocks: [
+          {
+            list: [
+              "**Manicure & Classic Polish**, 300 MAD: filing and shaping, cuticle care and a classic polish.",
+              "**Pedicure & Foot Soak**, 300 MAD: foot soak, scrub, filing, cuticle care and a classic polish, perfect after days of walking the Medina.",
+              "**Hair Wash & Blow-Dry**, 350 MAD: a hair wash, then a round-brush blow-dry, before a dinner, a party or a wedding.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Hands and feet on the same day",
+        blocks: [
+          "Book the manicure and the pedicure together: 600 MAD for both, in about two hours. Before an evening out, finish with a blow-dry. List the treatments you'd like in your request: we arrange the timing with you on WhatsApp.",
+        ],
+      },
+      {
+        heading: "What to have ready",
+        blocks: [
+          {
+            list: [
+              "For the manicure: a table, a chair and good light.",
+              "For the pedicure: a comfortable chair and access to warm water.",
+              "For the blow-dry: a bathroom, a power socket and a chair, ideally near a mirror.",
+            ],
+          },
+          "Your therapist brings the rest.",
+        ],
+      },
+      {
+        heading: "Good to know",
+        blocks: [
+          "We only use classic polish, which comes off with ordinary remover: no gel polish. The pedicure is a beauty treatment, not a medical one: for an ingrown nail, a wart or a fungal infection, see a podiatrist.",
+          {
+            note: "Planning a hammam or a swim on the same day? Book the blow-dry last: water and steam make it drop.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "How much are beauty treatments at home in Marrakech?",
+        a: "The manicure and the pedicure cost 300 MAD each, 600 MAD for both, and the hair wash and blow-dry 350 MAD. Travel is free across the whole Marrakech area. See all our [prices](prices).",
+      },
+      {
+        q: "Do you come to hotels and apartments?",
+        a: "Yes: riads, villas, hotel rooms and apartments, every day from 8am to 10pm. In a hotel, let reception know the time of your treatment.",
+      },
+      {
+        q: "Do you offer gel polish?",
+        a: "No. The manicure and pedicure include a classic polish, which comes off with ordinary remover.",
+      },
+      {
+        q: "Can I combine a beauty treatment with a massage?",
+        a: "Yes, the treatments follow one another: for example a [relaxing massage](service:massage-berbere), then a pedicure. List the treatments you'd like in your request and we arrange the timing on WhatsApp.",
+      },
+      {
+        q: "How long does a beauty treatment take?",
+        a: "About an hour each, so about two hours for a manicure and pedicure together.",
       },
     ],
   },

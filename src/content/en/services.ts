@@ -13,7 +13,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       "Relaxing Moroccan argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
     h1: "Relaxing Berber massage at home in Marrakech",
     lead: [
-      "Inspired by Moroccan wellness traditions, our relaxing Berber massage combines argan oil with long gliding strokes and gentle stretches. It is the perfect way to unwind and discover Moroccan massage without leaving your riad, villa or hotel room.",
+      "Our relaxing massage at home in Marrakech draws on Moroccan wellness traditions: argan oil, long gliding strokes and gentle stretches. It is the perfect way to unwind and discover the Berber massage without leaving your riad, villa, hotel room or apartment.",
       "Your therapist arrives with the massage table, oils and towels, sets everything up and lets you enjoy a full hour of relaxation. You pay after the treatment.",
     ],
     idealFor: [
@@ -21,7 +21,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       "After a long day exploring the souks and the Medina",
       "Recovering from a long journey",
       "All-over relaxation without deep pressure",
-      "A shared moment, as a [couples massage](duo) in your riad or villa",
+      "A quiet end to the day, before going out for dinner",
     ],
     steps: [
       {
@@ -59,9 +59,9 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Berber massage or Thai massage?",
+        heading: "Relaxing massage or sports massage?",
         blocks: [
-          "The Berber massage is flowing and enveloping, ideal for unwinding. The [Thai massage](service:massage-thai) relies more on targeted pressure and stretches, with hot towels. Not sure? Read our guide [Berber or Thai massage: which to choose](guide:berber-or-thai), or ask us on WhatsApp.",
+          "The relaxing Berber massage is flowing and enveloping, with no deep pressure: ideal for unwinding or recovering from a long journey. The [sports recovery massage](service:massage-sportif) works deeper, with firm pressure on the legs, back and shoulders, after a hike or a round of golf. Not sure? Ask us on WhatsApp and we'll advise you.",
         ],
       },
     ],
@@ -81,8 +81,12 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         a: "No. Your therapist brings the table, argan oil and towels. You only need a quiet room with enough space for the table. A shower beforehand is pleasant but not required.",
       },
       {
+        q: "How much pressure is a relaxing massage?",
+        a: "Gentle to medium pressure, never forceful. Tell your therapist what you prefer: she adjusts it throughout the treatment. For firm pressure, choose the [sports recovery massage](service:massage-sportif).",
+      },
+      {
         q: "Can two people book a Berber massage together?",
-        a: "Yes. Two therapists can come at the same time for a [couples massage](duo): each person enjoys their own treatment, side by side.",
+        a: "Yes. The two massages can follow one another with the same therapist, or take place at the same time with two therapists, depending on availability. Just say so in your request.",
       },
       {
         q: "Is the Berber massage a sensual massage?",
@@ -107,7 +111,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       "Deep tissue-style sports recovery massage at home in Marrakech after an Atlas trek, golf or training. 60 min for 500 MAD, in your riad, villa or hotel.",
     h1: "Sports massage at home in Marrakech",
     lead: [
-      "An Atlas trek, a round of golf, a day walking the Medina or a workout: the Thai Kech sports massage helps your body recover. Close to a deep tissue massage, it uses deeper pressure and invigorating strokes that target tight areas (legs, back, shoulders) to loosen muscles and restore flexibility.",
+      "An Atlas trek, a round of golf, a day walking the Medina or a workout: our sports massage at home in Marrakech helps your body recover. It is a recovery massage close to deep tissue: deeper pressure and invigorating strokes target tight areas (legs, back, shoulders) to loosen muscles and restore flexibility.",
       "The treatment lasts one hour and takes place in your riad, villa or hotel room. No travelling after exercise: you stay put and relax.",
     ],
     idealFor: [
@@ -154,7 +158,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         heading: "Firm pressure, never painful",
         blocks: [
           "A sports massage can be intense, but it should not hurt. Say so at any time if the pressure is too strong: your therapist adjusts straight away.",
-          "Looking for all-over relaxation instead? Choose the [relaxing Berber massage](service:massage-berbere), the [hot stone massage](service:massage-pierres-chaudes) or the [Thai massage with hot towels](service:massage-thai).",
+          "Looking for all-over relaxation instead? Choose the [relaxing Berber massage](service:massage-berbere) or the [hot stone massage](service:massage-pierres-chaudes). After a long hike, the [traditional Moroccan hammam](service:hammam-berbere) is another way to recover: scrub, rhassoul clay and an argan oil massage.",
         ],
       },
     ],
@@ -182,8 +186,8 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         a: "Your therapist explains how to get settled. Areas not being massaged stay covered with a towel.",
       },
       {
-        q: "Sports massage or four-hands massage?",
-        a: "The sports massage focuses on muscle recovery, with one therapist. The [four-hands massage](service:massage-4-mains) uses two therapists at once for deeper, all-enveloping relaxation.",
+        q: "Sports massage or deep tissue massage?",
+        a: "Our sports recovery massage is close to a deep tissue massage: deep, firm pressure on tight muscles, adjusted to how it feels for you. Tell your therapist where to focus: legs, back or shoulders.",
       },
     ],
   },
@@ -557,7 +561,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       "Traditional Moroccan hammam at home in Marrakech: black soap, kessa scrub, rhassoul clay and argan oil massage. 75 min for 550 MAD, in your riad or villa.",
     h1: "Traditional Moroccan hammam at home in Marrakech",
     lead: [
-      "The hammam is Morocco's signature beauty ritual. With the Traditional Moroccan Hammam, it comes to you: eucalyptus black soap, a vigorous kessa glove scrub, a rhassoul clay wrap from the Atlas, then a relaxing 20-minute argan oil massage.",
+      "The hammam is Morocco's signature beauty ritual. With our Moroccan hammam at home, it comes to you anywhere in Marrakech: eucalyptus black soap, a vigorous kessa glove scrub, a rhassoul clay wrap from the Atlas, then a relaxing 20-minute argan oil massage.",
       "The treatment lasts 75 minutes. It takes place in your bathroom or in the private hammam of your riad or villa, and leaves your skin clean, soft and nourished.",
     ],
     idealFor: [
@@ -589,7 +593,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         heading: "How does a hammam at home work?",
         blocks: [
           "You don't need a steam room. The ritual takes place in the private hammam of your riad or villa if it has one, or simply in a bathroom with a shower and hot water for rinsing. The final massage is then done on the massage table.",
-          "We check the space with you on WhatsApp when confirming. All the details are in our guide [hammam at home: what to expect](guide:hammam-at-home).",
+          "We check the space with you on WhatsApp when confirming. All the details are in our guide [hammam at home: what to expect](guide:hammam-at-home), and both our rituals are on the [hammam at home in Marrakech](hammam) page.",
         ],
       },
       {

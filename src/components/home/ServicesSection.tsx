@@ -18,7 +18,11 @@ export default function ServicesSection({ locale }: { locale: Locale }) {
       items: services.filter((s) => s.category === "hammam"),
       link: { href: pathFor("hammam", locale), label: copy.hammamLink },
     },
-    { title: copy.beauty, items: services.filter((s) => s.category === "beauty") },
+    {
+      title: copy.beauty,
+      items: services.filter((s) => s.category === "beauty"),
+      link: { href: pathFor("beauty", locale), label: copy.beautyLink },
+    },
   ];
 
   return (

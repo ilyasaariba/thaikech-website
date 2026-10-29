@@ -16,7 +16,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       "Massage relaxant marocain à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
     h1: "Massage relaxant berbère à domicile à Marrakech",
     lead: [
-      "Inspiré des gestes de bien-être marocains, notre massage relaxant berbère associe l'huile d'argan à des pressions glissées et des étirements doux. C'est le soin idéal pour se détendre et découvrir le massage marocain sans quitter votre riad, votre villa ou votre chambre d'hôtel.",
+      "Notre massage relaxant à domicile à Marrakech s'inspire des gestes de bien-être marocains : l'huile d'argan, des pressions glissées et des étirements doux. C'est le soin idéal pour se détendre et découvrir le massage berbère sans quitter votre riad, votre villa, votre chambre d'hôtel ou votre appartement.",
       "Votre thérapeute arrive avec la table de massage, les huiles et les serviettes, installe l'espace et vous laisse profiter d'une heure de détente complète. Vous réglez après le soin.",
     ],
     idealFor: [
@@ -24,7 +24,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       "Une journée de visite dans les souks et la Médina",
       "Se remettre d'un long voyage",
       "Une détente globale, sans pression appuyée",
-      "Un moment à deux, en [massage duo](duo) dans votre riad ou votre villa",
+      "Une fin de journée au calme, avant de sortir dîner",
     ],
     steps: [
       {
@@ -62,9 +62,9 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         ],
       },
       {
-        heading: "Massage berbère ou massage thaï ?",
+        heading: "Massage relaxant ou massage sportif ?",
         blocks: [
-          "Le massage berbère est fluide et enveloppant, idéal pour se détendre. Le [massage thaï](service:massage-thai) repose davantage sur des pressions ciblées et des étirements, avec des serviettes chaudes. Vous hésitez ? Lisez notre guide [massage berbère ou thaï : lequel choisir](guide:berber-or-thai), ou laissez-nous vous conseiller sur WhatsApp.",
+          "Le massage relaxant berbère est fluide et enveloppant, sans pression appuyée : idéal pour se détendre ou récupérer d'un long voyage. Le [massage sportif et tonique](service:massage-sportif) travaille plus en profondeur, avec des pressions fermes sur les jambes, le dos et les épaules, après une randonnée ou un golf. Vous hésitez ? Écrivez-nous sur WhatsApp : nous vous conseillons.",
         ],
       },
     ],
@@ -84,8 +84,12 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         a: "Non : la thérapeute apporte la table, l'huile d'argan et les serviettes. Il suffit d'une pièce calme avec assez de place pour installer la table. Une douche avant le soin est agréable, mais pas obligatoire.",
       },
       {
+        q: "Quelle pression pour un massage relaxant ?",
+        a: "Une pression douce à moyenne, jamais appuyée. Dites à votre thérapeute ce que vous préférez : elle l'adapte pendant tout le soin. Pour une pression ferme, choisissez le [massage sportif et tonique](service:massage-sportif).",
+      },
+      {
         q: "Peut-on réserver un massage berbère pour deux personnes ?",
-        a: "Oui. Deux thérapeutes peuvent venir en même temps pour un [massage en duo](duo) : chaque personne profite de son soin, côte à côte.",
+        a: "Oui. Les deux massages peuvent se suivre avec la même thérapeute, ou avoir lieu en même temps avec deux thérapeutes selon les disponibilités. Précisez-le dans votre demande.",
       },
       {
         q: "Le massage berbère est-il un massage sensuel ?",
@@ -110,7 +114,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       "Massage sportif et tonique à domicile à Marrakech, après un trek dans l'Atlas, un golf ou le sport. 1 h, 500 MAD, dans votre riad, villa ou hôtel.",
     h1: "Massage sportif et tonique à domicile à Marrakech",
     lead: [
-      "Randonnée dans l'Atlas, parcours de golf, journée de marche dans la Médina ou séance de sport : le massage sportif Thai Kech aide votre corps à récupérer. Proche du massage deep tissue, il utilise des pressions plus profondes et des mouvements toniques qui ciblent les zones tendues (jambes, dos, épaules) pour relâcher les muscles et retrouver de la souplesse.",
+      "Randonnée dans l'Atlas, parcours de golf, journée de marche dans la Médina ou séance de sport : notre massage sportif à domicile à Marrakech aide votre corps à récupérer. C'est un massage de récupération proche du deep tissue : des pressions plus profondes et des mouvements toniques ciblent les zones tendues (jambes, dos, épaules) pour relâcher les muscles et retrouver de la souplesse.",
       "Le soin dure une heure et se déroule chez vous, dans votre riad, votre villa ou votre chambre d'hôtel. Pas de trajet après l'effort : vous restez au calme.",
     ],
     idealFor: [
@@ -157,7 +161,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         heading: "Une pression ferme, jamais douloureuse",
         blocks: [
           "Un massage sportif peut être intense, mais il ne doit pas faire mal. Signalez à tout moment si la pression est trop forte : votre thérapeute l'ajuste immédiatement.",
-          "Vous cherchez plutôt une détente globale ? Choisissez le [massage relaxant berbère](service:massage-berbere), le [massage aux pierres chaudes](service:massage-pierres-chaudes) ou le [massage thaï aux serviettes chaudes](service:massage-thai).",
+          "Vous cherchez plutôt une détente globale ? Choisissez le [massage relaxant berbère](service:massage-berbere) ou le [massage aux pierres chaudes](service:massage-pierres-chaudes). Après une longue randonnée, le [hammam traditionnel marocain](service:hammam-berbere) est une autre façon de récupérer : gommage, rassoul et modelage à l'argan.",
         ],
       },
     ],
@@ -185,8 +189,8 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         a: "Votre thérapeute vous explique comment vous installer. Les zones qui ne sont pas massées restent couvertes par une serviette.",
       },
       {
-        q: "Massage sportif ou massage à 4 mains ?",
-        a: "Le massage sportif cible la récupération musculaire, avec une thérapeute. Le [massage à 4 mains](service:massage-4-mains) mobilise deux thérapeutes en même temps pour une détente plus enveloppante.",
+        q: "Massage sportif ou massage tonique : quelle différence ?",
+        a: "C'est le même soin. Notre Massage Sportif & Tonique associe des pressions profondes, pour la récupération, et des mouvements toniques qui redonnent de l'énergie. Dites à votre thérapeute ce que vous recherchez : elle adapte le soin.",
       },
     ],
   },
@@ -555,12 +559,12 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     summary:
       "Savon noir à l'eucalyptus, gommage au gant de kessa, enveloppement au rassoul et modelage de 20 minutes à l'huile d'argan.",
     imageAlt: "Savon noir, gant de kessa et rassoul posés sur une table de hammam en marbre",
-    metaTitle: "Hammam Marocain à Domicile à Marrakech",
+    metaTitle: "Hammam Marocain à Domicile, Marrakech, 550 MAD",
     metaDescription:
       "Hammam traditionnel marocain à domicile à Marrakech : savon noir, gommage kessa, rassoul et modelage à l'argan. 1 h 15, 550 MAD, dans votre riad ou villa.",
     h1: "Hammam traditionnel marocain à domicile à Marrakech",
     lead: [
-      "Le hammam est le rituel de beauté marocain par excellence. Avec le Hammam Traditionnel Marocain, il vient à vous : savon noir à l'eucalyptus, gommage vigoureux au gant de kessa, enveloppement au rassoul de l'Atlas, puis un modelage relaxant de 20 minutes à l'huile d'argan.",
+      "Le hammam est le rituel de beauté marocain par excellence. Avec notre hammam marocain à domicile, il vient à vous, partout à Marrakech : savon noir à l'eucalyptus, gommage vigoureux au gant de kessa, enveloppement au rassoul de l'Atlas, puis un modelage relaxant de 20 minutes à l'huile d'argan.",
       "Le soin dure 1 h 15. Il se déroule dans votre salle de bain ou dans le hammam privé de votre riad ou de votre villa, et laisse la peau nette, douce et nourrie.",
     ],
     idealFor: [
@@ -592,7 +596,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         heading: "Comment se passe un hammam à domicile ?",
         blocks: [
           "Pas besoin de hammam vapeur. Le rituel se pratique dans le hammam privé de votre riad ou de votre villa s'il en a un, ou simplement dans une salle de bain avec douche et eau chaude pour les rinçages. Le modelage final se fait ensuite sur la table de massage.",
-          "Nous vérifions l'espace avec vous sur WhatsApp au moment de la confirmation. Tous les détails dans notre guide [hammam à domicile : comment ça se passe](guide:hammam-at-home).",
+          "Nous vérifions l'espace avec vous sur WhatsApp au moment de la confirmation. Tous les détails dans notre guide [hammam à domicile : comment ça se passe](guide:hammam-at-home), et nos deux rituels sur la page [hammam à domicile à Marrakech](hammam).",
         ],
       },
       {

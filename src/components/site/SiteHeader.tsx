@@ -43,11 +43,12 @@ export default function SiteHeader({
       massages={services.filter((s) => s.category === "massage").map(toLink)}
       hammams={services.filter((s) => s.category === "hammam").map(toLink)}
       beauty={services.filter((s) => s.category === "beauty").map(toLink)}
+      // The owner's priority treatments get the menu; couples and groups need a
+      // second therapist and stay linked from the footer only.
       extras={[
         { href: pathFor("hammam", locale), label: ui.nav.hammamHub },
-        { href: pathFor("duo", locale), label: ui.nav.duo },
+        { href: pathFor("beauty", locale), label: ui.nav.beautyHub },
         { href: pathFor("inRoom", locale), label: ui.nav.inRoom },
-        { href: pathFor("groups", locale), label: ui.nav.groups },
       ]}
       links={[
         { href: pathFor("areas", locale), label: ui.nav.areas },

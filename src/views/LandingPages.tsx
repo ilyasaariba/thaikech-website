@@ -21,7 +21,7 @@ import FaqList from "@/components/FaqList";
 import ServiceCard from "@/components/ServiceCard";
 import GuideLinks from "@/components/page/GuideLinks";
 
-type LandingKey = "hammam" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter" | "privacy";
+type LandingKey = "hammam" | "beauty" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter" | "privacy";
 
 const pick = (locale: Locale, fr: string, en: string) => (locale === "fr" ? fr : en);
 
@@ -40,6 +40,7 @@ function crumbName(key: LandingKey, locale: Locale): string {
   const ui = UI[locale];
   const names: Record<LandingKey, string> = {
     hammam: ui.nav.hammamHub,
+    beauty: ui.nav.beautyHub,
     duo: ui.nav.duo,
     inRoom: ui.nav.inRoom,
     groups: ui.nav.groups,
@@ -152,6 +153,32 @@ export function HammamPage({ locale }: { locale: Locale }) {
   );
 }
 
+export function BeautyPage({ locale }: { locale: Locale }) {
+  const copy = getPages(locale).beauty;
+  return (
+    <LandingLayout
+      locale={locale}
+      pageKey="beauty"
+      copy={copy}
+      schema={[serviceNode({ locale, key: "beauty", name: copy.h1, description: copy.metaDescription })]}
+      before={
+        <section className="mb-14">
+          <h2 className="font-serif text-2xl sm:text-3xl text-bamboo mb-6">
+            {pick(locale, "Nos soins beauté à domicile", "Our beauty treatments at home")}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {getServices(locale)
+              .filter((service) => service.category === "beauty")
+              .map((service) => (
+                <ServiceCard key={service.id} service={service} locale={locale} />
+              ))}
+          </div>
+        </section>
+      }
+    />
+  );
+}
+
 export function DuoPage({ locale }: { locale: Locale }) {
   const copy = getPages(locale).duo;
   return (
@@ -199,7 +226,7 @@ export function InRoomPage({ locale }: { locale: Locale }) {
         <ServiceGrid
           locale={locale}
           heading={pick(locale, "Soins à réserver dans votre chambre", "Treatments to book in your room")}
-          ids={["massage-berbere", "massage-thai", "massage-4-mains"]}
+          ids={["massage-berbere", "massage-sportif", "hammam-berbere"]}
         />
       }
     />

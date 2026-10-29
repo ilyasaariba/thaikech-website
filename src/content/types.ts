@@ -43,6 +43,7 @@ export type StaticPageKey =
   | "prices"
   | "areas"
   | "hammam"
+  | "beauty"
   | "duo"
   | "inRoom"
   | "charter"
@@ -154,7 +155,14 @@ export interface HomeCopy {
     badges: string[];
     discover: string;
   };
-  services: SectionHeader & { massages: string; hammams: string; beauty: string; hammamLink: string; allPrices: string };
+  services: SectionHeader & {
+    massages: string;
+    hammams: string;
+    beauty: string;
+    hammamLink: string;
+    beautyLink: string;
+    allPrices: string;
+  };
   occasions: SectionHeader & { items: { key: PageKey; title: string; text: string }[] };
   concept: SectionHeader & { steps: Step[] };
   commitments: SectionHeader & { items: Step[]; charterLink: string };
@@ -166,6 +174,7 @@ export interface HomeCopy {
 export interface PagesCopy {
   home: HomeCopy;
   hammam: LandingCopy;
+  beauty: LandingCopy;
   duo: LandingCopy;
   inRoom: LandingCopy;
   groups: LandingCopy;

@@ -47,6 +47,7 @@ const LABELS: Record<Locale, { massage: string; hammam: string; beauty: string; 
 /** Photo of each landing page with a share card (the same one the page shows, where it has one). */
 const LANDING_PHOTO: Partial<Record<StaticPageKey, string>> = {
   hammam: "/assets/hammam-royal-fleur-oranger.webp",
+  beauty: "/assets/manucure-vernis-classique.webp",
   duo: "/assets/massage-duo-couple.webp",
   inRoom: BUSINESS.heroImage,
   groups: "/assets/massage-duo-couple.webp",
@@ -56,7 +57,7 @@ const LANDING_PHOTO: Partial<Record<StaticPageKey, string>> = {
   guides: "/assets/massage-thai-serviettes-chaudes.webp",
 };
 
-type LandingKey = "hammam" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter";
+type LandingKey = "hammam" | "beauty" | "duo" | "inRoom" | "groups" | "prices" | "areas" | "charter";
 
 /** Photos whose subject sits on the left, where the text panel would hide it. */
 const MIRRORED_PHOTOS = new Set(["/assets/pedicure-bain-de-pieds.webp"]);

@@ -14,6 +14,7 @@ const STATIC_PATHS: Record<StaticPageKey, Record<Locale, string>> = {
   prices: { fr: "/tarifs", en: "/en/prices" },
   areas: { fr: "/zones-desservies-marrakech", en: "/en/areas-we-cover-marrakech" },
   hammam: { fr: "/hammam-a-domicile-marrakech", en: "/en/hammam-at-home-marrakech" },
+  beauty: { fr: "/beaute-a-domicile-marrakech", en: "/en/beauty-at-home-marrakech" },
   duo: { fr: "/massage-duo-couple-a-domicile-marrakech", en: "/en/couples-massage-marrakech" },
   inRoom: { fr: "/massage-chambre-hotel-riad-marrakech", en: "/en/in-room-massage-marrakech" },
   charter: { fr: "/charte-qualite", en: "/en/code-of-conduct" },

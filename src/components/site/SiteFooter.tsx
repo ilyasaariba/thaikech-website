@@ -128,6 +128,11 @@ export default function SiteFooter({
                 </Link>
               </li>
               <li>
+                <Link href={pathFor("beauty", locale)} className={linkClass}>
+                  {ui.nav.beautyHub}
+                </Link>
+              </li>
+              <li>
                 <Link href={pathFor("duo", locale)} className={linkClass}>
                   {ui.nav.duo}
                 </Link>

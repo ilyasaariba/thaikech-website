@@ -11,7 +11,7 @@ export const pagesFr: PagesCopy = {
       h1Accent: "à Domicile",
       h1End: "à Marrakech",
       subtitle:
-        "Nos thérapeutes femmes viennent directement dans votre **riad, villa ou hôtel** à Marrakech pour un massage ou un hammam, avec huiles d'argan et ambiance spa complète, **tous les jours de 8h à 22h**.",
+        "Nos thérapeutes femmes viennent directement dans votre **riad, villa ou hôtel** à Marrakech pour un massage, un hammam ou un soin beauté, avec huiles d'argan et ambiance spa complète, **tous les jours de 8h à 22h**.",
       seeServices: "Voir nos soins et tarifs",
       badges: ["Thérapeutes Femmes", "Riads · Villas · Hôtels", "Marrakech & Environs"],
       discover: "Découvrir",
@@ -25,22 +25,23 @@ export const pagesFr: PagesCopy = {
       hammams: "Hammams",
       beauty: "Beauté à domicile",
       hammamLink: "Tout savoir sur le hammam à domicile",
+      beautyLink: "Tout savoir sur la beauté à domicile",
       allPrices: "Comparer tous les tarifs",
     },
     occasions: {
       eyebrow: "Pour Chaque Séjour",
       heading: "Un Soin Adapté à Votre Séjour",
-      intro: "Couple, groupe, hôtel, riad ou villa : nous organisons le soin selon votre séjour.",
+      intro: "Hôtel, riad, villa ou appartement : nous organisons le soin selon votre séjour.",
       items: [
         {
-          key: "duo",
-          title: "Massage en duo",
-          text: "Deux thérapeutes, deux soins, au même moment : idéal en couple ou entre amies.",
+          key: "service:massage-berbere",
+          title: "Massage relaxant",
+          text: "Une heure à l'huile d'argan après les souks ou un long voyage, sans quitter votre riad.",
         },
         {
-          key: "inRoom",
-          title: "Massage en chambre d'hôtel ou en riad",
-          text: "Réception, espace, discrétion : tout est prévu pour un massage dans votre chambre.",
+          key: "service:massage-sportif",
+          title: "Massage sportif & tonique",
+          text: "Après une randonnée dans l'Atlas, un golf ou une longue journée de marche : des pressions fermes pour récupérer.",
         },
         {
           key: "hammam",
@@ -48,9 +49,9 @@ export const pagesFr: PagesCopy = {
           text: "Savon noir, kessa et rassoul, sans quitter votre riad ou votre villa.",
         },
         {
-          key: "groups",
-          title: "EVJF et groupes",
-          text: "Votre villa devient un spa privé : les soins s'enchaînent deux par deux pour tout le groupe.",
+          key: "beauty",
+          title: "Beauté à domicile",
+          text: "Manucure, pédicure et brushing dans votre riad, votre hôtel ou votre appartement.",
         },
       ],
     },
@@ -133,8 +134,8 @@ export const pagesFr: PagesCopy = {
           a: "Vous réglez directement votre thérapeute après le soin, en espèces : en dirhams, en euros ou dans une autre devise. Tous nos prix sont sur la page [tarifs](prices).",
         },
         {
-          q: "Proposez-vous des massages en duo ou en couple ?",
-          a: "Oui. Deux thérapeutes se déplacent en même temps pour réaliser vos soins côte à côte dans votre riad, votre villa ou votre hôtel. Voir le [massage en duo](duo).",
+          q: "Proposez-vous des soins beauté à domicile ?",
+          a: "Oui : manucure et pédicure à 300 MAD chacune, shampoing et brushing à 350 MAD, dans votre riad, votre villa, votre hôtel ou votre appartement. Voir la [beauté à domicile](beauty).",
         },
         {
           q: "Combien de temps à l'avance dois-je réserver mon soin ?",
@@ -240,6 +241,83 @@ export const pagesFr: PagesCopy = {
       {
         q: "Le déplacement est-il compris ?",
         a: "Oui, dans toute la région de Marrakech.",
+      },
+    ],
+  },
+
+  beauty: {
+    metaTitle: "Beauté à Domicile, Marrakech : Manucure, Brushing",
+    metaDescription:
+      "Manucure, pédicure et brushing à domicile à Marrakech, dans votre riad, villa, hôtel ou appartement. Dès 300 MAD, thérapeutes femmes, 8h–22h, déplacement offert.",
+    eyebrow: "Manucure · Pédicure · Brushing",
+    h1: "Beauté à domicile à Marrakech",
+    lead: [
+      "Des ongles soignés, des pieds tout doux, un brushing impeccable : votre thérapeute vient dans votre riad, votre villa, votre chambre d'hôtel ou votre appartement avec tout le nécessaire, sans que vous ayez à chercher un salon dans une ville que vous connaissez peu.",
+      "Trois soins d'environ une heure chacun : la [manucure](service:manucure) et la [pédicure](service:pedicure) à 300 MAD, le [shampoing et brushing](service:brushing) à 350 MAD. Déplacement offert dans toute la région de Marrakech, paiement après le soin.",
+    ],
+    facts: ["Dès 300 MAD", "Environ 1 h par soin", "Thérapeutes femmes", "Paiement après le soin"],
+    sections: [
+      {
+        heading: "Manucure, pédicure ou brushing : que choisir ?",
+        blocks: [
+          {
+            list: [
+              "**Manucure & Vernis Classique**, 300 MAD : limage et mise en forme des ongles, soin des cuticules et pose d'un vernis classique.",
+              "**Pédicure & Bain de Pieds**, 300 MAD : bain de pieds, gommage, limage, soin des cuticules et vernis classique, idéal après des journées de marche dans la Médina.",
+              "**Shampoing & Brushing**, 350 MAD : un shampoing puis un brushing à la brosse ronde, avant un dîner, une soirée ou un mariage.",
+            ],
+          },
+        ],
+      },
+      {
+        heading: "Mains et pieds le même jour",
+        blocks: [
+          "Réservez la manucure et la pédicure ensemble : 600 MAD les deux, en deux heures environ. Pour une soirée, terminez par un brushing. Indiquez les soins souhaités dans votre demande : nous organisons l'horaire avec vous sur WhatsApp.",
+        ],
+      },
+      {
+        heading: "Ce qu'il faut prévoir",
+        blocks: [
+          {
+            list: [
+              "Pour la manucure : une table, une chaise et un endroit bien éclairé.",
+              "Pour la pédicure : une chaise confortable et un accès à l'eau tiède.",
+              "Pour le brushing : une salle de bain, une prise électrique et une chaise, si possible près d'un miroir.",
+            ],
+          },
+          "Votre thérapeute apporte le reste.",
+        ],
+      },
+      {
+        heading: "Bon à savoir",
+        blocks: [
+          "Nous posons uniquement du vernis classique, qui s'enlève avec un dissolvant ordinaire : pas de vernis semi-permanent. La pédicure est un soin esthétique, non médical : pour un ongle incarné, une verrue ou une mycose, consultez un podologue.",
+          {
+            note: "Un hammam ou une baignade prévus le même jour ? Placez le brushing en dernier : l'eau et la vapeur le font retomber.",
+          },
+        ],
+      },
+    ],
+    faqs: [
+      {
+        q: "Combien coûtent les soins beauté à domicile à Marrakech ?",
+        a: "La manucure et la pédicure coûtent 300 MAD chacune, soit 600 MAD les deux, et le shampoing et brushing 350 MAD. Le déplacement est offert dans toute la région de Marrakech. Voir tous nos [tarifs](prices).",
+      },
+      {
+        q: "Venez-vous à l'hôtel ou en appartement ?",
+        a: "Oui : dans les riads, les villas, les chambres d'hôtel et les appartements, tous les jours de 8h à 22h. À l'hôtel, prévenez la réception de l'heure du soin.",
+      },
+      {
+        q: "Posez-vous du vernis semi-permanent ?",
+        a: "Non. La manucure et la pédicure comprennent un vernis classique, qui s'enlève avec un dissolvant ordinaire.",
+      },
+      {
+        q: "Peut-on associer un soin beauté et un massage ?",
+        a: "Oui, les soins se suivent : par exemple un [massage relaxant](service:massage-berbere) puis une pédicure. Indiquez les soins souhaités dans votre demande, nous organisons l'horaire sur WhatsApp.",
+      },
+      {
+        q: "Combien de temps dure un soin beauté ?",
+        a: "Environ une heure par soin, soit deux heures environ pour la manucure et la pédicure ensemble.",
       },
     ],
   },

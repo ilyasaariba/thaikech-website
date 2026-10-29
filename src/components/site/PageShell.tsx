@@ -26,7 +26,7 @@ function whatsappMessage(key: PageKey, locale: Locale): string {
   if (kind === "service") return contact.messageAbout.replace("{page}", getService(id as ServiceId, locale).name);
   if (kind === "zone") return contact.messageArea.replace("{area}", getZone(id as ZoneId, locale).name);
   if (kind === "guide") return whatsappMessage(getGuide(id as GuideId, locale).target, locale);
-  if (key === "hammam" || key === "duo" || key === "inRoom" || key === "groups") {
+  if (key === "hammam" || key === "beauty" || key === "duo" || key === "inRoom" || key === "groups") {
     return contact.messageAbout.replace("{page}", getPages(locale)[key].h1);
   }
   return contact.message;
