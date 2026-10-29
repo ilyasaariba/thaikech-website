@@ -39,6 +39,7 @@ export const SERVICE_IDS: ServiceId[] = [
 ];
 
 const BASE: Record<ServiceId, ServiceBase> = {
+  // Photo: Unsplash License (unsplash.com/photos/cU53ZFBr3lk).
   "massage-berbere": {
     id: "massage-berbere",
     price: 450,
@@ -48,6 +49,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     therapists: 1,
     related: ["massage-sportif", "hammam-berbere", "massage-pierres-chaudes"],
   },
+  // Photo: Unsplash License (unsplash.com/photos/yBLLzNcA6GU).
   "massage-sportif": {
     id: "massage-sportif",
     price: 500,
@@ -66,6 +68,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     therapists: 1,
     related: ["massage-sportif", "massage-berbere", "hammam-berbere"],
   },
+  // Photo: Unsplash License (unsplash.com/photos/vIgH8pJyYmk).
   "massage-future-maman": {
     id: "massage-future-maman",
     price: 550,

@@ -10,7 +10,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     shortName: "massage relaxant",
     summary:
       "Un massage enveloppant à l'huile d'argan : pressions glissées et étirements doux pour relâcher le corps et apaiser l'esprit.",
-    imageAlt: "Table de massage dressée avec huile d'argan et serviettes dans un décor marocain",
+    imageAlt: "Thérapeute versant de l'huile de massage dans sa main au-dessus du dos d'une cliente",
     metaTitle: "Massage Relaxant Berbère à Domicile à Marrakech",
     metaDescription:
       "Massage relaxant marocain à l'huile d'argan dans votre riad, villa ou hôtel à Marrakech. 1 h, 450 MAD, thérapeutes femmes, 8h–22h. Réservez sur WhatsApp.",
@@ -108,7 +108,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     shortName: "massage sportif",
     summary:
       "Un massage profond et tonique qui cible les tensions musculaires, pour retrouver de la souplesse après l'effort.",
-    imageAlt: "Table de massage avec huile et pierres, prête pour un massage sportif",
+    imageAlt: "Massage appuyé de la jambe sur une serviette blanche",
     metaTitle: "Massage Sportif & Tonique à Domicile, Marrakech",
     metaDescription:
       "Massage sportif et tonique à domicile à Marrakech, après un trek dans l'Atlas, un golf ou le sport. 1 h, 500 MAD, dans votre riad, villa ou hôtel.",
@@ -287,7 +287,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
     shortName: "massage femme enceinte",
     summary:
       "Un massage enveloppant adapté à la grossesse, à l'huile d'argan neutre, pour soulager le bas du dos et se détendre.",
-    imageAlt: "Chambre lumineuse avec lit, coussins et fleurs, préparée pour un massage de grossesse",
+    imageAlt: "Mains posées sur le ventre d'une femme enceinte",
     metaTitle: "Massage Femme Enceinte à Domicile à Marrakech",
     metaDescription:
       "Massage prénatal à domicile à Marrakech : 1 h 30 de douceur à l'huile d'argan neutre pour la future maman, par nos thérapeutes femmes. 550 MAD, 8h–22h.",

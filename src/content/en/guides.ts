@@ -105,7 +105,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "Argan oil or stretches? The differences between Berber and Thai massage, how they feel, duration and price, to choose the right treatment for your stay.",
     excerpt:
       "Soothing and enveloping, or active and stretching? Compare Berber and Thai massage to find the treatment that suits you.",
-    imageAlt: "Therapist massaging a client's back with argan oil",
+    imageAlt: "Therapist massaging the upper back of a client lying down",
     intro: [
       "On spa menus across Marrakech, two names keep coming up: Berber massage and Thai massage. One comes from Moroccan tradition, the other from Thailand. Both help you relax, but they feel very different.",
       "Here is how to choose, depending on what you are looking for.",
@@ -195,7 +195,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "Telling reception, space needed, privacy and timing: our practical tips for enjoying a massage in your hotel room or riad in Marrakech.",
     excerpt:
       "Reception, space, privacy: everything to know before having a massage in your hotel or riad room.",
-    imageAlt: "Relaxed client during a scalp massage",
+    imageAlt: "Relaxed client with closed eyes during a shoulder massage",
     intro: [
       "A massage in your own room is one of the small luxuries of a stay in Marrakech: no journey, no waiting room and the chance to stay relaxed after the treatment.",
       "To make sure everything goes smoothly, here is what to check before your therapist arrives.",
@@ -273,7 +273,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "Sore legs after Toubkal or an Atlas hike? When to book a massage, stretching and hydration: our tips for recovering in Marrakech.",
     excerpt:
       "Heavy legs after Toubkal? When to book a massage, what to do on your first evening back and how to recover for the rest of your trip.",
-    imageAlt: "Massage table with oil and stones, prepared for a recovery massage",
+    imageAlt: "Firm leg massage over a white towel, to recover after exercise",
     intro: [
       "Toubkal, at 4,167 metres the highest peak in North Africa, draws many hikers from Marrakech every year. The classic ascent often takes two days from Imlil, and your thighs and calves will remember it.",
       "Here is how to recover well once you are back in Marrakech, so you can enjoy the rest of your stay.",
@@ -360,7 +360,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "Pregnant and travelling to Marrakech? When to have a massage, precautions to take, hammam or not, heat: our advice for a relaxed prenatal massage.",
     excerpt:
       "First trimester, heat, hammam, positioning: the precautions to know before a massage during pregnancy in Marrakech.",
-    imageAlt: "Bright bedroom with a bed and cushions, set for relaxation",
+    imageAlt: "Hands resting on a pregnant woman's belly",
     intro: [
       "A babymoon or a trip to Marrakech while pregnant? A gentle massage can be a real treat, as long as you follow a few precautions.",
       "This advice is general: it does not replace the advice of your doctor or midwife, whom you should consult before any treatment.",
@@ -441,7 +441,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "Should you tip after a massage or hammam in Morocco? Local customs, typical amounts and tips for an at-home treatment in Marrakech.",
     excerpt:
       "Is a tip expected? Moroccan customs after a massage or hammam, and what to do for an at-home treatment.",
-    imageAlt: "Massage room with rolled towels and orchids",
+    imageAlt: "Towel, oil bottle, candle and tulips set out for a treatment",
     intro: [
       "Tipping is part of daily life in Morocco: at restaurants and cafés, for guides and porters. For a massage or a hammam, many travellers wonder whether to tip, and how much.",
       "Here are the customs, so you can decide with confidence.",
@@ -512,7 +512,7 @@ export const guidesEn: Record<GuideId, GuideCopy> = {
       "How much is a massage at home in Marrakech? 2026 price ranges, what changes the price, travel fees, tipping and the traps to avoid before you book.",
     excerpt:
       "Price ranges, travel fees, actual treatment time: everything to check before booking a massage at home in Marrakech.",
-    imageAlt: "Therapist massaging a client's back with argan oil",
+    imageAlt: "Therapist massaging the upper back of a client lying down",
     intro: [
       "Riad, villa or hotel room: in Marrakech, many providers will come to you for a massage or a hammam. Advertised prices vary, and so does what they include.",
       "Here are the price ranges published online in October 2026, what changes the price and the questions to ask before you confirm.",

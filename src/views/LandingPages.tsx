@@ -215,11 +215,7 @@ export function InRoomPage({ locale }: { locale: Locale }) {
       copy={copy}
       image={{
         src: BUSINESS.heroImage,
-        alt: pick(
-          locale,
-          "Cour de riad avec piscine et tables de massage à Marrakech",
-          "Riad courtyard with a pool and massage tables in Marrakech"
-        ),
+        alt: pick(locale, "Patio d'un riad à Marrakech, entouré de palmiers", "Courtyard of a riad in Marrakech, surrounded by palm trees"),
       }}
       schema={[serviceNode({ locale, key: "inRoom", name: copy.h1, description: copy.metaDescription })]}
       wide={
@@ -377,7 +373,7 @@ export function CharterPage({ locale }: { locale: Locale }) {
       copy={copy}
       image={{
         src: "/assets/massage-huile-argan-therapeute.webp",
-        alt: pick(locale, "Thérapeute réalisant un massage à l'huile d'argan", "Therapist giving an argan oil massage"),
+        alt: pick(locale, "Thérapeute massant le haut du dos d'une cliente allongée", "Therapist massaging the upper back of a client lying down"),
       }}
     />
   );

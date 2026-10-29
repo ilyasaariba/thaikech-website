@@ -105,7 +105,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Huile d'argan ou étirements ? Les différences entre massage berbère et massage thaï, sensations, durée et prix, pour bien choisir pendant votre séjour.",
     excerpt:
       "Détente enveloppante ou massage actif ? Comparez le massage berbère et le massage thaï pour choisir le soin qui vous correspond.",
-    imageAlt: "Thérapeute massant le dos d'une cliente à l'huile d'argan",
+    imageAlt: "Thérapeute massant le haut du dos d'une cliente allongée",
     intro: [
       "Sur la carte des spas de Marrakech, deux noms reviennent souvent : le massage berbère et le massage thaï. L'un vient de la tradition marocaine, l'autre de Thaïlande. Tous deux détendent, mais les sensations sont très différentes.",
       "Voici comment choisir, selon ce que vous recherchez.",
@@ -195,7 +195,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Prévenir la réception, espace nécessaire, discrétion, horaires : nos conseils pratiques pour recevoir un massage dans votre chambre d'hôtel ou votre riad.",
     excerpt:
       "Réception, espace, discrétion : tout ce qu'il faut savoir avant de recevoir un massage dans sa chambre d'hôtel ou de riad.",
-    imageAlt: "Cliente détendue pendant un massage du cuir chevelu",
+    imageAlt: "Cliente détendue, les yeux fermés, pendant un massage des épaules",
     intro: [
       "Recevoir un massage dans sa chambre est l'un des petits luxes d'un séjour à Marrakech : pas de trajet, pas de salle d'attente, et la possibilité de rester au calme après le soin.",
       "Pour que tout se passe bien, voici les points à vérifier avant l'arrivée de votre thérapeute.",
@@ -273,7 +273,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Courbatures après le Toubkal ou une randonnée dans l'Atlas ? Quand se faire masser, étirements, hydratation : nos conseils pour récupérer à Marrakech.",
     excerpt:
       "Jambes lourdes après le Toubkal ? Quand réserver un massage, que faire le soir du retour et comment récupérer pour la suite du séjour.",
-    imageAlt: "Table de massage avec huile et pierres, préparée pour un massage de récupération",
+    imageAlt: "Massage appuyé de la jambe sur une serviette blanche, pour récupérer après l'effort",
     intro: [
       "Le Toubkal, point culminant de l'Afrique du Nord avec 4 167 mètres, attire chaque année de nombreux randonneurs au départ de Marrakech. L'ascension classique se fait souvent en deux jours depuis Imlil, et les cuisses et les mollets s'en souviennent.",
       "Voici comment bien récupérer une fois de retour à Marrakech, pour profiter de la suite de votre séjour.",
@@ -360,7 +360,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Enceinte et en voyage à Marrakech ? Quand se faire masser, quelles précautions, hammam ou non, chaleur : nos conseils pour un massage prénatal serein.",
     excerpt:
       "Premier trimestre, chaleur, hammam, position : les précautions à connaître avant un massage pendant la grossesse à Marrakech.",
-    imageAlt: "Chambre lumineuse avec lit et coussins, propice à la détente",
+    imageAlt: "Mains posées sur le ventre d'une femme enceinte",
     intro: [
       "Un babymoon ou un voyage à Marrakech pendant la grossesse ? Un massage doux peut être un vrai moment de bien-être, à condition de respecter quelques précautions.",
       "Ces conseils sont généraux : ils ne remplacent pas l'avis de votre médecin ou de votre sage-femme, à consulter avant tout soin.",
@@ -441,7 +441,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Faut-il laisser un pourboire après un massage ou un hammam au Maroc ? Usages, montants courants et conseils pour un soin à domicile à Marrakech.",
     excerpt:
       "Pourboire obligatoire ou non ? Les usages au Maroc après un massage ou un hammam, et comment faire lors d'un soin à domicile.",
-    imageAlt: "Salle de massage avec serviettes roulées et orchidées",
+    imageAlt: "Serviette, flacon d'huile, bougie et tulipes posés pour un soin",
     intro: [
       "Au Maroc, le pourboire fait partie du quotidien : au restaurant, au café, pour un guide ou un porteur. Pour un massage ou un hammam, beaucoup de voyageurs se demandent s'il faut en laisser un, et combien.",
       "Voici les usages, pour que vous puissiez décider sereinement.",
@@ -512,7 +512,7 @@ export const guidesFr: Record<GuideId, GuideCopy> = {
       "Combien coûte un massage à domicile à Marrakech ? Fourchettes de prix 2026, ce qui fait varier le tarif, frais de déplacement, pourboire et pièges à éviter.",
     excerpt:
       "Fourchettes de prix, frais de déplacement, durée réelle : tout ce qu'il faut vérifier avant de réserver un massage à domicile à Marrakech.",
-    imageAlt: "Thérapeute massant le dos d'une cliente à l'huile d'argan",
+    imageAlt: "Thérapeute massant le haut du dos d'une cliente allongée",
     intro: [
       "Riad, villa ou chambre d'hôtel : à Marrakech, de nombreux prestataires se déplacent pour un massage ou un hammam. Les prix affichés varient, et ce qu'ils incluent aussi.",
       "Voici les fourchettes de prix relevées en ligne en octobre 2026, ce qui fait varier le tarif et les questions à poser avant de confirmer.",

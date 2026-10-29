@@ -8,8 +8,8 @@ import WhatsAppBookingForm from "@/components/booking/WhatsAppBookingForm";
 import { CheckIcon } from "@/components/icons";
 
 const HERO_ALT: Record<Locale, string> = {
-  fr: "Cour de riad avec piscine et tables de massage à Marrakech",
-  en: "Riad courtyard with a pool and massage tables in Marrakech",
+  fr: "Patio d'un riad de Marrakech avec palmiers, zellige et porte en bois peint",
+  en: "Courtyard of a Marrakech riad with palm trees, zellige tiles and a painted wooden door",
 };
 
 export default function Hero({ locale }: { locale: Locale }) {

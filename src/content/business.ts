@@ -12,6 +12,7 @@ export const BUSINESS = {
   opens: "08:00",
   closes: "22:00",
   logo: "/assets/thai-kech-logo.jpg",
+  /** Photo: Unsplash License (unsplash.com/photos/gCr0amJXOts). */
   heroImage: "/assets/massage-riad-marrakech.webp",
   geo: { latitude: 31.6295, longitude: -7.9811 },
   /** Instagram handle, web address and former Google profile name: an alternate name in the structured data. */

@@ -34,6 +34,9 @@ export const GUIDE_IDS: GuideId[] = [
   "tipping",
 ];
 
+// Photos under the Unsplash License: massage-huile-argan-therapeute
+// (unsplash.com/photos/-AakIaAPV0w), massage-tete-relaxation (Y1JKxNFwZx4),
+// massage-thai-serviettes-chaudes (VxAwTeiqDao).
 const BASE: Record<GuideId, GuideBase> = {
   "home-massage-prices": {
     id: "home-massage-prices",

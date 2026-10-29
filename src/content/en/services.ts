@@ -7,7 +7,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     shortName: "relaxing massage",
     summary:
       "A soothing argan oil massage: long gliding strokes and gentle stretches to release the body and quiet the mind.",
-    imageAlt: "Massage table set with argan oil and towels in a Moroccan-style room",
+    imageAlt: "Therapist pouring massage oil into her hand above a client's back",
     metaTitle: "Relaxing Berber Massage at Home in Marrakech",
     metaDescription:
       "Relaxing Moroccan argan oil massage in your riad, villa or hotel in Marrakech. 60 min for 450 MAD, female therapists, daily 8am–10pm. Book on WhatsApp.",
@@ -105,7 +105,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     shortName: "sports massage",
     summary:
       "A deep, invigorating massage that targets muscle tension to restore flexibility after exercise.",
-    imageAlt: "Massage table with oil and stones, ready for a sports massage",
+    imageAlt: "Firm leg massage over a white towel",
     metaTitle: "Deep Tissue & Sports Massage at Home, Marrakech",
     metaDescription:
       "Deep tissue-style sports recovery massage at home in Marrakech after an Atlas trek, golf or training. 60 min for 500 MAD, in your riad, villa or hotel.",
@@ -284,7 +284,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
     shortName: "pregnancy massage",
     summary:
       "A soothing massage adapted to pregnancy, with neutral argan oil, to ease the lower back and help you relax.",
-    imageAlt: "Bright bedroom with a bed, cushions and flowers, prepared for a pregnancy massage",
+    imageAlt: "Hands resting on a pregnant woman's belly",
     metaTitle: "Pregnancy Massage at Home in Marrakech",
     metaDescription:
       "Prenatal massage at home in Marrakech: 90 gentle minutes with neutral argan oil for mums-to-be, by our female therapists. 550 MAD, daily 8am–10pm.",
