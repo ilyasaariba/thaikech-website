@@ -178,7 +178,7 @@ export default function ServiceView({ id, locale }: { id: ServiceId; locale: Loc
 
         <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-20">
           <h2 className="font-serif text-2xl sm:text-3xl text-bamboo mb-8 text-center">{ui.common.related}</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className={`grid grid-cols-1 sm:grid-cols-2 ${service.related.length > 3 ? "lg:grid-cols-4" : "lg:grid-cols-3"} gap-6`}>
             {service.related.map((relatedId) => (
               <ServiceCard key={relatedId} service={getService(relatedId, locale)} locale={locale} />
             ))}

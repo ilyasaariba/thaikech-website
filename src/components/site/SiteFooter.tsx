@@ -79,7 +79,7 @@ export default function SiteFooter({
               method="whatsapp"
               placement="footer"
               locale={locale}
-              className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-700 hover:bg-green-800 text-white font-medium text-sm rounded-full transition-colors duration-300"
+              className="inline-flex items-center gap-2 mt-6 px-5 py-3 bg-green-600 hover:bg-green-500 text-white font-medium text-sm rounded-full transition-colors duration-300"
             >
               <WhatsAppIcon className="w-5 h-5" />
               {ui.footer.whatsapp}

@@ -64,7 +64,13 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       {
         heading: "Massage relaxant ou massage sportif ?",
         blocks: [
-          "Le massage relaxant berbère est fluide et enveloppant, sans pression appuyée : idéal pour se détendre ou récupérer d'un long voyage. Le [massage sportif et tonique](service:massage-sportif) travaille plus en profondeur, avec des pressions fermes sur les jambes, le dos et les épaules, après une randonnée ou un golf. Vous hésitez ? Écrivez-nous sur WhatsApp : nous vous conseillons.",
+          "Le massage relaxant berbère est fluide et enveloppant, sans pression appuyée : idéal pour se détendre ou récupérer d'un long voyage. Le [massage sportif et tonique](service:massage-sportif) travaille plus en profondeur, avec des pressions fermes sur les jambes, le dos et les épaules, après une randonnée ou un golf.",
+        ],
+      },
+      {
+        heading: "Massage berbère ou massage thaï ?",
+        blocks: [
+          "Le [massage thaï](service:massage-thai) repose sur des pressions ciblées et des étirements, avec des serviettes chaudes : plus actif que le massage berbère, qui reste doux du début à la fin. Vous hésitez ? Lisez notre guide [massage berbère ou thaï : lequel choisir](guide:berber-or-thai), ou laissez-nous vous conseiller sur WhatsApp.",
         ],
       },
     ],
@@ -161,7 +167,7 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
         heading: "Une pression ferme, jamais douloureuse",
         blocks: [
           "Un massage sportif peut être intense, mais il ne doit pas faire mal. Signalez à tout moment si la pression est trop forte : votre thérapeute l'ajuste immédiatement.",
-          "Vous cherchez plutôt une détente globale ? Choisissez le [massage relaxant berbère](service:massage-berbere) ou le [massage aux pierres chaudes](service:massage-pierres-chaudes). Après une longue randonnée, le [hammam traditionnel marocain](service:hammam-berbere) est une autre façon de récupérer : gommage, rassoul et modelage à l'argan.",
+          "Vous cherchez plutôt une détente globale ? Choisissez le [massage relaxant berbère](service:massage-berbere), le [massage aux pierres chaudes](service:massage-pierres-chaudes) ou le [massage thaï aux serviettes chaudes](service:massage-thai). Après une longue randonnée, le [hammam traditionnel marocain](service:hammam-berbere) est une autre façon de récupérer : gommage, rassoul et modelage à l'argan.",
         ],
       },
     ],
@@ -191,6 +197,10 @@ export const servicesFr: Record<ServiceId, ServiceCopy> = {
       {
         q: "Massage sportif ou massage tonique : quelle différence ?",
         a: "C'est le même soin. Notre Massage Sportif & Tonique associe des pressions profondes, pour la récupération, et des mouvements toniques qui redonnent de l'énergie. Dites à votre thérapeute ce que vous recherchez : elle adapte le soin.",
+      },
+      {
+        q: "Massage sportif ou massage à 4 mains ?",
+        a: "Le massage sportif cible la récupération musculaire, avec une thérapeute. Le [massage à 4 mains](service:massage-4-mains) mobilise deux thérapeutes en même temps pour une détente plus enveloppante.",
       },
     ],
   },

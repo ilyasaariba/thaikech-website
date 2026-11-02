@@ -47,7 +47,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-berbere-huile-argan.webp",
     therapists: 1,
-    related: ["massage-sportif", "hammam-berbere", "massage-pierres-chaudes"],
+    related: ["massage-sportif", "hammam-berbere", "massage-thai", "massage-pierres-chaudes"],
   },
   // Photo: Unsplash License (unsplash.com/photos/yBLLzNcA6GU).
   "massage-sportif": {
@@ -57,7 +57,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-sportif-recuperation.webp",
     therapists: 1,
-    related: ["massage-berbere", "hammam-berbere", "massage-pierres-chaudes"],
+    related: ["massage-berbere", "hammam-berbere", "massage-thai", "massage-pierres-chaudes"],
   },
   "massage-thai": {
     id: "massage-thai",
@@ -66,7 +66,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-thai-etirements.webp",
     therapists: 1,
-    related: ["massage-sportif", "massage-berbere", "hammam-berbere"],
+    related: ["massage-sportif", "massage-berbere", "hammam-berbere", "massage-4-mains"],
   },
   // Photo: Unsplash License (unsplash.com/photos/vIgH8pJyYmk).
   "massage-future-maman": {
@@ -94,7 +94,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-4-mains.webp",
     therapists: 2,
-    related: ["massage-berbere", "massage-sportif", "hammam-berbere"],
+    related: ["massage-berbere", "massage-sportif", "hammam-berbere", "massage-thai"],
   },
   "hammam-royal": {
     id: "hammam-royal",
@@ -103,7 +103,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "hammam",
     image: "/assets/hammam-royal-fleur-oranger.webp",
     therapists: 1,
-    related: ["hammam-berbere", "massage-berbere", "manucure"],
+    related: ["hammam-berbere", "massage-berbere", "manucure", "massage-4-mains"],
   },
   // Photo: Unsplash License (unsplash.com/photos/SMwCQZWayj0).
   "massage-pierres-chaudes": {
@@ -113,7 +113,7 @@ const BASE: Record<ServiceId, ServiceBase> = {
     category: "massage",
     image: "/assets/massage-pierres-chaudes.webp",
     therapists: 1,
-    related: ["massage-berbere", "massage-sportif", "hammam-berbere"],
+    related: ["massage-berbere", "massage-sportif", "hammam-berbere", "massage-4-mains"],
   },
   // Beauty photos: Unsplash License (unsplash.com/photos/FkAZqQJTbXM,
   // Xa8fX8bQCgs and qeuJczNo54w).

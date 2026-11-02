@@ -61,7 +61,13 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       {
         heading: "Relaxing massage or sports massage?",
         blocks: [
-          "The relaxing Berber massage is flowing and enveloping, with no deep pressure: ideal for unwinding or recovering from a long journey. The [sports recovery massage](service:massage-sportif) works deeper, with firm pressure on the legs, back and shoulders, after a hike or a round of golf. Not sure? Ask us on WhatsApp and we'll advise you.",
+          "The relaxing Berber massage is flowing and enveloping, with no deep pressure: ideal for unwinding or recovering from a long journey. The [sports recovery massage](service:massage-sportif) works deeper, with firm pressure on the legs, back and shoulders, after a hike or a round of golf.",
+        ],
+      },
+      {
+        heading: "Berber massage or Thai massage?",
+        blocks: [
+          "The [Thai massage](service:massage-thai) relies on targeted pressure and stretches, with hot towels: more active than the Berber massage, which stays gentle from start to finish. Not sure? Read our guide [Berber or Thai massage: which to choose](guide:berber-or-thai), or ask us on WhatsApp.",
         ],
       },
     ],
@@ -158,7 +164,7 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
         heading: "Firm pressure, never painful",
         blocks: [
           "A sports massage can be intense, but it should not hurt. Say so at any time if the pressure is too strong: your therapist adjusts straight away.",
-          "Looking for all-over relaxation instead? Choose the [relaxing Berber massage](service:massage-berbere) or the [hot stone massage](service:massage-pierres-chaudes). After a long hike, the [traditional Moroccan hammam](service:hammam-berbere) is another way to recover: scrub, rhassoul clay and an argan oil massage.",
+          "Looking for all-over relaxation instead? Choose the [relaxing Berber massage](service:massage-berbere), the [hot stone massage](service:massage-pierres-chaudes) or the [Thai massage with hot towels](service:massage-thai). After a long hike, the [traditional Moroccan hammam](service:hammam-berbere) is another way to recover: scrub, rhassoul clay and an argan oil massage.",
         ],
       },
     ],
@@ -188,6 +194,10 @@ export const servicesEn: Record<ServiceId, ServiceCopy> = {
       {
         q: "Sports massage or deep tissue massage?",
         a: "Our sports recovery massage is close to a deep tissue massage: deep, firm pressure on tight muscles, adjusted to how it feels for you. Tell your therapist where to focus: legs, back or shoulders.",
+      },
+      {
+        q: "Sports massage or four-hands massage?",
+        a: "The sports massage focuses on muscle recovery, with one therapist. The [four-hands massage](service:massage-4-mains) uses two therapists at once for deeper, all-enveloping relaxation.",
       },
     ],
   },

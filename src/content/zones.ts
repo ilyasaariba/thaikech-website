@@ -33,22 +33,22 @@ const BASE: Record<ZoneId, ZoneBase> = {
   medina: {
     id: "medina",
     neighbours: ["hivernage", "gueliz", "agdal"],
-    services: ["hammam-berbere", "massage-berbere", "pedicure"],
+    services: ["hammam-berbere", "massage-berbere", "pedicure", "massage-4-mains"],
   },
   gueliz: {
     id: "gueliz",
     neighbours: ["hivernage", "targa", "medina"],
-    services: ["massage-berbere", "massage-sportif", "manucure"],
+    services: ["massage-berbere", "massage-sportif", "manucure", "massage-thai"],
   },
   hivernage: {
     id: "hivernage",
     neighbours: ["gueliz", "medina", "agdal"],
-    services: ["massage-berbere", "hammam-berbere", "manucure"],
+    services: ["massage-berbere", "hammam-berbere", "manucure", "massage-4-mains"],
   },
   palmeraie: {
     id: "palmeraie",
     neighbours: ["gueliz", "medina", "hivernage"],
-    services: ["massage-berbere", "hammam-berbere", "massage-sportif"],
+    services: ["massage-berbere", "hammam-berbere", "massage-sportif", "massage-4-mains"],
   },
   agdal: {
     id: "agdal",
@@ -58,12 +58,12 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "route-ourika": {
     id: "route-ourika",
     neighbours: ["agdal", "amelkis", "agafay"],
-    services: ["massage-sportif", "hammam-berbere", "massage-berbere"],
+    services: ["massage-sportif", "hammam-berbere", "massage-berbere", "massage-4-mains"],
   },
   amelkis: {
     id: "amelkis",
     neighbours: ["al-maaden", "route-ourika", "agdal"],
-    services: ["massage-sportif", "massage-berbere", "pedicure"],
+    services: ["massage-sportif", "massage-berbere", "pedicure", "massage-thai"],
   },
   agafay: {
     id: "agafay",
@@ -73,7 +73,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "route-amizmiz": {
     id: "route-amizmiz",
     neighbours: ["agafay", "targa", "hivernage"],
-    services: ["massage-sportif", "hammam-berbere", "manucure"],
+    services: ["massage-sportif", "hammam-berbere", "manucure", "massage-4-mains"],
   },
   targa: {
     id: "targa",
@@ -83,7 +83,7 @@ const BASE: Record<ZoneId, ZoneBase> = {
   "al-maaden": {
     id: "al-maaden",
     neighbours: ["amelkis", "agdal", "route-ourika"],
-    services: ["massage-sportif", "massage-berbere", "hammam-royal"],
+    services: ["massage-sportif", "massage-berbere", "hammam-royal", "massage-4-mains"],
   },
 };
 

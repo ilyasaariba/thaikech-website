@@ -222,7 +222,7 @@ export function InRoomPage({ locale }: { locale: Locale }) {
         <ServiceGrid
           locale={locale}
           heading={pick(locale, "Soins à réserver dans votre chambre", "Treatments to book in your room")}
-          ids={["massage-berbere", "massage-sportif", "hammam-berbere"]}
+          ids={["massage-berbere", "massage-sportif", "hammam-berbere", "massage-thai", "massage-4-mains", "manucure"]}
         />
       }
     />
