@@ -87,7 +87,7 @@ export function rootMetadata(locale: Locale): Metadata {
 // it may live in the code once known; the env vars allow setting it earlier.
 function siteVerification(): Metadata["verification"] {
   const google = process.env.NEXT_PUBLIC_GOOGLE_SITE_VERIFICATION;
-  const bing = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION;
+  const bing = process.env.NEXT_PUBLIC_BING_SITE_VERIFICATION || "2C094D7FD06C06BD0D55FF8ED12DF1B2";
   if (!google && !bing) return undefined;
   return {
     ...(google ? { google } : {}),
