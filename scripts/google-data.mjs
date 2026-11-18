@@ -302,8 +302,10 @@ async function analytics() {
     days: DAYS,
     channels: await report(["sessionDefaultChannelGroup"], ["sessions", "engagedSessions", "totalUsers"], bySessions),
     sources: await report(["sessionSource", "sessionMedium"], ["sessions", "engagedSessions"], bySessions),
+    campaigns: await report(["sessionCampaignName"], ["sessions", "engagedSessions"], bySessions),
     landingPages: await report(["landingPage", "sessionDefaultChannelGroup"], ["sessions", "engagedSessions"], bySessions),
     leadsByChannel: await report(["eventName", "sessionDefaultChannelGroup"], ["eventCount"], leadsOnly),
+    leadsByCampaign: await report(["eventName", "sessionCampaignName"], ["eventCount"], leadsOnly),
     leadsByLandingPage: await report(["eventName", "landingPage"], ["eventCount"], leadsOnly),
     leadsByPage: await report(["eventName", "pagePath"], ["eventCount"], leadsOnly),
     countries: await report(["country"], ["sessions"], bySessions),
@@ -314,6 +316,8 @@ async function analytics() {
   console.log("Leads: generate_lead = booking form sent; whatsapp_click and phone_click = a direct tap that skips the form.");
   print("Channels", data.channels, (r) => `${r.sessionDefaultChannelGroup}: ${r.sessions} sessions (${r.engagedSessions} engaged), ${r.totalUsers} users`);
   print("Sources", data.sources, (r) => `${r.sessionSource} / ${r.sessionMedium}: ${r.sessions} sessions (${r.engagedSessions} engaged)`);
+  // "gbp" is the tagged website link of the Google Business Profile (Maps).
+  print("Campaigns", data.campaigns, (r) => `${r.sessionCampaignName}: ${r.sessions} sessions (${r.engagedSessions} engaged)`);
   print(
     "Landing pages from Google search",
     data.landingPages.filter((r) => r.sessionDefaultChannelGroup === "Organic Search"),
@@ -321,6 +325,7 @@ async function analytics() {
     25
   );
   print("Leads by channel", data.leadsByChannel, (r) => `${r.sessionDefaultChannelGroup}: ${r.eventCount} ${r.eventName}`);
+  print("Leads by campaign", data.leadsByCampaign, (r) => `${r.sessionCampaignName}: ${r.eventCount} ${r.eventName}`);
   print("Leads by landing page (the page the visit started on)", data.leadsByLandingPage, (r) => `${r.landingPage}: ${r.eventCount} ${r.eventName}`, 25);
   print("Leads by page (where the tap or form happened)", data.leadsByPage, (r) => `${r.pagePath}: ${r.eventCount} ${r.eventName}`, 25);
   print("Countries", data.countries, (r) => `${r.country}: ${r.sessions} sessions`, 10);

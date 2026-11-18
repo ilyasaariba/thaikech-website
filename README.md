@@ -25,7 +25,8 @@ Website and business files of Thai Kech, the mobile spa in Marrakech: massages, 
 | `page-similarity.mjs` | Measures how much text pages share, so area pages never look like copies of each other |
 | `screenshot.mjs` | Takes a screenshot of a page at phone or desktop width |
 | `competitor-scrape.mjs` | Reads competitors' sites and sitemaps (list in `business/growth-plan.md`, section 14) |
-| `google-data.mjs` | Pulls Search Console (queries, pages, positions, index status) and Google Analytics 4 (visits and WhatsApp leads) into `business/seo/data/`. Setup in `business/seo/README.md` |
+| `google-data.mjs` | Pulls Search Console (queries, pages, positions, index status) and Google Analytics 4 (visits, campaigns and WhatsApp leads) into `business/seo/data/`. Setup in `business/seo/README.md` |
+| `bing-data.mjs` | Pulls Bing Webmaster Tools (searches, pages, positions, crawl and index) into `business/seo/data/`. Key in `business/secrets/bing-key.txt` |
 | `assistant-knowledge.mjs` | Builds `business/whatsapp/knowledge.md`, the knowledge file of the WhatsApp AI assistant, from the site's content |
 
 Each tool explains its usage in its first lines. The crawl tools run against a production build: `npm run build`, then `npx next start -p 3123`.
