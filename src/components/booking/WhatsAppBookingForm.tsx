@@ -207,7 +207,7 @@ export default function WhatsAppBookingForm({
         </p>
       )}
 
-      <div className="space-y-4">
+      <div className="space-y-3 sm:space-y-4">
         <div>
           <label htmlFor={ids.name} className={`block text-sm font-medium mb-1.5 ${t.label}`}>
             {copy.name}
@@ -243,8 +243,8 @@ export default function WhatsAppBookingForm({
           />
         </div>
 
-        <div>
-          <span id={ids.people} className={`block text-sm font-medium mb-1.5 ${t.label}`}>
+        <div className="flex items-center justify-between gap-3">
+          <span id={ids.people} className={`text-sm font-medium ${t.label}`}>
             {copy.people}
           </span>
           <div className="flex items-center gap-3" role="group" aria-labelledby={ids.people}>

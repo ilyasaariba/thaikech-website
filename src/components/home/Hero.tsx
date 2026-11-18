@@ -31,22 +31,24 @@ export default function Hero({ locale }: { locale: Locale }) {
         <div className="absolute inset-0 bg-gradient-to-b from-bamboo-dark/70 via-bamboo/50 to-bamboo-dark/80" />
       </div>
 
-      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-28 pb-12 sm:pt-32">
-        <div className="flex items-center justify-center gap-4 mb-8">
-          <span className="block w-12 h-px bg-gold/60" />
+      {/* On phones the short facts move above the form and the sentence below it, so the
+          form fits the first screen. The HTML order, which Google reads, stays the same. */}
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center pt-24 pb-12 sm:pt-32 max-sm:flex max-sm:flex-col">
+        <div className="flex items-center justify-center gap-4 mb-5 sm:mb-8">
+          <span className="hidden sm:block w-12 h-px bg-gold/60" />
           <span className="text-gold text-xs tracking-[0.3em] uppercase font-medium">{hero.eyebrow}</span>
-          <span className="block w-12 h-px bg-gold/60" />
+          <span className="hidden sm:block w-12 h-px bg-gold/60" />
         </div>
 
-        <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-white leading-tight mb-6">
+        <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl text-white leading-tight mb-4 sm:mb-6">
           {hero.h1Start} <span className="text-gold">{hero.h1Accent}</span> {hero.h1End}
         </h1>
 
-        <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8 leading-relaxed [&_strong]:font-medium [&_strong]:text-white">
+        <p className="text-lg sm:text-xl text-white/80 max-w-2xl mx-auto mb-8 max-sm:order-2 max-sm:mt-8 max-sm:mb-0 leading-relaxed [&_strong]:font-medium [&_strong]:text-white">
           <RichText text={hero.subtitle} locale={locale} />
         </p>
 
-        <div className="max-w-md mx-auto">
+        <div className="max-w-md mx-auto max-sm:w-full max-sm:order-1">
           <WhatsAppBookingForm
             whatsappNumber={BUSINESS.phoneDigits}
             locale={locale}
@@ -61,7 +63,7 @@ export default function Hero({ locale }: { locale: Locale }) {
           </a>
         </div>
 
-        <ul className="mt-10 flex flex-wrap items-center justify-center gap-x-8 gap-y-3 text-white/60 text-xs tracking-wider uppercase">
+        <ul className="mt-10 max-sm:mt-0 max-sm:mb-5 flex flex-wrap items-center justify-center gap-x-8 max-sm:gap-x-4 gap-y-3 text-white/60 text-xs tracking-wider uppercase">
           {hero.badges.map((badge) => (
             <li key={badge} className="flex items-center gap-2">
               <CheckIcon className="w-4 h-4 text-gold" />
@@ -70,7 +72,7 @@ export default function Hero({ locale }: { locale: Locale }) {
           ))}
         </ul>
 
-        <div className="mt-8 flex justify-center">
+        <div className="mt-8 flex justify-center max-sm:order-3">
           <a
             href="#services"
             className="flex flex-col items-center gap-1.5 text-white/60 hover:text-gold transition-colors duration-300"
