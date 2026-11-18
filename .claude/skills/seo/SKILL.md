@@ -23,9 +23,10 @@ The goal is booked clients, not traffic. Rank for searches made by people who ar
 
 ## Where clients come from, and where the effort goes
 
-1. **Google Business Profile (Maps).** For a mobile spa, the biggest source of clients (the owner's numbers are in `business/`). What moves it: reviews (count, recency, replies), the primary category, services with prices, real photos, weekly posts, the same name, phone and website everywhere. The owner does these; prepare the texts (review replies, posts, service descriptions) ready to paste.
+1. **Google Business Profile (Maps).** For a mobile spa, the biggest source of clients (the owner's numbers are in `business/`). What moves it: reviews (count, recency, replies), the primary category, services with prices, real photos, weekly posts, the same name, phone and website everywhere. The owner does these; prepare the texts (review replies, posts, service descriptions) ready to paste. Field-by-field checklist and review rules: `local-and-ai.md`.
 2. **The website in Google.** Money pages (home, prices, hammam, duo, in-room, groups, 11 treatments), 11 area pages and the guides. French at the root, English under `/en`.
-3. **Links and citations.** Few, clean, local. Plan in `business/backlinks.md`.
+3. **AI assistants** (ChatGPT, Gemini, Copilot). Contacts from them book at a high rate. They cite pages that already rank, and what other sites say about the business (TripAdvisor, YouTube, Bing Places). What helps and how to measure it: `local-and-ai.md`.
+4. **Links and citations.** Few, clean, local. Plan in `business/backlinks.md`.
 
 ## The data
 
@@ -45,7 +46,7 @@ About 10 minutes. Run `search`. Report only what needs action: a drop, a new sea
 
 ### Monthly review (`/seo monthly`, first week of the month)
 
-1. Run `search`, `search --days 90`, `index` and `analytics`. Ask the owner for the Business Profile screenshots and the review count.
+1. Run `search`, `search --days 90`, `index` and `analytics`, and `node scripts/bing-data.mjs`. Ask the owner for the Business Profile screenshots, the review count and the AI answers test (3 questions in ChatGPT, Gemini and Copilot). Check the profile against `local-and-ai.md`; before Ramadan, Eid and holidays, remind the owner to set special hours.
 2. Every 3 months, or when a competitor moves, run `scripts/competitor-scrape.mjs` with the list in `business/growth-plan.md` §14.6 and compare with the last run. Use the `serp-scout` agent for live results on the 10 to 20 searches that matter most.
 3. Run the `site-auditor` agent for the technical audit.
 4. For each change in the changelog whose review date has passed: did it work? Write the result in the changelog.
@@ -80,7 +81,7 @@ Sources, most real first: Search Console searches, Business Profile search terms
 - Never change a URL without a 301 redirect, and never remove a page that gets impressions.
 - One search, one page. Fix cannibalisation by sharpening the weaker page's topic and linking it to the stronger one, not by adding pages.
 - Only true facts: no fake reviews or testimonials, no "24h/24", no "certified" until the owner confirms the training, no invented numbers.
-- Reviews: never offer anything for one, never ask for 5 stars or for particular words.
+- Reviews: ask every client, not only the happy ones (Google forbids that selection, "review gating"); never offer anything for one, never ask for 5 stars or for particular words.
 - Links: never pay for one (money or free treatments) unless it is marked sponsored or nofollow. Never list Thai Kech on adult-adjacent sites (afribaba, massagemaroc).
 - Keep the professional, non-sensual framing everywhere, and only clinical words in ads.
 - No Google Ads or Meta tags on the site until the owner starts a campaign.
